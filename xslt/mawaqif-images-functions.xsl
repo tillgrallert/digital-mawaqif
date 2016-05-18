@@ -5,12 +5,7 @@
     exclude-result-prefixes="xs"
     version="2.0">
     
-    <xsl:variable name="v_year-start" select="1970"/>
-    <!-- 1994 -->
-    <xsl:variable name="v_year-stop" select="1970"/>
-    <xsl:variable name="v_issue-start" select="7"/>
-    <!-- 100 -->
-    <xsl:variable name="v_issue-stop" select="12"/>
+ 
     <xsl:variable name="v_image-start" select="1"/>
     <!-- 400 -->
     <xsl:variable name="v_image-stop" select="400"/>
@@ -23,8 +18,12 @@
         <xsl:param name="p_url-base"/>
         <xsl:param name="p_url"/>
         <xsl:param name="p_url-local"/>
+        <xsl:param name="p_year-start"/>
+        <xsl:param name="p_year-stop"/>
+        <xsl:param name="p_issue-start"/>
+        <xsl:param name="p_issue-stop"/>
         
-<![CDATA[(* This script tries to download and safe image files for the journal Mawakif, year(s) ]]><xsl:value-of select="$v_year-start"/><![CDATA[ to ]]><xsl:value-of select="$v_year-stop"/><![CDATA[, issue(s) ]]><xsl:value-of select="$v_issue-start"/><![CDATA[ to ]]><xsl:value-of select="$v_issue-stop"/><![CDATA[ *)]]>
+<![CDATA[(* This script tries to download and safe image files for the journal Mawakif, year(s) ]]><xsl:value-of select="$p_year-start"/><![CDATA[ to ]]><xsl:value-of select="$p_year-stop"/><![CDATA[, issue(s) ]]><xsl:value-of select="$p_issue-start"/><![CDATA[ to ]]><xsl:value-of select="$p_issue-stop"/><![CDATA[ *)]]>
            
 <![CDATA[
 set vUrlBase to "]]><xsl:value-of select="replace($p_url-base,'\s','')" disable-output-escaping="no"/><![CDATA["]]>
@@ -61,10 +60,10 @@ end tell
     
     <!-- increment  -->
     <xsl:template name="t_increment-year">
-        <xsl:param name="p_year-start" select="$v_year-start"/>
-        <xsl:param name="p_year-stop" select="$v_year-stop"/>
-        <xsl:param name="p_issue-start" select="$v_issue-start"/>
-        <xsl:param name="p_issue-stop" select="$v_issue-stop"/>
+        <xsl:param name="p_year-start"/>
+        <xsl:param name="p_year-stop"/>
+        <xsl:param name="p_issue-start"/>
+        <xsl:param name="p_issue-stop"/>
         <xsl:call-template name="t_increment-issue">
             <xsl:with-param name="p_issue-start" select="$p_issue-start"/>
             <xsl:with-param name="p_issue-stop" select="$p_issue-stop"/>

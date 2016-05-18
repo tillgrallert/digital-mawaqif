@@ -6,11 +6,23 @@
     version="2.0">
     
     <xsl:include href="mawaqif-images-functions.xsl"/>
+    
+    <xsl:variable name="v_year-start" select="1971"/>
+    <!-- 1994 -->
+    <xsl:variable name="v_year-stop" select="1971"/>
+    <xsl:variable name="v_issue-start" select="14"/>
+    <!-- 100 -->
+    <xsl:variable name="v_issue-stop" select="17"/>
   
     
     <xsl:template match="/">
         <xsl:variable name="v_increment">
-            <xsl:call-template name="t_increment-year"/>
+            <xsl:call-template name="t_increment-year">
+                <xsl:with-param name="p_year-start" select="$v_year-start"/>
+                <xsl:with-param name="p_year-stop" select="$v_year-stop"/>
+                <xsl:with-param name="p_issue-start" select="$v_issue-start"/>
+                <xsl:with-param name="p_issue-stop" select="$v_issue-stop"/>
+            </xsl:call-template>
         </xsl:variable>
         <xsl:variable name="v_list-url">
             <xsl:for-each select="$v_increment/descendant::till:url">

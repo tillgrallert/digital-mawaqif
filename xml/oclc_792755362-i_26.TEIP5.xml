@@ -75,7 +75,7 @@
                                 practices</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><change when="2016-05-18" who="pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-05-18" who="#pers_TG" xml:lang="">Created this TEI P5 file by automatic conversion of the table of content from 
                             HTML available at archive.sakhrit.co and adding a computed sequence of facsimiles linking to the same website.</change>
       </revisionDesc>
@@ -1283,134 +1283,134 @@
       </tei:surface>
    </facsimile>
    <text xml:lang="ar">
-      <front xml:lang="ar">
-         <div xml:lang="ar">
-            <bibl xml:lang="ar">
-               <title level="j" xml:lang="ar">مواقف</title>
-               <biblScope unit="issue" n="26" xml:lang="ar">العدد رقم  26</biblScope>
-               <date when="1973" xml:lang="ar">1 أبريل 1973</date>
+      <front xml:lang="ar" xml:id="front_1.d1e2329">
+         <div xml:lang="ar" xml:id="div_1.d1e2331">
+            <bibl xml:lang="ar" xml:id="bibl_1.d1e2333">
+               <title level="j" xml:lang="ar" xml:id="title_6.d1e2335">مواقف</title>
+               <biblScope unit="issue" n="26" xml:lang="ar" xml:id="biblScope_4.d1e2338">العدد رقم  26</biblScope>
+               <date when="1973" xml:lang="ar" xml:id="date_3.d1e2341">1 أبريل 1973</date>
             </bibl>
          </div>
-         <pb ed="print" n="1" facs="#facs_1"/>
-         <div xml:lang="ar">
-            <pb ed="print" n="2" facs="#facs_2"/>
+         <pb ed="print" n="1" facs="#facs_1" xml:id="pb_1.d1e2346"/>
+         <div xml:lang="ar" xml:id="div_2.d1e2348">
+            <pb ed="print" n="2" facs="#facs_2" xml:id="pb_2.d1e2350"/>
          </div>
       </front>
-      <body xml:lang="ar">
-         <pb ed="print" n="3" facs="#facs_3"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880808&#34;ISSUEID=15740&#34;AID=351006" xml:lang="ar">
-            <head xml:lang="ar">الحاجة إلى خلخلة الإنسان لكي لا يعتقل الإنسان</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">سليم بركات</persName>
+      <body xml:lang="ar" xml:id="body_1.d1e2354">
+         <pb ed="print" n="3" facs="#facs_3" xml:id="pb_3.d1e2356"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880808&#34;ISSUEID=15740&#34;AID=351006" xml:lang="ar" xml:id="div_3.d1e2358">
+            <head xml:lang="ar" xml:id="head_1.d1e2360">الحاجة إلى خلخلة الإنسان لكي لا يعتقل الإنسان</head>
+            <byline xml:lang="ar" xml:id="byline_1.d1e2363">
+               <persName xml:lang="ar" xml:id="persName_5.d1e2365">سليم بركات</persName>
             </byline>
-            <pb ed="print" n="4" facs="#facs_4"/>
-            <pb ed="print" n="5" facs="#facs_5"/>
+            <pb ed="print" n="4" facs="#facs_4" xml:id="pb_4.d1e2369"/>
+            <pb ed="print" n="5" facs="#facs_5" xml:id="pb_5.d1e2371"/>
          </div>
-         <pb ed="print" n="5" facs="#facs_5"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880810&#34;ISSUEID=15740&#34;AID=351007" xml:lang="ar">
-            <head xml:lang="ar">بندول من نحاس</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">إبراهيم أصلان</persName>
+         <pb ed="print" n="5" facs="#facs_5" xml:id="pb_6.d1e2374"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880810&#34;ISSUEID=15740&#34;AID=351007" xml:lang="ar" xml:id="div_4.d1e2376">
+            <head xml:lang="ar" xml:id="head_2.d1e2378">بندول من نحاس</head>
+            <byline xml:lang="ar" xml:id="byline_2.d1e2381">
+               <persName xml:lang="ar" xml:id="persName_6.d1e2383">إبراهيم أصلان</persName>
             </byline>
-            <pb ed="print" n="6" facs="#facs_6"/>
-            <pb ed="print" n="7" facs="#facs_7"/>
+            <pb ed="print" n="6" facs="#facs_6" xml:id="pb_7.d1e2387"/>
+            <pb ed="print" n="7" facs="#facs_7" xml:id="pb_8.d1e2389"/>
          </div>
-         <pb ed="print" n="7" facs="#facs_7"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880812&#34;ISSUEID=15740&#34;AID=351008" xml:lang="ar">
-            <head xml:lang="ar">قصتان قصيرتان</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">يحيى الطاهر عبد الله</persName>
+         <pb ed="print" n="7" facs="#facs_7" xml:id="pb_9.d1e2392"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880812&#34;ISSUEID=15740&#34;AID=351008" xml:lang="ar" xml:id="div_5.d1e2395">
+            <head xml:lang="ar" xml:id="head_3.d1e2397">قصتان قصيرتان</head>
+            <byline xml:lang="ar" xml:id="byline_3.d1e2400">
+               <persName xml:lang="ar" xml:id="persName_7.d1e2402">يحيى الطاهر عبد الله</persName>
             </byline>
-            <pb ed="print" n="8" facs="#facs_8"/>
-            <pb ed="print" n="9" facs="#facs_9"/>
-            <pb ed="print" n="10" facs="#facs_10"/>
-            <pb ed="print" n="11" facs="#facs_11"/>
-            <pb ed="print" n="12" facs="#facs_12"/>
-            <pb ed="print" n="13" facs="#facs_13"/>
-            <pb ed="print" n="14" facs="#facs_14"/>
-            <pb ed="print" n="15" facs="#facs_15"/>
-            <pb ed="print" n="16" facs="#facs_16"/>
-            <pb ed="print" n="17" facs="#facs_17"/>
-            <pb ed="print" n="18" facs="#facs_18"/>
-            <pb ed="print" n="19" facs="#facs_19"/>
-            <pb ed="print" n="20" facs="#facs_20"/>
-            <pb ed="print" n="21" facs="#facs_21"/>
-            <pb ed="print" n="22" facs="#facs_22"/>
-            <pb ed="print" n="23" facs="#facs_23"/>
-            <pb ed="print" n="24" facs="#facs_24"/>
-            <pb ed="print" n="25" facs="#facs_25"/>
-            <pb ed="print" n="26" facs="#facs_26"/>
-            <pb ed="print" n="27" facs="#facs_27"/>
-            <pb ed="print" n="28" facs="#facs_28"/>
-            <pb ed="print" n="29" facs="#facs_29"/>
-            <pb ed="print" n="30" facs="#facs_30"/>
-            <pb ed="print" n="31" facs="#facs_31"/>
-            <pb ed="print" n="32" facs="#facs_32"/>
-            <pb ed="print" n="33" facs="#facs_33"/>
-            <pb ed="print" n="34" facs="#facs_34"/>
-            <pb ed="print" n="35" facs="#facs_35"/>
-            <pb ed="print" n="36" facs="#facs_36"/>
-            <pb ed="print" n="37" facs="#facs_37"/>
-            <pb ed="print" n="38" facs="#facs_38"/>
-            <pb ed="print" n="39" facs="#facs_39"/>
-            <pb ed="print" n="40" facs="#facs_40"/>
-            <pb ed="print" n="41" facs="#facs_41"/>
-            <pb ed="print" n="42" facs="#facs_42"/>
-            <pb ed="print" n="43" facs="#facs_43"/>
-            <pb ed="print" n="44" facs="#facs_44"/>
-            <pb ed="print" n="45" facs="#facs_45"/>
-            <pb ed="print" n="46" facs="#facs_46"/>
-            <pb ed="print" n="47" facs="#facs_47"/>
-            <pb ed="print" n="48" facs="#facs_48"/>
-            <pb ed="print" n="49" facs="#facs_49"/>
-            <pb ed="print" n="50" facs="#facs_50"/>
-            <pb ed="print" n="51" facs="#facs_51"/>
-            <pb ed="print" n="52" facs="#facs_52"/>
-            <pb ed="print" n="53" facs="#facs_53"/>
-            <pb ed="print" n="54" facs="#facs_54"/>
-            <pb ed="print" n="55" facs="#facs_55"/>
-            <pb ed="print" n="56" facs="#facs_56"/>
-            <pb ed="print" n="57" facs="#facs_57"/>
-            <pb ed="print" n="58" facs="#facs_58"/>
-            <pb ed="print" n="59" facs="#facs_59"/>
-            <pb ed="print" n="60" facs="#facs_60"/>
-            <pb ed="print" n="61" facs="#facs_61"/>
-            <pb ed="print" n="62" facs="#facs_62"/>
-            <pb ed="print" n="63" facs="#facs_63"/>
-            <pb ed="print" n="64" facs="#facs_64"/>
+            <pb ed="print" n="8" facs="#facs_8" xml:id="pb_10.d1e2406"/>
+            <pb ed="print" n="9" facs="#facs_9" xml:id="pb_11.d1e2408"/>
+            <pb ed="print" n="10" facs="#facs_10" xml:id="pb_12.d1e2410"/>
+            <pb ed="print" n="11" facs="#facs_11" xml:id="pb_13.d1e2413"/>
+            <pb ed="print" n="12" facs="#facs_12" xml:id="pb_14.d1e2415"/>
+            <pb ed="print" n="13" facs="#facs_13" xml:id="pb_15.d1e2417"/>
+            <pb ed="print" n="14" facs="#facs_14" xml:id="pb_16.d1e2419"/>
+            <pb ed="print" n="15" facs="#facs_15" xml:id="pb_17.d1e2421"/>
+            <pb ed="print" n="16" facs="#facs_16" xml:id="pb_18.d1e2423"/>
+            <pb ed="print" n="17" facs="#facs_17" xml:id="pb_19.d1e2426"/>
+            <pb ed="print" n="18" facs="#facs_18" xml:id="pb_20.d1e2428"/>
+            <pb ed="print" n="19" facs="#facs_19" xml:id="pb_21.d1e2430"/>
+            <pb ed="print" n="20" facs="#facs_20" xml:id="pb_22.d1e2432"/>
+            <pb ed="print" n="21" facs="#facs_21" xml:id="pb_23.d1e2434"/>
+            <pb ed="print" n="22" facs="#facs_22" xml:id="pb_24.d1e2436"/>
+            <pb ed="print" n="23" facs="#facs_23" xml:id="pb_25.d1e2439"/>
+            <pb ed="print" n="24" facs="#facs_24" xml:id="pb_26.d1e2441"/>
+            <pb ed="print" n="25" facs="#facs_25" xml:id="pb_27.d1e2443"/>
+            <pb ed="print" n="26" facs="#facs_26" xml:id="pb_28.d1e2445"/>
+            <pb ed="print" n="27" facs="#facs_27" xml:id="pb_29.d1e2447"/>
+            <pb ed="print" n="28" facs="#facs_28" xml:id="pb_30.d1e2449"/>
+            <pb ed="print" n="29" facs="#facs_29" xml:id="pb_31.d1e2452"/>
+            <pb ed="print" n="30" facs="#facs_30" xml:id="pb_32.d1e2454"/>
+            <pb ed="print" n="31" facs="#facs_31" xml:id="pb_33.d1e2456"/>
+            <pb ed="print" n="32" facs="#facs_32" xml:id="pb_34.d1e2458"/>
+            <pb ed="print" n="33" facs="#facs_33" xml:id="pb_35.d1e2460"/>
+            <pb ed="print" n="34" facs="#facs_34" xml:id="pb_36.d1e2462"/>
+            <pb ed="print" n="35" facs="#facs_35" xml:id="pb_37.d1e2465"/>
+            <pb ed="print" n="36" facs="#facs_36" xml:id="pb_38.d1e2467"/>
+            <pb ed="print" n="37" facs="#facs_37" xml:id="pb_39.d1e2469"/>
+            <pb ed="print" n="38" facs="#facs_38" xml:id="pb_40.d1e2471"/>
+            <pb ed="print" n="39" facs="#facs_39" xml:id="pb_41.d1e2473"/>
+            <pb ed="print" n="40" facs="#facs_40" xml:id="pb_42.d1e2475"/>
+            <pb ed="print" n="41" facs="#facs_41" xml:id="pb_43.d1e2478"/>
+            <pb ed="print" n="42" facs="#facs_42" xml:id="pb_44.d1e2480"/>
+            <pb ed="print" n="43" facs="#facs_43" xml:id="pb_45.d1e2482"/>
+            <pb ed="print" n="44" facs="#facs_44" xml:id="pb_46.d1e2484"/>
+            <pb ed="print" n="45" facs="#facs_45" xml:id="pb_47.d1e2486"/>
+            <pb ed="print" n="46" facs="#facs_46" xml:id="pb_48.d1e2488"/>
+            <pb ed="print" n="47" facs="#facs_47" xml:id="pb_49.d1e2491"/>
+            <pb ed="print" n="48" facs="#facs_48" xml:id="pb_50.d1e2493"/>
+            <pb ed="print" n="49" facs="#facs_49" xml:id="pb_51.d1e2495"/>
+            <pb ed="print" n="50" facs="#facs_50" xml:id="pb_52.d1e2497"/>
+            <pb ed="print" n="51" facs="#facs_51" xml:id="pb_53.d1e2499"/>
+            <pb ed="print" n="52" facs="#facs_52" xml:id="pb_54.d1e2501"/>
+            <pb ed="print" n="53" facs="#facs_53" xml:id="pb_55.d1e2504"/>
+            <pb ed="print" n="54" facs="#facs_54" xml:id="pb_56.d1e2506"/>
+            <pb ed="print" n="55" facs="#facs_55" xml:id="pb_57.d1e2508"/>
+            <pb ed="print" n="56" facs="#facs_56" xml:id="pb_58.d1e2510"/>
+            <pb ed="print" n="57" facs="#facs_57" xml:id="pb_59.d1e2512"/>
+            <pb ed="print" n="58" facs="#facs_58" xml:id="pb_60.d1e2514"/>
+            <pb ed="print" n="59" facs="#facs_59" xml:id="pb_61.d1e2517"/>
+            <pb ed="print" n="60" facs="#facs_60" xml:id="pb_62.d1e2519"/>
+            <pb ed="print" n="61" facs="#facs_61" xml:id="pb_63.d1e2521"/>
+            <pb ed="print" n="62" facs="#facs_62" xml:id="pb_64.d1e2523"/>
+            <pb ed="print" n="63" facs="#facs_63" xml:id="pb_65.d1e2525"/>
+            <pb ed="print" n="64" facs="#facs_64" xml:id="pb_66.d1e2527"/>
          </div>
-         <pb ed="print" n="64" facs="#facs_64"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880815&#34;ISSUEID=15740&#34;AID=351009" xml:lang="ar">
-            <head xml:lang="ar">بودلير والثورة: بعض الملاحظات</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">ريتشارد . ج . كلين</persName>
+         <pb ed="print" n="64" facs="#facs_64" xml:id="pb_67.d1e2530"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880815&#34;ISSUEID=15740&#34;AID=351009" xml:lang="ar" xml:id="div_6.d1e2532">
+            <head xml:lang="ar" xml:id="head_4.d1e2534">بودلير والثورة: بعض الملاحظات</head>
+            <byline xml:lang="ar" xml:id="byline_4.d1e2537">
+               <persName xml:lang="ar" xml:id="persName_8.d1e2539">ريتشارد . ج . كلين</persName>
             </byline>
-            <pb ed="print" n="65" facs="#facs_65"/>
-            <pb ed="print" n="66" facs="#facs_66"/>
-            <pb ed="print" n="67" facs="#facs_67"/>
-            <pb ed="print" n="68" facs="#facs_68"/>
-            <pb ed="print" n="69" facs="#facs_69"/>
-            <pb ed="print" n="70" facs="#facs_70"/>
-            <pb ed="print" n="71" facs="#facs_71"/>
-            <pb ed="print" n="72" facs="#facs_72"/>
-            <pb ed="print" n="73" facs="#facs_73"/>
-            <pb ed="print" n="74" facs="#facs_74"/>
+            <pb ed="print" n="65" facs="#facs_65" xml:id="pb_68.d1e2543"/>
+            <pb ed="print" n="66" facs="#facs_66" xml:id="pb_69.d1e2545"/>
+            <pb ed="print" n="67" facs="#facs_67" xml:id="pb_70.d1e2547"/>
+            <pb ed="print" n="68" facs="#facs_68" xml:id="pb_71.d1e2550"/>
+            <pb ed="print" n="69" facs="#facs_69" xml:id="pb_72.d1e2552"/>
+            <pb ed="print" n="70" facs="#facs_70" xml:id="pb_73.d1e2554"/>
+            <pb ed="print" n="71" facs="#facs_71" xml:id="pb_74.d1e2556"/>
+            <pb ed="print" n="72" facs="#facs_72" xml:id="pb_75.d1e2558"/>
+            <pb ed="print" n="73" facs="#facs_73" xml:id="pb_76.d1e2560"/>
+            <pb ed="print" n="74" facs="#facs_74" xml:id="pb_77.d1e2563"/>
          </div>
-         <pb ed="print" n="74" facs="#facs_74"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880825&#34;ISSUEID=15740&#34;AID=351010" xml:lang="ar">
-            <head xml:lang="ar">الحداثة والتوصيل</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">شوقي بزيغ</persName>
+         <pb ed="print" n="74" facs="#facs_74" xml:id="pb_78.d1e2566"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880825&#34;ISSUEID=15740&#34;AID=351010" xml:lang="ar" xml:id="div_7.d1e2568">
+            <head xml:lang="ar" xml:id="head_5.d1e2570">الحداثة والتوصيل</head>
+            <byline xml:lang="ar" xml:id="byline_5.d1e2573">
+               <persName xml:lang="ar" xml:id="persName_9.d1e2575">شوقي بزيغ</persName>
             </byline>
-            <pb ed="print" n="75" facs="#facs_75"/>
-            <pb ed="print" n="76" facs="#facs_76"/>
-            <pb ed="print" n="77" facs="#facs_77"/>
+            <pb ed="print" n="75" facs="#facs_75" xml:id="pb_79.d1e2579"/>
+            <pb ed="print" n="76" facs="#facs_76" xml:id="pb_80.d1e2581"/>
+            <pb ed="print" n="77" facs="#facs_77" xml:id="pb_81.d1e2583"/>
          </div>
-         <pb ed="print" n="77" facs="#facs_77"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880828&#34;ISSUEID=15740&#34;AID=351011" xml:lang="ar">
-            <head xml:lang="ar">حول إيقاع الشعر العربي</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">محمد عبد الحي</persName>
+         <pb ed="print" n="77" facs="#facs_77" xml:id="pb_82.d1e2586"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880828&#34;ISSUEID=15740&#34;AID=351011" xml:lang="ar" xml:id="div_8.d1e2589">
+            <head xml:lang="ar" xml:id="head_6.d1e2591">حول إيقاع الشعر العربي</head>
+            <byline xml:lang="ar" xml:id="byline_6.d1e2594">
+               <persName xml:lang="ar" xml:id="persName_10.d1e2596">محمد عبد الحي</persName>
             </byline>
          </div>
       </body>

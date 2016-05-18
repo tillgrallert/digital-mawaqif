@@ -75,7 +75,7 @@
                                 practices</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><change when="2016-05-18" who="pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-05-18" who="#pers_TG" xml:lang="">Created this TEI P5 file by automatic conversion of the table of content from 
                             HTML available at archive.sakhrit.co and adding a computed sequence of facsimiles linking to the same website.</change>
       </revisionDesc>
@@ -1283,369 +1283,369 @@
       </tei:surface>
    </facsimile>
    <text xml:lang="ar">
-      <front xml:lang="ar">
-         <div xml:lang="ar">
-            <bibl xml:lang="ar">
-               <title level="j" xml:lang="ar">مواقف</title>
-               <biblScope unit="issue" n="1" xml:lang="ar">العدد رقم  1</biblScope>
-               <date when="1968" xml:lang="ar">1 أكتوبر 1968</date>
+      <front xml:lang="ar" xml:id="front_1.d1e2329">
+         <div xml:lang="ar" xml:id="div_1.d1e2331">
+            <bibl xml:lang="ar" xml:id="bibl_1.d1e2333">
+               <title level="j" xml:lang="ar" xml:id="title_6.d1e2335">مواقف</title>
+               <biblScope unit="issue" n="1" xml:lang="ar" xml:id="biblScope_4.d1e2338">العدد رقم  1</biblScope>
+               <date when="1968" xml:lang="ar" xml:id="date_3.d1e2341">1 أكتوبر 1968</date>
             </bibl>
          </div>
-         <pb ed="print" n="1" facs="#facs_1"/>
-         <div xml:lang="ar">
-            <pb ed="print" n="2" facs="#facs_2"/>
-            <pb ed="print" n="3" facs="#facs_3"/>
-            <pb ed="print" n="4" facs="#facs_4"/>
+         <pb ed="print" n="1" facs="#facs_1" xml:id="pb_1.d1e2346"/>
+         <div xml:lang="ar" xml:id="div_2.d1e2348">
+            <pb ed="print" n="2" facs="#facs_2" xml:id="pb_2.d1e2350"/>
+            <pb ed="print" n="3" facs="#facs_3" xml:id="pb_3.d1e2352"/>
+            <pb ed="print" n="4" facs="#facs_4" xml:id="pb_4.d1e2354"/>
          </div>
       </front>
-      <body xml:lang="ar">
-         <pb ed="print" n="5" facs="#facs_5"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877436&#34;ISSUEID=15719&#34;AID=350574" xml:lang="ar">
-            <head xml:lang="ar">ميلاد جديد</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">زكي نجيب محمود</persName>
+      <body xml:lang="ar" xml:id="body_1.d1e2358">
+         <pb ed="print" n="5" facs="#facs_5" xml:id="pb_5.d1e2360"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877436&#34;ISSUEID=15719&#34;AID=350574" xml:lang="ar" xml:id="div_3.d1e2362">
+            <head xml:lang="ar" xml:id="head_1.d1e2364">ميلاد جديد</head>
+            <byline xml:lang="ar" xml:id="byline_1.d1e2367">
+               <persName xml:lang="ar" xml:id="persName_5.d1e2369">زكي نجيب محمود</persName>
             </byline>
-            <pb ed="print" n="6" facs="#facs_6"/>
-            <pb ed="print" n="7" facs="#facs_7"/>
-            <pb ed="print" n="8" facs="#facs_8"/>
-            <pb ed="print" n="9" facs="#facs_9"/>
-            <pb ed="print" n="10" facs="#facs_10"/>
-            <pb ed="print" n="11" facs="#facs_11"/>
-            <pb ed="print" n="12" facs="#facs_12"/>
-            <pb ed="print" n="13" facs="#facs_13"/>
-            <pb ed="print" n="14" facs="#facs_14"/>
-            <pb ed="print" n="15" facs="#facs_15"/>
+            <pb ed="print" n="6" facs="#facs_6" xml:id="pb_6.d1e2373"/>
+            <pb ed="print" n="7" facs="#facs_7" xml:id="pb_7.d1e2375"/>
+            <pb ed="print" n="8" facs="#facs_8" xml:id="pb_8.d1e2377"/>
+            <pb ed="print" n="9" facs="#facs_9" xml:id="pb_9.d1e2380"/>
+            <pb ed="print" n="10" facs="#facs_10" xml:id="pb_10.d1e2382"/>
+            <pb ed="print" n="11" facs="#facs_11" xml:id="pb_11.d1e2384"/>
+            <pb ed="print" n="12" facs="#facs_12" xml:id="pb_12.d1e2386"/>
+            <pb ed="print" n="13" facs="#facs_13" xml:id="pb_13.d1e2388"/>
+            <pb ed="print" n="14" facs="#facs_14" xml:id="pb_14.d1e2390"/>
+            <pb ed="print" n="15" facs="#facs_15" xml:id="pb_15.d1e2393"/>
          </div>
-         <pb ed="print" n="15" facs="#facs_15"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877446&#34;ISSUEID=15719&#34;AID=350575" xml:lang="ar">
-            <head xml:lang="ar">التاريخ والحلم</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">جاك بيرك</persName>
+         <pb ed="print" n="15" facs="#facs_15" xml:id="pb_16.d1e2396"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877446&#34;ISSUEID=15719&#34;AID=350575" xml:lang="ar" xml:id="div_4.d1e2398">
+            <head xml:lang="ar" xml:id="head_2.d1e2400">التاريخ والحلم</head>
+            <byline xml:lang="ar" xml:id="byline_2.d1e2403">
+               <persName xml:lang="ar" xml:id="persName_6.d1e2405">جاك بيرك</persName>
             </byline>
-            <pb ed="print" n="16" facs="#facs_16"/>
-            <pb ed="print" n="17" facs="#facs_17"/>
-            <pb ed="print" n="18" facs="#facs_18"/>
-            <pb ed="print" n="19" facs="#facs_19"/>
-            <pb ed="print" n="20" facs="#facs_20"/>
-            <pb ed="print" n="21" facs="#facs_21"/>
-            <pb ed="print" n="22" facs="#facs_22"/>
-            <pb ed="print" n="23" facs="#facs_23"/>
-            <pb ed="print" n="24" facs="#facs_24"/>
+            <pb ed="print" n="16" facs="#facs_16" xml:id="pb_17.d1e2409"/>
+            <pb ed="print" n="17" facs="#facs_17" xml:id="pb_18.d1e2411"/>
+            <pb ed="print" n="18" facs="#facs_18" xml:id="pb_19.d1e2413"/>
+            <pb ed="print" n="19" facs="#facs_19" xml:id="pb_20.d1e2416"/>
+            <pb ed="print" n="20" facs="#facs_20" xml:id="pb_21.d1e2418"/>
+            <pb ed="print" n="21" facs="#facs_21" xml:id="pb_22.d1e2420"/>
+            <pb ed="print" n="22" facs="#facs_22" xml:id="pb_23.d1e2422"/>
+            <pb ed="print" n="23" facs="#facs_23" xml:id="pb_24.d1e2424"/>
+            <pb ed="print" n="24" facs="#facs_24" xml:id="pb_25.d1e2426"/>
          </div>
-         <pb ed="print" n="24" facs="#facs_24"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877455&#34;ISSUEID=15719&#34;AID=350576" xml:lang="ar">
-            <head xml:lang="ar">لئلا يعود هارون الرشيد</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">عبد الله القصيمي</persName>
+         <pb ed="print" n="24" facs="#facs_24" xml:id="pb_26.d1e2429"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877455&#34;ISSUEID=15719&#34;AID=350576" xml:lang="ar" xml:id="div_5.d1e2432">
+            <head xml:lang="ar" xml:id="head_3.d1e2434">لئلا يعود هارون الرشيد</head>
+            <byline xml:lang="ar" xml:id="byline_3.d1e2437">
+               <persName xml:lang="ar" xml:id="persName_7.d1e2439">عبد الله القصيمي</persName>
             </byline>
-            <pb ed="print" n="25" facs="#facs_25"/>
-            <pb ed="print" n="26" facs="#facs_26"/>
-            <pb ed="print" n="27" facs="#facs_27"/>
-            <pb ed="print" n="28" facs="#facs_28"/>
-            <pb ed="print" n="29" facs="#facs_29"/>
-            <pb ed="print" n="30" facs="#facs_30"/>
-            <pb ed="print" n="31" facs="#facs_31"/>
-            <pb ed="print" n="32" facs="#facs_32"/>
-            <pb ed="print" n="33" facs="#facs_33"/>
-            <pb ed="print" n="34" facs="#facs_34"/>
-            <pb ed="print" n="35" facs="#facs_35"/>
-            <pb ed="print" n="36" facs="#facs_36"/>
-            <pb ed="print" n="37" facs="#facs_37"/>
-            <pb ed="print" n="38" facs="#facs_38"/>
-            <pb ed="print" n="39" facs="#facs_39"/>
-            <pb ed="print" n="40" facs="#facs_40"/>
-            <pb ed="print" n="41" facs="#facs_41"/>
+            <pb ed="print" n="25" facs="#facs_25" xml:id="pb_27.d1e2443"/>
+            <pb ed="print" n="26" facs="#facs_26" xml:id="pb_28.d1e2445"/>
+            <pb ed="print" n="27" facs="#facs_27" xml:id="pb_29.d1e2447"/>
+            <pb ed="print" n="28" facs="#facs_28" xml:id="pb_30.d1e2450"/>
+            <pb ed="print" n="29" facs="#facs_29" xml:id="pb_31.d1e2452"/>
+            <pb ed="print" n="30" facs="#facs_30" xml:id="pb_32.d1e2454"/>
+            <pb ed="print" n="31" facs="#facs_31" xml:id="pb_33.d1e2456"/>
+            <pb ed="print" n="32" facs="#facs_32" xml:id="pb_34.d1e2458"/>
+            <pb ed="print" n="33" facs="#facs_33" xml:id="pb_35.d1e2460"/>
+            <pb ed="print" n="34" facs="#facs_34" xml:id="pb_36.d1e2463"/>
+            <pb ed="print" n="35" facs="#facs_35" xml:id="pb_37.d1e2465"/>
+            <pb ed="print" n="36" facs="#facs_36" xml:id="pb_38.d1e2467"/>
+            <pb ed="print" n="37" facs="#facs_37" xml:id="pb_39.d1e2469"/>
+            <pb ed="print" n="38" facs="#facs_38" xml:id="pb_40.d1e2471"/>
+            <pb ed="print" n="39" facs="#facs_39" xml:id="pb_41.d1e2473"/>
+            <pb ed="print" n="40" facs="#facs_40" xml:id="pb_42.d1e2476"/>
+            <pb ed="print" n="41" facs="#facs_41" xml:id="pb_43.d1e2478"/>
          </div>
-         <pb ed="print" n="41" facs="#facs_41"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877472&#34;ISSUEID=15719&#34;AID=350577" xml:lang="ar">
-            <head xml:lang="ar">الاستجواب</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">نزار قباني</persName>
+         <pb ed="print" n="41" facs="#facs_41" xml:id="pb_44.d1e2481"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877472&#34;ISSUEID=15719&#34;AID=350577" xml:lang="ar" xml:id="div_6.d1e2483">
+            <head xml:lang="ar" xml:id="head_4.d1e2485">الاستجواب</head>
+            <byline xml:lang="ar" xml:id="byline_4.d1e2488">
+               <persName xml:lang="ar" xml:id="persName_8.d1e2490">نزار قباني</persName>
             </byline>
-            <pb ed="print" n="42" facs="#facs_42"/>
-            <pb ed="print" n="43" facs="#facs_43"/>
-            <pb ed="print" n="44" facs="#facs_44"/>
-            <pb ed="print" n="45" facs="#facs_45"/>
+            <pb ed="print" n="42" facs="#facs_42" xml:id="pb_45.d1e2494"/>
+            <pb ed="print" n="43" facs="#facs_43" xml:id="pb_46.d1e2496"/>
+            <pb ed="print" n="44" facs="#facs_44" xml:id="pb_47.d1e2498"/>
+            <pb ed="print" n="45" facs="#facs_45" xml:id="pb_48.d1e2501"/>
          </div>
-         <pb ed="print" n="45" facs="#facs_45"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877476&#34;ISSUEID=15719&#34;AID=350578" xml:lang="ar">
-            <head xml:lang="ar">الممثلون</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">نزار قباني</persName>
+         <pb ed="print" n="45" facs="#facs_45" xml:id="pb_49.d1e2504"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877476&#34;ISSUEID=15719&#34;AID=350578" xml:lang="ar" xml:id="div_7.d1e2506">
+            <head xml:lang="ar" xml:id="head_5.d1e2508">الممثلون</head>
+            <byline xml:lang="ar" xml:id="byline_5.d1e2511">
+               <persName xml:lang="ar" xml:id="persName_9.d1e2513">نزار قباني</persName>
             </byline>
-            <pb ed="print" n="46" facs="#facs_46"/>
-            <pb ed="print" n="47" facs="#facs_47"/>
-            <pb ed="print" n="48" facs="#facs_48"/>
-            <pb ed="print" n="49" facs="#facs_49"/>
-            <pb ed="print" n="50" facs="#facs_50"/>
-            <pb ed="print" n="51" facs="#facs_51"/>
-            <pb ed="print" n="52" facs="#facs_52"/>
-            <pb ed="print" n="53" facs="#facs_53"/>
-            <pb ed="print" n="54" facs="#facs_54"/>
-            <pb ed="print" n="55" facs="#facs_55"/>
-            <pb ed="print" n="56" facs="#facs_56"/>
-            <pb ed="print" n="57" facs="#facs_57"/>
-            <pb ed="print" n="58" facs="#facs_58"/>
-            <pb ed="print" n="59" facs="#facs_59"/>
-            <pb ed="print" n="60" facs="#facs_60"/>
-            <pb ed="print" n="61" facs="#facs_61"/>
-            <pb ed="print" n="62" facs="#facs_62"/>
+            <pb ed="print" n="46" facs="#facs_46" xml:id="pb_50.d1e2517"/>
+            <pb ed="print" n="47" facs="#facs_47" xml:id="pb_51.d1e2519"/>
+            <pb ed="print" n="48" facs="#facs_48" xml:id="pb_52.d1e2521"/>
+            <pb ed="print" n="49" facs="#facs_49" xml:id="pb_53.d1e2524"/>
+            <pb ed="print" n="50" facs="#facs_50" xml:id="pb_54.d1e2526"/>
+            <pb ed="print" n="51" facs="#facs_51" xml:id="pb_55.d1e2528"/>
+            <pb ed="print" n="52" facs="#facs_52" xml:id="pb_56.d1e2530"/>
+            <pb ed="print" n="53" facs="#facs_53" xml:id="pb_57.d1e2532"/>
+            <pb ed="print" n="54" facs="#facs_54" xml:id="pb_58.d1e2534"/>
+            <pb ed="print" n="55" facs="#facs_55" xml:id="pb_59.d1e2537"/>
+            <pb ed="print" n="56" facs="#facs_56" xml:id="pb_60.d1e2539"/>
+            <pb ed="print" n="57" facs="#facs_57" xml:id="pb_61.d1e2541"/>
+            <pb ed="print" n="58" facs="#facs_58" xml:id="pb_62.d1e2543"/>
+            <pb ed="print" n="59" facs="#facs_59" xml:id="pb_63.d1e2545"/>
+            <pb ed="print" n="60" facs="#facs_60" xml:id="pb_64.d1e2547"/>
+            <pb ed="print" n="61" facs="#facs_61" xml:id="pb_65.d1e2550"/>
+            <pb ed="print" n="62" facs="#facs_62" xml:id="pb_66.d1e2552"/>
          </div>
-         <pb ed="print" n="62" facs="#facs_62"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877482&#34;ISSUEID=15719&#34;AID=350579" xml:lang="ar">
-            <head xml:lang="ar">عن الأسفار والحزن</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">محمد طالب محمد</persName>
+         <pb ed="print" n="62" facs="#facs_62" xml:id="pb_67.d1e2555"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877482&#34;ISSUEID=15719&#34;AID=350579" xml:lang="ar" xml:id="div_8.d1e2558">
+            <head xml:lang="ar" xml:id="head_6.d1e2560">عن الأسفار والحزن</head>
+            <byline xml:lang="ar" xml:id="byline_6.d1e2563">
+               <persName xml:lang="ar" xml:id="persName_10.d1e2565">محمد طالب محمد</persName>
             </byline>
-            <pb ed="print" n="63" facs="#facs_63"/>
-            <pb ed="print" n="64" facs="#facs_64"/>
-            <pb ed="print" n="65" facs="#facs_65"/>
-            <pb ed="print" n="66" facs="#facs_66"/>
-            <pb ed="print" n="67" facs="#facs_67"/>
-            <pb ed="print" n="68" facs="#facs_68"/>
-            <pb ed="print" n="69" facs="#facs_69"/>
-            <pb ed="print" n="70" facs="#facs_70"/>
-            <pb ed="print" n="71" facs="#facs_71"/>
-            <pb ed="print" n="72" facs="#facs_72"/>
+            <pb ed="print" n="63" facs="#facs_63" xml:id="pb_68.d1e2569"/>
+            <pb ed="print" n="64" facs="#facs_64" xml:id="pb_69.d1e2571"/>
+            <pb ed="print" n="65" facs="#facs_65" xml:id="pb_70.d1e2573"/>
+            <pb ed="print" n="66" facs="#facs_66" xml:id="pb_71.d1e2576"/>
+            <pb ed="print" n="67" facs="#facs_67" xml:id="pb_72.d1e2578"/>
+            <pb ed="print" n="68" facs="#facs_68" xml:id="pb_73.d1e2580"/>
+            <pb ed="print" n="69" facs="#facs_69" xml:id="pb_74.d1e2582"/>
+            <pb ed="print" n="70" facs="#facs_70" xml:id="pb_75.d1e2584"/>
+            <pb ed="print" n="71" facs="#facs_71" xml:id="pb_76.d1e2586"/>
+            <pb ed="print" n="72" facs="#facs_72" xml:id="pb_77.d1e2589"/>
          </div>
-         <pb ed="print" n="72" facs="#facs_72"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877492&#34;ISSUEID=15719&#34;AID=350580" xml:lang="ar">
-            <head xml:lang="ar">الأدب، الحرية، الثورة</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">نجيب محفوظ</persName>
+         <pb ed="print" n="72" facs="#facs_72" xml:id="pb_78.d1e2592"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877492&#34;ISSUEID=15719&#34;AID=350580" xml:lang="ar" xml:id="div_9.d1e2594">
+            <head xml:lang="ar" xml:id="head_7.d1e2596">الأدب، الحرية، الثورة</head>
+            <byline xml:lang="ar" xml:id="byline_7.d1e2599">
+               <persName xml:lang="ar" xml:id="persName_11.d1e2601">نجيب محفوظ</persName>
             </byline>
-            <pb ed="print" n="73" facs="#facs_73"/>
-            <pb ed="print" n="74" facs="#facs_74"/>
-            <pb ed="print" n="75" facs="#facs_75"/>
-            <pb ed="print" n="76" facs="#facs_76"/>
-            <pb ed="print" n="77" facs="#facs_77"/>
-            <pb ed="print" n="78" facs="#facs_78"/>
-            <pb ed="print" n="79" facs="#facs_79"/>
-            <pb ed="print" n="80" facs="#facs_80"/>
-            <pb ed="print" n="81" facs="#facs_81"/>
-            <pb ed="print" n="82" facs="#facs_82"/>
-            <pb ed="print" n="83" facs="#facs_83"/>
-            <pb ed="print" n="84" facs="#facs_84"/>
-            <pb ed="print" n="85" facs="#facs_85"/>
-            <pb ed="print" n="86" facs="#facs_86"/>
-            <pb ed="print" n="87" facs="#facs_87"/>
-            <pb ed="print" n="88" facs="#facs_88"/>
+            <pb ed="print" n="73" facs="#facs_73" xml:id="pb_79.d1e2605"/>
+            <pb ed="print" n="74" facs="#facs_74" xml:id="pb_80.d1e2607"/>
+            <pb ed="print" n="75" facs="#facs_75" xml:id="pb_81.d1e2609"/>
+            <pb ed="print" n="76" facs="#facs_76" xml:id="pb_82.d1e2612"/>
+            <pb ed="print" n="77" facs="#facs_77" xml:id="pb_83.d1e2614"/>
+            <pb ed="print" n="78" facs="#facs_78" xml:id="pb_84.d1e2616"/>
+            <pb ed="print" n="79" facs="#facs_79" xml:id="pb_85.d1e2618"/>
+            <pb ed="print" n="80" facs="#facs_80" xml:id="pb_86.d1e2620"/>
+            <pb ed="print" n="81" facs="#facs_81" xml:id="pb_87.d1e2622"/>
+            <pb ed="print" n="82" facs="#facs_82" xml:id="pb_88.d1e2625"/>
+            <pb ed="print" n="83" facs="#facs_83" xml:id="pb_89.d1e2627"/>
+            <pb ed="print" n="84" facs="#facs_84" xml:id="pb_90.d1e2629"/>
+            <pb ed="print" n="85" facs="#facs_85" xml:id="pb_91.d1e2631"/>
+            <pb ed="print" n="86" facs="#facs_86" xml:id="pb_92.d1e2633"/>
+            <pb ed="print" n="87" facs="#facs_87" xml:id="pb_93.d1e2635"/>
+            <pb ed="print" n="88" facs="#facs_88" xml:id="pb_94.d1e2638"/>
          </div>
-         <pb ed="print" n="88" facs="#facs_88"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877508&#34;ISSUEID=15719&#34;AID=350581" xml:lang="ar">
-            <head xml:lang="ar">عودة إلى القرون الوسطى</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">ناصيف نصار</persName>
+         <pb ed="print" n="88" facs="#facs_88" xml:id="pb_95.d1e2641"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877508&#34;ISSUEID=15719&#34;AID=350581" xml:lang="ar" xml:id="div_10.d1e2643">
+            <head xml:lang="ar" xml:id="head_8.d1e2645">عودة إلى القرون الوسطى</head>
+            <byline xml:lang="ar" xml:id="byline_8.d1e2648">
+               <persName xml:lang="ar" xml:id="persName_12.d1e2650">ناصيف نصار</persName>
             </byline>
-            <pb ed="print" n="89" facs="#facs_89"/>
-            <pb ed="print" n="90" facs="#facs_90"/>
-            <pb ed="print" n="91" facs="#facs_91"/>
-            <pb ed="print" n="92" facs="#facs_92"/>
-            <pb ed="print" n="93" facs="#facs_93"/>
-            <pb ed="print" n="94" facs="#facs_94"/>
-            <pb ed="print" n="95" facs="#facs_95"/>
-            <pb ed="print" n="96" facs="#facs_96"/>
-            <pb ed="print" n="97" facs="#facs_97"/>
-            <pb ed="print" n="98" facs="#facs_98"/>
-            <pb ed="print" n="99" facs="#facs_99"/>
-            <pb ed="print" n="100" facs="#facs_100"/>
-            <pb ed="print" n="101" facs="#facs_101"/>
-            <pb ed="print" n="102" facs="#facs_102"/>
-            <pb ed="print" n="103" facs="#facs_103"/>
-            <pb ed="print" n="104" facs="#facs_104"/>
-            <pb ed="print" n="105" facs="#facs_105"/>
-            <pb ed="print" n="106" facs="#facs_106"/>
-            <pb ed="print" n="107" facs="#facs_107"/>
-            <pb ed="print" n="108" facs="#facs_108"/>
+            <pb ed="print" n="89" facs="#facs_89" xml:id="pb_96.d1e2654"/>
+            <pb ed="print" n="90" facs="#facs_90" xml:id="pb_97.d1e2656"/>
+            <pb ed="print" n="91" facs="#facs_91" xml:id="pb_98.d1e2658"/>
+            <pb ed="print" n="92" facs="#facs_92" xml:id="pb_99.d1e2661"/>
+            <pb ed="print" n="93" facs="#facs_93" xml:id="pb_100.d1e2663"/>
+            <pb ed="print" n="94" facs="#facs_94" xml:id="pb_101.d1e2665"/>
+            <pb ed="print" n="95" facs="#facs_95" xml:id="pb_102.d1e2667"/>
+            <pb ed="print" n="96" facs="#facs_96" xml:id="pb_103.d1e2669"/>
+            <pb ed="print" n="97" facs="#facs_97" xml:id="pb_104.d1e2671"/>
+            <pb ed="print" n="98" facs="#facs_98" xml:id="pb_105.d1e2674"/>
+            <pb ed="print" n="99" facs="#facs_99" xml:id="pb_106.d1e2676"/>
+            <pb ed="print" n="100" facs="#facs_100" xml:id="pb_107.d1e2678"/>
+            <pb ed="print" n="101" facs="#facs_101" xml:id="pb_108.d1e2680"/>
+            <pb ed="print" n="102" facs="#facs_102" xml:id="pb_109.d1e2682"/>
+            <pb ed="print" n="103" facs="#facs_103" xml:id="pb_110.d1e2684"/>
+            <pb ed="print" n="104" facs="#facs_104" xml:id="pb_111.d1e2687"/>
+            <pb ed="print" n="105" facs="#facs_105" xml:id="pb_112.d1e2689"/>
+            <pb ed="print" n="106" facs="#facs_106" xml:id="pb_113.d1e2691"/>
+            <pb ed="print" n="107" facs="#facs_107" xml:id="pb_114.d1e2693"/>
+            <pb ed="print" n="108" facs="#facs_108" xml:id="pb_115.d1e2695"/>
          </div>
-         <pb ed="print" n="108" facs="#facs_108"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877528&#34;ISSUEID=15719&#34;AID=350582" xml:lang="ar">
-            <head xml:lang="ar">المجتمع اللبناني: فسيفساني أم تعددي؟</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">حليم بركات</persName>
+         <pb ed="print" n="108" facs="#facs_108" xml:id="pb_116.d1e2698"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877528&#34;ISSUEID=15719&#34;AID=350582" xml:lang="ar" xml:id="div_11.d1e2701">
+            <head xml:lang="ar" xml:id="head_9.d1e2703">المجتمع اللبناني: فسيفساني أم تعددي؟</head>
+            <byline xml:lang="ar" xml:id="byline_9.d1e2706">
+               <persName xml:lang="ar" xml:id="persName_13.d1e2708">حليم بركات</persName>
             </byline>
-            <pb ed="print" n="109" facs="#facs_109"/>
-            <pb ed="print" n="110" facs="#facs_110"/>
-            <pb ed="print" n="111" facs="#facs_111"/>
-            <pb ed="print" n="112" facs="#facs_112"/>
-            <pb ed="print" n="113" facs="#facs_113"/>
-            <pb ed="print" n="114" facs="#facs_114"/>
-            <pb ed="print" n="115" facs="#facs_115"/>
-            <pb ed="print" n="116" facs="#facs_116"/>
-            <pb ed="print" n="117" facs="#facs_117"/>
-            <pb ed="print" n="118" facs="#facs_118"/>
-            <pb ed="print" n="119" facs="#facs_119"/>
-            <pb ed="print" n="120" facs="#facs_120"/>
-            <pb ed="print" n="121" facs="#facs_121"/>
-            <pb ed="print" n="122" facs="#facs_122"/>
-            <pb ed="print" n="123" facs="#facs_123"/>
-            <pb ed="print" n="124" facs="#facs_124"/>
-            <pb ed="print" n="125" facs="#facs_125"/>
-            <pb ed="print" n="126" facs="#facs_126"/>
+            <pb ed="print" n="109" facs="#facs_109" xml:id="pb_117.d1e2712"/>
+            <pb ed="print" n="110" facs="#facs_110" xml:id="pb_118.d1e2714"/>
+            <pb ed="print" n="111" facs="#facs_111" xml:id="pb_119.d1e2716"/>
+            <pb ed="print" n="112" facs="#facs_112" xml:id="pb_120.d1e2719"/>
+            <pb ed="print" n="113" facs="#facs_113" xml:id="pb_121.d1e2721"/>
+            <pb ed="print" n="114" facs="#facs_114" xml:id="pb_122.d1e2723"/>
+            <pb ed="print" n="115" facs="#facs_115" xml:id="pb_123.d1e2725"/>
+            <pb ed="print" n="116" facs="#facs_116" xml:id="pb_124.d1e2727"/>
+            <pb ed="print" n="117" facs="#facs_117" xml:id="pb_125.d1e2729"/>
+            <pb ed="print" n="118" facs="#facs_118" xml:id="pb_126.d1e2732"/>
+            <pb ed="print" n="119" facs="#facs_119" xml:id="pb_127.d1e2734"/>
+            <pb ed="print" n="120" facs="#facs_120" xml:id="pb_128.d1e2736"/>
+            <pb ed="print" n="121" facs="#facs_121" xml:id="pb_129.d1e2738"/>
+            <pb ed="print" n="122" facs="#facs_122" xml:id="pb_130.d1e2740"/>
+            <pb ed="print" n="123" facs="#facs_123" xml:id="pb_131.d1e2742"/>
+            <pb ed="print" n="124" facs="#facs_124" xml:id="pb_132.d1e2745"/>
+            <pb ed="print" n="125" facs="#facs_125" xml:id="pb_133.d1e2747"/>
+            <pb ed="print" n="126" facs="#facs_126" xml:id="pb_134.d1e2749"/>
          </div>
-         <pb ed="print" n="126" facs="#facs_126"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877546&#34;ISSUEID=15719&#34;AID=350583" xml:lang="ar">
-            <head xml:lang="ar">شهادات: أنا لا أكتب لهذا الجيل</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">أنطون مقدسي</persName>
+         <pb ed="print" n="126" facs="#facs_126" xml:id="pb_135.d1e2752"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877546&#34;ISSUEID=15719&#34;AID=350583" xml:lang="ar" xml:id="div_12.d1e2754">
+            <head xml:lang="ar" xml:id="head_10.d1e2756">شهادات: أنا لا أكتب لهذا الجيل</head>
+            <byline xml:lang="ar" xml:id="byline_10.d1e2759">
+               <persName xml:lang="ar" xml:id="persName_14.d1e2761">أنطون مقدسي</persName>
             </byline>
-            <pb ed="print" n="127" facs="#facs_127"/>
-            <pb ed="print" n="128" facs="#facs_128"/>
-            <pb ed="print" n="129" facs="#facs_129"/>
-            <pb ed="print" n="130" facs="#facs_130"/>
-            <pb ed="print" n="131" facs="#facs_131"/>
-            <pb ed="print" n="132" facs="#facs_132"/>
-            <pb ed="print" n="133" facs="#facs_133"/>
-            <pb ed="print" n="134" facs="#facs_134"/>
-            <pb ed="print" n="135" facs="#facs_135"/>
+            <pb ed="print" n="127" facs="#facs_127" xml:id="pb_136.d1e2765"/>
+            <pb ed="print" n="128" facs="#facs_128" xml:id="pb_137.d1e2767"/>
+            <pb ed="print" n="129" facs="#facs_129" xml:id="pb_138.d1e2769"/>
+            <pb ed="print" n="130" facs="#facs_130" xml:id="pb_139.d1e2772"/>
+            <pb ed="print" n="131" facs="#facs_131" xml:id="pb_140.d1e2774"/>
+            <pb ed="print" n="132" facs="#facs_132" xml:id="pb_141.d1e2776"/>
+            <pb ed="print" n="133" facs="#facs_133" xml:id="pb_142.d1e2778"/>
+            <pb ed="print" n="134" facs="#facs_134" xml:id="pb_143.d1e2780"/>
+            <pb ed="print" n="135" facs="#facs_135" xml:id="pb_144.d1e2782"/>
          </div>
-         <pb ed="print" n="135" facs="#facs_135"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877555&#34;ISSUEID=15719&#34;AID=350584" xml:lang="ar">
-            <head xml:lang="ar">شهادات: ماذا تنفع الكلمات؟</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">سلمى الخضراء الجيوسي</persName>
+         <pb ed="print" n="135" facs="#facs_135" xml:id="pb_145.d1e2785"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877555&#34;ISSUEID=15719&#34;AID=350584" xml:lang="ar" xml:id="div_13.d1e2787">
+            <head xml:lang="ar" xml:id="head_11.d1e2789">شهادات: ماذا تنفع الكلمات؟</head>
+            <byline xml:lang="ar" xml:id="byline_11.d1e2792">
+               <persName xml:lang="ar" xml:id="persName_15.d1e2794">سلمى الخضراء الجيوسي</persName>
             </byline>
-            <pb ed="print" n="136" facs="#facs_136"/>
-            <pb ed="print" n="137" facs="#facs_137"/>
-            <pb ed="print" n="138" facs="#facs_138"/>
-            <pb ed="print" n="139" facs="#facs_139"/>
-            <pb ed="print" n="140" facs="#facs_140"/>
-            <pb ed="print" n="141" facs="#facs_141"/>
-            <pb ed="print" n="142" facs="#facs_142"/>
-            <pb ed="print" n="143" facs="#facs_143"/>
+            <pb ed="print" n="136" facs="#facs_136" xml:id="pb_146.d1e2798"/>
+            <pb ed="print" n="137" facs="#facs_137" xml:id="pb_147.d1e2800"/>
+            <pb ed="print" n="138" facs="#facs_138" xml:id="pb_148.d1e2802"/>
+            <pb ed="print" n="139" facs="#facs_139" xml:id="pb_149.d1e2805"/>
+            <pb ed="print" n="140" facs="#facs_140" xml:id="pb_150.d1e2807"/>
+            <pb ed="print" n="141" facs="#facs_141" xml:id="pb_151.d1e2809"/>
+            <pb ed="print" n="142" facs="#facs_142" xml:id="pb_152.d1e2811"/>
+            <pb ed="print" n="143" facs="#facs_143" xml:id="pb_153.d1e2813"/>
          </div>
-         <pb ed="print" n="143" facs="#facs_143"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877560&#34;ISSUEID=15719&#34;AID=350585" xml:lang="ar">
-            <head xml:lang="ar">الوضع الجامعي في لبنان</head>
-            <pb ed="print" n="144" facs="#facs_144"/>
+         <pb ed="print" n="143" facs="#facs_143" xml:id="pb_154.d1e2816"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877560&#34;ISSUEID=15719&#34;AID=350585" xml:lang="ar" xml:id="div_14.d1e2819">
+            <head xml:lang="ar" xml:id="head_12.d1e2821">الوضع الجامعي في لبنان</head>
+            <pb ed="print" n="144" facs="#facs_144" xml:id="pb_155.d1e2824"/>
          </div>
-         <pb ed="print" n="144" facs="#facs_144"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877561&#34;ISSUEID=15719&#34;AID=350586" xml:lang="ar">
-            <head xml:lang="ar">حول الجامعة في لبنان</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">سليم عبو</persName>
+         <pb ed="print" n="144" facs="#facs_144" xml:id="pb_156.d1e2827"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877561&#34;ISSUEID=15719&#34;AID=350586" xml:lang="ar" xml:id="div_15.d1e2829">
+            <head xml:lang="ar" xml:id="head_13.d1e2831">حول الجامعة في لبنان</head>
+            <byline xml:lang="ar" xml:id="byline_12.d1e2834">
+               <persName xml:lang="ar" xml:id="persName_16.d1e2836">سليم عبو</persName>
             </byline>
-            <pb ed="print" n="145" facs="#facs_145"/>
-            <pb ed="print" n="146" facs="#facs_146"/>
-            <pb ed="print" n="147" facs="#facs_147"/>
-            <pb ed="print" n="148" facs="#facs_148"/>
-            <pb ed="print" n="149" facs="#facs_149"/>
-            <pb ed="print" n="150" facs="#facs_150"/>
+            <pb ed="print" n="145" facs="#facs_145" xml:id="pb_157.d1e2840"/>
+            <pb ed="print" n="146" facs="#facs_146" xml:id="pb_158.d1e2842"/>
+            <pb ed="print" n="147" facs="#facs_147" xml:id="pb_159.d1e2844"/>
+            <pb ed="print" n="148" facs="#facs_148" xml:id="pb_160.d1e2847"/>
+            <pb ed="print" n="149" facs="#facs_149" xml:id="pb_161.d1e2849"/>
+            <pb ed="print" n="150" facs="#facs_150" xml:id="pb_162.d1e2851"/>
          </div>
-         <pb ed="print" n="150" facs="#facs_150"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877567&#34;ISSUEID=15719&#34;AID=350587" xml:lang="ar">
-            <head xml:lang="ar">مقترحات عملية لإصلاح الجامعة في لبنان</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">منير بشور</persName>
+         <pb ed="print" n="150" facs="#facs_150" xml:id="pb_163.d1e2854"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877567&#34;ISSUEID=15719&#34;AID=350587" xml:lang="ar" xml:id="div_16.d1e2856">
+            <head xml:lang="ar" xml:id="head_14.d1e2858">مقترحات عملية لإصلاح الجامعة في لبنان</head>
+            <byline xml:lang="ar" xml:id="byline_13.d1e2861">
+               <persName xml:lang="ar" xml:id="persName_17.d1e2863">منير بشور</persName>
             </byline>
-            <pb ed="print" n="151" facs="#facs_151"/>
-            <pb ed="print" n="152" facs="#facs_152"/>
-            <pb ed="print" n="153" facs="#facs_153"/>
-            <pb ed="print" n="154" facs="#facs_154"/>
-            <pb ed="print" n="155" facs="#facs_155"/>
-            <pb ed="print" n="156" facs="#facs_156"/>
+            <pb ed="print" n="151" facs="#facs_151" xml:id="pb_164.d1e2867"/>
+            <pb ed="print" n="152" facs="#facs_152" xml:id="pb_165.d1e2869"/>
+            <pb ed="print" n="153" facs="#facs_153" xml:id="pb_166.d1e2871"/>
+            <pb ed="print" n="154" facs="#facs_154" xml:id="pb_167.d1e2874"/>
+            <pb ed="print" n="155" facs="#facs_155" xml:id="pb_168.d1e2876"/>
+            <pb ed="print" n="156" facs="#facs_156" xml:id="pb_169.d1e2878"/>
          </div>
-         <pb ed="print" n="156" facs="#facs_156"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877573&#34;ISSUEID=15719&#34;AID=350588" xml:lang="ar">
-            <head xml:lang="ar">نحو جامعة لبنانية</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">حافظ قبيسي</persName>
+         <pb ed="print" n="156" facs="#facs_156" xml:id="pb_170.d1e2881"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877573&#34;ISSUEID=15719&#34;AID=350588" xml:lang="ar" xml:id="div_17.d1e2884">
+            <head xml:lang="ar" xml:id="head_15.d1e2886">نحو جامعة لبنانية</head>
+            <byline xml:lang="ar" xml:id="byline_14.d1e2889">
+               <persName xml:lang="ar" xml:id="persName_18.d1e2891">حافظ قبيسي</persName>
             </byline>
-            <pb ed="print" n="157" facs="#facs_157"/>
-            <pb ed="print" n="158" facs="#facs_158"/>
-            <pb ed="print" n="159" facs="#facs_159"/>
-            <pb ed="print" n="160" facs="#facs_160"/>
-            <pb ed="print" n="161" facs="#facs_161"/>
-            <pb ed="print" n="162" facs="#facs_162"/>
-            <pb ed="print" n="163" facs="#facs_163"/>
-            <pb ed="print" n="164" facs="#facs_164"/>
-            <pb ed="print" n="165" facs="#facs_165"/>
-            <pb ed="print" n="166" facs="#facs_166"/>
+            <pb ed="print" n="157" facs="#facs_157" xml:id="pb_171.d1e2895"/>
+            <pb ed="print" n="158" facs="#facs_158" xml:id="pb_172.d1e2897"/>
+            <pb ed="print" n="159" facs="#facs_159" xml:id="pb_173.d1e2899"/>
+            <pb ed="print" n="160" facs="#facs_160" xml:id="pb_174.d1e2902"/>
+            <pb ed="print" n="161" facs="#facs_161" xml:id="pb_175.d1e2904"/>
+            <pb ed="print" n="162" facs="#facs_162" xml:id="pb_176.d1e2906"/>
+            <pb ed="print" n="163" facs="#facs_163" xml:id="pb_177.d1e2908"/>
+            <pb ed="print" n="164" facs="#facs_164" xml:id="pb_178.d1e2910"/>
+            <pb ed="print" n="165" facs="#facs_165" xml:id="pb_179.d1e2912"/>
+            <pb ed="print" n="166" facs="#facs_166" xml:id="pb_180.d1e2915"/>
          </div>
-         <pb ed="print" n="166" facs="#facs_166"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877583&#34;ISSUEID=15719&#34;AID=350589" xml:lang="ar">
-            <head xml:lang="ar">نهر الحياة والموسيقى</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">حليم جرداق</persName>
+         <pb ed="print" n="166" facs="#facs_166" xml:id="pb_181.d1e2918"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877583&#34;ISSUEID=15719&#34;AID=350589" xml:lang="ar" xml:id="div_18.d1e2920">
+            <head xml:lang="ar" xml:id="head_16.d1e2922">نهر الحياة والموسيقى</head>
+            <byline xml:lang="ar" xml:id="byline_15.d1e2925">
+               <persName xml:lang="ar" xml:id="persName_19.d1e2927">حليم جرداق</persName>
             </byline>
-            <pb ed="print" n="167" facs="#facs_167"/>
-            <pb ed="print" n="168" facs="#facs_168"/>
-            <pb ed="print" n="169" facs="#facs_169"/>
-            <pb ed="print" n="170" facs="#facs_170"/>
-            <pb ed="print" n="171" facs="#facs_171"/>
-            <pb ed="print" n="172" facs="#facs_172"/>
+            <pb ed="print" n="167" facs="#facs_167" xml:id="pb_182.d1e2931"/>
+            <pb ed="print" n="168" facs="#facs_168" xml:id="pb_183.d1e2933"/>
+            <pb ed="print" n="169" facs="#facs_169" xml:id="pb_184.d1e2935"/>
+            <pb ed="print" n="170" facs="#facs_170" xml:id="pb_185.d1e2938"/>
+            <pb ed="print" n="171" facs="#facs_171" xml:id="pb_186.d1e2940"/>
+            <pb ed="print" n="172" facs="#facs_172" xml:id="pb_187.d1e2942"/>
          </div>
-         <pb ed="print" n="172" facs="#facs_172"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877589&#34;ISSUEID=15719&#34;AID=350590" xml:lang="ar">
-            <head xml:lang="ar">دعوا الشعر يصير جناحا لمسرحنا الكسيح</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">إدوار أمين البستاني</persName>
+         <pb ed="print" n="172" facs="#facs_172" xml:id="pb_188.d1e2945"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877589&#34;ISSUEID=15719&#34;AID=350590" xml:lang="ar" xml:id="div_19.d1e2947">
+            <head xml:lang="ar" xml:id="head_17.d1e2949">دعوا الشعر يصير جناحا لمسرحنا الكسيح</head>
+            <byline xml:lang="ar" xml:id="byline_16.d1e2952">
+               <persName xml:lang="ar" xml:id="persName_20.d1e2954">إدوار أمين البستاني</persName>
             </byline>
-            <pb ed="print" n="173" facs="#facs_173"/>
-            <pb ed="print" n="174" facs="#facs_174"/>
-            <pb ed="print" n="175" facs="#facs_175"/>
-            <pb ed="print" n="176" facs="#facs_176"/>
-            <pb ed="print" n="177" facs="#facs_177"/>
+            <pb ed="print" n="173" facs="#facs_173" xml:id="pb_189.d1e2958"/>
+            <pb ed="print" n="174" facs="#facs_174" xml:id="pb_190.d1e2960"/>
+            <pb ed="print" n="175" facs="#facs_175" xml:id="pb_191.d1e2962"/>
+            <pb ed="print" n="176" facs="#facs_176" xml:id="pb_192.d1e2965"/>
+            <pb ed="print" n="177" facs="#facs_177" xml:id="pb_193.d1e2967"/>
          </div>
-         <pb ed="print" n="177" facs="#facs_177"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877594&#34;ISSUEID=15719&#34;AID=350591" xml:lang="ar">
-            <head xml:lang="ar">التلفزيون في لبنان: وسيلة جديدة لخدمة الرجعية والتخلف</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">رجا جورج</persName>
+         <pb ed="print" n="177" facs="#facs_177" xml:id="pb_194.d1e2970"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877594&#34;ISSUEID=15719&#34;AID=350591" xml:lang="ar" xml:id="div_20.d1e2973">
+            <head xml:lang="ar" xml:id="head_18.d1e2975">التلفزيون في لبنان: وسيلة جديدة لخدمة الرجعية والتخلف</head>
+            <byline xml:lang="ar" xml:id="byline_17.d1e2978">
+               <persName xml:lang="ar" xml:id="persName_21.d1e2980">رجا جورج</persName>
             </byline>
-            <pb ed="print" n="178" facs="#facs_178"/>
-            <pb ed="print" n="179" facs="#facs_179"/>
-            <pb ed="print" n="180" facs="#facs_180"/>
+            <pb ed="print" n="178" facs="#facs_178" xml:id="pb_195.d1e2984"/>
+            <pb ed="print" n="179" facs="#facs_179" xml:id="pb_196.d1e2986"/>
+            <pb ed="print" n="180" facs="#facs_180" xml:id="pb_197.d1e2988"/>
          </div>
-         <pb ed="print" n="180" facs="#facs_180"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877598&#34;ISSUEID=15719&#34;AID=350592" xml:lang="ar">
-            <head xml:lang="ar">عالم اللغة وعالم الشعر</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">منير العكش</persName>
+         <pb ed="print" n="180" facs="#facs_180" xml:id="pb_198.d1e2991"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877598&#34;ISSUEID=15719&#34;AID=350592" xml:lang="ar" xml:id="div_21.d1e2993">
+            <head xml:lang="ar" xml:id="head_19.d1e2995">عالم اللغة وعالم الشعر</head>
+            <byline xml:lang="ar" xml:id="byline_18.d1e2998">
+               <persName xml:lang="ar" xml:id="persName_22.d1e3000">منير العكش</persName>
             </byline>
-            <pb ed="print" n="181" facs="#facs_181"/>
-            <pb ed="print" n="182" facs="#facs_182"/>
-            <pb ed="print" n="183" facs="#facs_183"/>
+            <pb ed="print" n="181" facs="#facs_181" xml:id="pb_199.d1e3004"/>
+            <pb ed="print" n="182" facs="#facs_182" xml:id="pb_200.d1e3006"/>
+            <pb ed="print" n="183" facs="#facs_183" xml:id="pb_201.d1e3008"/>
          </div>
-         <pb ed="print" n="183" facs="#facs_183"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877601&#34;ISSUEID=15719&#34;AID=350593" xml:lang="ar">
-            <head xml:lang="ar">مفارقة الحب في الحب والحب العذري</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">فاروق مردم</persName>
+         <pb ed="print" n="183" facs="#facs_183" xml:id="pb_202.d1e3011"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877601&#34;ISSUEID=15719&#34;AID=350593" xml:lang="ar" xml:id="div_22.d1e3013">
+            <head xml:lang="ar" xml:id="head_20.d1e3015">مفارقة الحب في الحب والحب العذري</head>
+            <byline xml:lang="ar" xml:id="byline_19.d1e3018">
+               <persName xml:lang="ar" xml:id="persName_23.d1e3020">فاروق مردم</persName>
             </byline>
-            <pb ed="print" n="184" facs="#facs_184"/>
+            <pb ed="print" n="184" facs="#facs_184" xml:id="pb_203.d1e3024"/>
          </div>
-         <pb ed="print" n="183" facs="#facs_183"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877602&#34;ISSUEID=15719&#34;AID=350594" xml:lang="ar">
-            <head xml:lang="ar">من قبل ومن بعد</head>
-            <byline xml:lang="ar">
-               <persName xml:lang="ar">خالدة سعيد</persName>
+         <pb ed="print" n="183" facs="#facs_183" xml:id="pb_204.d1e3027"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877602&#34;ISSUEID=15719&#34;AID=350594" xml:lang="ar" xml:id="div_23.d1e3030">
+            <head xml:lang="ar" xml:id="head_21.d1e3032">من قبل ومن بعد</head>
+            <byline xml:lang="ar" xml:id="byline_20.d1e3035">
+               <persName xml:lang="ar" xml:id="persName_24.d1e3037">خالدة سعيد</persName>
             </byline>
-            <pb ed="print" n="184" facs="#facs_184"/>
-            <pb ed="print" n="185" facs="#facs_185"/>
+            <pb ed="print" n="184" facs="#facs_184" xml:id="pb_205.d1e3041"/>
+            <pb ed="print" n="185" facs="#facs_185" xml:id="pb_206.d1e3043"/>
          </div>
-         <pb ed="print" n="185" facs="#facs_185"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877604&#34;ISSUEID=15719&#34;AID=350595" xml:lang="ar">
-            <head xml:lang="ar">وثائق: الثورة الطلابية الثقافية في أوروبا</head>
-            <pb ed="print" n="186" facs="#facs_186"/>
-            <pb ed="print" n="187" facs="#facs_187"/>
-            <pb ed="print" n="188" facs="#facs_188"/>
-            <pb ed="print" n="189" facs="#facs_189"/>
-            <pb ed="print" n="190" facs="#facs_190"/>
-            <pb ed="print" n="191" facs="#facs_191"/>
-            <pb ed="print" n="192" facs="#facs_192"/>
-            <pb ed="print" n="193" facs="#facs_193"/>
-            <pb ed="print" n="194" facs="#facs_194"/>
-            <pb ed="print" n="195" facs="#facs_195"/>
-            <pb ed="print" n="196" facs="#facs_196"/>
-            <pb ed="print" n="197" facs="#facs_197"/>
-            <pb ed="print" n="198" facs="#facs_198"/>
-            <pb ed="print" n="199" facs="#facs_199"/>
-            <pb ed="print" n="200" facs="#facs_200"/>
+         <pb ed="print" n="185" facs="#facs_185" xml:id="pb_207.d1e3046"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877604&#34;ISSUEID=15719&#34;AID=350595" xml:lang="ar" xml:id="div_24.d1e3048">
+            <head xml:lang="ar" xml:id="head_22.d1e3050">وثائق: الثورة الطلابية الثقافية في أوروبا</head>
+            <pb ed="print" n="186" facs="#facs_186" xml:id="pb_208.d1e3053"/>
+            <pb ed="print" n="187" facs="#facs_187" xml:id="pb_209.d1e3055"/>
+            <pb ed="print" n="188" facs="#facs_188" xml:id="pb_210.d1e3057"/>
+            <pb ed="print" n="189" facs="#facs_189" xml:id="pb_211.d1e3059"/>
+            <pb ed="print" n="190" facs="#facs_190" xml:id="pb_212.d1e3062"/>
+            <pb ed="print" n="191" facs="#facs_191" xml:id="pb_213.d1e3064"/>
+            <pb ed="print" n="192" facs="#facs_192" xml:id="pb_214.d1e3066"/>
+            <pb ed="print" n="193" facs="#facs_193" xml:id="pb_215.d1e3068"/>
+            <pb ed="print" n="194" facs="#facs_194" xml:id="pb_216.d1e3070"/>
+            <pb ed="print" n="195" facs="#facs_195" xml:id="pb_217.d1e3072"/>
+            <pb ed="print" n="196" facs="#facs_196" xml:id="pb_218.d1e3075"/>
+            <pb ed="print" n="197" facs="#facs_197" xml:id="pb_219.d1e3077"/>
+            <pb ed="print" n="198" facs="#facs_198" xml:id="pb_220.d1e3079"/>
+            <pb ed="print" n="199" facs="#facs_199" xml:id="pb_221.d1e3081"/>
+            <pb ed="print" n="200" facs="#facs_200" xml:id="pb_222.d1e3083"/>
          </div>
-         <pb ed="print" n="200" facs="#facs_200"/>
-         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877619&#34;ISSUEID=15719&#34;AID=350596" xml:lang="ar">
-            <head xml:lang="ar">وثائق: المحامون العرب والحرية</head>
+         <pb ed="print" n="200" facs="#facs_200" xml:id="pb_223.d1e3086"/>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1877619&#34;ISSUEID=15719&#34;AID=350596" xml:lang="ar" xml:id="div_25.d1e3088">
+            <head xml:lang="ar" xml:id="head_23.d1e3090">وثائق: المحامون العرب والحرية</head>
          </div>
       </body>
    </text>

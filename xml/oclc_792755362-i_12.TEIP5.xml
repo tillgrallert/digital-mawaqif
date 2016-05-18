@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:till="http://tillgrallert.github.io/xml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml" xml:id="oclc_792755362-i_12" xml:lang="">
-   <teiHeader xml:lang="">
-      <fileDesc xml:lang="">
-         <titleStmt xml:lang="">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/tillgrallert/TeachingTei/master/schema/tei_jaraid.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:till="http://tillgrallert.github.io/xml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml" xml:id="oclc_792755362-i_12" xml:lang="en">
+   <teiHeader xml:lang="en">
+      <fileDesc xml:lang="en">
+         <titleStmt xml:lang="en">
             <title xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
             <respStmt xml:lang="ar">
                <resp xml:lang="ar">TEI edition</resp>
@@ -23,7 +23,7 @@
             </availability>
             <idno type="url" xml:lang="en">https://github.com/tillgrallert/digital-muqtabas/blob/master/xml/oclc_792755362-i_12.TEIP5.xml</idno>
          </publicationStmt>
-         <sourceDesc xml:lang="">
+         <sourceDesc xml:lang="en">
             <biblStruct xml:lang="en">
                <monogr xml:lang="en">
                   <title level="j" xml:lang="ar">مواقف</title>
@@ -51,7 +51,7 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc xml:lang="">
+      <profileDesc xml:lang="en">
          <langUsage xml:lang="en">
             <language ident="ar" xml:lang="en">Arabic</language>
             <language ident="ar-Latn-x-ijmes" xml:lang="en">Arabic transcribed into Latin script following the IJMES
@@ -76,7 +76,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc><change when="2016-05-18" who="pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2016-05-18" who="#pers_TG" xml:lang="">Created this TEI P5 file by automatic conversion of the table of content from 
+         <change when="2016-05-18" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion of the table of content from 
                             HTML available at archive.sakhrit.co and adding a computed sequence of facsimiles linking to the same website.</change>
       </revisionDesc>
    </teiHeader>

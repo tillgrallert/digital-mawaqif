@@ -44,7 +44,11 @@
                     <fileDesc>
                         <titleStmt>
                             <title xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
-                            <respStmt xml:lang="ar">
+                            <editor ref="https://viaf.org/viaf/27059798">
+                                <persName xml:lang="ar">أدونيس</persName>
+                                <persName xml:lang="ar-Latn-x-ijmes">Adūnīs</persName>
+                            </editor>
+                            <respStmt xml:lang="en">
                                 <resp>TEI edition</resp>
                                 <persName xml:id="pers_TG">
                                     <forename>Till</forename>
@@ -64,7 +68,7 @@
                             </availability>
                             <idno type="url">
                                 <xsl:value-of
-                                    select="concat('https://github.com/tillgrallert/digital-muqtabas/blob/master/xml/oclc_792755362-i_', $v_issue, '.TEIP5.xml')"
+                                    select="concat('https://github.com/tillgrallert/digital-mawaqif/blob/master/xml/oclc_792755362-i_', $v_issue, '.TEIP5.xml')"
                                 />
                             </idno>
                         </publicationStmt>
@@ -75,9 +79,9 @@
                                     <title level="j" type="sub" xml:lang="ar">للحرية، والإبداع، والتغير</title>
                                     <title level="j" xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
                                     <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">li-l-ḥurriyya, wa-l-ibdāʿ wa-l-taghayyur</title>
-                                    <editor ref="https://viaf.org/viaf/32272677">
+                                    <editor ref="https://viaf.org/viaf/27059798">
                                         <persName xml:lang="ar">أدونيس</persName>
-                                        <persName xml:lang="ar-Latn-x-ijmes">Adonis</persName>
+                                        <persName xml:lang="ar-Latn-x-ijmes">Adūnīs</persName>
                                     </editor>
                                     <imprint xml:lang="en">
                                         <pubPlace xml:lang="en">

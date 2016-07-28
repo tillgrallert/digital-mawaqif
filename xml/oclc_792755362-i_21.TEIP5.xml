@@ -79,7 +79,7 @@
                                 practices</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc><change when="2016-05-18" who="pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><change when="2016-07-28" who="pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><change when="2016-05-18" who="pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-05-18" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion of the table of content from 
                             HTML available at archive.sakhrit.co and adding a computed sequence of facsimiles linking to the same website.</change>
       </revisionDesc>
@@ -1311,54 +1311,46 @@
             
          </div>
          <pb ed="print" n="5" facs="#facs_5" xml:id="pb_6.d1e2374"/>
-         <div type="article"
-                facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880287&#34;ISSUEID=15736&#34;AID=350931"
-                xml:lang="ar" xml:id="div_4.d1e2376">
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880287&#34;ISSUEID=15736&#34;AID=350931" xml:lang="ar" xml:id="div_4.d1e2376">
                 <head xml:lang="ar" xml:id="head_2.d1e2378">قضايا راهنة</head>
-                <byline xml:lang="ar" xml:id="byline_2.d1e2381"> <persName xml:lang="ar"
-                    xml:id="persName_6.d1e2383">علي أحمد سعيد إسبر (أدونيس)</persName> </byline>
-                <div type="section">
-                    <head>I - تأميم النفط في العراق</head>
+                <byline xml:lang="ar" xml:id="byline_2.d1e2381"> <persName xml:lang="ar" xml:id="persName_6.d1e2383">علي أحمد سعيد إسبر (أدونيس)</persName> </byline>
+                <div type="section" xml:id="div_4.d1e2406">
+                    <head xml:id="head_3.d1e2408">I - تأميم النفط في العراق</head>
                 </div>
-                <div type="section">
-                    <head>II - قانون الحزبية في ليبيا</head>
+                <div type="section" xml:id="div_5.d1e2412">
+                    <head xml:id="head_4.d1e2414">II - قانون الحزبية في ليبيا</head>
                     <pb ed="print" n="6" facs="#facs_6" xml:id="pb_7.d1e2387"/>
                 </div>
-                <div type="section">
-                    <head>III - <q>ثورة ٩ يونيو</q></head>
+                <div type="section" xml:id="div_6.d1e2420">
+                    <head xml:id="head_5.d1e2422">III - <q xml:id="q_1.d1e2424">ثورة ٩ يونيو</q></head>
                     <pb ed="print" n="7" facs="#facs_7" xml:id="pb_8.d1e2389"/>
                 </div>
                 <pb ed="print" n="8" facs="#facs_8" xml:id="pb_9.d1e2391"/>
-                <div type="section">
-                    <head>IV - ابراهيم زاير</head>
+                <div type="section" xml:id="div_7.d1e2433">
+                    <head xml:id="head_6.d1e2435">IV - ابراهيم زاير</head>
                     <pb ed="print" n="9" facs="#facs_9" xml:id="pb_10.d1e2394"/>
                 </div>
                 <pb ed="print" n="10" facs="#facs_10" xml:id="pb_11.d1e2396"/>
-                <div type="section">
-                    <head>V - حول الانظمة الراهنة والثورة</head>
+                <div type="section" xml:id="div_8.d1e2443">
+                    <head xml:id="head_7.d1e2445">V - حول الانظمة الراهنة والثورة</head>
                     <pb ed="print" n="11" facs="#facs_11" xml:id="pb_12.d1e2398"/>
                     <pb ed="print" n="12" facs="#facs_12" xml:id="pb_13.d1e2400"/>
                     <pb ed="print" n="13" facs="#facs_13" xml:id="pb_14.d1e2402"/>
                 </div>
             </div>
          <pb ed="print" n="14" facs="#facs_14" xml:id="pb_16.d1e2407"/>
-         <div type="article"
-                facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880296&#34;ISSUEID=15736&#34;AID=350932"
-                xml:lang="ar" xml:id="div_5.d1e2410">
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880296&#34;ISSUEID=15736&#34;AID=350932" xml:lang="ar" xml:id="div_5.d1e2410">
                 <head xml:lang="ar" xml:id="head_3.d1e2412">طفولة بريئة وإرهاب مسن</head>
-                <byline xml:lang="ar" xml:id="byline_3.d1e2415"> <persName xml:lang="ar"
-                    xml:id="persName_7.d1e2417">سنية صالح</persName> </byline>
+                <byline xml:lang="ar" xml:id="byline_3.d1e2415"> <persName xml:lang="ar" xml:id="persName_7.d1e2417">سنية صالح</persName> </byline>
                 <pb ed="print" n="15" facs="#facs_15" xml:id="pb_17.d1e2421"/>
                 <pb ed="print" n="16" facs="#facs_16" xml:id="pb_18.d1e2423"/>
             </div>
             <pb ed="print" n="17" facs="#facs_17" xml:id="pb_19.d1e2425"/>
-            <div type="article"
-                facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880296&#34;ISSUEID=15736&#34;AID=350932"
-                xml:lang="ar">
-                <head><persName><forename>كمال</forename>
-                    <surname>الحاج</surname></persName> و<q>الفلسفة اللنانية</q></head>
-                <byline><persName><forename>نخله</forename>
-                    <surname>فريفر</surname></persName></byline>
+            <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880296&#34;ISSUEID=15736&#34;AID=350932" xml:lang="ar" xml:id="div_11.d1e2477">
+                <head xml:id="head_9.d1e2479"><persName xml:id="persName_10.d1e2480"><forename xml:id="forename_2.d1e2481">كمال</forename>
+                    <surname xml:id="surname_2.d1e2484">الحاج</surname></persName> و<q xml:id="q_2.d1e2487">الفلسفة اللنانية</q></head>
+                <byline xml:id="byline_4.d1e2490"><persName xml:id="persName_11.d1e2491"><forename xml:id="forename_3.d1e2492">نخله</forename>
+                    <surname xml:id="surname_3.d1e2495">فريفر</surname></persName></byline>
                 <pb ed="print" n="18" facs="#facs_18" xml:id="pb_20.d1e2428"/>
                 <pb ed="print" n="19" facs="#facs_19" xml:id="pb_21.d1e2430"/>
                 <pb ed="print" n="20" facs="#facs_20" xml:id="pb_22.d1e2432"/>

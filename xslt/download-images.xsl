@@ -30,7 +30,7 @@
         <xsl:call-template name="t_applescript">
            <xsl:with-param name="p_image-url" select="$v_image-url"/>
            <xsl:with-param name="p_image-local-path" select="$v_image-local-path"/>
-            <xsl:with-param name="p_base-path" select="substring-before(base-uri(),'xml/oclc')"/>
+            <xsl:with-param name="p_base-path" select="replace(substring-before(base-uri(),'xml/oclc'),'file:','')"/>
 <!--            <xsl:with-param name="p_base-path" select="'/Volumes/Dessau HD/BachUni/BachSources/mawaqif/'"/>-->
        </xsl:call-template>
     </xsl:template>

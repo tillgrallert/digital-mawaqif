@@ -11,7 +11,7 @@
     <xsl:variable name="v_image-stop" select="400"/>
     <xsl:variable name="v_url-base" select="'http://archive.sakhrit.co/MagazinePages%5CMagazine_JPG'"/>
     <xsl:variable name="v_url-local" select="'/BachUni/BachSources/mawaqif/images'"/>
-    <xsl:variable name="v_title-journal" select="'Mawakif'"/>
+    <xsl:variable name="v_title-journal_en" select="'Mawakif'"/>
     <xsl:variable name="v_url-separator" select="'/'"/>
     
     <xsl:template name="t_applescript">
@@ -106,7 +106,7 @@ end tell
             <xsl:attribute name="issue" select="$p_issue"/>
             <xsl:attribute name="n" select="$p_image-start"/>
             <xsl:element name="till:url">
-                <xsl:value-of select="concat($v_url-base,$v_url-separator,$v_title-journal,$v_url-separator,$v_title-journal,'_',$p_year,$v_url-separator,'Issue_',$p_issue,$v_url-separator,format-number($p_image-start,'000'),'.JPG')"/>
+                <xsl:value-of select="concat($v_url-base,$v_url-separator,$v_title-journal_en,$v_url-separator,$v_title-journal_en,'_',$p_year,$v_url-separator,'Issue_',$p_issue,$v_url-separator,format-number($p_image-start,'000'),'.JPG')"/>
             </xsl:element>
             <xsl:element name="till:urlLocal">
                 <xsl:value-of select="concat('/y_',$p_year,'-i_',$p_issue,'-p_',format-number($p_image-start,'000'),'.jpg')"/>

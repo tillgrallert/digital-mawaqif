@@ -46,8 +46,8 @@
                      </pubPlace>
                      <date when="1993" xml:lang="ar">1 يونيو 1993</date>
                   </imprint>
-                  <biblScope unit="volume" n="1993"/>
-                  <biblScope unit="issue" n="72"/>
+                  <biblScope from="1993" to="1993" unit="volume"/>
+                  <biblScope from="72" to="72" unit="issue"/>
                   <biblScope unit="page" from="1" to=""/>
                </monogr>
                <idno type="oclc" xml:lang="en">792755362</idno>
@@ -79,7 +79,7 @@
                                 practices</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc><change when="2016-05-18" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change when="2017-02-21" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change><change when="2016-05-18" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-05-18" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion of the table of content from 
                             HTML available at archive.sakhrit.co and adding a computed sequence of facsimiles linking to the same website.</change>
       </revisionDesc>
@@ -1291,7 +1291,7 @@
          <div xml:lang="ar" xml:id="div_1.d1e2331">
             <bibl xml:lang="ar" xml:id="bibl_1.d1e2333">
                <title level="j" xml:lang="ar" xml:id="title_6.d1e2335">مواقف</title>
-               <biblScope unit="issue" n="72" xml:lang="ar" xml:id="biblScope_4.d1e2338">العدد رقم  72</biblScope>
+               <biblScope from="72" to="72" unit="issue" xml:lang="ar" xml:id="biblScope_4.d1e2338">العدد رقم  72</biblScope>
                <date when="1993" xml:lang="ar" xml:id="date_3.d1e2341">1 يونيو 1993</date>
             </bibl>
          </div>

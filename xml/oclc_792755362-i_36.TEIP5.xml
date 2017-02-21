@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/OpenAraPE/OpenAraPE_ODD/master/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:till="http://tillgrallert.github.io/xml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml" xml:id="oclc_792755362-i_36" xml:lang="en" next="oclc_792755362-i_37" prev="oclc_792755362-i_35">
+   <teiHeader xml:lang="en">
+      <fileDesc xml:lang="en">
+         <titleStmt xml:lang="en">
+            <title xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
+<editor ref="https://viaf.org/viaf/27059798">
+                                <persName xml:lang="ar">أدونيس</persName>
+                                <persName xml:lang="ar-Latn-x-ijmes">Adūnīs</persName>
+                            </editor>
+            <respStmt xml:lang="en">
+               <resp xml:lang="en">TEI edition</resp>
+               <persName xml:id="pers_TG" xml:lang="ar">
+                  <forename xml:lang="en">Till</forename>
+                  <surname xml:lang="en">Grallert</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt xml:lang="en">
+            <authority xml:lang="en">
+               <persName xml:lang="en">Till Grallert</persName>
+            </authority>
+            <pubPlace xml:lang="en">Beirut</pubPlace>
+            <date when="2016" xml:lang="en">2016</date>
+            <availability status="restricted" xml:lang="en">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="en">The XML file is distributed under
+                                    a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
+            </availability>
+            <idno type="url" xml:lang="en">https://github.com/tillgrallert/digital-mawaqif/blob/master/xml/oclc_792755362-i_36.TEIP5.xml</idno>
+         </publicationStmt>
+         <sourceDesc xml:lang="en">
+            <biblStruct xml:lang="en">
+               <monogr xml:lang="en">
+                  <title level="j" xml:lang="ar">مواقف</title>
+                  <title level="j" type="sub" xml:lang="ar">للحرية، والإبداع، والتغير</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">li-l-ḥurriyya, wa-l-ibdāʿ wa-l-taghayyur</title>
+                  <editor ref="https://viaf.org/viaf/27059798" xml:lang="en">
+                     <persName xml:lang="ar">أدونيس</persName>
+                     <persName xml:lang="ar-Latn-x-ijmes">Adūnīs</persName>
+                  </editor>
+                  <imprint xml:lang="en">
+                     <pubPlace xml:lang="en">
+                        <placeName xml:lang="ar">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
+                        <placeName xml:lang="en">Beirut</placeName>
+                     </pubPlace>
+                     <date when="1979" xml:lang="ar">1 أبريل 1979</date>
+                  </imprint>
+                  <biblScope unit="volume" n="1979"/>
+                  <biblScope unit="issue" n="36"/>
+                  <biblScope unit="page" from="1" to=""/>
+               </monogr>
+               <idno type="oclc" xml:lang="en">792755362</idno>
+               <!-- <idno type="sakhrit" xml:lang="en">http://archive.sakhrit.co/contents.aspx?CID=15747</idno> -->
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xml:lang="en">
+         <langUsage xml:lang="en">
+            <language ident="ar" xml:lang="en">Arabic</language>
+            <language ident="ar-Latn-x-ijmes" xml:lang="en">Arabic transcribed into Latin script following the IJMES
+                                conventions</language>
+            <language ident="ar-Latn-EN" xml:lang="en">Arabic transcribed into Latin script following common English
+                                practices</language>
+            <language ident="ar-Latn-FR" xml:lang="en">Arabic transcribed into Latin script following common French
+                                practices</language>
+            <language ident="en" xml:lang="en">English</language>
+            <language ident="fa" xml:lang="en">Farsi</language>
+            <language ident="fa-Latn-x-ijmes" xml:lang="en">Farsi transcribed into Latin script following the IJMES
+                                conventions</language>
+            <language ident="fr" xml:lang="en">French</language>
+            <language ident="ota" xml:lang="en">Ottoman</language>
+            <language ident="ota-Latn-x-ijmes" xml:lang="en">Ottoman transcribed into Latin script following the IJMES
+                                conventions</language>
+            <language ident="tr" xml:lang="en">Turkish</language>
+            <language ident="en-Arab-AR" xml:lang="en">English transcribed into Arabic script following common Levantine Arabic
+                                practices</language>
+            <language ident="fr-Arab-AR" xml:lang="en">French transcribed into Arabic script following common Levantine Arabic
+                                practices</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc><change when="2016-05-18" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+         <change when="2016-05-18" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion of the table of content from 
+                            HTML available at archive.sakhrit.co and adding a computed sequence of facsimiles linking to the same website.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="ar">
+      <front xml:lang="ar" xml:id="front_1.d1e2329">
+         <div xml:lang="ar" xml:id="div_1.d1e2331">
+            <bibl xml:lang="ar" xml:id="bibl_1.d1e2333">
+               <title level="j" xml:lang="ar" xml:id="title_6.d1e2335">مواقف</title>
+               <biblScope unit="issue" n="36" xml:lang="ar" xml:id="biblScope_4.d1e2338">العدد رقم  36</biblScope>
+               <date when="1979" xml:lang="ar" xml:id="date_3.d1e2341">1979</date>
+            </bibl>
+         </div>
+      </front>
+   </text>
+</TEI>

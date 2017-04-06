@@ -1,0 +1,1727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:xs="http://www.w3.org/2001/XMLSchema"
+     xmlns:bgn="http://bibliograph.net/"
+     xmlns:genont="http://www.w3.org/2006/gen/ont#"
+     xmlns:pto="http://www.productontology.org/id/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:re="http://oclcsrw.google.code/redirect"
+     xmlns:schema="http://schema.org/"
+     xmlns:umbel="http://umbel.org/umbel#"
+     xml:lang="en">
+  <teiHeader xml:lang="en">
+      <fileDesc xml:lang="en">
+         <titleStmt xml:lang="en">
+            <title xml:lang="en">Digital Mawaqif: authority file</title>
+             <author xml:lang="en" xml:id="pers_TG">
+                 <persName xml:lang="en">
+                  <forename xml:lang="en">Till</forename>
+                  <surname xml:lang="en">Grallert</surname>
+               </persName>
+             </author>
+         </titleStmt>
+          <publicationStmt xml:lang="en">
+              <authority xml:lang="en"> 
+                  <persName xml:lang="en">Till Grallert</persName>
+              </authority>
+              <pubPlace xml:lang="en">Berlin</pubPlace>
+              <date when="2017" xml:lang="en">2017</date>
+              <availability status="restricted" xml:lang="en">
+                  <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="en">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
+              </availability>
+              <idno type="url" xml:lang="en">https://github.com/OpenArabicPE/authority-files/blob/master/tei/entities_master.TEIP5.xml</idno>
+          </publicationStmt>
+         <sourceDesc xml:lang="en">
+            <p xml:lang="en">This is a born-digital file.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xml:lang="en">
+            <particDesc xml:lang="en">
+                <listPerson>
+                    <person>
+                        <persName xml:lang="ar" ref="viaf:98026682">زكي نجيب محمود</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">أدونيس</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جاك</forename>
+                            <surname>بيرك</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عبد الله</forename>
+                            <surname>القصيمي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>نزار</forename>
+                            <surname>قباني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد طالب محمد</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>نجيب</forename>
+                            <surname>محفوظ</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ناصيف</forename>
+                            <surname>نصار</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حليم</forename>
+                            <surname>بركات</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أنطون</forename>
+                            <surname>مقدسي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">سلمى الخضراء الجيوسي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سليم</forename>
+                            <surname>عبو</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>منير</forename>
+                            <surname>بشور</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حافظ</forename>
+                            <surname>قبيسي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حليم</forename>
+                            <surname>جرداق</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">إدوار أمين البستاني</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>رجا</forename>
+                            <surname>جورج</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>منير</forename>
+                            <surname>العكش</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فاروق</forename>
+                            <surname>مردم</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>خالدة</forename>
+                            <surname>سعيد</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>منح</forename>
+                            <surname>الصلح</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هشام</forename>
+                            <surname>شرابي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إلياس</forename>
+                            <surname>مرقص</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">جمال أبو حمدان</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أيتل</forename>
+                            <surname>عدنان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فوزي</forename>
+                            <surname>كريم</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عالية</forename>
+                            <surname>ممدوح</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>رجيس</forename>
+                            <surname>دوبري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هنري</forename>
+                            <surname>لوفيفر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">هنري فريد صعب</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عبد الله</forename>
+                            <surname>المروي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمود</forename>
+                            <surname>الريماوي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جليل</forename>
+                            <surname>حيدر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="fr-Arab-AR"><forename>جان - لوك</forename>
+                            <surname>غودار</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>دوم</forename>
+                            <surname>هايدن</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حسين</forename>
+                            <surname>مروه</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هادي</forename>
+                            <surname>العلوي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بلند</forename>
+                            <surname>الحيدري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فاضل</forename>
+                            <surname>المزاوي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>نذير</forename>
+                            <surname>العظمة</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">علي أحمد سعيد إسبر (أدونيس)</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">فؤاد سعيد حداد</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جورج</forename>
+                            <surname>قرم</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>الدريدج</forename>
+                            <surname>كليفر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أنور</forename>
+                            <surname>الغساني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سنية</forename>
+                            <surname>صالح</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد القادر الشاوي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جليل</forename>
+                            <surname>القيسي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>غادة</forename>
+                            <surname>السمان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عبد الله</forename>
+                            <surname>زخيا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عاطف</forename>
+                            <surname>فضول</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جمعة</forename>
+                            <surname>اللامي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ريمون</forename>
+                            <surname>جبارة</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حسنو</forename>
+                            <surname>موسو</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جوزيف</forename>
+                            <surname>خويري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>صلاح</forename>
+                            <surname>مخللاتي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بولس</forename>
+                            <surname>نويا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ريمون</forename>
+                            <surname>طحان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>يوسف</forename>
+                            <surname>الخال</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فاضل</forename>
+                            <surname>العزاوي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>قاسم</forename>
+                            <surname>حداد</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إبراهيم</forename>
+                            <surname>الحريري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أدريلنو</forename>
+                            <surname>سوفري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>رومانو</forename>
+                            <surname>لوبريني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>صافيناز</forename>
+                            <surname>كاظم</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد الكبير الخطيبي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>روز</forename>
+                            <surname>غريب</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إدريس</forename>
+                            <surname>الزمراني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فلاديمير</forename>
+                            <surname>ماياكوفسكي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>كمال</forename>
+                            <surname>بلاطة</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فرنسوا</forename>
+                            <surname>باسيلي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عاطف</forename>
+                            <surname>أحمد</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>تزفيتان</forename>
+                            <surname>تودوروف</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فلاديمير</forename>
+                            <surname>تماري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>رينيه</forename>
+                            <surname>حبشي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حسن</forename>
+                            <surname>صعب</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جورج</forename>
+                            <surname>خضر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بولس</forename>
+                            <surname>الخوري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>مكسيم</forename>
+                            <surname>رودنسون</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>نديم</forename>
+                            <surname>البيطار</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عادل</forename>
+                            <surname>ضاهر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>الماغوط</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سركون</forename>
+                            <surname>بولص</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">حسين عبد اللطيف</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>رفيق</forename>
+                            <surname>شرف</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بول</forename>
+                            <surname>غيراغوسيان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حيدر</forename>
+                            <surname>حيدر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سليمان</forename>
+                            <surname>العيسى</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"> <forename>نخله</forename> <surname>فريفر</surname>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>شربل</forename>
+                            <surname>داغر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إبراهيم</forename>
+                            <surname>زاير</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد الكريم شنينه</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أمين</forename>
+                            <surname>صالح</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هاني</forename>
+                            <surname>فحص</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">فاضل عباس هادي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">جلال حسين وردة</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سمير</forename>
+                            <surname>الصايغ</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">كمال أبو ديب</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد الستار ناصر</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أرنست</forename>
+                            <surname>فيشر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أندريه</forename>
+                            <surname>مالرو</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">أبو الحسن علي بن محمد الديلمي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>نجيب</forename>
+                            <surname>المانع</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بشير</forename>
+                            <surname>الأمين</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فواز</forename>
+                            <surname>تركي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إلياس</forename>
+                            <surname>شوفاني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أديب</forename>
+                            <surname>صعب</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إلهام</forename>
+                            <surname>كلاب</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سليم</forename>
+                            <surname>بركات</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إبراهيم</forename>
+                            <surname>أصلان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>يحيى</forename> الطاهر عبد الله</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="de-Arab-AR"
+                            ><forename>ريتشارد</forename> . ج . <surname>كلين</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>شوقي</forename>
+                            <surname>بزيغ</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد عبد الحي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عصام</forename>
+                            <surname>محفوظ</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>مهدي</forename>
+                            <surname>عامل</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>زاهي</forename>
+                            <surname>شرفان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عباس</forename>
+                            <surname>بيضون</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد علي شمس الدين</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إلياس</forename>
+                            <surname>خوري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>الطاهر</forename>
+                            <surname>بنجلون</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عباس</forename>
+                            <surname>زكي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد خير الدين</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">سان جون بيرس</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>رولاند</forename>
+                            <surname>بارت</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">سعد الله ونوس</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ألبير</forename>
+                            <surname>منصور</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عبد الله</forename>
+                            <surname>عبد الدائم</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بسام</forename>
+                            <surname>طيبي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <forename>عز الدين</forename> <surname>المناصرة</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد مهران السيد</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">ب . نويا اليسوعي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إلياس</forename>
+                            <surname>شاكر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أمين</forename>
+                            <surname>الباشا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إدوارد</forename>
+                            <surname>سعيد</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أنسي</forename>
+                            <surname>الحاج</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">روث أبو ديب</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جون</forename>
+                            <surname>وين</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بيتر</forename>
+                            <surname>ليفي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جمال</forename>
+                            <surname>شحيد</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أورخان</forename>
+                            <surname>ميسر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سعدي</forename>
+                            <surname>يوسف</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>طلال</forename>
+                            <surname>حيدر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إلياس</forename>
+                            <surname>الديري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد الرحمن منيف</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد العبد الله</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عبده</forename>
+                            <surname>لبكي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>لوسيان</forename>
+                            <surname>غولدمان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>كورنيليوس</forename>
+                            <surname>كاستورياديس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عقيل</forename>
+                            <surname>علي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حمزة</forename>
+                            <surname>عبود</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">جودت فخر الدين</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد أبي سمرا</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>كاظم</forename>
+                            <surname>جهاد</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بوعلي</forename>
+                            <surname>ياسين</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>رئيس</forename>
+                            <surname>التحرير</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حازم</forename>
+                            <surname>صاغية</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عوني</forename>
+                            <surname>بشير</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>أركون</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فؤاد</forename>
+                            <surname>رفقة</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جوزيف</forename>
+                            <surname>صايغ</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>غالب</forename>
+                            <surname>هلسا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>مجدي</forename>
+                            <surname>يوسف</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد خير علاء الدين</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>صلاح</forename>
+                            <surname>ستيتية</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هنري</forename>
+                            <surname>ميشونيك</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">فردينان دي سوسير</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>غريغوار</forename>
+                            <surname>حداد</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>غسان</forename>
+                            <surname>أسطفان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">إيلي أديب سالم</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>مظفر</forename>
+                            <surname>النواب</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هاني</forename>
+                            <surname>الراهب</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هاني</forename>
+                            <surname>مندس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إسحاق</forename>
+                            <surname>دويتشر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ديزيره</forename>
+                            <surname>سقال</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>خليل</forename>
+                            <surname>النعيمي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حافظ</forename>
+                            <surname>الجمالي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">علي جهاد سلام الراسي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جاك</forename>
+                            <surname>دريدا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">جمال الدين بن شيخ</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أوكتافيو</forename>
+                            <surname>باث</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">شوقي عبد الأمير</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>منى</forename>
+                            <surname>السعودي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هاشم</forename>
+                            <surname>شفيق</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>غاستون</forename>
+                            <surname>بشلار</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عماد</forename>
+                            <surname>جنيدي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>عضيمة</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عيسى</forename>
+                            <surname>مخلوف</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حسن</forename>
+                            <surname>الشامي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أسامة</forename>
+                            <surname>سعيد</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هشام</forename>
+                            <surname>القروي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سليمان</forename>
+                            <surname>زغيدور</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">أ . أي . رشاردز</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد الحميد جيده</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>خليل</forename>
+                            <surname>حاوي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمود</forename>
+                            <surname>درويش</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">غيلليفيك</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عادل</forename>
+                            <surname>ظاهر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">فينوس خوي غاتا</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">غيلان</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هدية</forename>
+                            <surname>الأيوبي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فضل</forename>
+                            <surname>النقيب</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>قسطنطين</forename>
+                            <surname>زريق</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ماجد</forename>
+                            <surname>فخري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عفيف</forename>
+                            <surname>دمشقية</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إيليا</forename>
+                            <surname>حريق</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فردريك</forename>
+                            <surname>معتوق</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد الحميد جيدة</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عبد الله</forename> العذري</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>روجيه</forename>
+                            <surname>عساف</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>زهيدة</forename>
+                            <surname>درويش</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">لميعة عباس عمارة</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">سركيس أبو زيد</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هاشم</forename>
+                            <surname>صالح</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد الرحمن فخري</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>زاهر</forename>
+                            <surname>الغافري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فرج</forename>
+                            <surname>المشة</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أسعد</forename>
+                            <surname>الجبوري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>الشركي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جيل</forename>
+                            <surname>بلازي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>خليل</forename>
+                            <surname>الجر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فؤاد</forename>
+                            <surname>زكريا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سلوم</forename>
+                            <surname>سركيس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">صادق جلال العظم</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>خالد</forename>
+                            <surname>قشطيني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>يوسف</forename>
+                            <surname>سعيد</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ممدوح</forename>
+                            <surname>عدوان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إلياس</forename>
+                            <surname>لحود</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>زفزاف</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>غالي</forename>
+                            <surname>شكري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمود</forename>
+                            <surname>شريح</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>بنيس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عبد الله</forename> إبراهيم</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">جان - بهل شارنيه</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سميح</forename>
+                            <surname>فرسون</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>نجوم</forename>
+                            <surname>الغانم</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">سيوران</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">خوان خوسيه ساير</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سامي</forename>
+                            <surname>علي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>روحية</forename>
+                            <surname>مونييه</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد علال سي ناصر</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد الوهاب المؤدب</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سيرج</forename>
+                            <surname>باي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>شريف</forename>
+                            <surname>حتاته</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إبراهيم</forename>
+                            <surname>المصري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>خالد</forename>
+                            <surname>الحمروني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>شانتال</forename>
+                            <surname>شواف</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد سعيد الصكار</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">فيليب لاكو- لابارت</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أحمد</forename>
+                            <surname>معلا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>رجاء</forename>
+                            <surname>عالم</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">أحمد إسكندر سليمان</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إدريس</forename>
+                            <surname>عيسى</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سيف</forename>
+                            <surname>الرحبي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">أدوب</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد الرحيم عمر</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">إبراهيم نصر الله</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بول</forename>
+                            <surname>طنوس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أسعد</forename>
+                            <surname>عرابي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد العزيز المقالح</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فيصل</forename>
+                            <surname>دراج</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أحمد</forename>
+                            <surname>طه</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد المنعم رمضان</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>وليد</forename>
+                            <surname>منير</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حلمي</forename>
+                            <surname>سالم</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أحمد</forename>
+                            <surname>إسماعيل</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سعيد</forename>
+                            <surname>الكفراوي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هشام</forename>
+                            <surname>بحري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>قاسم</forename>
+                            <surname>حول</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جيمس</forename>
+                            <surname>بروغتون</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فوزي</forename>
+                            <surname>بوبيه</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>موريس</forename>
+                            <surname>بلانشو</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>زياد</forename>
+                            <surname>دلول</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>وساط</forename>
+                            <surname>مبارك</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جمال</forename>
+                            <surname>جمعة</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فدوى</forename>
+                            <surname>طوقان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إنجمار</forename>
+                            <surname>ليكبوس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أندريه</forename>
+                            <surname>فيلتر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">طارق حسن علي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">صباح خ . زوبن</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>المعطي</forename>
+                            <surname>قبال</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حسين</forename>
+                            <surname>عجة</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>صمويل</forename>
+                            <surname>بيكيت</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إدوار</forename>
+                            <surname>الخراط</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">خواد</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">شهرزاد قاسم حسن</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إعتدال</forename>
+                            <surname>عثمان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>سليمان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عارف</forename>
+                            <surname>علوان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إسكندر</forename>
+                            <surname>حبش</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>يوسف</forename>
+                            <surname>بزي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">فادي أبو خليل</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فرانسوا</forename>
+                            <surname>باسيلي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد عفيفي مطر</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد القادر ارناؤوط</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>لطفي</forename>
+                            <surname>الخولي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فؤاد</forename>
+                            <surname>التكرلي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عفيف</forename>
+                            <surname>فراج</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">جميل كاظم المناف</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>كريستيان</forename>
+                            <surname>جامبي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>روجيه</forename>
+                            <surname>أرنالديز</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سامي</forename>
+                            <surname>نائير</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>برنار</forename>
+                            <surname>سيشير</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">دانيال هرفو - ليجيه</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">شيركو بيكه س</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>الحارثي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ناصر</forename>
+                            <surname>الحلواني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>شاكر</forename>
+                            <surname>لعيبي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>منتصر</forename>
+                            <surname>القفاش</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أحمد</forename>
+                            <surname>الملا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>علي</forename>
+                            <surname>حرب</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">فتحي بن سلامة</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سونيا</forename>
+                            <surname>دايان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>آلين</forename>
+                            <surname>توزان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>رندة</forename>
+                            <surname>قوشحة</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ناصر</forename>
+                            <surname>فرغلي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فرج</forename>
+                            <surname>العشة</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حسونة</forename>
+                            <surname>المصباحي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>مي</forename>
+                            <surname>غصوب</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمود</forename>
+                            <surname>الزبياوي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حسين</forename>
+                            <surname>قبيصي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أحمد</forename>
+                            <surname>بيضون</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حسن</forename>
+                            <surname>قبيسي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عادل</forename>
+                            <surname>فاخوري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>درايوش</forename>
+                            <surname>شايفان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد أحمد محمود</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>هوغ</forename>
+                            <surname>ديدييه</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>كاود</forename>
+                            <surname>كلاين</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>دومينيك</forename>
+                            <surname>كولا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>روجيه</forename>
+                            <surname>دادون</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">باسط بن حسن</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>الأشعري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد عفيف الحسيني</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">علي جعفر العلاق</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>طلال</forename>
+                            <surname>معلا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد الفتاح عبد الولى</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">وليد غائب صالح</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>موليم</forename>
+                            <surname>العروسي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>علي</forename>
+                            <surname>زيعور</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>برهان</forename>
+                            <surname>غليون</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>باول</forename>
+                            <surname>كاينغ</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>برنار</forename>
+                            <surname>نويل</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سيرج</forename>
+                            <surname>سوترو</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حسين</forename>
+                            <surname>القهواجي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>القيسي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إبراهيم</forename>
+                            <surname>الحسين</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>غانم</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">ديمتري ت . أناليس</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جيرار</forename>
+                            <surname>ماسيه</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">بختي بن عودة</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">جان - كلود ريتار</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ديمتري</forename>
+                            <surname>أناليس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بيار</forename>
+                            <surname>أوستر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">ميشيل دي غي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أنطوان</forename>
+                            <surname>ريبو</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جاك</forename>
+                            <surname>ريدا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">بول دو رو</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>روبير</forename>
+                            <surname>مارتو</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جي</forename>
+                            <surname>جوفت</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جاك</forename>
+                            <surname>داراس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>روبير</forename>
+                            <surname>دافرو</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد محمود (باحث)</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>غي</forename>
+                            <surname>مونو</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">تيريز - آن درووار</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">جان - بيار فيرنان</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جاك</forename>
+                            <surname>رولان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">ميريام ريفو دالون</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>كلود</forename>
+                            <surname>هرفيان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>دومينيك</forename>
+                            <surname>كومب</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">شارل هنري بودنهام</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جورج</forename>
+                            <surname>البهجوري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>صادق</forename>
+                            <surname>هدايت</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">صنع الله إبراهيم</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد عز الدين التازي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حنان</forename>
+                            <surname>الشيخ</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>حنا</forename>
+                            <surname>مينه</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد السلام العجيلي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جمال</forename>
+                            <surname>الغيطاني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>يوسف</forename>
+                            <surname>القعيد</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>برادة</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عدلي رزق الله</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إداور</forename>
+                            <surname>الخراط</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>كلارا</forename>
+                            <surname>خانيس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">بلاس دي أوتيرو</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">خوان ادواردو سيرلوت</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">خوسيه مانويل كاباييرو بونالد</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>كارلوس</forename>
+                            <surname>بارال</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فرانسسكو</forename>
+                            <surname>برينس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>كلاوديو</forename>
+                            <surname>رودريغث</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بالوما</forename>
+                            <surname>بالاو</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أنطونيو</forename>
+                            <surname>كوليناس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بوريثا</forename>
+                            <surname>كانيلو</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>فاني</forename>
+                            <surname>روبيو</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">خوان كارلوس سونيين</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سنتشو</forename>
+                            <surname>غوتييريث</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أن</forename>
+                            <surname>سلاسيك</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">نور الدين الزاهي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>كاتب</forename>
+                            <surname>ياسين</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">طارق يوسف إسماعيل</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>كريم</forename>
+                            <surname>الشيباني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>صلاح</forename>
+                            <surname>جحا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جلال</forename>
+                            <surname>صابر</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سامي</forename>
+                            <surname>مهدي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ميشال</forename>
+                            <surname>كمال</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>مؤيد</forename>
+                            <surname>الراوي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">عبد اللطيف اللعبي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أحمد</forename>
+                            <surname>يونس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد إبراهيم مبروك</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ميشال</forename>
+                            <surname>عاصي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>يوسف</forename>
+                            <surname>الحوراني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جورج</forename>
+                            <surname>لابيكا</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">أحمد عبد السلام الشيخ</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>شفيق</forename>
+                            <surname>عبود</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سيافيا</forename>
+                            <surname>نف</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">محمد خلف الله عبد الله</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أميرة</forename>
+                            <surname>الزين</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>صباح</forename>
+                            <surname>غندور</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ضياء</forename>
+                            <surname>العزاوي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>أحمد</forename>
+                            <surname>جاريد</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>محمد</forename>
+                            <surname>الدميني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>سعد</forename>
+                            <surname>الدوسري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عبد الله</forename> الريامي</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>مصطفى</forename>
+                            <surname>دحية</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">أحمد عبد الكريم</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عثمان</forename>
+                            <surname>لوصيف</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">تركي علي الربيعو</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ناجي</forename>
+                            <surname>علوش</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>غسان</forename>
+                            <surname>كنعاني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>إبراهيم</forename>
+                            <surname>بدران</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>شفيق</forename>
+                            <surname>الحوت</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>جبران</forename>
+                            <surname>مجدلاني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>عصام</forename>
+                            <surname>نعمان</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>رجا</forename>
+                            <surname>يازجي</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ناديا</forename>
+                            <surname>تويني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>صادق</forename>
+                            <surname>الصايغ</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">جبرا إبراهيم جبرا</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>يوسف</forename>
+                            <surname>إدريس</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>نبيل</forename>
+                            <surname>مهايني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar">جان بول ساردر</persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>ستيوارت</forename>
+                            <surname>شرام</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>بيار</forename>
+                            <surname>نافيل</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>كوليت</forename>
+                            <surname>خوري</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>غسان</forename>
+                            <surname>كنفاني</surname></persName>
+                    </person>
+                    <person>
+                        <persName xml:lang="ar"><forename>وديع</forename>
+                            <surname>سعادة</surname></persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+      <revisionDesc>
+          <change who="#pers_TG" when="2017-04-06" xml:lang="en">Created this file</change>
+      </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+      <body xml:lang="en">
+         <p xml:lang="en">Some text here.</p>
+      </body>
+  </text>
+</TEI>

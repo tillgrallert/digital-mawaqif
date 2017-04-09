@@ -1,0 +1,1583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>2525276</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/2525276/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/2525276"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb12232141r">BNF|12232141</ns2:source>
+                  <ns2:source nsid="http://d-nb.info/gnd/120081180">DNB|120081180</ns2:source>
+                  <ns2:source nsid="IT\ICCU\CFIV\026826">ICCU|CFIV026826</ns2:source>
+                  <ns2:source nsid="0000000110353158">ISNI|0000000110353158</ns2:source>
+                  <ns2:source nsid="n92020351">LC|n  92020351</ns2:source>
+                  <ns2:source nsid="000602662">NSK|000602662</ns2:source>
+                  <ns2:source nsid="vtls000586673">NUKAT|n  02001456</ns2:source>
+                  <ns2:source nsid="033712913">SUDOC|033712913</ns2:source>
+                  <ns2:source nsid="Q376016">WKP|Q376016</ns2:source>
+                  <ns2:source nsid="BNC10000000000000000240807">BNCHL|10000000000000000240807</ns2:source>
+                  <ns2:source nsid="vtls005640950">SWNL|vtls005640950</ns2:source>
+                  <ns2:source nsid="a35278547">NLP|a35278547</ns2:source>
+               </ns2:sources>
+               <ns2:length>898</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Sofri, Adriano, 1942-....</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>BNCHL</ns2:s>
+                        <ns2:sid>BNCHL|10000000000000000240807</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a35278547</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                        <ns2:s>SWNL</ns2:s>
+                        <ns2:sid>SWNL|vtls005640950</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Sofri, Adriano</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000602662</ns2:sid>
+                        <ns2:s>ICCU</ns2:s>
+                        <ns2:sid>ICCU|CFIV026826</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Adriano Sofri giornalista, scrittore e attivista italiano</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q376016</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">Adriano Sofri</ns2:subfield>
+                        <ns2:subfield code="c">giornalista, scrittore e attivista italiano</ns2:subfield>
+                        <ns2:subfield code="9">it</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q376016</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q376016</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>SUDOC|033712913</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000240807</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>BNF|12232141</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>DNB|120081180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>LC|n  92020351</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a35278547</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  02001456</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005640950</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="UNIMARC" ind1=" " ind2="1" tag="200">
+                        <ns2:subfield code="a">Sofri</ns2:subfield>
+                        <ns2:subfield code="b">, Adriano</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ICCU</ns2:s>
+                        <ns2:sid>ICCU|CFIV026826</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ICCU|CFIV026826</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>SUDOC|033712913</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BNF|12232141</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LC|n  92020351</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="200">
+                        <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                        <ns2:subfield code="8">fre</ns2:subfield>
+                        <ns2:subfield code="9">0</ns2:subfield>
+                        <ns2:subfield code="a">Sofri</ns2:subfield>
+                        <ns2:subfield code="b">Adriano</ns2:subfield>
+                        <ns2:subfield code="f">1942-....</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNF|12232141</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|033712913</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000240807</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|120081180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>ICCU|CFIV026826</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a35278547</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  02001456</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005640950</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q376016</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LC|n  92020351</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Sofri, Adriano</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000602662</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NSK|000602662</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|n  92020351</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000110353158</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="100">
+                        <ns2:subfield code="a">Sofri, Adriano</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|n  92020351</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|033712913</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000240807</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NSK|000602662</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BNF|12232141</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|120081180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>ICCU|CFIV026826</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a35278547</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NUKAT|n  02001456</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005640950</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q376016</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Sofri, Adriano</ns2:subfield>
+                        <ns2:subfield code="d">(1942- )</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a35278547</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLP|a35278547</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|033712913</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000240807</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12232141</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|120081180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  92020351</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  02001456</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005640950</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q376016</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Sofri, Adriano</ns2:subfield>
+                        <ns2:subfield code="d">(1942- ).</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NUKAT|n  02001456</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|033712913</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000240807</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12232141</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|120081180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>LC|n  92020351</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a35278547</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005640950</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q376016</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Sofri, Adriano</ns2:subfield>
+                        <ns2:subfield code="d">1942-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SWNL</ns2:s>
+                        <ns2:sid>SWNL|vtls005640950</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SWNL|vtls005640950</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|033712913</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000240807</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12232141</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>DNB|120081180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  92020351</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a35278547</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  02001456</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q376016</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Sofri, Adriano</ns2:subfield>
+                        <ns2:subfield code="d">1942-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|120081180</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|033712913</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000240807</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12232141</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  92020351</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a35278547</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  02001456</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>SWNL|vtls005640950</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q376016</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Sofri, Adriano</ns2:subfield>
+                        <ns2:subfield code="d">1942-...</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000110353158</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>SUDOC|033712913</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000240807</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>NSK|000602662</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>BNF|12232141</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>DNB|120081180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ICCU|CFIV026826</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a35278547</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NUKAT|n  02001456</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005640950</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q376016</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>LC|n  92020351</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Sofri, Adriano,</ns2:subfield>
+                        <ns2:subfield code="d">1942-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNCHL</ns2:s>
+                        <ns2:sid>BNCHL|10000000000000000240807</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNCHL|10000000000000000240807</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|033712913</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12232141</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|120081180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  92020351</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a35278547</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  02001456</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005640950</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q376016</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Sofri, Adriano,</ns2:subfield>
+                        <ns2:subfield code="d">1942-....</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SUDOC|033712913</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000110353158</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000240807</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12232141</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|120081180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  92020351</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a35278547</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  02001456</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005640950</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q376016</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>ICCU|CFIV026826</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Adriano Sofri</ns2:subfield>
+                        <ns2:subfield code="c">Italiaans journalist</ns2:subfield>
+                        <ns2:normalized>adriano sofri italiaans journalist</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q376016</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Adriano Sofri</ns2:subfield>
+                        <ns2:subfield code="c">Italian journalist</ns2:subfield>
+                        <ns2:normalized>adriano sofri italian journalist</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q376016</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Adriano Sofri</ns2:subfield>
+                        <ns2:subfield code="c">italienischer Journalist</ns2:subfield>
+                        <ns2:normalized>adriano sofri italienischer journalist</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q376016</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Adriano Sofri</ns2:subfield>
+                        <ns2:subfield code="c">periodista italiano</ns2:subfield>
+                        <ns2:normalized>adriano sofri periodista italiano</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q376016</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">ادريانو سوفري</ns2:subfield>
+                        <ns2:normalized>ادريانو سوفري</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q376016</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:coauthors>
+                  <ns2:data count="4" tag="950">
+                     <ns2:text>Zancarini, Jean-Claude 1947-....</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4" tag="950">
+                     <ns2:text>Pasolini, Pier Paolo 1922-1975</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" tag="950">
+                     <ns2:text>Staino, Sergio 1940-....)</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Šehović, Nadira</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000602662</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Sellerio, Enzo 1924-2012</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Olivero, Ernesto 1940- )</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Margalit, Avishai 1939- )</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Isola, Nina</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Fofi, Goffredo</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Di Stefano, Paolo 1956- )</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="951">
+                     <ns2:text>Arnoldo Mondadori Editore.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="26">
+                     <ns2:text>Sellerio</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>Mondadori</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>Einaudi</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>G. Feltrinelli</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>Verdier</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>V. Casini</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Una città</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Transit</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Svjetlost</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000602662</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Stampa alternativa</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110353158</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1942-08-01</ns2:birthDate>
+               <ns2:deathDate>0</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="201" min="197">
+                  <ns2:date count="4" scaled="2.00">197</ns2:date>
+                  <ns2:date count="3" scaled="1.58">198</ns2:date>
+                  <ns2:date count="30" scaled="4.91">199</ns2:date>
+                  <ns2:date count="27" scaled="4.75">200</ns2:date>
+                  <ns2:date count="3" scaled="1.58">201</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="1">
+                     <ns2:text>a</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ICCU</ns2:s>
+                        <ns2:sid>ICCU|CFIV026826</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="54">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000602662</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>as</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:RelatorCodes>
+                  <ns2:data count="3">
+                     <ns2:text>070</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>080</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>aui</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000602662</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>auteur</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>ctb</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>editeur scientifique</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>mitarb</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>participant</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>posl</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>preface</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>przedm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>realisateur metteur en scene directeur artistique</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>traduction</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>wstep</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RelatorCodes>
+               <ns2:ISBNs unique="37">
+                  <ns2:data count="2">
+                     <ns2:text>9789958108730</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000602662</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9788838931307</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9788838925481</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9788838923715</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9788838911408</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9788807170584</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9788804511410</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9782864326182</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9788890097805</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9788889035627</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9788838915345</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9788823013834</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9783905513257</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:countries>
+                  <ns2:data count="50" scaled="6">
+                     <ns2:text>IT</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000602662</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" scaled="2">
+                     <ns2:text>FR</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" scaled="2">
+                     <ns2:text>DE</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>BA</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000602662</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>CH</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:languageOfEntity>
+                  <ns2:data>
+                     <ns2:text>ita</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:languageOfEntity>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>IT</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:s>ICCU</ns2:s>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:s>SWNL</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://ar.wikipedia.org/wiki/ادريانو_سوفري<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q376016</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://de.wikipedia.org/wiki/Adriano_Sofri<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q376016</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://en.wikipedia.org/wiki/Adriano_Sofri<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q376016</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://fr.wikipedia.org/wiki/Adriano_Sofri<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q376016</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://it.wikipedia.org/wiki/Adriano_Sofri<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q376016</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>12 dicembre un film e un libro</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>ailes de plomb Milan, 15 décembre 1969</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ICCU</ns2:s>
+                        <ns2:sid>ICCU|CFIV026826</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Altri hotel : il mondo visto da dentro, 1997-2002 / Adriano Sofri</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Gli angeli del cortile</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Arte romanica</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>La bandiera nera [da Israele le parole di chi non si rassegna all'idea che i due popoli non possano convivere in pace e nel rispetto reciproco]</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Chi è il mio prossimo</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>ICCU</ns2:s>
+                        <ns2:sid>ICCU|CFIV026826</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Contro Giuliano : noi uomini, le donne e l'aborto / Adriano Sofri</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Contro l'ergastolo il carcere a vita, la rieducazione e la dignità della persona</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Di lunga durata</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Diario di una giurata popolare al processo delle Brigate rosse</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Dopo il 20 giugno</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>La famiglia in bilico : un reportage italiano</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Festa per Elsa</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Fine secolo</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>BNCHL</ns2:s>
+                        <ns2:sid>BNCHL|10000000000000000240807</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>La Gastrite de Platon</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Gefängnisse der anderen</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Il giudice e lo storico, c1991:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000602662</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>La guerra dei dieci anni : [Jugoslavia 1991-2001] / a cura di Alessandro Marzo Magno ; prefazione di Adriano Sofri ; postfazione di Barbara Gruden. Milano, 2011.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>El juez y el historiador / Carlo Ginzburg. - Madrid, cop. 1993.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Knoten und der Nagel ein Buch zur linken Hand</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>L'Italia in frantumi ? : Il dibattito federalista dal Risorgimento alla Lega.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                        <ns2:s>ICCU</ns2:s>
+                        <ns2:sid>ICCU|CFIV026826</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>L'ombra di Moro</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Machiavelli, Tupac e la principessa</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Il malore attivo dell'anarchico Pinelli : la sentenza del 1975 che chiuse l'istruttoria sulla morte del ferroviere Pino Pinelli, che entrò innocente in un ufficio al quarto piano della Questura di Milano, e ne uscì dalla finestra, il 15 dicembre 1969</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Meditazioni per il nuovo millennio</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>ICCU</ns2:s>
+                        <ns2:sid>ICCU|CFIV026826</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Memoria / Adriano Sofri</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Militanza del fiore</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Nahaufnahmen</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Il nodo e il chiodo : libro per la mano sinistra</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|307040640">
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK302315167</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12232141</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Notte che pinelli</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Occidentalismo : l'occidente agli occhi dei suoi nemici</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Pagine per la libertà : interventi di artisti contemporanei su contenitore e contenuto</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Passato remoto : note a una sentenza che vuole essere definitiva</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Per volontà o per caso</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Piccola posta</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Le piccole virtú</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|307051702">
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK32216755</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Prigioni degli altri</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  02001456</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Proibito parlare : Cecenia, Beslan, Teatro Dubrovka : la verità scomode della Russia di Putin</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Racconto di Natale</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Reagì Mauro Rostagno sorridendo</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000602662</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Sarajevsko ogledalo</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Sentenze : come sono stati condannati Sofri, Bompressi e Pietrostefani</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Sette vele per la Commenda di Sant'Eufrosino a Volpaia</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033712913</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Si allontanarono alla spicciolata : le carte riservate di polizia su Lotta Continua</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Sinistra senza sinistra : idee plurali per uscire dall'angolo</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|308632538">
+                     <ns2:sources>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK440034036</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  92020351</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Specchio di sarajevo</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|120081180</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Zur Strategie und Organisation von "Lotta continua"</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="BNF|12232141" time="2009-03-03T12:03:20+00:00" type="add"/>
+                  <ns2:ht recid="DNB|120081180" time="2009-03-03T12:03:25+00:00" type="add"/>
+                  <ns2:ht recid="LC|n  92020351" time="2009-03-03T12:03:33+00:00" type="add"/>
+                  <ns2:ht recid="SUDOC|033712913" time="2012-12-19T19:11:18+00:00" type="add"/>
+                  <ns2:ht recid="ISNI|0000000110353158"
+                          time="2013-09-16T16:15:07+00:00"
+                          type="add"/>
+                  <ns2:ht recid="ICCU|CFIV026826" time="2013-11-23T21:33:28+00:00" type="add"/>
+                  <ns2:ht recid="NSK|000602662" time="2014-09-14T20:29:45+00:00" type="add"/>
+                  <ns2:ht recid="NUKAT|n  02001456"
+                          time="2014-10-27T16:17:29+00:00"
+                          type="add"/>
+                  <ns2:ht recid="WKP|Adriano_Sofri"
+                          time="2015-04-14T18:56:54+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="WKP|Q376016" time="2015-04-14T18:56:54+00:00" type="add"/>
+                  <ns2:ht recid="BNCHL|10000000000000000240807"
+                          time="2016-03-21T07:59:04.799733+00:00"
+                          type="add"/>
+                  <ns2:ht recid="SWNL|vtls005640950"
+                          time="2016-03-21T07:59:04.806942+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NLP|a35278547"
+                          time="2016-10-16T11:31:38.219137+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-04-01T15:23:41.398348+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.personalNames any "أدريلنو سوفري"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.personalNames</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">أدريلنو سوفري</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <maximumRecords xsi:type="xsd:nonNegativeInteger">5</maximumRecords>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+      <sortKeys xsi:type="xsd:string">name</sortKeys>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

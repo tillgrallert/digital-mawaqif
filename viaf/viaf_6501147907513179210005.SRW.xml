@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">560</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>7575147907515579210008</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/7575147907515579210008/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/7575147907515579210008"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="48578">LNL|48578</ns2:source>
+               </ns2:sources>
+               <ns2:length>13</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>جاغو، بول، 1889-1962</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|48578</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">جاغو، بول،</ns2:subfield>
+                        <ns2:subfield code="d">1889-1962</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|48578</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LNL|48578</ns2:id>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">بول جاغو،</ns2:subfield>
+                        <ns2:subfield code="d">1889-1962</ns2:subfield>
+                        <ns2:normalized>بول جاغو 1889 1962</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|48578</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:coauthors>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>شعبان، بهيج، 1909-1977</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|48578</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="1">
+                     <ns2:text>دار بيروت للطباعة والنشر،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|48578</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1889-07-17</ns2:birthDate>
+               <ns2:deathDate>1962-01-24</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="195" min="195">
+                  <ns2:date count="1" scaled="0.00">195</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="1">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|48578</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:countries>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>LB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|48578</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:languageOfEntity>
+                  <ns2:data>
+                     <ns2:text>fre</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:languageOfEntity>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|48578</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الإيحاء الذاتي</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="LNL|48578"
+                          time="2016-11-13T12:12:35.314415+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-04-01T11:53:51.693225+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns3:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns3="http://viaf.org/viaf/terms#">
+               <ns3:viafID>6501147907513179210005</ns3:viafID>
+               <ns3:Document about="http://viaf.org/viaf/6501147907513179210005/">
+                  <ns3:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns3:primaryTopic resource="http://viaf.org/viaf/6501147907513179210005"/>
+               </ns3:Document>
+               <ns3:nameType>Personal</ns3:nameType>
+               <ns3:sources>
+                  <ns3:source nsid="61605">LNL|61605</ns3:source>
+                  <ns3:source nsid="Q12200118">WKP|Q12200118</ns3:source>
+               </ns3:sources>
+               <ns3:length>14</ns3:length>
+               <ns3:mainHeadings>
+                  <ns3:data>
+                     <ns3:text>غيراغوسيان، بول، 1925-1993</ns3:text>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|61605</ns3:sid>
+                     </ns3:sources>
+                  </ns3:data>
+                  <ns3:data>
+                     <ns3:text>بول غيراغوسيان</ns3:text>
+                     <ns3:sources>
+                        <ns3:s>WKP</ns3:s>
+                        <ns3:sid>WKP|Q12200118</ns3:sid>
+                     </ns3:sources>
+                  </ns3:data>
+                  <ns3:mainHeadingEl>
+                     <ns3:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns3:subfield code="a">بول غيراغوسيان</ns3:subfield>
+                        <ns3:subfield code="9">ar</ns3:subfield>
+                     </ns3:datafield>
+                     <ns3:sources>
+                        <ns3:s>WKP</ns3:s>
+                        <ns3:sid>WKP|Q12200118</ns3:sid>
+                     </ns3:sources>
+                     <ns3:id>WKP|Q12200118</ns3:id>
+                     <ns3:links>
+                        <ns3:link>
+                           <ns3:match type="double date"/>LNL|61605</ns3:link>
+                     </ns3:links>
+                  </ns3:mainHeadingEl>
+                  <ns3:mainHeadingEl>
+                     <ns3:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns3:subfield code="a">غيراغوسيان، بول،</ns3:subfield>
+                        <ns3:subfield code="d">1925-1993</ns3:subfield>
+                     </ns3:datafield>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|61605</ns3:sid>
+                     </ns3:sources>
+                     <ns3:id>LNL|61605</ns3:id>
+                     <ns3:links>
+                        <ns3:link>
+                           <ns3:match type="double date"/>WKP|Q12200118</ns3:link>
+                     </ns3:links>
+                  </ns3:mainHeadingEl>
+               </ns3:mainHeadings>
+               <ns3:fixed>
+                  <ns3:gender>b</ns3:gender>
+               </ns3:fixed>
+               <ns3:x400s>
+                  <ns3:x400>
+                     <ns3:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns3:subfield code="a">Gīrāgūsyān, Būl,</ns3:subfield>
+                        <ns3:subfield code="d">1925-1993</ns3:subfield>
+                        <ns3:normalized>giragusyan bul 1925 1993</ns3:normalized>
+                     </ns3:datafield>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|61605</ns3:sid>
+                     </ns3:sources>
+                  </ns3:x400>
+                  <ns3:x400>
+                     <ns3:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns3:subfield code="a">بول غيراغوسيان،</ns3:subfield>
+                        <ns3:subfield code="d">1925-1993</ns3:subfield>
+                        <ns3:normalized>بول غيراغوسيان 1925 1993</ns3:normalized>
+                     </ns3:datafield>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|61605</ns3:sid>
+                     </ns3:sources>
+                  </ns3:x400>
+               </ns3:x400s>
+               <ns3:birthDate>1925</ns3:birthDate>
+               <ns3:deathDate>1993-11-20</ns3:deathDate>
+               <ns3:dateType>circa</ns3:dateType>
+               <ns3:xLinks>
+                  <ns3:xLink type="Wikipedia">https://ar.wikipedia.org/wiki/بول_غيراغوسيان<ns3:sources>
+                        <ns3:s>WKP</ns3:s>
+                        <ns3:sid>WKP|Q12200118</ns3:sid>
+                     </ns3:sources>
+                  </ns3:xLink>
+               </ns3:xLinks>
+               <ns3:titles/>
+               <ns3:history>
+                  <ns3:ht recid="LNL|61605"
+                          time="2016-11-13T12:12:11.726017+00:00"
+                          type="add"/>
+                  <ns3:ht recid="WKP|Q12200118"
+                          time="2016-11-13T12:12:11.730999+00:00"
+                          type="add"/>
+               </ns3:history>
+               <ns3:creationtime>2017-04-01T11:47:50.818131+00:00</ns3:creationtime>
+            </ns3:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">2</recordPosition>
+      </record>
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns4:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns4="http://viaf.org/viaf/terms#">
+               <ns4:viafID>6471147484342849360004</ns4:viafID>
+               <ns4:Document about="http://viaf.org/viaf/6471147484342849360004/">
+                  <ns4:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns4:primaryTopic resource="http://viaf.org/viaf/6471147484342849360004"/>
+               </ns4:Document>
+               <ns4:nameType>Personal</ns4:nameType>
+               <ns4:sources>
+                  <ns4:source nsid="http://d-nb.info/gnd/1114428337">DNB|1114428337</ns4:source>
+                  <ns4:source nsid="Q2058735">WKP|Q2058735</ns4:source>
+               </ns4:sources>
+               <ns4:length>24</ns4:length>
+               <ns4:mainHeadings>
+                  <ns4:data>
+                     <ns4:text>بول أرنولد</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>WKP</ns4:s>
+                        <ns4:sid>WKP|Q2058735</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data>
+                     <ns4:text>Arnold, Paul 1804-1887</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>DNB</ns4:s>
+                        <ns4:sid>DNB|1114428337</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:mainHeadingEl>
+                     <ns4:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns4:subfield code="a">Arnold, Paul</ns4:subfield>
+                        <ns4:subfield code="d">1804-1887</ns4:subfield>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>DNB</ns4:s>
+                        <ns4:sid>DNB|1114428337</ns4:sid>
+                     </ns4:sources>
+                     <ns4:id>DNB|1114428337</ns4:id>
+                     <ns4:links>
+                        <ns4:link>
+                           <ns4:match type="double date"/>WKP|Q2058735</ns4:link>
+                     </ns4:links>
+                  </ns4:mainHeadingEl>
+                  <ns4:mainHeadingEl>
+                     <ns4:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns4:subfield code="a">بول أرنولد</ns4:subfield>
+                        <ns4:subfield code="9">ar</ns4:subfield>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>WKP</ns4:s>
+                        <ns4:sid>WKP|Q2058735</ns4:sid>
+                     </ns4:sources>
+                     <ns4:id>WKP|Q2058735</ns4:id>
+                     <ns4:links>
+                        <ns4:link>
+                           <ns4:match type="double date"/>DNB|1114428337</ns4:link>
+                     </ns4:links>
+                  </ns4:mainHeadingEl>
+               </ns4:mainHeadings>
+               <ns4:fixed>
+                  <ns4:gender>b</ns4:gender>
+               </ns4:fixed>
+               <ns4:x400s>
+                  <ns4:x400>
+                     <ns4:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns4:subfield code="a">Paul Arnold</ns4:subfield>
+                        <ns4:subfield code="c">Hofbaumeister und Landtagsabgeordneter Großherzogtum Hessen</ns4:subfield>
+                        <ns4:normalized>paul arnold hofbaumeister und landtagsabgeordneter grossherzogtum hessen</ns4:normalized>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>WKP</ns4:s>
+                        <ns4:sid>WKP|Q2058735</ns4:sid>
+                     </ns4:sources>
+                  </ns4:x400>
+                  <ns4:x400>
+                     <ns4:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns4:subfield code="a">Paul Arnold</ns4:subfield>
+                        <ns4:subfield code="c">politicus uit Duitse Rijk (1804-1887)</ns4:subfield>
+                        <ns4:normalized>paul arnold politicus uit duitse rijk 1804 1887</ns4:normalized>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>WKP</ns4:s>
+                        <ns4:sid>WKP|Q2058735</ns4:sid>
+                     </ns4:sources>
+                  </ns4:x400>
+               </ns4:x400s>
+               <ns4:x500s>
+                  <ns4:x500 viafLink="263634024">
+                     <ns4:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                        <ns4:subfield code="a">Darmstadt</ns4:subfield>
+                        <ns4:normalized>darmstadt</ns4:normalized>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>DNB</ns4:s>
+                        <ns4:sid>DNB|1114428337</ns4:sid>
+                     </ns4:sources>
+                  </ns4:x500>
+                  <ns4:x500 viafLink="140657703">
+                     <ns4:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                        <ns4:subfield code="a">Offenbach am Main</ns4:subfield>
+                        <ns4:normalized>offenbach am main</ns4:normalized>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>DNB</ns4:s>
+                        <ns4:sid>DNB|1114428337</ns4:sid>
+                     </ns4:sources>
+                  </ns4:x500>
+               </ns4:x500s>
+               <ns4:birthDate>1804-02-22</ns4:birthDate>
+               <ns4:deathDate>1887-03-06</ns4:deathDate>
+               <ns4:dateType>lived</ns4:dateType>
+               <ns4:nationalityOfEntity>
+                  <ns4:data>
+                     <ns4:text>German Empire</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>WKP</ns4:s>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data>
+                     <ns4:text>DE</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>DNB</ns4:s>
+                     </ns4:sources>
+                  </ns4:data>
+               </ns4:nationalityOfEntity>
+               <ns4:xLinks>
+                  <ns4:xLink type="Wikipedia">https://ar.wikipedia.org/wiki/بول_أرنولد<ns4:sources>
+                        <ns4:s>WKP</ns4:s>
+                        <ns4:sid>WKP|Q2058735</ns4:sid>
+                     </ns4:sources>
+                  </ns4:xLink>
+                  <ns4:xLink type="Wikipedia">https://de.wikipedia.org/wiki/Paul_Arnold_(Politiker)<ns4:sources>
+                        <ns4:s>WKP</ns4:s>
+                        <ns4:sid>WKP|Q2058735</ns4:sid>
+                     </ns4:sources>
+                  </ns4:xLink>
+               </ns4:xLinks>
+               <ns4:titles>
+                  <ns4:work>
+                     <ns4:sources>
+                        <ns4:s>WKP</ns4:s>
+                        <ns4:sid>WKP|Q2058735</ns4:sid>
+                     </ns4:sources>
+                     <ns4:title>Hooligans 3 – Never Back Down</ns4:title>
+                  </ns4:work>
+               </ns4:titles>
+               <ns4:history>
+                  <ns4:ht recid="DNB|1114428337"
+                          time="2016-09-25T13:43:48.787286+00:00"
+                          type="add"/>
+                  <ns4:ht recid="WKP|Q2058735"
+                          time="2016-09-25T13:43:48.794417+00:00"
+                          type="add"/>
+               </ns4:history>
+               <ns4:creationtime>2017-04-01T15:28:45.153653+00:00</ns4:creationtime>
+            </ns4:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">3</recordPosition>
+      </record>
+   </records>
+   <nextRecordPosition xsi:type="xsd:positiveInteger">4</nextRecordPosition>
+   <echoedSearchRetrieveRequest xmlns:ns5="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns5:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.personalNames any "بول غيراغوسيان"</query>
+      <xQuery>
+         <ns6:searchClause xmlns:ns6="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns6:searchClauseType">
+            <ns6:index xsi:type="xsd:string">local.personalNames</ns6:index>
+            <ns6:relation xsi:type="ns6:relationType">
+               <ns6:value xsi:type="xsd:string">any</ns6:value>
+            </ns6:relation>
+            <ns6:term xsi:type="xsd:string">بول غيراغوسيان</ns6:term>
+         </ns6:searchClause>
+      </xQuery>
+      <maximumRecords xsi:type="xsd:nonNegativeInteger">3</maximumRecords>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+      <sortKeys xsi:type="xsd:string">name</sortKeys>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns7="http://www.loc.gov/zing/srw/" xsi:type="ns7:extraDataType">
+      <ns8:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns8="http://oclc.org/srw/extraData">
+         <ns8:databaseTitle>VIAF: The Virtual International Authority File</ns8:databaseTitle>
+      </ns8:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

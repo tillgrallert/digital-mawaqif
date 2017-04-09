@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">359</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>8613148705727637080001</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/8613148705727637080001/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/8613148705727637080001"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="http://d-nb.info/gnd/1125140305">DNB|1125140305</ns2:source>
+               </ns2:sources>
+               <ns2:length>16</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Darwīš, Salwā</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1125140305</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Darwīš, Salwā</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1125140305</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|1125140305</ns2:id>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>a</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Darwish, Salwa</ns2:subfield>
+                        <ns2:normalized>darwish salwa</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1125140305</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Darwish, Salwa Youssef</ns2:subfield>
+                        <ns2:normalized>darwish salwa youssef</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1125140305</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Darwīsh, Salwá</ns2:subfield>
+                        <ns2:normalized>darwish salwa</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1125140305</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">درويش, سلوى</ns2:subfield>
+                        <ns2:normalized>درويش سلوى</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1125140305</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:x500s>
+                  <ns2:x500 viafLink="131057093">
+                     <ns2:datafield dtype="MARC21" ind1="2" ind2=" " tag="510">
+                        <ns2:subfield code="a">Maʿhad al-Buḥūṯ wa'd-Dirāsāt al-Ifrīqīya</ns2:subfield>
+                        <ns2:subfield code="g">al-Qāhira</ns2:subfield>
+                        <ns2:subfield code="e">Relation allgemein</ns2:subfield>
+                        <ns2:normalized>mahad al buhut wad dirasat al ifriqiya al qahira</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1125140305</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+               </ns2:x500s>
+               <ns2:birthDate>0</ns2:birthDate>
+               <ns2:deathDate>0</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="201" min="201">
+                  <ns2:date count="1" scaled="0.00">201</ns2:date>
+               </ns2:dates>
+               <ns2:languageOfEntity>
+                  <ns2:data>
+                     <ns2:text>ara</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:languageOfEntity>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>EG</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1125140305</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Aʿmāl al-Muʾtamar ad-Duwalī li-Markaz al-Buḥūṯ as-Sūdānīya bi-'t-Taʿāwun maʿa Qism at-Tārīḫ bi-Maʿhad al-Buḥūṯ wa-'d-Dirāsāt al-Afrīqīya, Ǧāmiʿat al-Qāhira wa-'s-Sifāra al-Sūdānīya wa-'l-Lībīya bi-al-Qāhirah, al-Muṯallaṯ aḏ-Ḏahabī, Imkānāt at-Takāmul wa-'t-Tanmīya. -</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="DNB|1125140305"
+                          time="2017-02-13T21:27:56.630704+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-04-01T15:31:35.711375+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns3:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns3="http://viaf.org/viaf/terms#">
+               <ns3:viafID>5955147907512079210007</ns3:viafID>
+               <ns3:Document about="http://viaf.org/viaf/5955147907512079210007/">
+                  <ns3:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns3:primaryTopic resource="http://viaf.org/viaf/5955147907512079210007"/>
+               </ns3:Document>
+               <ns3:nameType>Personal</ns3:nameType>
+               <ns3:sources>
+                  <ns3:source nsid="10200">LNL|10200</ns3:source>
+               </ns3:sources>
+               <ns3:length>17</ns3:length>
+               <ns3:mainHeadings>
+                  <ns3:data>
+                     <ns3:text>درويش جبور، زهيدة، 1954-</ns3:text>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|10200</ns3:sid>
+                     </ns3:sources>
+                  </ns3:data>
+                  <ns3:mainHeadingEl>
+                     <ns3:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns3:subfield code="a">درويش جبور، زهيدة،</ns3:subfield>
+                        <ns3:subfield code="d">1954-</ns3:subfield>
+                     </ns3:datafield>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|10200</ns3:sid>
+                     </ns3:sources>
+                     <ns3:id>LNL|10200</ns3:id>
+                  </ns3:mainHeadingEl>
+               </ns3:mainHeadings>
+               <ns3:fixed>
+                  <ns3:gender>a</ns3:gender>
+               </ns3:fixed>
+               <ns3:x400s>
+                  <ns3:x400>
+                     <ns3:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns3:subfield code="a">Darwīsh Jabbūr, Zahīdah,</ns3:subfield>
+                        <ns3:subfield code="d">1954-</ns3:subfield>
+                        <ns3:normalized>darwish jabbur zahidah 1954</ns3:normalized>
+                     </ns3:datafield>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|10200</ns3:sid>
+                     </ns3:sources>
+                  </ns3:x400>
+                  <ns3:x400>
+                     <ns3:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns3:subfield code="a">جبور، زهيدة درويش،</ns3:subfield>
+                        <ns3:subfield code="d">1954-</ns3:subfield>
+                        <ns3:normalized>جبور زهيدة درويش 1954</ns3:normalized>
+                     </ns3:datafield>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|10200</ns3:sid>
+                     </ns3:sources>
+                  </ns3:x400>
+                  <ns3:x400>
+                     <ns3:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns3:subfield code="a">درويش، زهيدة،</ns3:subfield>
+                        <ns3:subfield code="d">1954-</ns3:subfield>
+                        <ns3:normalized>درويش زهيدة 1954</ns3:normalized>
+                     </ns3:datafield>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|10200</ns3:sid>
+                     </ns3:sources>
+                  </ns3:x400>
+                  <ns3:x400>
+                     <ns3:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns3:subfield code="a">زهيدة درويش جبور،</ns3:subfield>
+                        <ns3:subfield code="d">1954-</ns3:subfield>
+                        <ns3:normalized>زهيدة درويش جبور 1954</ns3:normalized>
+                     </ns3:datafield>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|10200</ns3:sid>
+                     </ns3:sources>
+                  </ns3:x400>
+               </ns3:x400s>
+               <ns3:coauthors>
+                  <ns3:data count="1" tag="950">
+                     <ns3:text>دلباش، تيريز، 1948-2012</ns3:text>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|10200</ns3:sid>
+                     </ns3:sources>
+                  </ns3:data>
+               </ns3:coauthors>
+               <ns3:publishers>
+                  <ns3:data count="1">
+                     <ns3:text>جروس برس ؛ مؤسسة محمد بن راشد آل مكتوب،</ns3:text>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|10200</ns3:sid>
+                     </ns3:sources>
+                  </ns3:data>
+               </ns3:publishers>
+               <ns3:birthDate>1954-10-24</ns3:birthDate>
+               <ns3:deathDate>0</ns3:deathDate>
+               <ns3:dateType>lived</ns3:dateType>
+               <ns3:dates max="200" min="200">
+                  <ns3:date count="1" scaled="0.00">200</ns3:date>
+               </ns3:dates>
+               <ns3:RecFormats>
+                  <ns3:data count="1">
+                     <ns3:text>am</ns3:text>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|10200</ns3:sid>
+                     </ns3:sources>
+                  </ns3:data>
+               </ns3:RecFormats>
+               <ns3:ISBNs unique="1">
+                  <ns3:data count="1">
+                     <ns3:text>9789953468631</ns3:text>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|10200</ns3:sid>
+                     </ns3:sources>
+                  </ns3:data>
+               </ns3:ISBNs>
+               <ns3:countries>
+                  <ns3:data count="1" scaled="1">
+                     <ns3:text>GR</ns3:text>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|10200</ns3:sid>
+                     </ns3:sources>
+                  </ns3:data>
+               </ns3:countries>
+               <ns3:languageOfEntity>
+                  <ns3:data>
+                     <ns3:text>ara</ns3:text>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                     </ns3:sources>
+                  </ns3:data>
+               </ns3:languageOfEntity>
+               <ns3:titles>
+                  <ns3:work>
+                     <ns3:sources>
+                        <ns3:s>LNL</ns3:s>
+                        <ns3:sid>LNL|10200</ns3:sid>
+                     </ns3:sources>
+                     <ns3:title>التوحش : عودة البربرية في القرن الحادي والعشرين =L'ensauvagement : le retour de la barbarie au XXIe siècle</ns3:title>
+                  </ns3:work>
+               </ns3:titles>
+               <ns3:history>
+                  <ns3:ht recid="LNL|10200"
+                          time="2016-11-13T12:12:00.155271+00:00"
+                          type="add"/>
+               </ns3:history>
+               <ns3:creationtime>2017-03-13T18:16:32.998240+00:00</ns3:creationtime>
+            </ns3:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">2</recordPosition>
+      </record>
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns4:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns4="http://viaf.org/viaf/terms#">
+               <ns4:viafID>2677147270549135700007</ns4:viafID>
+               <ns4:Document about="http://viaf.org/viaf/2677147270549135700007/">
+                  <ns4:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns4:primaryTopic resource="http://viaf.org/viaf/2677147270549135700007"/>
+               </ns4:Document>
+               <ns4:nameType>Personal</ns4:nameType>
+               <ns4:sources>
+                  <ns4:source nsid="nr90015730">LC|nr 90015730</ns4:source>
+                  <ns4:source nsid="vtls001568547">EGAXA|vtls001568547</ns4:source>
+                  <ns4:source nsid="http://catalogue.bnf.fr/ark:/12148/cb15001891f">BNF|15001891</ns4:source>
+                  <ns4:source nsid="0000000003064457">ISNI|0000000003064457</ns4:source>
+                  <ns4:source nsid="151108722">SUDOC|151108722</ns4:source>
+               </ns4:sources>
+               <ns4:length>170</ns4:length>
+               <ns4:mainHeadings>
+                  <ns4:data>
+                     <ns4:text>Darwīš, ʿAbd al-Munʿim Faraǧ</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:sid>BNF|15001891</ns4:sid>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data>
+                     <ns4:text>درويش، عبد المنعم فرج</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>EGAXA</ns4:s>
+                        <ns4:sid>EGAXA|vtls001568547</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data>
+                     <ns4:text>Darwīsh, ʻAbd al-Munʻim Faraj</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>LC</ns4:s>
+                        <ns4:sid>LC|nr 90015730</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:mainHeadingEl>
+                     <ns4:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns4:subfield code="a">Darwīsh, ʻAbd al-Munʻim Faraj</ns4:subfield>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>LC</ns4:s>
+                        <ns4:sid>LC|nr 90015730</ns4:sid>
+                     </ns4:sources>
+                     <ns4:id>LC|nr 90015730</ns4:id>
+                     <ns4:links>
+                        <ns4:link>
+                           <ns4:match type="title"/>SUDOC|151108722</ns4:link>
+                        <ns4:link>
+                           <ns4:match type="joint author"/>ISNI|0000000003064457</ns4:link>
+                        <ns4:link>
+                           <ns4:match type="lccn"/>EGAXA|vtls001568547</ns4:link>
+                     </ns4:links>
+                  </ns4:mainHeadingEl>
+                  <ns4:mainHeadingEl>
+                     <ns4:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="200">
+                        <ns4:subfield code="7">ba0yba0a</ns4:subfield>
+                        <ns4:subfield code="8">freara</ns4:subfield>
+                        <ns4:subfield code="9">0</ns4:subfield>
+                        <ns4:subfield code="a">Darwīš</ns4:subfield>
+                        <ns4:subfield code="b">ʿAbd al-Munʿim Faraǧ</ns4:subfield>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:sid>BNF|15001891</ns4:sid>
+                     </ns4:sources>
+                     <ns4:id>BNF|15001891</ns4:id>
+                     <ns4:links>
+                        <ns4:link>
+                           <ns4:match type="exact title"/>SUDOC|151108722</ns4:link>
+                        <ns4:link>
+                           <ns4:match type="joint author"/>ISNI|0000000003064457</ns4:link>
+                     </ns4:links>
+                  </ns4:mainHeadingEl>
+                  <ns4:mainHeadingEl>
+                     <ns4:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns4:subfield code="a">Darwīš, ʿAbd al-Munʿim Faraǧ</ns4:subfield>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                     <ns4:id>SUDOC|151108722</ns4:id>
+                     <ns4:links>
+                        <ns4:link>
+                           <ns4:match type="exact title"/>EGAXA|vtls001568547</ns4:link>
+                        <ns4:link>
+                           <ns4:match type="title"/>LC|nr 90015730</ns4:link>
+                        <ns4:link>
+                           <ns4:match type="exact title"/>BNF|15001891</ns4:link>
+                        <ns4:link>
+                           <ns4:match type="suggested"/>ISNI|0000000003064457</ns4:link>
+                     </ns4:links>
+                  </ns4:mainHeadingEl>
+                  <ns4:mainHeadingEl>
+                     <ns4:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns4:subfield code="a">Darwīš, ʿAbd al-Munʿim Faraǧ</ns4:subfield>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                     </ns4:sources>
+                     <ns4:id>ISNI|0000000003064457</ns4:id>
+                     <ns4:links>
+                        <ns4:link>
+                           <ns4:match type="joint author"/>BNF|15001891</ns4:link>
+                        <ns4:link>
+                           <ns4:match type="suggested"/>SUDOC|151108722</ns4:link>
+                        <ns4:link>
+                           <ns4:match type="joint author"/>EGAXA|vtls001568547</ns4:link>
+                        <ns4:link>
+                           <ns4:match type="joint author"/>LC|nr 90015730</ns4:link>
+                     </ns4:links>
+                  </ns4:mainHeadingEl>
+                  <ns4:mainHeadingEl>
+                     <ns4:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns4:subfield code="a">درويش، عبد المنعم فرج</ns4:subfield>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>EGAXA</ns4:s>
+                        <ns4:sid>EGAXA|vtls001568547</ns4:sid>
+                     </ns4:sources>
+                     <ns4:id>EGAXA|vtls001568547</ns4:id>
+                     <ns4:links>
+                        <ns4:link>
+                           <ns4:match type="exact title"/>SUDOC|151108722</ns4:link>
+                        <ns4:link>
+                           <ns4:match type="joint author"/>ISNI|0000000003064457</ns4:link>
+                        <ns4:link>
+                           <ns4:match type="lccn"/>LC|nr 90015730</ns4:link>
+                     </ns4:links>
+                  </ns4:mainHeadingEl>
+               </ns4:mainHeadings>
+               <ns4:fixed>
+                  <ns4:gender>b</ns4:gender>
+               </ns4:fixed>
+               <ns4:x400s>
+                  <ns4:x400>
+                     <ns4:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns4:subfield code="a">Darwīsh, ʿAbd al-Munʿim Faraj</ns4:subfield>
+                        <ns4:normalized>darwish abd al munim faraj</ns4:normalized>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                  </ns4:x400>
+                  <ns4:x400>
+                     <ns4:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns4:subfield code="a">Darwīsh</ns4:subfield>
+                        <ns4:subfield code="b">ʿAbd al-Munʿim Faraj</ns4:subfield>
+                        <ns4:normalized>darwish abd al munim faraj</ns4:normalized>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:sid>BNF|15001891</ns4:sid>
+                     </ns4:sources>
+                  </ns4:x400>
+                  <ns4:x400>
+                     <ns4:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns4:subfield code="a">Darwīsh, ʿAbd al-Munʿim Faraj</ns4:subfield>
+                        <ns4:normalized>darwish abd al munim faraj</ns4:normalized>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                     </ns4:sources>
+                  </ns4:x400>
+                  <ns4:x400>
+                     <ns4:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns4:subfield code="a">درويش, عبد المنعم فرج</ns4:subfield>
+                        <ns4:normalized>درويش عبد المنعم فرج</ns4:normalized>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                        <ns4:s>LC</ns4:s>
+                        <ns4:sid>LC|nr 90015730</ns4:sid>
+                     </ns4:sources>
+                  </ns4:x400>
+                  <ns4:x400>
+                     <ns4:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns4:subfield code="a">درويش, عبد المنعم فرج.</ns4:subfield>
+                        <ns4:normalized>درويش عبد المنعم فرج</ns4:normalized>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                  </ns4:x400>
+                  <ns4:x400>
+                     <ns4:datafield dtype="MARC21" ind1=" " ind2="|" tag="700">
+                        <ns4:subfield code="a">درويش</ns4:subfield>
+                        <ns4:subfield code="b">عبد المنعم فرج</ns4:subfield>
+                        <ns4:normalized>درويش عبد المنعم فرج</ns4:normalized>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:sid>BNF|15001891</ns4:sid>
+                     </ns4:sources>
+                  </ns4:x400>
+                  <ns4:x400>
+                     <ns4:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns4:subfield code="a">عبد المنعم فرج درويش</ns4:subfield>
+                        <ns4:normalized>عبد المنعم فرج درويش</ns4:normalized>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>EGAXA</ns4:s>
+                        <ns4:sid>EGAXA|vtls001568547</ns4:sid>
+                     </ns4:sources>
+                  </ns4:x400>
+                  <ns4:x400>
+                     <ns4:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns4:subfield code="a">عبد المنعم فرج درويش</ns4:subfield>
+                        <ns4:normalized>عبد المنعم فرج درويش</ns4:normalized>
+                     </ns4:datafield>
+                     <ns4:sources>
+                        <ns4:s>LC</ns4:s>
+                        <ns4:sid>LC|nr 90015730</ns4:sid>
+                     </ns4:sources>
+                  </ns4:x400>
+               </ns4:x400s>
+               <ns4:coauthors>
+                  <ns4:data count="2" tag="950">
+                     <ns4:text>Qarāfī, Aḥmad ibn Idrīs d. 1285)</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="2" tag="950">
+                     <ns4:text>Maqqarī, Aḥmad ibn Muḥammad al- 1577?-1632</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:sid>BNF|15001891</ns4:sid>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="2" tag="950">
+                     <ns4:text>Ibn Qayyim al-Ǧawziyyaẗ, Muḥammad ibn Abī Bakr 1292-1350)</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="2" tag="950">
+                     <ns4:text>El Roueni, Tewfik M.</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="2" tag="950">
+                     <ns4:text>Bāǧahʹchīʹzadaẗ, ʻAbd al-Raḥmān ibn Sālim</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="1" tag="950">
+                     <ns4:text>عبد الرحمن الباجه چي زاده.</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="1" tag="950">
+                     <ns4:text>عبد الرحمن الباجه چي زاده</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="1" tag="950">
+                     <ns4:text>القرافي، أحمد بن إدريس، ت. 684 هـ.</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>EGAXA</ns4:s>
+                        <ns4:sid>EGAXA|vtls001568547</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="1" tag="950">
+                     <ns4:text>الباجه جى زاده، عبد الرحمن.</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>EGAXA</ns4:s>
+                        <ns4:sid>EGAXA|vtls001568547</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="1" tag="950">
+                     <ns4:text>ابن قيم الجوزية، محمد بن أبي بكر، 691-751 هـ.</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>EGAXA</ns4:s>
+                        <ns4:sid>EGAXA|vtls001568547</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="1" tag="950">
+                     <ns4:text>Bājahʹchīʹzadah, ʻAbd al-Raḥmān ibn Sālim.</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>LC</ns4:s>
+                        <ns4:sid>LC|nr 90015730</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+               </ns4:coauthors>
+               <ns4:publishers>
+                  <ns4:data count="2">
+                     <ns4:text>دار القاضي عياض للتراث</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:sid>BNF|15001891</ns4:sid>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="2">
+                     <ns4:text>Dār al-Qāḍī ʿIyāḍ li-l-turāṯ</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:sid>BNF|15001891</ns4:sid>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="2">
+                     <ns4:text>Conseil supérieur des affaires islamiques</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                        <ns4:s>ISNI</ns4:s>
+                        <ns4:sid>ISNI|0000000003064457</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+               </ns4:publishers>
+               <ns4:birthDate>1950</ns4:birthDate>
+               <ns4:deathDate>0</ns4:deathDate>
+               <ns4:dateType>flourished</ns4:dateType>
+               <ns4:dates max="198" min="196">
+                  <ns4:date count="3" scaled="1.58">196</ns4:date>
+                  <ns4:date count="2" scaled="1.00">197</ns4:date>
+                  <ns4:date count="6" scaled="2.58">198</ns4:date>
+               </ns4:dates>
+               <ns4:RecFormats>
+                  <ns4:data count="5">
+                     <ns4:text>am</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:sid>BNF|15001891</ns4:sid>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                        <ns4:s>EGAXA</ns4:s>
+                        <ns4:sid>EGAXA|vtls001568547</ns4:sid>
+                        <ns4:s>LC</ns4:s>
+                        <ns4:sid>LC|nr 90015730</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+               </ns4:RecFormats>
+               <ns4:RelatorCodes>
+                  <ns4:data count="1">
+                     <ns4:text>340</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:sid>BNF|15001891</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="1">
+                     <ns4:text>editeur scientifique</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="1">
+                     <ns4:text>traduction</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+               </ns4:RelatorCodes>
+               <ns4:countries>
+                  <ns4:data count="2" scaled="1">
+                     <ns4:text>AE</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                        <ns4:s>LC</ns4:s>
+                        <ns4:sid>LC|nr 90015730</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="1" scaled="1">
+                     <ns4:text>GQ</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:sid>BNF|15001891</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+                  <ns4:data count="1" scaled="1">
+                     <ns4:text>EG</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                  </ns4:data>
+               </ns4:countries>
+               <ns4:languageOfEntity>
+                  <ns4:data>
+                     <ns4:text>ara</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                     </ns4:sources>
+                  </ns4:data>
+               </ns4:languageOfEntity>
+               <ns4:nationalityOfEntity>
+                  <ns4:data>
+                     <ns4:text>EG</ns4:text>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:s>ISNI</ns4:s>
+                     </ns4:sources>
+                  </ns4:data>
+               </ns4:nationalityOfEntity>
+               <ns4:titles>
+                  <ns4:work>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                     <ns4:title>Aǧwibaẗ al-fāẖiraẗ ʻan al-asʼilaẗ al-fāǧiraẗ</ns4:title>
+                  </ns4:work>
+                  <ns4:work>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                        <ns4:s>LC</ns4:s>
+                        <ns4:sid>LC|nr 90015730</ns4:sid>
+                     </ns4:sources>
+                     <ns4:title>al-Fāriq bayna al-makhlūq wa-al-Khāliq</ns4:title>
+                  </ns4:work>
+                  <ns4:work>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                     <ns4:title>Hidāyaẗ al-ḥayārá min al-Yahūd wa-al-Naṣārá</ns4:title>
+                  </ns4:work>
+                  <ns4:work>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                     <ns4:title>L'influence de la législation islamique sur l'unité arabe</ns4:title>
+                  </ns4:work>
+                  <ns4:work>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:sid>BNF|15001891</ns4:sid>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                     <ns4:title>Waṣf niʿāl al-nabī al-musammá bi-Fatḥ al-mutaʿāl fī madḥ al-niʿāl</ns4:title>
+                  </ns4:work>
+                  <ns4:work>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                     <ns4:title>أجوبة الفاخرة عن الأسئلة الفاجرة</ns4:title>
+                  </ns4:work>
+                  <ns4:work>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                        <ns4:s>EGAXA</ns4:s>
+                        <ns4:sid>EGAXA|vtls001568547</ns4:sid>
+                     </ns4:sources>
+                     <ns4:title>الفارق بين المخلوق والخالق</ns4:title>
+                  </ns4:work>
+                  <ns4:work>
+                     <ns4:sources>
+                        <ns4:s>SUDOC</ns4:s>
+                        <ns4:sid>SUDOC|151108722</ns4:sid>
+                     </ns4:sources>
+                     <ns4:title>هداية الحيارى من اليهود و النصارة</ns4:title>
+                  </ns4:work>
+                  <ns4:work>
+                     <ns4:sources>
+                        <ns4:s>BNF</ns4:s>
+                        <ns4:sid>BNF|15001891</ns4:sid>
+                     </ns4:sources>
+                     <ns4:title>وصف نعال النبي المسمّى بفتح المتعال في مدح النعال</ns4:title>
+                  </ns4:work>
+               </ns4:titles>
+               <ns4:history>
+                  <ns4:ht recid="LC|nr 90015730"
+                          time="2016-08-31T19:51:31.378538+00:00"
+                          type="add"/>
+                  <ns4:ht recid="EGAXA|vtls001568547"
+                          time="2016-08-31T19:51:31.384296+00:00"
+                          type="add"/>
+                  <ns4:ht recid="BNF|15001891"
+                          time="2016-08-31T19:51:31.389944+00:00"
+                          type="add"/>
+                  <ns4:ht recid="ISNI|0000000003064457"
+                          time="2016-08-31T19:51:31.396665+00:00"
+                          type="add"/>
+                  <ns4:ht recid="SUDOC|151108722"
+                          time="2016-08-31T19:51:31.404122+00:00"
+                          type="add"/>
+               </ns4:history>
+               <ns4:creationtime>2017-04-01T12:00:57.494051+00:00</ns4:creationtime>
+            </ns4:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">3</recordPosition>
+      </record>
+   </records>
+   <nextRecordPosition xsi:type="xsd:positiveInteger">4</nextRecordPosition>
+   <echoedSearchRetrieveRequest xmlns:ns5="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns5:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.personalNames any "زهيدة درويش"</query>
+      <xQuery>
+         <ns6:searchClause xmlns:ns6="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns6:searchClauseType">
+            <ns6:index xsi:type="xsd:string">local.personalNames</ns6:index>
+            <ns6:relation xsi:type="ns6:relationType">
+               <ns6:value xsi:type="xsd:string">any</ns6:value>
+            </ns6:relation>
+            <ns6:term xsi:type="xsd:string">زهيدة درويش</ns6:term>
+         </ns6:searchClause>
+      </xQuery>
+      <maximumRecords xsi:type="xsd:nonNegativeInteger">3</maximumRecords>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+      <sortKeys xsi:type="xsd:string">name</sortKeys>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns7="http://www.loc.gov/zing/srw/" xsi:type="ns7:extraDataType">
+      <ns8:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns8="http://oclc.org/srw/extraData">
+         <ns8:databaseTitle>VIAF: The Virtual International Authority File</ns8:databaseTitle>
+      </ns8:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

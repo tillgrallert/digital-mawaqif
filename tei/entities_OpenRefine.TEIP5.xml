@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+          <p xml:lang="ar"><persName ref="viaf:27059798"><forename>علي</forename>
+                <forename>أحمد</forename> <forename>سعيد</forename>
+                <surname>إسبر</surname> (<addName>أدونيس</addName>)</persName> <persName
+                ref="viaf:206947882"><forename>خالدة</forename> <surname>سعيد</surname></persName>
+                <persName ref="viaf:117195392"><forename>سمير</forename>
+                <surname>الصايغ</surname></persName> <persName ref="viaf:22277262"
+                ><forename>كمال</forename> <surname>أبو ديب</surname></persName> <persName
+                ref="viaf:14792508"><forename>إلياس</forename> <surname>خوري</surname></persName>
+                <persName ref="viaf:36939376"><forename>حليم</forename>
+                <surname>بركات</surname></persName> <persName ref="viaf:12416511"
+                ><forename>محمد</forename> <surname>بنيس</surname></persName> <persName
+                ref="viaf:317172577"><forename>أسعد</forename> <surname>عرابي</surname></persName>
+                <persName ref="viaf:2465331"><forename>شوقي</forename>
+                <surname>عبد الأمير</surname></persName> <persName ref="viaf:2624943"
+                ><forename>عباس</forename> <surname>بيضون</surname></persName> <persName
+                ref="viaf:44387210"><forename>هشام</forename> <surname>شرابي</surname></persName>
+                <persName ref="viaf:51854266"><forename>فوزي</forename>
+                <surname>كريم</surname></persName> <persName ref="viaf:29680931"
+                ><forename>سنية</forename> <surname>صالح</surname></persName> <persName
+                ref="viaf:64415361"><forename>هادي</forename> <surname>العلوي</surname></persName>
+                <persName ref="viaf:29405383"><forename>حليم</forename>
+                <surname>جرداق</surname></persName> <persName ref="viaf:20094567"
+                ><forename>عادل</forename> <surname>ضاهر</surname></persName> <persName
+                ref="viaf:27090564"><forename>عيسى</forename> <surname>مخلوف</surname></persName>
+                <persName ref="viaf:12598774"><forename>منير</forename>
+                <surname>العكش</surname></persName> <persName ref="viaf:108342261"
+                ><forename>هنري</forename> <surname>ميشونيك</surname></persName> <persName
+                ref="viaf:93049843"><forename>بلند</forename> <surname>الحيدري</surname></persName>
+                <persName ref="viaf:43892561"><forename>جمال</forename>
+                <surname>أبو حمدان</surname></persName> <persName ref="viaf:97076386"
+                ><forename>عبد الكبير</forename> <surname>الخطيبي</surname></persName> <persName
+                ref="viaf:9889661"><forename>بسام</forename> <surname>طيبي</surname></persName>
+                <persName ref="viaf:64001832"><forename>جاك</forename>
+                <surname>بيرك</surname></persName> <persName ref="viaf:71556680"
+                ><forename>جودت</forename> <surname>فخر الدين</surname></persName> <persName
+                ref="viaf:79139840"><forename>جورج</forename> <surname>خضر</surname></persName>
+                <persName ref="viaf:49231974"><forename>صلاح</forename>
+                <surname>ستيتية</surname></persName> <persName ref="viaf:92176779"
+                ><forename>عبد العزيز</forename> <surname>المقالح</surname></persName> <persName
+                ref="viaf:93817386"><forename>كمال</forename> <surname>بلاطة</surname></persName>
+                <persName ref="viaf:17358950"><forename>ناصيف</forename>
+                <surname>نصار</surname></persName> <persName ref="viaf:170703194"
+                ><forename>هاشم</forename> <surname>صالح</surname></persName> <persName
+                ref="viaf:90401790"><forename>أنطون</forename> <surname>مقدسي</surname></persName>
+                <persName ref="viaf:79020164"><forename>جمال الدين</forename> بن شيخ</persName>
+                <persName ref="viaf:56525721"><forename>حمزة</forename>
+                <surname>عبود</surname></persName> <persName ref="viaf:74031870"
+                ><forename>سركون</forename> <surname>بولص</surname></persName> <persName
+                ref="viaf:419065"><forename>سعدي</forename> <surname>يوسف</surname></persName>
+                <persName ref="viaf:34525394"><forename>سليم</forename>
+                <surname>بركات</surname></persName> <persName ref="viaf:6254292"
+                ><forename>محمود</forename> <surname>الريماوي</surname></persName> <persName
+                ref="viaf:98181820"><forename>منى</forename> <surname>السعودي</surname></persName>
+                <persName ref="viaf:102338831"><forename>نزار</forename>
+                <surname>قباني</surname></persName> <persName ref="viaf:29818093"
+                ><forename>هنري</forename> <forename>فريد</forename>
+                <surname>صعب</surname></persName> <persName ref="viaf:47179486"
+                ><forename>ألبير</forename> <surname>منصور</surname></persName> <persName
+                ref="viaf:34143367"><forename>أميرة</forename> <surname>الزين</surname></persName>
+                <persName ref="viaf:241166"><forename>حازم</forename>
+                <surname>صاغية</surname></persName> <persName ref="viaf:63235656"
+                ><forename>حسونة</forename> <surname>المصباحي</surname></persName> <persName
+                ref="viaf:98026682">زكي نجيب محمود</persName> <persName ref="viaf:32144495"
+                ><forename>شاكر</forename> <surname>لعيبي</surname></persName> <persName
+                ref="viaf:74260568"><forename>صافيناز</forename> <surname>كاظم</surname></persName>
+                <persName ref="viaf:95290221"><forename>عبد الرحمن</forename>
+                <surname>منيف</surname></persName> <persName ref="viaf:4814933"
+                ><forename>عبد المنعم</forename> <surname>رمضان</surname></persName> <persName
+                ref="viaf:268001579"><forename>عبد الوهاب</forename>
+                <surname>المؤدب</surname></persName> <persName ref="viaf:76343779"
+                ><forename>فتحي</forename> بن سلامة</persName> <persName ref="viaf:4930344"
+                ><forename>كاظم</forename> <surname>جهاد</surname></persName> <persName
+                ref="viaf:171709632"><forename>مؤيد</forename> <surname>الراوي</surname></persName>
+                <persName ref="viaf:9813605"><forename>محمد</forename>
+                <surname>أركون</surname></persName> <persName ref="viaf:98522437"
+                ><forename>محمد</forename> <surname>برادة</surname></persName> <persName
+                ref="viaf:59232613"><forename>محمد</forename> عفيفي مطر</persName> <persName
+                ref="viaf:86019733"><forename>محمود</forename> <surname>شريح</surname></persName>
+                <persName ref="viaf:37210868"><forename>منير</forename>
+                <surname>بشور</surname></persName> <persName ref="viaf:24825533"
+                ><forename>نديم</forename> <surname>البيطار</surname></persName> <persName
+                ref="viaf:14808728"><forename>هنري</forename> <surname>لوفيفر</surname></persName>
+                <persName ref="viaf:73230826"><forename>أحمد</forename>
+                <surname>الملا</surname></persName> <persName ref="viaf:254563971"
+                ><forename>أسامة</forename> <surname>سعيد</surname></persName> <persName
+                ref="viaf:5045325"><forename>أنسي</forename> <surname>الحاج</surname></persName>
+                <persName ref="viaf:49386871"><forename>إبراهيم</forename>
+                <surname>نصر الله</surname></persName> <persName ref="viaf:305214895"
+                ><forename>إدوار</forename> <forename>أمين</forename>
+                <surname>البستاني</surname></persName> <persName ref="viaf:96958326"
+                ><forename>إدوار</forename> <surname>الخراط</surname></persName> <persName
+                ref="viaf:69149327"><forename>إسكندر</forename> <surname>حبش</surname></persName>
+                <persName ref="viaf:97014805"><forename>إلياس</forename>
+                <surname>لحود</surname></persName> <persName ref="viaf:97050145"
+                ><forename>إلياس</forename> <surname>مرقص</surname></persName> <persName
+                ref="viaf:7437652"><forename>برهان</forename> <surname>غليون</surname></persName>
+                <persName ref="viaf:261902111"><forename>بولس</forename>
+                <surname>الخوري</surname></persName> <persName ref="viaf:67645291"
+                >تركي علي الربيعو</persName> <persName ref="viaf:61553092"
+                ><forename>تزفيتان</forename> <surname>تودوروف</surname></persName> <persName
+                ref="viaf:109951334" xml:lang="fr-Arab-AR"><forename>جان</forename>
+                <forename>بيير</forename> <surname>فاي</surname></persName> <persName
+                ref="viaf:73415170"><forename>جليل</forename> <surname>القيسي</surname></persName>
+                <persName ref="viaf:61555872"><forename>جمال</forename>
+                <surname>الغيطاني</surname></persName> <persName ref="viaf:1575254"
+                ><forename>جورج</forename> <surname>البهجوري</surname></persName> <persName
+                ref="viaf:79022961"><forename>جورج</forename> <surname>قرم</surname></persName>
+                <persName ref="viaf:24636311"><forename>حنان</forename>
+                <surname>الشيخ</surname></persName> <persName ref="viaf:71262866"
+                ><forename>رفيق</forename> <surname>شرف</surname></persName> <persName
+                ref="viaf:32112386"><forename>روز</forename> <surname>غريب</surname></persName>
+                <persName ref="viaf:33564485"><forename>رياض</forename>
+                <surname>فاخوري</surname></persName> <persName ref="viaf:171030992"
+                ><forename>ريمون</forename> <surname>طحان</surname></persName> <persName
+                ref="viaf:88804613"><forename>سان</forename> <forename>جون</forename>
+                <surname>بيرس</surname></persName> <persName ref="viaf:90715327"
+                ><forename>شانتال</forename> <surname>شواف</surname></persName> <persName
+                ref="viaf:37011482"><forename>شربل</forename> <surname>داغر</surname></persName>
+                <persName ref="viaf:24764282"><forename>شوقي</forename>
+                <surname>بزيع</surname></persName> <persName ref="viaf:12481229"
+                ><forename>صادق</forename> <forename>جلال</forename>
+                <surname>العظم</surname></persName> <persName ref="viaf:11613391"
+                ><forename>ضياء</forename> <surname>العزاوي</surname></persName> <persName
+                ref="viaf:305214230"><forename>طلال</forename> <surname>حيدر</surname></persName>
+                <persName ref="viaf:2761446"><forename>عباس</forename>
+                <surname>مكي</surname></persName> <persName ref="viaf:21045347"
+                ><forename>عبد القادر</forename> <surname>الشاوي</surname></persName> <persName
+                ref="viaf:89821840"><forename>عبد الله</forename>
+                <surname>القصيمي</surname></persName> <persName ref="viaf:107035517"
+                ><forename>عبد الله</forename> عبد الدائم</persName> <persName ref="viaf:170958010"
+                ><forename>عفيف</forename> <surname>فراج</surname></persName> <persName
+                ref="viaf:2695207"><forename>علي</forename> <surname>حرب</surname></persName>
+                <persName ref="viaf:88348524"><forename>عمار</forename>
+                <surname>بلحسن</surname></persName> <persName ref="viaf:244851604"
+                ><forename>غالب</forename> <surname>هلسا</surname></persName> <persName
+                ref="viaf:97064150"><forename>فاضل</forename> <surname>العزاوي</surname></persName>
+                <persName ref="viaf:44470670"><forename>فخري</forename>
+                <surname>صالح</surname></persName> <persName ref="viaf:94774"
+                ><forename>فهمية</forename> <surname>شرف الدين</surname></persName> <persName
+                ref="viaf:39525739"><forename>قاسم</forename> <surname>حداد</surname></persName>
+                <persName ref="viaf:7404678"><forename>كلارا</forename>
+                <surname>خانيس</surname></persName> <persName ref="viaf:109420019"
+                ><forename>ماجد</forename> <surname>فخري</surname></persName> <persName
+                ref="viaf:29535970"><forename>محمد</forename>
+                <surname>خير الدين</surname></persName> <persName ref="viaf:56615978"
+                >محمد سعيد الصكار</persName> <persName ref="viaf:92043544"><forename>محمد</forename>
+                <forename>عز الدين</forename> <surname>المناصرة</surname></persName> <persName
+                ref="viaf:74007490"><forename>ممدوح</forename> <surname>عدوان</surname></persName>
+                <persName ref="viaf:66514096"><forename>مهدي</forename>
+                <surname>عامل</surname></persName> <persName ref="viaf:4058783"
+                ><forename>مي</forename> <surname>غصوب</surname></persName> <persName
+                ref="viaf:18385"><forename>ناديا</forename> <surname>تويني</surname></persName>
+                <persName ref="viaf:3795281"><forename>نجيب</forename>
+                <surname>المانع</surname></persName> <persName ref="viaf:83461757"
+                ><forename>هاني</forename> <surname>مندس</surname></persName> <persName
+                ref="viaf:241269090"><forename>وساط</forename> <surname>مبارك</surname></persName>
+                <persName ref="viaf:424408">وليد غائب صالح</persName> <persName ref="viaf:70668749"
+                ><forename>أحمد</forename> <forename>إسكندر</forename>
+                <surname>سليمان</surname></persName> <persName ref="viaf:39395658"
+                ><forename>أحمد</forename> <surname>بيضون</surname></persName> <persName
+                ref="viaf:43144688"><forename>أحمد</forename> <surname>صيداوي</surname></persName>
+                <persName ref="viaf:120184143"><forename>أحمد</forename>
+                <surname>عبد الكريم</surname></persName> <persName ref="viaf:151693904"
+                ><forename>أحمد</forename> <surname>معلا</surname></persName> <persName
+                ref="viaf:87459493"><forename>إبراهيم</forename> <surname>أصلان</surname></persName>
+                <persName ref="viaf:27477723"><forename>إلهام</forename>
+                <surname>كلاب</surname></persName> <persName ref="viaf:75232101"
+                ><forename>إلياس</forename> <surname>الديري</surname></persName> <persName
+                ref="viaf:21001277"><forename>إلياس</forename> <surname>شوفاني</surname></persName>
+                <persName ref="viaf:51768345"><forename>إميلي</forename>
+                <surname>نصر الله</surname></persName> <persName ref="viaf:305212584"
+                >إيلي أديب سالم</persName> <persName ref="viaf:39421674"><forename>إيليا</forename>
+                <surname>حريق</surname></persName> <persName ref="viaf:29521788"
+                >الجنيد (أبو القاسم بن محمد)</persName> <persName ref="viaf:23272700"
+                ><forename>الحبيب</forename> <surname>السالمي</surname></persName> <persName
+                ref="viaf:39508887"><forename>السيد</forename> <surname>ياسين</surname></persName>
+                <persName ref="viaf:61541657"><forename>الطاهر</forename>
+                <surname>بنجلون</surname></persName> <persName ref="viaf:78484611"
+                ><forename>المعطي</forename> <surname>قبال</surname></persName> <persName
+                ref="viaf:43428438"><forename>باسط</forename> بن حسن</persName> <persName
+                ref="viaf:22174177"><forename>بثينة</forename> <surname>شعبان</surname></persName>
+                <persName ref="viaf:83475313"><forename>بختي</forename> بن عودة</persName> <persName
+                ref="viaf:97452482"><forename>برنار</forename> <surname>نويل</surname></persName>
+                <persName ref="viaf:95114417"><forename>بسام</forename>
+                <surname>حجار</surname></persName> <persName ref="viaf:22158847"
+                ><forename>بلاس</forename> <nameLink>دي</nameLink>
+                <surname>أوتيرو</surname></persName> <persName ref="viaf:312733614"
+                ><forename>بوجمعة</forename> <surname>أشفري</surname></persName> <persName
+                ref="viaf:79265043"><forename>بوعلي</forename> <surname>ياسين</surname></persName>
+                <persName ref="viaf:68499702"><forename>بول</forename>
+                <surname>غيراغوسيان</surname></persName> <persName ref="viaf:44338573"
+                ><forename>بولس</forename> <surname>نويا</surname></persName> <persName
+                ref="viaf:51693842"><forename>بيار</forename> <surname>نافيل</surname></persName>
+                <persName ref="viaf:116044321"><forename>بيتر</forename>
+                <surname>فايس</surname></persName> <persName ref="viaf:54152375"
+                xml:lang="it-Arab-AR"><forename>بيير</forename> <forename>باولو</forename>
+                <surname>بازوليني</surname></persName> <persName ref="viaf:108762210"
+                xml:lang="fr-Arab-AR"><forename>جان - لوك</forename>
+                <surname>غودار</surname></persName> <persName ref="viaf:159574"
+                ><forename>جمال</forename> <surname>جمعة</surname></persName> <persName
+                ref="viaf:82049382"><forename>حلمي</forename> <surname>سالم</surname></persName>
+                <persName ref="viaf:76343348"><forename>حنا</forename>
+                <surname>مينه</surname></persName> <persName ref="viaf:76310135"
+                xml:lang="es-Arab-AR"><forename>خوسيه</forename> <forename>مانويل</forename>
+                <surname>كاباييرو</surname> <surname>بونالد</surname></persName> <persName
+                ref="viaf:79264899"><forename>ديزيره</forename> <surname>سقال</surname></persName>
+                <persName ref="viaf:20480563"><forename>راشد</forename>
+                <surname>حسين</surname></persName> <persName ref="viaf:292483834"
+                ><forename>رجاء</forename> <surname>عالم</surname></persName> <persName
+                ref="viaf:74113990"><forename>روجيه</forename> <surname>عساف</surname></persName>
+                <persName ref="viaf:44295060"><forename>رولان</forename>
+                <surname>بارت</surname></persName> <persName ref="viaf:305213532"
+                ><forename>ريمون</forename> <surname>جبارة</surname></persName> <persName
+                ref="viaf:107537879"><forename>رينيه</forename> <surname>حبشي</surname></persName>
+                <persName ref="viaf:56267225"><forename>زاهر</forename>
+                <surname>الغافري</surname></persName> <persName ref="viaf:48930146"
+                ><forename>زهيدة</forename> <surname>درويش</surname></persName> <persName
+                ref="viaf:41841460"><forename>سالم</forename> <surname>حميش</surname></persName>
+                <persName ref="viaf:179086547"><forename>سامي</forename>
+                <surname>مهدي</surname></persName> <persName ref="viaf:56614174"
+                ><forename>سامي</forename> <surname>نائير</surname></persName> <persName
+                ref="viaf:17550991"><forename>سامية</forename> <surname>محرز</surname></persName>
+                <persName ref="viaf:39398656"><forename>ستيفن</forename>
+                <surname>سبندر</surname></persName> <persName ref="viaf:108697270"
+                ><forename>ستيوارت</forename> <surname>شرام</surname></persName> <persName
+                ref="viaf:14801041"><forename>سحر</forename> <surname>خليفة</surname></persName>
+                <persName ref="viaf:66368378"><forename>سركيس</forename>
+                <surname>أبو زيد</surname></persName> <persName ref="viaf:78365097"
+                ><forename>سعد</forename> <surname>الدوسري</surname></persName> <persName
+                ref="viaf:59169001"><forename>سعد الله</forename> <surname>ونوس</surname></persName>
+                <persName ref="viaf:10061838"><forename>سعيد</forename>
+                <surname>الكفراوي</surname></persName> <persName ref="viaf:62486474"
+                ><forename>سعيد</forename> <surname>فرحان</surname></persName> <persName
+                ref="viaf:37087766"><forename>سعيد</forename> <surname>يقطين</surname></persName>
+                <persName ref="viaf:68976529">سلمى الخضراء الجيوسي</persName> <persName
+                ref="viaf:27305075"><forename>سلوم</forename> <surname>سركيس</surname></persName>
+                <persName ref="viaf:4925648"><forename>سليم</forename>
+                <surname>عبو</surname></persName> <persName ref="viaf:74021591"
+                ><forename>سليمان</forename> <surname>العيسى</surname></persName> <persName
+                ref="viaf:37047496"><forename>سميح</forename> <surname>فرسون</surname></persName>
+                <persName ref="viaf:79186496"><forename>سيف</forename>
+                <surname>الرحبي</surname></persName> <persName ref="viaf:102477128"
+                ><forename>شفيق</forename> <surname>الحوت</surname></persName> <persName
+                ref="viaf:38002445"><forename>شفيق</forename> <surname>عبود</surname></persName>
+                <persName ref="viaf:22217459">صنع الله إبراهيم</persName> <persName
+                ref="viaf:31998568"><forename>عبد اللطيف</forename>
+                <surname>اللعبي</surname></persName> <persName ref="viaf:108783545"
+                ><forename>عبد الله</forename> <surname>العروي</surname></persName> <persName
+                ref="viaf:6970692"><forename>عبد النبي</forename>
+                <surname>اصطيف</surname></persName> <persName ref="viaf:40321926"
+                ><forename>عدلي</forename> <surname>رزق الله</surname></persName> <persName
+                ref="viaf:56724403"><forename>عصام</forename> <surname>محفوظ</surname></persName>
+                <persName ref="viaf:97056615"><forename>عصام</forename>
+                <surname>نعمان</surname></persName> <persName ref="viaf:23399217"
+                ><forename>عفيف</forename> <surname>دمشقية</surname></persName> <persName
+                ref="viaf:39285679"><forename>عقيل</forename> <surname>علي</surname></persName>
+                <persName ref="viaf:59331768">علي جعفر العلاق</persName> <persName
+                ref="viaf:3741944"><forename>علي</forename> <surname>زيعور</surname></persName>
+                <persName ref="viaf:4309046"><forename>عوني</forename>
+                <surname>بشير</surname></persName> <persName ref="viaf:272292988"
+                ><forename>عيسى</forename> <surname>بلاطة</surname></persName> <persName
+                ref="viaf:24713220"><forename>غادة</forename> <surname>السمان</surname></persName>
+                <persName ref="viaf:2587080"><forename>غالي</forename>
+                <surname>شكري</surname></persName> <persName ref="viaf:305213691"
+                ><forename>غريغوار</forename> <surname>حداد</surname></persName> <persName
+                ref="viaf:39379118"><forename>غسان</forename> <surname>كنفاني</surname></persName>
+                <persName ref="viaf:2481927"><forename>فؤاد</forename>
+                <surname>التكرلي</surname></persName> <persName ref="viaf:69146143"
+                ><forename>فؤاد</forename> <surname>رفقة</surname></persName> <persName
+                ref="viaf:90039034"><forename>فؤاد</forename> <surname>زكريا</surname></persName>
+                <persName ref="viaf:305214286"><forename>فادي</forename>
+                <surname>أبو خليل</surname></persName> <persName ref="viaf:17351941"
+                ><forename>فادي</forename> <surname>نون</surname></persName> <persName
+                ref="viaf:317177295">فاضل عباس هادي</persName> <persName ref="viaf:9031176"
+                ><forename>فاطمة</forename> <surname>إسماعيل</surname></persName> <persName
+                ref="viaf:112806649"><forename>فدوى</forename> <surname>طوقان</surname></persName>
+                <persName ref="viaf:39000646"><forename>فرانسوا</forename>
+                <surname>باسيلي</surname></persName> <persName ref="viaf:2530573"
+                ><forename>فردريك</forename> <surname>معتوق</surname></persName> <persName
+                ref="viaf:95158205" xml:lang="fr-Arab-AR"><forename>فردينان</forename>
+                <nameLink>دي</nameLink> <surname>سوسير</surname></persName> <persName
+                ref="viaf:54157122"><forename>فرنسوا</forename> <surname>شاتليه</surname></persName>
+                <persName ref="viaf:25533412"><forename>فضل</forename>
+                <surname>النقيب</surname></persName> <persName ref="viaf:24611716"
+                ><forename>فلاديمير</forename> <surname>ماياكوفسكي</surname></persName> <persName
+                ref="viaf:425421"><forename>فيصل</forename> <surname>دراج</surname></persName>
+                <persName ref="viaf:70603886"><forename>قاسم</forename>
+                <surname>حول</surname></persName> <persName ref="viaf:46874921"
+                ><forename>قسطندي</forename> <surname>شوملي</surname></persName> <persName
+                ref="viaf:22939272"><forename>قسطنطين</forename> <surname>زريق</surname></persName>
+                <persName ref="viaf:27073258"><forename>كاتب</forename>
+                <surname>ياسين</surname></persName> <persName ref="viaf:12377864"
+                ><forename>محمد</forename> <surname>الماغوط</surname></persName> <persName
+                ref="viaf:82038716"><forename>محمد</forename> <surname>زفزاف</surname></persName>
+                <persName ref="viaf:243481336"><forename>محمد</forename>
+                <forename>عز الدين</forename> <surname>التازي</surname></persName> <persName
+                ref="viaf:95223177"><forename>محيي الدين</forename> بن عربي</persName> <persName
+                ref="viaf:73490771"><forename>مصطفى</forename>
+                <surname>الحسناوي</surname></persName> <persName ref="viaf:19893165"
+                ><forename>مصطفى</forename> <surname>حجازي</surname></persName> <persName
+                ref="viaf:49516561"><forename>مصطفى</forename> <surname>دحية</surname></persName>
+                <persName ref="viaf:79034965"><forename>مصطفى</forename>
+                <surname>صفوان</surname></persName> <persName ref="viaf:96970432"
+                ><forename>مظفر</forename> <surname>النواب</surname></persName> <persName
+                ref="viaf:101749020"><forename>مكسيم</forename>
+                <surname>رودنسون</surname></persName> <persName ref="viaf:19935104"
+                ><forename>منتصر</forename> <surname>القفاش</surname></persName> <persName
+                ref="viaf:56764797"><forename>منصف</forename> <surname>الوهايبي</surname></persName>
+                <persName ref="viaf:104910662"><forename>موريس</forename>
+                <surname>بلانشو</surname></persName> <persName ref="viaf:27124563"
+                ><forename>موليم</forename> <surname>العروسي</surname></persName> <persName
+                ref="viaf:41495921"><forename>مي</forename> <surname>مظفر</surname></persName>
+                <persName ref="viaf:211335096"><forename>ميشال</forename>
+                <surname>طراد</surname></persName> <persName ref="viaf:45111817"
+                ><forename>ميشال</forename> <surname>عاصي</surname></persName> <persName
+                ref="viaf:644147905003279090419"><forename>ميشال</forename>
+                <surname>كمال</surname></persName> <persName ref="viaf:117233902"
+                ><forename>ناجي</forename> <surname>علوش</surname></persName> <persName
+                ref="viaf:418322"><forename>ناصر</forename> <surname>الحلواني</surname></persName>
+                <persName ref="viaf:4834403"><forename>نبيل</forename>
+                <surname>ياسين</surname></persName> <persName ref="viaf:121188006"
+                ><forename>نجوم</forename> <surname>الغانم</surname></persName> <persName
+                ref="viaf:89803944"><forename>نجيب</forename> <surname>محفوظ</surname></persName>
+                <persName ref="viaf:80460121"><forename>نذير</forename>
+                <surname>العظمة</surname></persName> <persName ref="viaf:2634661"
+                ><forename>نصر</forename> <forename>حامد</forename>
+                <surname>أبو زيد</surname></persName> <persName ref="viaf:309100"
+                ><forename>نهى</forename> <surname>بيومي</surname></persName> <persName
+                ref="viaf:29767124"><forename>نور الدين</forename>
+                <surname>الزاهي</surname></persName> <persName ref="viaf:56400886"
+                ><forename>نور الدين</forename> <surname>محقق</surname></persName> <persName
+                ref="viaf:38252903"><forename>هاشم</forename> <surname>شفيق</surname></persName>
+                <persName ref="viaf:93362518"><forename>هاني</forename>
+                <surname>الراهب</surname></persName> <persName ref="viaf:117778634"
+                ><forename>هاني</forename> <surname>فحص</surname></persName> <persName
+                ref="viaf:39364872"><forename>هدى</forename> <surname>بركات</surname></persName>
+                <persName ref="viaf:60368531"><forename>وجيه</forename>
+                <surname>كوثراني</surname></persName> <persName ref="viaf:121909881"
+                ><forename>وديع</forename> <surname>سعادة</surname></persName> <persName
+                ref="viaf:12178855"><forename>وفاء</forename> <surname>العمراني</surname></persName>
+                <persName ref="viaf:82050561"><forename>وليد</forename>
+                <surname>منير</surname></persName> <persName ref="viaf:11165901"
+                ><forename>ياسين</forename> <forename>طه</forename>
+                <surname>حافظ</surname></persName> <persName ref="viaf:115743475"
+                ><forename>يحيى</forename> الطاهر عبد الله</persName> <persName ref="viaf:90716257"
+                ><forename>يوسف</forename> <surname>إدريس</surname></persName> <persName
+                ref="viaf:61408563"><forename>يوسف</forename> <surname>الحوراني</surname></persName>
+                <persName ref="viaf:25942679"><forename>يوسف</forename>
+                <surname>الخال</surname></persName> <persName ref="viaf:17270171"
+                ><forename>يوسف</forename> <surname>القعيد</surname></persName> <persName
+                ref="viaf:81664984"><forename>يوسف</forename> <surname>بزي</surname></persName>
+                <persName ref="viaf:419065"><forename>يوسف</forename>
+                <surname>سعيد</surname></persName> </p>
+      </body>
+  </text>
+</TEI>

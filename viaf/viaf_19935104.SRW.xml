@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>19935104</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/19935104/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/19935104"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb14624674b">BNF|14624674</ns2:source>
+                  <ns2:source nsid="jo2011663601">NKC|jo2011663601</ns2:source>
+                  <ns2:source nsid="139184902">SUDOC|139184902</ns2:source>
+                  <ns2:source nsid="12323218X">NTA|12323218X</ns2:source>
+                  <ns2:source nsid="http://d-nb.info/gnd/1055935576">DNB|1055935576</ns2:source>
+                  <ns2:source nsid="Q1953386">WKP|Q1953386</ns2:source>
+                  <ns2:source nsid="no2002061983">LC|no2002061983</ns2:source>
+                  <ns2:source nsid="0000000040310629">ISNI|0000000040310629</ns2:source>
+               </ns2:sources>
+               <ns2:length>466</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Qaffāš, Muntaṣir al-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>&#x98;al-&#x9c;Qaffāš, Muntaṣir al- 1964-....</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1055935576</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Qaffāsh, Muntaṣir</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Qafāš, Muntaṣar al-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|139184902</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Muntasir al-Qaffasch ägyptischer Schriftsteller und Romancier</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q1953386</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>&lt;&lt;al-&gt;&gt;Qaffāš, Muntaṣir, 1964-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jo2011663601</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">&lt;&lt;al-&gt;&gt;Qaffāš, Muntaṣir,</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:subfield code="7">jo2011663601</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jo2011663601</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NKC|jo2011663601</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|1055935576</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q1953386</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">Muntasir al-Qaffasch</ns2:subfield>
+                        <ns2:subfield code="c">ägyptischer Schriftsteller und Romancier</ns2:subfield>
+                        <ns2:subfield code="9">de</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q1953386</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q1953386</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>DNB|1055935576</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jo2011663601</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>SUDOC|139184902</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>BNF|14624674</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>LC|no2002061983</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Qafāš, Muntaṣar al-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|139184902</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SUDOC|139184902</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|no2002061983</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNF|14624674</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q1953386</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Qaffāsh, Muntaṣir</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|no2002061983</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|12323218X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNF|14624674</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>SUDOC|139184902</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q1953386</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Qaffāš, Muntaṣir al-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|12323218X</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|no2002061983</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>DNB|1055935576</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Qaffāš, Muntaṣir &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1055935576</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|1055935576</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="title"/>NTA|12323218X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|14624674</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jo2011663601</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q1953386</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Qaffāš, Muntaṣir al-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000040310629</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>BNF|14624674</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jo2011663601</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>SUDOC|139184902</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>NTA|12323218X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|1055935576</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q1953386</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>LC|no2002061983</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="200">
+                        <ns2:subfield code="7">ba0yba0a</ns2:subfield>
+                        <ns2:subfield code="8">freara</ns2:subfield>
+                        <ns2:subfield code="9">0</ns2:subfield>
+                        <ns2:subfield code="a">&#x98;al-&#x9c;Qaffāš</ns2:subfield>
+                        <ns2:subfield code="b">Muntaṣir al-</ns2:subfield>
+                        <ns2:subfield code="f">1964-....</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNF|14624674</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|no2002061983</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000040310629</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|1055935576</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>SUDOC|139184902</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q1953386</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">El Qaffash, Montasser</ns2:subfield>
+                        <ns2:subfield code="d">1964-...</ns2:subfield>
+                        <ns2:normalized>el qaffash montasser 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns2:subfield code="a">El Qaffash</ns2:subfield>
+                        <ns2:subfield code="b">Montasser</ns2:subfield>
+                        <ns2:subfield code="f">1964-....</ns2:subfield>
+                        <ns2:normalized>el qaffash montasser 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Kaffach, Montasser</ns2:subfield>
+                        <ns2:subfield code="d">1964-...</ns2:subfield>
+                        <ns2:normalized>kaffach montasser 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns2:subfield code="a">Kaffach</ns2:subfield>
+                        <ns2:subfield code="b">Montasser</ns2:subfield>
+                        <ns2:subfield code="f">1964-....</ns2:subfield>
+                        <ns2:normalized>kaffach montasser 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḳafās̱ẖ, Muntaṣir al-</ns2:subfield>
+                        <ns2:normalized>kafash muntasir al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḳaffās̱ẖ, Muntaṣir al-</ns2:subfield>
+                        <ns2:normalized>kaffash muntasir al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḳuffās̱ẖ, Muntaṣir al-</ns2:subfield>
+                        <ns2:normalized>kuffash muntasir al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muntasir al-Qaffáš,</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>muntasir al qaffas 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jo2011663601</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muntasir al-Qaffáš</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>muntasir al qaffas 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muntaṣir Qaffāš</ns2:subfield>
+                        <ns2:normalized>muntasir qaffas</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muntaṣir Qaffāš</ns2:subfield>
+                        <ns2:subfield code="c">Egyptian author and writer</ns2:subfield>
+                        <ns2:normalized>muntasir qaffas egyptian author and writer</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q1953386</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muntaṣir al-Qaffāš</ns2:subfield>
+                        <ns2:normalized>muntasir al qaffas</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q1953386</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muntaṣir al-Qaffāš</ns2:subfield>
+                        <ns2:subfield code="c">auteur uit Egypte</ns2:subfield>
+                        <ns2:normalized>muntasir al qaffas auteur uit egypte</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q1953386</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qafāsh, Muntaṣar al-</ns2:subfield>
+                        <ns2:normalized>qafash muntasar al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|139184902</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qafāš, Muntaṣir al-</ns2:subfield>
+                        <ns2:normalized>qafas muntasir al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qaffache, Montasser</ns2:subfield>
+                        <ns2:subfield code="d">1964-...</ns2:subfield>
+                        <ns2:normalized>qaffache montasser 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns2:subfield code="a">Qaffache</ns2:subfield>
+                        <ns2:subfield code="b">Montasser</ns2:subfield>
+                        <ns2:subfield code="f">1964-....</ns2:subfield>
+                        <ns2:normalized>qaffache montasser 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qaffasch, Muntasser al-</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>qaffasch muntasser al 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qaffasch, Muntasser &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>qaffasch muntasser 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1055935576</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qaffash, Muntasir</ns2:subfield>
+                        <ns2:subfield code="d">1964-...</ns2:subfield>
+                        <ns2:normalized>qaffash muntasir 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns2:subfield code="a">Qaffash</ns2:subfield>
+                        <ns2:subfield code="b">Muntasir</ns2:subfield>
+                        <ns2:subfield code="f">1964-....</ns2:subfield>
+                        <ns2:normalized>qaffash muntasir 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qaffāsh, Muntasar</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>qaffash muntasar 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1055935576</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qaffāsh, Muntaṣar &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>qaffash muntasar 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1055935576</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qaffāsh, Muntaṣir</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>qaffash muntasir 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1055935576</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qaffāš, Muntaṣar &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>qaffas muntasar 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1055935576</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qaffāsh, Muntaṣar al-</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>qaffash muntasar al 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qaffāsh, Muntaṣir</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>qaffash muntasir 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qaffāš, Muntaṣar al-</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>qaffas muntasar al 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qafāsh, Muntaṣar al-</ns2:subfield>
+                        <ns2:normalized>qafash muntasar al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qafāš, Muntaṣir al-</ns2:subfield>
+                        <ns2:normalized>qafas muntasir al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qufāš, Muntaṣir al-</ns2:subfield>
+                        <ns2:normalized>qufas muntasir al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Quffāš, Muntaṣir al-</ns2:subfield>
+                        <ns2:normalized>quffas muntasir al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Quffāš, Muntaṣir al-</ns2:subfield>
+                        <ns2:normalized>quffas muntasir al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Qufāš, Muntaṣir al-</ns2:subfield>
+                        <ns2:normalized>qufas muntasir al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">al-Qaffāš, Muntaṣar &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>al qaffas muntasar 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1055935576</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">al-Qaffāš, Muntaṣir &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1964-</ns2:subfield>
+                        <ns2:normalized>al qaffas muntasir 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1055935576</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="700">
+                        <ns2:subfield code="a">&#x98;ال&#x9c;قفّاش</ns2:subfield>
+                        <ns2:subfield code="b">منتصر</ns2:subfield>
+                        <ns2:subfield code="f">1964-....</ns2:subfield>
+                        <ns2:normalized>قفاش منتصر 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">القفاش, منتصر</ns2:subfield>
+                        <ns2:normalized>القفاش منتصر</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|139184902</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">القفّاش, منتصر</ns2:subfield>
+                        <ns2:subfield code="d">1964-...</ns2:subfield>
+                        <ns2:normalized>القفاش منتصر 1964</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">قفاش, منتصر ال</ns2:subfield>
+                        <ns2:normalized>قفاش منتصر ال</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|139184902</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">قفاش, منتصر ال</ns2:subfield>
+                        <ns2:normalized>قفاش منتصر ال</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">قفاش، منتصر</ns2:subfield>
+                        <ns2:normalized>قفاش منتصر</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">قفاش، منتصر</ns2:subfield>
+                        <ns2:normalized>قفاش منتصر</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḳaffās̱ẖ, Muntaṣir al-</ns2:subfield>
+                        <ns2:normalized>kaffash muntasir al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḳafās̱ẖ, Muntaṣir al-</ns2:subfield>
+                        <ns2:normalized>kafash muntasir al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḳuffās̱ẖ, Muntaṣir al-</ns2:subfield>
+                        <ns2:normalized>kuffash muntasir al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:publishers>
+                  <ns2:data count="7">
+                     <ns2:text>Dār Šarqiyyāt li-al-Našr wa-al-Tawzīʿ</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|139184902</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>دار شرقيات للنشر والتوزيع،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|139184902</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>‏دار الهلال،‏</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>Dār al-Hilāl</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>دار شرقيّات</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Dār Šarqiyyāt</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000040310629</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1964-01-01</ns2:birthDate>
+               <ns2:deathDate>0</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="200" min="199">
+                  <ns2:date count="5" scaled="2.32">199</ns2:date>
+                  <ns2:date count="8" scaled="3.00">200</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="7">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|139184902</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:RelatorCodes>
+                  <ns2:data count="2">
+                     <ns2:text>070</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RelatorCodes>
+               <ns2:ISBNs unique="3">
+                  <ns2:data count="3">
+                     <ns2:text>9789772831043</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|139184902</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9789770712825</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789775406835</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:countries>
+                  <ns2:data count="6" scaled="3">
+                     <ns2:text>EG</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|139184902</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>GQ</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:languageOfEntity>
+                  <ns2:data>
+                     <ns2:text>ara</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:languageOfEntity>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>EG</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:s>ISNI</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://de.wikipedia.org/wiki/Muntasir_al-Qaffasch<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q1953386</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1055935576</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>as-Sarāʾir. -</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Masʾalaẗ waqt</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|139184902</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>An tará al-ān riwāyaẗ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|12323218X</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Taṣrīḥ bi-al-ġiyāb</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|139184902</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>أن ترى الآن : رواية͏̈ / منتصر القفاش, 2002</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no2002061983</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|14624674</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏مسألة وقت /‏</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="BNF|14624674" time="2009-03-03T12:03:25+00:00" type="add"/>
+                  <ns2:ht recid="LC|no2002061983" time="2009-03-03T12:03:38+00:00" type="add"/>
+                  <ns2:ht recid="NTA|12323218X" time="2012-12-19T19:11:18+00:00" type="add"/>
+                  <ns2:ht recid="ISNI|0000000040310629"
+                          time="2013-09-16T16:15:07+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NKC|jo2011663601"
+                          time="2014-08-28T14:36:24+00:00"
+                          type="add"/>
+                  <ns2:ht recid="DNB|1055935576" time="2014-08-28T14:36:24+00:00" type="add"/>
+                  <ns2:ht recid="WKP|Q1953386" time="2015-04-14T18:56:54+00:00" type="add"/>
+                  <ns2:ht recid="SUDOC|139184902" time="2015-07-12T18:51:56+00:00" type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-04-23T05:31:57.293474+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "19935104"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">19935104</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

@@ -1,0 +1,1709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>1575254</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/1575254/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/1575254"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="n88242678">LC|n  88242678</ns2:source>
+                  <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb13000013x">BNF|13000013</ns2:source>
+                  <ns2:source nsid="Q4115887">WKP|Q4115887</ns2:source>
+                  <ns2:source nsid="vtls001337304">EGAXA|vtls001337304</ns2:source>
+                  <ns2:source nsid="http://d-nb.info/gnd/137070594">DNB|137070594</ns2:source>
+                  <ns2:source nsid="0000000078351370">ISNI|0000000078351370</ns2:source>
+                  <ns2:source nsid="002107608">NLI|002107608</ns2:source>
+                  <ns2:source nsid="100103588">NTA|100103588</ns2:source>
+                  <ns2:source nsid="033671877">SUDOC|033671877</ns2:source>
+               </ns2:sources>
+               <ns2:length>973</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Bahǧūrī, Ǧūrǧ al- 1935-....</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Bahjūrī, Jūrj</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Bahǧūrī, Ǧūrǧ al-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Bahgory, Georges 1932-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|137070594</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>البهجوري، جورج</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>George Bahgoury</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q4115887</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Bahgory, Georges</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|137070594</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|137070594</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  88242678</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|002107608</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q4115887</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="200">
+                        <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                        <ns2:subfield code="8">freara</ns2:subfield>
+                        <ns2:subfield code="9">0</ns2:subfield>
+                        <ns2:subfield code="a">Bahǧūrī</ns2:subfield>
+                        <ns2:subfield code="b">Ǧūrǧ al-</ns2:subfield>
+                        <ns2:subfield code="f">1935-....</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNF|13000013</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|n  88242678</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|033671877</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Bahǧūrī, Ǧurǧ al-,</ns2:subfield>
+                        <ns2:subfield code="d">1935-...</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SUDOC|033671877</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|n  88242678</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|13000013</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>EGAXA|vtls001337304</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NTA|100103588</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Bahǧūrī, Ǧūrǧ al-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|100103588</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|002107608</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  88242678</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>SUDOC|033671877</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Bahjūrī, Jūrj</ns2:subfield>
+                        <ns2:subfield code="9">lat</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|002107608</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  88242678</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|100103588</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|137070594</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Bahjūrī, Jūrj</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|n  88242678</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNF|13000013</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>EGAXA|vtls001337304</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|002107608</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|137070594</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|100103588</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>SUDOC|033671877</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Bahǧūrī, Ǧūrǧ al-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000078351370</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>LC|n  88242678</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|13000013</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q4115887</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>EGAXA|vtls001337304</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>DNB|137070594</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|002107608</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>NTA|100103588</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>SUDOC|033671877</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">George Bahgoury</ns2:subfield>
+                        <ns2:subfield code="9">fr</ns2:subfield>
+                        <ns2:subfield code="9">de</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q4115887</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q4115887</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|137070594</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000078351370</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">البهجوري، جورج</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>EGAXA|vtls001337304</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|n  88242678</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000078351370</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>SUDOC|033671877</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Al Bahgoury, George</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>al bahgoury george 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|137070594</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Al-Bahjouri, George</ns2:subfield>
+                        <ns2:normalized>al bahjouri george</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahgory, George</ns2:subfield>
+                        <ns2:normalized>bahgory george</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahgory, Georges</ns2:subfield>
+                        <ns2:normalized>bahgory georges</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahgory, Georges</ns2:subfield>
+                        <ns2:subfield code="d">1935-...</ns2:subfield>
+                        <ns2:normalized>bahgory georges 1935</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahgory, George</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>bahgory george 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|137070594</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahgory, George</ns2:subfield>
+                        <ns2:subfield code="d">1935-...</ns2:subfield>
+                        <ns2:normalized>bahgory george 1935</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns2:subfield code="a">Bahgory</ns2:subfield>
+                        <ns2:subfield code="b">Georges</ns2:subfield>
+                        <ns2:subfield code="f">1935-....</ns2:subfield>
+                        <ns2:normalized>bahgory georges 1935</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns2:subfield code="a">Bahgory</ns2:subfield>
+                        <ns2:subfield code="b">George</ns2:subfield>
+                        <ns2:subfield code="f">1935-....</ns2:subfield>
+                        <ns2:normalized>bahgory george 1935</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahgouri, Georges</ns2:subfield>
+                        <ns2:normalized>bahgouri georges</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahgoury, Georges</ns2:subfield>
+                        <ns2:normalized>bahgoury georges</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahgoury, Georges</ns2:subfield>
+                        <ns2:subfield code="d">1935-...</ns2:subfield>
+                        <ns2:normalized>bahgoury georges 1935</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns2:subfield code="a">Bahgoury</ns2:subfield>
+                        <ns2:subfield code="b">Georges</ns2:subfield>
+                        <ns2:subfield code="f">1935-....</ns2:subfield>
+                        <ns2:normalized>bahgoury georges 1935</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahgury, George</ns2:subfield>
+                        <ns2:normalized>bahgury george</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahǧawrī, Ǧūrǧ al-</ns2:subfield>
+                        <ns2:normalized>bahgawri gurg al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahǧūrī, Ǧurǧ &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>bahguri gurg 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|137070594</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahjouri, George</ns2:subfield>
+                        <ns2:normalized>bahjouri george</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahjouri, George Al-</ns2:subfield>
+                        <ns2:normalized>bahjouri george al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahjouri, George &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>bahjouri george 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|137070594</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahjūrī, Jūrj</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>bahjuri jurj 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|137070594</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahjūrī, Zhūrzh</ns2:subfield>
+                        <ns2:normalized>bahjuri zhurzh</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns2:subfield code="a">Bahjūrī</ns2:subfield>
+                        <ns2:subfield code="b">Jūrj</ns2:subfield>
+                        <ns2:subfield code="f">1935-....</ns2:subfield>
+                        <ns2:normalized>bahjuri jurj 1935</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahjūrī, Jūrj</ns2:subfield>
+                        <ns2:subfield code="d">1935-...</ns2:subfield>
+                        <ns2:normalized>bahjuri jurj 1935</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bahǧawrī, Ǧūrǧ al-</ns2:subfield>
+                        <ns2:normalized>bahgawri gurg al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">George Al Bahgoury</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>george al bahgoury 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|137070594</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">George Bahgoury</ns2:subfield>
+                        <ns2:subfield code="c">Frans kunstschilder</ns2:subfield>
+                        <ns2:normalized>george bahgoury frans kunstschilder</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q4115887</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">George Bahgoury</ns2:subfield>
+                        <ns2:subfield code="c">French painter</ns2:subfield>
+                        <ns2:normalized>george bahgoury french painter</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q4115887</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">George Bahgoury</ns2:subfield>
+                        <ns2:subfield code="c">pintor francés</ns2:subfield>
+                        <ns2:normalized>george bahgoury pintor frances</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q4115887</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ǧurǧ al-Bahǧūrī</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>gurg al bahguri 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|137070594</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">البهجوري, جورج</ns2:subfield>
+                        <ns2:normalized>البهجوري جورج</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">البهجوري, جورج</ns2:subfield>
+                        <ns2:normalized>البهجوري جورج</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">البهجوري, جورج</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>البهجوري جورج 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|137070594</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">البهجوري, جورج</ns2:subfield>
+                        <ns2:subfield code="d">1935-...</ns2:subfield>
+                        <ns2:normalized>البهجوري جورج 1935</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="700">
+                        <ns2:subfield code="a">البهجوري</ns2:subfield>
+                        <ns2:subfield code="b">جورج</ns2:subfield>
+                        <ns2:subfield code="f">1935-....</ns2:subfield>
+                        <ns2:normalized>البهجوري جورج 1935</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">البهجوري، جورج</ns2:subfield>
+                        <ns2:normalized>البهجوري جورج</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">البهجوري، چورچ</ns2:subfield>
+                        <ns2:normalized>البهجوري چورچ</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">الجوري, جورج</ns2:subfield>
+                        <ns2:normalized>الجوري جورج</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">بهجوري، جورج</ns2:subfield>
+                        <ns2:normalized>بهجوري جورج</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">بهجوري، جورج</ns2:subfield>
+                        <ns2:normalized>بهجوري جورج</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">بهجوري، چورچ</ns2:subfield>
+                        <ns2:normalized>بهجوري چورچ</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">جورج البهجورى</ns2:subfield>
+                        <ns2:normalized>جورج البهجورى</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q4115887</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">جورج البهجوري</ns2:subfield>
+                        <ns2:normalized>جورج البهجوري</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q4115887</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">‮بهجوري, جورج.</ns2:subfield>
+                        <ns2:normalized>بهجوري جورج</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:coauthors>
+                  <ns2:data count="16" tag="950">
+                     <ns2:text>Mégally, Samir</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4" tag="950">
+                     <ns2:text>Kophidès, Cypris.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" tag="950">
+                     <ns2:text>Lackany, Suzanne El</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" tag="950">
+                     <ns2:text>El Lackany, Suzanne</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="951">
+                     <ns2:text>Samir Mégally</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>السيد، ناهد.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>السيد، ناهد</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>ʿAbd al-Ḥalīm Ḥāfiẓ 1929-1977</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>ʿAbd al-Ḥalīm Ḥāfiẓ 1929-1977</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Umm Kulṯūm 1898?-1975</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Umm Kulṯūm 1898?-1975</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="16">
+                     <ns2:text>S. Mégally</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>Éd. Diabase</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>دار شرقيات للنشر والتوزيع</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>Dār Sharqīyāt lil-Nashr wa-al-Tawzīʻ</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>دار شرقيّات</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>دار الثقافة الجديدة،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>رواق البلقاء،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>دارتيبار لكتب الاطفال،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000078351370</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Dār al-Thaqāfah al-Jadīdah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>‮دار الهنا للطباعة والنشر</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1932-12-13</ns2:birthDate>
+               <ns2:deathDate>0</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="201" min="197">
+                  <ns2:date count="3" scaled="1.58">197</ns2:date>
+                  <ns2:date count="5" scaled="2.32">198</ns2:date>
+                  <ns2:date count="13" scaled="3.70">199</ns2:date>
+                  <ns2:date count="13" scaled="3.70">200</ns2:date>
+                  <ns2:date count="2" scaled="1.00">201</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="34">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>mm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>om</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:RelatorCodes>
+                  <ns2:data count="5">
+                     <ns2:text>070</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>440</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>illustrations graphisme</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RelatorCodes>
+               <ns2:ISBNs unique="19">
+                  <ns2:data count="4">
+                     <ns2:text>9789772830084</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>9782903841287</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>9782903841379</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>9782903841263</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9782916121284</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9782911438820</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9782911438349</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9782903841355</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9782903841324</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789775849366</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9782903841256</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:covers>
+                  <ns2:data count="1">
+                     <ns2:text>9774161939</ns2:text>
+                     <ns2:xtext>+-+4846169224</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:covers>
+               <ns2:countries>
+                  <ns2:data count="22" scaled="5">
+                     <ns2:text>FR</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="14" scaled="4">
+                     <ns2:text>EG</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>GB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>JO</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>GQ</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:languageOfEntity>
+                  <ns2:data>
+                     <ns2:text>ara</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:s>DNB</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:languageOfEntity>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>FR</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:s>ISNI</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>EG</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:s>DNB</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://ar.wikipedia.org/wiki/جورج_البهجوري<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q4115887</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://arz.wikipedia.org/wiki/جورج_البهجورى<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q4115887</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://en.wikipedia.org/wiki/George_Bahgoury<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q4115887</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://es.wikipedia.org/wiki/George_Bahgoury<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q4115887</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Abd el-Halim Hâfez</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Alphabet arabe en trois langues arabe-français-anglais</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ayqūnat al-shawāriʻ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ayqūnat Faltas</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ayqūnat shaʻb : riwāyah bidūn kalimāt</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ayqūnat Umm Kulthūm : Umm Kulthūm wa-Jūrj Bahjūrī.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Bahgar en exil</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|137070594</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Bahgory, 2008:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Bahgory : an Egyptian artist's words and pictures = Bahjūrī</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Bahjar fī al-mahjar, 1989:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Bahjar in exile</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Bernard Pouchèle : vagabondages</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Būr Sa'īd</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Dhikrayāt al-juwāfah, 2016:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Égypte chantée</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Georges Bahgory sculptor, sculpteur</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>icône de Faltuss [portraits d'Égypte]</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Icones des rulles</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Īqūnaẗ Bārīs sīraẗ riwāʾiyyaẗ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Jūrj Bahjūrī naḥḥātan</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|100103588</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Law kuntu usfuran</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mandal trois nouvelles bilingue arabe-français</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Min Bahjūrah ilá Bārīs</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Monsieur le bout de chou</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Nouveau titi parisien</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Oum Kalthoum</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|137070594</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>rasm ʿalá rasm. -</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>regard amoureux entretien avec Cypris Kophidès</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>أستاذ شبر و نص</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>أيقونة أم كلثوم : أم كلثوم وجورج بهجوري.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|13000013</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>إيقونة باريس سيرة روائيّة</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>أيقونة شعب : رواية بدون كلمات</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001337304</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>ايقونة فلتس</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|033671877</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>بهجوري, arabe</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002107608</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‮بورسعيد</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>جورج بهجوري نحاتاً</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>ذكريات الجوافة : رسم على رسم</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88242678</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>من بهجورة إلى باريس</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="LC|n  88242678" time="2009-03-03T12:03:37+00:00" type="add"/>
+                  <ns2:ht recid="BNF|13000013" time="2009-04-13T08:13:09+00:00" type="add"/>
+                  <ns2:ht recid="EGAXA|vtls001337304"
+                          time="2009-11-11T06:00:17+00:00"
+                          type="add"/>
+                  <ns2:ht recid="SUDOC|033671877" time="2011-12-15T07:58:58+00:00" type="add"/>
+                  <ns2:ht recid="DNB|137070594" time="2012-04-23T06:08:53+00:00" type="add"/>
+                  <ns2:ht recid="NTA|100103588" time="2012-12-19T19:11:18+00:00" type="add"/>
+                  <ns2:ht recid="ISNI|0000000078351370"
+                          time="2014-12-15T16:26:32+00:00"
+                          type="add"/>
+                  <ns2:ht recid="WKP|Q4115887"
+                          time="2016-04-03T11:06:28.325032+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NLI|002107608"
+                          time="2017-02-05T09:51:53.948709+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T15:13:26.236803+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "1575254"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">1575254</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

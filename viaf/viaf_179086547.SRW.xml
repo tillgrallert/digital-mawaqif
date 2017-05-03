@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>179086547</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/179086547/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/179086547"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="vtls001067620">EGAXA|vtls001067620</ns2:source>
+                  <ns2:source nsid="0000000356198733">ISNI|0000000356198733</ns2:source>
+                  <ns2:source nsid="n89640835">LC|n  89640835</ns2:source>
+                  <ns2:source nsid="a30619555">NLP|a30619555</ns2:source>
+                  <ns2:source nsid="151341974">NTA|151341974</ns2:source>
+                  <ns2:source nsid="vtls011485799">NUKAT|n 2015182419</ns2:source>
+                  <ns2:source nsid="169561267">SUDOC|169561267</ns2:source>
+                  <ns2:source nsid="Q20396450">WKP|Q20396450</ns2:source>
+                  <ns2:source nsid="002293693">NLI|002293693</ns2:source>
+                  <ns2:source nsid="90383693">BIBSYS|90383693</ns2:source>
+               </ns2:sources>
+               <ns2:length>770</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Mahdī, Sāmī</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90383693</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002293693</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|151341974</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Mahdī, Sāmī (1940- ).</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a30619555</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>مهدي، سامي، 1940-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>سامي مهدي</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q20396450</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Mahdi, Sami</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90383693</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BIBSYS|90383693</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="title"/>NTA|151341974</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Mahdī, Sāmī</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|151341974</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|151341974</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>EGAXA|vtls001067620</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>BIBSYS|90383693</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|002293693</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>LC|n  89640835</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a30619555</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Mahdī, Sāmī</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|n  89640835</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls001067620</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2015182419</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|169561267</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|002293693</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>NTA|151341974</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a30619555</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q20396450</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Mahdī, Sāmī</ns2:subfield>
+                        <ns2:subfield code="9">lat</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002293693</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|002293693</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls001067620</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2015182419</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|169561267</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|151341974</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  89640835</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a30619555</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Mahdī, Sāmī,</ns2:subfield>
+                        <ns2:subfield code="d">1940-....</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SUDOC|169561267</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls001067620</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2015182419</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|002293693</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  89640835</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a30619555</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q20396450</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Mahdī, Sāmī</ns2:subfield>
+                        <ns2:subfield code="d">(1940- )</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a30619555</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLP|a30619555</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls001067620</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2015182419</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|169561267</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|002293693</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NTA|151341974</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  89640835</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q20396450</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Mahdī, Sāmī</ns2:subfield>
+                        <ns2:subfield code="d">(1940- ).</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NUKAT|n 2015182419</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls001067620</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|169561267</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|002293693</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  89640835</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a30619555</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">سامي مهدي</ns2:subfield>
+                        <ns2:subfield code="9">ar</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q20396450</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q20396450</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a30619555</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|169561267</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls001067620</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  89640835</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">مهدي، سامي،</ns2:subfield>
+                        <ns2:subfield code="d">1940-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>EGAXA|vtls001067620</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2015182419</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|169561267</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|002293693</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000356198733</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|151341974</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  89640835</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a30619555</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q20396450</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">مهدي، سامي،</ns2:subfield>
+                        <ns2:subfield code="d">1940-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000356198733</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>EGAXA|vtls001067620</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NUKAT|n 2015182419</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>SUDOC|169561267</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|002293693</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>NTA|151341974</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  89640835</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a30619555</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q20396450</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Mahdi, Sami</ns2:subfield>
+                        <ns2:normalized>mahdi sami</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Mahdi, Sami.</ns2:subfield>
+                        <ns2:normalized>mahdi sami</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Mahdi, Samy</ns2:subfield>
+                        <ns2:normalized>mahdi samy</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Mahdi, Samy.</ns2:subfield>
+                        <ns2:normalized>mahdi samy</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Mehdi, Sami</ns2:subfield>
+                        <ns2:normalized>mehdi sami</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Mehdi, Sami.</ns2:subfield>
+                        <ns2:normalized>mehdi sami</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Mehdi, Samy</ns2:subfield>
+                        <ns2:normalized>mehdi samy</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Mehdi, Samy.</ns2:subfield>
+                        <ns2:normalized>mehdi samy</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">سامي مهدي،</ns2:subfield>
+                        <ns2:subfield code="d">1940-</ns2:subfield>
+                        <ns2:normalized>سامي مهدي 1940</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">مهدي, سامي</ns2:subfield>
+                        <ns2:normalized>مهدي سامي</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">مهدي, سامي,</ns2:subfield>
+                        <ns2:subfield code="d">1940-....</ns2:subfield>
+                        <ns2:normalized>مهدي سامي 1940</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">مهدي, سامي.</ns2:subfield>
+                        <ns2:normalized>مهدي سامي</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">مهدي, سامي</ns2:subfield>
+                        <ns2:subfield code="d">1940-...</ns2:subfield>
+                        <ns2:normalized>مهدي سامي 1940</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">مهدي، سامي</ns2:subfield>
+                        <ns2:normalized>مهدي سامي</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">مهدي، سامي</ns2:subfield>
+                        <ns2:normalized>مهدي سامي</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:coauthors>
+                  <ns2:data count="3" tag="950">
+                     <ns2:text>ʻAwdah, Aḥmad ʻAbd al-Ḥamīd</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Ṣā’igh, ’Adnān 1955- )</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Żuliński, Leszek 1949- )</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Wrona, Barbara</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="951">
+                     <ns2:text>Uniwersytet Warszawski. Katedra Arabistyki i Islamistyki</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Szyburska, Małgorzata</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Szott, Mirosława 1987- )</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Shagari, Shehu Usman Aliyu 1925- )</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>ميشو، هنري، 1899-1984.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>ميشو، هنري، 1899-1984</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>بريفير، جاك، 1900-1977.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="6">
+                     <ns2:text>‏دار ميزوبوتاميا للطباعة والنشر والتوزيع،‏</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>Dār al-Shuʼūn al-Thaqāfīyah al-ʻĀmmah "Āfāq ʻArabīyah"</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5">
+                     <ns2:text>دار الشؤون الثقافية العامة "آفاق عربية"،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>‏أزمنة،‏</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>Dār Mīzūbūtāmiyā lil-Ṭibāʻah wa-al-Nashr wa-al-Tawzīʻ</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>الهيئة العامة لقصور الثقافة،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>‏أزمنة للنشر والتوزيع،‏</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Azminah lil-Nashr wa-al-Tawzīʻ</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>منشورات وزارة الثقافة و الاعلام،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>‏رياض الريس للكتب والنشر،‏</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000356198733</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Wizārat al-Ṯaqāfa wa-al-Funūn</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|151341974</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Katedra Arabistyki i Islamistyki Uniwersytet Warszawski</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Dar al-Ma'mun</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90383693</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1940</ns2:birthDate>
+               <ns2:deathDate>0</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="201" min="197">
+                  <ns2:date count="6" scaled="2.58">197</ns2:date>
+                  <ns2:date count="12" scaled="3.58">198</ns2:date>
+                  <ns2:date count="5" scaled="2.32">199</ns2:date>
+                  <ns2:date count="11" scaled="3.46">200</ns2:date>
+                  <ns2:date count="2" scaled="1.00">201</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="19">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90383693</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|151341974</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="10">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:ISBNs unique="6">
+                  <ns2:data count="2">
+                     <ns2:text>9789957092979</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789957712532</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789957093457</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789957092450</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789953214368</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9788390318899</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:countries>
+                  <ns2:data count="15" scaled="4">
+                     <ns2:text>IQ</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|151341974</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5" scaled="3">
+                     <ns2:text>JO</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>MA</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>EG</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>PL</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>LB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://ar.wikipedia.org/wiki/سامي_مهدي<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q20396450</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Abnāʼ Īnanā</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Āfāq naqdīyah : qirāʼāt fī al-mutūn wa-fī manāhij al-taḥlīl</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002293693</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Aʻmal al-shiʻrīyah, 1965-1985, 1986</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a30619555</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Andrzej K. Waśkiewicz / [Andrzej K. Waśkiewicz, Adonis, Mahmud Junis Ammar, Abd al-Wahhab al-Bajati, Ewa Borkowska, Selim Chazbijewicz, Janusz Danecki, Mahmud Darwisz, Marek M. Dziekan, Abdallah Hosejni Dżawadi, Ali al-Fazzani, Unsi al-Hadż, Jasin Taha Hafiz, Behruz Haszempur, Muhammad Ibn Muhammad al-Ilmi, Hatif Janabi (Hatif al-Dżanabi), Salihu Jan-Kidi, Hanna Jankowska, Faruk Jusuf, Hasan Abd Allah al-Kuraszi, Jolanta Kozłowska, Eugeniusz Kurzawa, Lubomira, Ewa Machut-Mendecka, Sami Mahdi, Nadżib Mahfuz, Dżalal Mohammad, Stanisław Piłaszewicz, Hamid Sa'id, Adnan as-Sa'igh, Alhaji Shehu Aliju Shagari, Mirosława Szott, Małgorzata Szyburska, Barbara Wrona, Leszek Żuliński]. - Warszawa, 2015.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Asfār al-malik al-ʻāshiq.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|151341974</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Asfār jadīdah : qaṣāʹid</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90383693</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|151341974</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Asʾila</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Dhākirat al-shiʻr : ruʼá wa-mawāqif wa-murājaʻāt</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Fī al-ṭarīq ilá al-ḥadāthah : dirāsāt fī al-shiʻr al-ʻIrāqī al-muʻāṣir</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Kitābah bi-lā inqiṭāʻ : Sāmī Mahdī yataḥaddath</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Majallāt al-ʻIraqīyah al-riyādīyah wa-dawruhā fī taḥdīth al-adab wa-al-fann, 1945-1958</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Mawjah al-ṣākhibah : shiʻr al-sittīnīyāt fī al-ʻIrāq</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015182419</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Miejsca odwiedzane</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mudawwanāt Hābīl ibn Hābīl</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Muḥtarat šiʿriyaẗ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Naẓarāt jadīdah fī adab al-ʻIrāq al-qadīm</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Nihād al-Takarlī : rāʼid al-naqd al-adabī al-ḥadīth fī al-ʻIrāq</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Paroles، histoires, la pluie et le beau temps et autres choses.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|002293693</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90383693</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Poems, 1988:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Saʻādah khāṣṣah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Tajribat Tawfīq Ṣāyigh al-shiʻrīyah wa-marjiʻīyātuhā al-fikrīyah wa-al-fannīyah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Toufic Sayegh's poetic experience and its intellectual and artistic references</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|151341974</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ufuq al-ḥadāṯa wa-ḥadāṯat al-namaṭ</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|309497333">
+                     <ns2:sources>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORKLCn  90613880</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Works. Selections.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Zawāl</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏أبناء إيننا /‏</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏آفاق نقدية :‏ ‏قراءات في المتون وفي مناهج التحليل /‏</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>أفق الحداثة وحداثة النمط : دراسة في حداثة مجلة ”شعر“ : بيئة ومشروعا ونموذجا</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>اكتب اليك من بلد بعيد</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الأعمال الشعرية، 1965-1985</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الزوال</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001067620</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الصراع مع الملاك</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏الكتابة بلا إنقطاع :‏ ‏سامي مهدي يتحدث /‏</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الموجة الصاخبة : شعر الستينيات في العراق</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏تجربة توفيق صايغ الشعرية ومرجعياتها الفكرية و الفنية /‏</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏ذاكرة الشعر :‏ ‏رؤى ومواقف ومراجعات /‏</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>سعادة خاصة</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏في الطريق إلى الحداثة :‏ ‏دراسات في الشعر العراقي المعاصر /‏</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>مختارات شعرية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>مدونات هابيل بن هابيل‏</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|169561267</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>نظرات جديدة في أدب العراق القديم</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  89640835</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>نهاد التكرلي : رائد النقد الأدبي الحديث في العراق</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="LC|n  89640835" time="2011-10-24T04:10:16+00:00" type="add"/>
+                  <ns2:ht recid="NTA|151341974" time="2012-12-19T19:11:18+00:00" type="add"/>
+                  <ns2:ht recid="EGAXA|vtls001067620"
+                          time="2013-05-13T19:14:22+00:00"
+                          type="add"/>
+                  <ns2:ht recid="SUDOC|169561267" time="2013-06-14T19:03:38+00:00" type="add"/>
+                  <ns2:ht recid="ISNI|0000000356198733"
+                          time="2013-10-13T19:17:13+00:00"
+                          type="add"/>
+                  <ns2:ht recid="DNB|140616748"
+                          time="2014-10-21T12:48:43+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NLP|a30619555" time="2015-04-14T18:56:54+00:00" type="add"/>
+                  <ns2:ht recid="NUKAT|n 2015182419"
+                          time="2015-06-15T20:42:24+00:00"
+                          type="add"/>
+                  <ns2:ht recid="WKP|Q20396450"
+                          time="2016-02-20T17:03:12.814872+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NLI|002293693"
+                          time="2017-02-05T09:51:07.352095+00:00"
+                          type="add"/>
+                  <ns2:ht recid="BIBSYS|90383693"
+                          time="2017-05-01T13:56:43.870567+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T18:16:06.899766+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "179086547"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">179086547</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

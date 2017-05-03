@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>261902111</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/261902111/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/261902111"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="ADV12415582">BAV|ADV12415582</ns2:source>
+                  <ns2:source nsid="http://d-nb.info/gnd/143849948">DNB|143849948</ns2:source>
+                  <ns2:source nsid="0000000381770180">ISNI|0000000381770180</ns2:source>
+                  <ns2:source nsid="n85222086">LC|n  85222086</ns2:source>
+                  <ns2:source nsid="16911">LNL|16911</ns2:source>
+                  <ns2:source nsid="071642218">NTA|071642218</ns2:source>
+                  <ns2:source nsid="028354079">SUDOC|028354079</ns2:source>
+                  <ns2:source nsid="vtls013476379">NUKAT|n 2015200906</ns2:source>
+                  <ns2:source nsid="Q2060595">WKP|Q2060595</ns2:source>
+               </ns2:sources>
+               <ns2:length>1324</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Khoury, Paul</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                        <ns2:s>BAV</ns2:s>
+                        <ns2:sid>BAV|ADV12415582</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Khoury, Paul 1921-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Hūrī, Būlus al- (1921- ).</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015200906</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>خوري، بولس، 1921-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|16911</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Paul Khoury</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q2060595</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Hūrī, Būlus al-</ns2:subfield>
+                        <ns2:subfield code="d">(1921- ).</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015200906</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NUKAT|n 2015200906</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNL|16911</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q2060595</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NTA|071642218</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|143849948</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Khoury, Paul</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BAV</ns2:s>
+                        <ns2:sid>BAV|ADV12415582</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BAV|ADV12415582</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NTA|071642218</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>SUDOC|028354079</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Khoury, Paul</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000381770180</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>LC|n  85222086</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNL|16911</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q2060595</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>NTA|071642218</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>SUDOC|028354079</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|143849948</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NUKAT|n 2015200906</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BAV|ADV12415582</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Khoury, Paul</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|071642218</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  85222086</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>SUDOC|028354079</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>DNB|143849948</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NUKAT|n 2015200906</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BAV|ADV12415582</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Khoury, Paul</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|n  85222086</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>SUDOC|028354079</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>DNB|143849948</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|071642218</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Khoury, Paul</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SUDOC|028354079</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|n  85222086</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NTA|071642218</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>DNB|143849948</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BAV|ADV12415582</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Khoury, Paul</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|143849948</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|n  85222086</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNL|16911</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q2060595</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>SUDOC|028354079</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NTA|071642218</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2015200906</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">Paul Khoury</ns2:subfield>
+                        <ns2:subfield code="9">fr</ns2:subfield>
+                        <ns2:subfield code="9">es</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q2060595</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q2060595</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNL|16911</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>DNB|143849948</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2015200906</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">خوري، بولس،</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|16911</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LNL|16911</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000381770180</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q2060595</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|143849948</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2015200906</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Al-Hūrī, Būlus</ns2:subfield>
+                        <ns2:normalized>al huri bulus</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Al-Hūrī, Būlus.</ns2:subfield>
+                        <ns2:normalized>al huri bulus</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015200906</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Alhūrī, Būlus</ns2:subfield>
+                        <ns2:normalized>alhuri bulus</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Alhūrī, Būlus.</ns2:subfield>
+                        <ns2:normalized>alhuri bulus</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015200906</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Būlus al-Ḫūrī</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>bulus al huri 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Būlus al-Ḫūrī</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>bulus al huri 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḫūrī, Būlus &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>huri bulus 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">H̱ūrī, Būlus</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>huri bulus 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">H̱ūrī, Būlus</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>huri bulus 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Khoury, Paul</ns2:subfield>
+                        <ns2:normalized>khoury paul</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Khoury, Paul F.</ns2:subfield>
+                        <ns2:normalized>khoury paul f</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Khoury, Paul R. M.</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>khoury paul r m 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Khoury, Paul.</ns2:subfield>
+                        <ns2:normalized>khoury paul</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015200906</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Khoury, Paul</ns2:subfield>
+                        <ns2:subfield code="d">1921-...</ns2:subfield>
+                        <ns2:normalized>khoury paul 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Khuri, Paul</ns2:subfield>
+                        <ns2:normalized>khuri paul</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Khūrī, Būlus,</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>khuri bulus 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|16911</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Khūrī, Būlus</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>khuri bulus 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Khūrī, Būlus</ns2:subfield>
+                        <ns2:normalized>khuri bulus</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Khūrī, Būlus.</ns2:subfield>
+                        <ns2:normalized>khuri bulus</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015200906</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Khūrī, Būlus</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>khuri bulus 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḵūrī, Būl</ns2:subfield>
+                        <ns2:normalized>kuri bul</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Paul Khoury</ns2:subfield>
+                        <ns2:subfield code="c">Lebanese philosopher and university teacher</ns2:subfield>
+                        <ns2:normalized>paul khoury lebanese philosopher and university teacher</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q2060595</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Paul Khoury</ns2:subfield>
+                        <ns2:subfield code="c">filosoof uit Libanon</ns2:subfield>
+                        <ns2:normalized>paul khoury filosoof uit libanon</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q2060595</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Paul Khoury</ns2:subfield>
+                        <ns2:subfield code="c">libanesischer Philosoph</ns2:subfield>
+                        <ns2:normalized>paul khoury libanesischer philosoph</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q2060595</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">الخوري ، بولس</ns2:subfield>
+                        <ns2:normalized>الخوري بولس</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">الخوري ، بولس.</ns2:subfield>
+                        <ns2:normalized>الخوري بولس</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">الخوري, بولس</ns2:subfield>
+                        <ns2:normalized>الخوري بولس</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">الخوري, بولس</ns2:subfield>
+                        <ns2:normalized>الخوري بولس</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">الخوري, بولس</ns2:subfield>
+                        <ns2:subfield code="d">1921-...</ns2:subfield>
+                        <ns2:normalized>الخوري بولس 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">الخوري، بول،</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>الخوري بول 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">الخوري، بول،</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>الخوري بول 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|16911</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">الخوري، بولس،</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>الخوري بولس 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">الخوري، بولس،</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>الخوري بولس 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|16911</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">بولس الخوري،</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>بولس الخوري 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|16911</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">خوري,  بول</ns2:subfield>
+                        <ns2:normalized>خوري بول</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">خوري, بول</ns2:subfield>
+                        <ns2:normalized>خوري بول</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">خوري، بول</ns2:subfield>
+                        <ns2:normalized>خوري بول</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">خوري، بول.</ns2:subfield>
+                        <ns2:normalized>خوري بول</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">خوري، بولس</ns2:subfield>
+                        <ns2:normalized>خوري بولس</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">خوري، بولس.</ns2:subfield>
+                        <ns2:normalized>خوري بولس</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">خوري، پول</ns2:subfield>
+                        <ns2:normalized>خوري پول</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">خوري، پول.</ns2:subfield>
+                        <ns2:normalized>خوري پول</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḫūrī, Būlus al-</ns2:subfield>
+                        <ns2:subfield code="d">1921-</ns2:subfield>
+                        <ns2:normalized>huri bulus al 1921</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḵūrī, Būl</ns2:subfield>
+                        <ns2:normalized>kuri bul</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">‏الخوري ، بولس</ns2:subfield>
+                        <ns2:normalized>الخوري بولس</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">‏الخوري ، بولس.</ns2:subfield>
+                        <ns2:normalized>الخوري بولس</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">‏خوري، بولس</ns2:subfield>
+                        <ns2:normalized>خوري بولس</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">‏خوري، بولس.</ns2:subfield>
+                        <ns2:normalized>خوري بولس</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:x500s>
+                  <ns2:x500>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                        <ns2:subfield code="a">Derdghaya bei Tyrus, Libanon</ns2:subfield>
+                        <ns2:normalized>derdghaya bei tyrus libanon</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+               </ns2:x500s>
+               <ns2:coauthors>
+                  <ns2:data count="4" tag="950">
+                     <ns2:text>Paul d'Antioche (11..-11..).</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Rahmé, Georges</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015200906</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Paulus, van Antiochie͏̈, bisschop van Sidon, fl.1140-1180.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Paul d'Antioche</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Khoury, Raif Georges</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Paulus Antiochenus, vesc. di Sidone, sec. XIII-XIV</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BAV</ns2:s>
+                        <ns2:sid>BAV|ADV12415582</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Paulus Antiochenus, vesc. di Sidone sec. XIII-XIV</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Būlus ar-Rāhib al-Anṭākī ca. 12. Jh</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Būlus ar-Rāhib al-Anṭākī ca. 12. Jh.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="42">
+                     <ns2:text>Echter ; Oros</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="20">
+                     <ns2:text>al-Maktabah al-Būlusīyah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="18">
+                     <ns2:text>‏المكتبة البولسية،‏</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="16">
+                     <ns2:text>Oros-Verl.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="10">
+                     <ns2:text>L'Harmattan</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="9">
+                     <ns2:text>P. Khoury</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="8">
+                     <ns2:text>impr. catholique</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                        <ns2:s>BAV</ns2:s>
+                        <ns2:sid>BAV|ADV12415582</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="8">
+                     <ns2:text>deux mondes</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>Echter ; Telos</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Integral Audit et Conseil</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000381770180</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Centre d'Etudes et de Recherches Orientales (CERO)</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015200906</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1921-09-19</ns2:birthDate>
+               <ns2:deathDate>0</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="200" min="195">
+                  <ns2:date count="3" scaled="1.58">195</ns2:date>
+                  <ns2:date count="9" scaled="3.17">196</ns2:date>
+                  <ns2:date count="5" scaled="2.32">197</ns2:date>
+                  <ns2:date count="27" scaled="4.75">198</ns2:date>
+                  <ns2:date count="44" scaled="5.46">199</ns2:date>
+                  <ns2:date count="39" scaled="5.29">200</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="107">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015200906</ns2:sid>
+                        <ns2:s>BAV</ns2:s>
+                        <ns2:sid>BAV|ADV12415582</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>as</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="13">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>tm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:RelatorCodes>
+                  <ns2:data count="1">
+                     <ns2:text>directeur de la publication</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5">
+                     <ns2:text>editeur scientifique</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>edt</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>hrsg</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>red</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015200906</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>traduction</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RelatorCodes>
+               <ns2:ISBNs unique="46">
+                  <ns2:data count="5">
+                     <ns2:text>9783429014100</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>9783893751037</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>9783893750399</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>9783893750061</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>9783429016500</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>9783429012229</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>9783932662010</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>9783893752058</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>9783893751983</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>9783893751938</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9783893751877</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789953880129</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789953003702</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9783932662027</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:countries>
+                  <ns2:data count="70" scaled="6">
+                     <ns2:text>DE</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="38" scaled="5">
+                     <ns2:text>LB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015200906</ns2:sid>
+                        <ns2:s>BAV</ns2:s>
+                        <ns2:sid>BAV|ADV12415582</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="10" scaled="3">
+                     <ns2:text>FR</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" scaled="2">
+                     <ns2:text>SN</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:languageOfEntity>
+                  <ns2:data>
+                     <ns2:text>eng</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>ara</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:languageOfEntity>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>LB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:s>WKP</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://de.wikipedia.org/wiki/Paul_Khoury<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q2060595</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-ʻĀlam al-ʻArabī wa-al-taḥawwul al-ijtimāʻī al-thaqāfī</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Aporétique : ou Que sçay je ?</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Bayna al-aṣālaẗ wa-al-taǧdīd ṣūraẗ al-ʻālam al-ʻarabī wa-al-islāmī fi al-fikr al-ʻarabī wa-al-ġarbī : (fi al-sittīnīyāt wa-al-sabʻīnīyāt)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Les états financiers SYSCOA (A la lumière des IFRS) : Outil de communication financière, d'analyse, de gestion et de contrôle - Tome 1 : Communication financière</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Le fait et le sens : esquisse d'une philosophie de la déception</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ibn Rushd, Ibn ʻAdī, al-imām wa-al-Masīḥ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Islam et christianisme; dialogue religieux et défi de la modernité.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>islam et l'occident - islam et sécularité</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Islām wa-al-Gharb : al-Islām wa-al-ʻalmānīyah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Jean Damascène et l'islam</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Le  jeu de la vie : méditations</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>lecture de la pensée arabe actuelle</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Matériaux pour servir à l'étude de la controverse théologique islamo-chrétienne de langue arabe du VIIIe au XIIe siècle</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Monde arabe et mutation socioculturelle problématique de la sécularisation et de la révolution culturelle</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Muṣṭalaḥāt al-falsafīyah wa-al-lāhūtīyah fī al-mujādalāt al-Masīḥīyah al-Islāmīyah fī al-ʻAsṛ al-Wasīṭ : muqaddimāt</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Normes, principes et pratiques comptables au Sénégal</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015200906</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Nos sources : arts et littérature syriaques</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Notes sur un manuscrit arabe L'Oriental 3126, du British Museum</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                        <ns2:s>BAV</ns2:s>
+                        <ns2:sid>BAV|ADV12415582</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Paul d'Antioche évêque melkite de Sidon, (XIIe s.);</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>La réforme du référentiel SYSCOA dans les pays de l'UEMOA : Guide complet d'application au 01/01/2014</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Sammlung</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>The Supreme Court has adjourned ... c1997:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Tafsīr al-Masīḥī lil-Qurʼān min al-qarn al-ṯāmin ḥattá al-qarn al-ṯānī ʻašar</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Thèmes et tendances de la pensée arabe contemporaine (les années 60 et 70)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Theological treatises.</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|309556167">
+                     <ns2:sources>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORKNLA000035972208</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Tradition et modernité.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Traités théologiques</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Turāth wa-al-ḥadāthah : marājiʻ li-dirāsat al-fikr al-ʻArabī al-ḥāḍir : muqaddimah ʻāmmah wa-maṣādir li-istiqṣāʼ al-nitāj  al-fikrī al-ḥāḍir</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|143849948</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071642218</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>verbe incarné</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>ابن رشد، ابن عدي، الإمام والمسيح</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الإسلام والغرب : الإسلام والعلمانية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>التفسير المسيحي للقرآن : من القرن الثامن حتى القرن الثاني عشر</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏العالم العربي والتحول الاجتماعي الثقافي /‏</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>المصطلحات الفلسفية واللاهوتية في المجادلات المسيحية الإسلامية في العصر الوسيط : مقدمات</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028354079</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏بين الأصالة و التجديد :‏ ‏صورة العالم العربي و الإسلامي في الفكر العربي و الغربي في الستينيات و السبعينيات.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  85222086</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>قراءة للفكر العربي الحالي</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="DNB|143849948" time="2013-02-15T19:30:59+00:00" type="add"/>
+                  <ns2:ht recid="NTA|071642218" time="2013-07-12T21:38:46+00:00" type="add"/>
+                  <ns2:ht recid="BAV|ADV12415582" time="2013-07-12T21:38:46+00:00" type="add"/>
+                  <ns2:ht recid="LC|n  85222086" time="2013-09-16T16:15:07+00:00" type="add"/>
+                  <ns2:ht recid="LNL|16911" time="2013-09-16T16:15:07+00:00" type="add"/>
+                  <ns2:ht recid="SUDOC|028354079" time="2014-06-17T21:44:08+00:00" type="add"/>
+                  <ns2:ht recid="ISNI|0000000381770180"
+                          time="2014-12-15T16:26:32+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NUKAT|n 2015200906"
+                          time="2016-01-17T06:24:08.392856+00:00"
+                          type="add"/>
+                  <ns2:ht recid="WKP|Q2060595"
+                          time="2016-04-24T11:39:03.809565+00:00"
+                          type="add"/>
+                  <ns2:ht recid="BNF|15121987"
+                          time="2016-05-30T07:32:32.795230+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="LC|no2013094691"
+                          time="2016-05-30T07:32:32.808257+00:00"
+                          type="delete"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T18:20:01.928822+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "261902111"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">261902111</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

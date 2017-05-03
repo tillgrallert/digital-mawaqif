@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>98181820</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/98181820/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/98181820"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="vtls002587675">EGAXA|vtls002587675</ns2:source>
+                  <ns2:source nsid="0000000080080856">ISNI|0000000080080856</ns2:source>
+                  <ns2:source nsid="n82001305">LC|n  82001305</ns2:source>
+                  <ns2:source nsid="000116891">NLI|000116891</ns2:source>
+                  <ns2:source nsid="vtls009422115">RERO|vtls009422115</ns2:source>
+                  <ns2:source nsid="Q24091456">WKP|Q24091456</ns2:source>
+               </ns2:sources>
+               <ns2:length>166</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Saʻūdī, Muná</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000116891</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Saʿūdī, Muná, 1945-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls009422115</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>&lt;&lt;ال&gt;&gt;سعودى، منى</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000116891</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>السعودي، منى، 1945-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls002587675</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Mona Saudi escultora jordana</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q24091456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">&lt;&lt;ال&gt;&gt;سعودى، منى</ns2:subfield>
+                        <ns2:subfield code="9">ara</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000116891</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000116891</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>EGAXA|vtls002587675</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  82001305</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>RERO|vtls009422115</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000080080856</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">Mona Saudi</ns2:subfield>
+                        <ns2:subfield code="c">escultora jordana</ns2:subfield>
+                        <ns2:subfield code="9">ca</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q24091456</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q24091456</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000080080856</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Saudi, Muna</ns2:subfield>
+                        <ns2:subfield code="9">lat</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000116891</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000116891</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>EGAXA|vtls002587675</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  82001305</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>RERO|vtls009422115</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000080080856</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Saʻūdī, Muná</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|n  82001305</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>EGAXA|vtls002587675</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000116891</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000116891</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>RERO|vtls009422115</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Saʻūdī, Muná</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000080080856</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|000116891</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|000116891</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>EGAXA|vtls002587675</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q24091456</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  82001305</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>RERO|vtls009422115</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Saʿūdī, Muná,</ns2:subfield>
+                        <ns2:subfield code="d">1945-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls009422115</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>RERO|vtls009422115</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="title"/>NLI|000116891</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>NLI|000116891</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls002587675</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  82001305</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000080080856</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">السعودي، منى،</ns2:subfield>
+                        <ns2:subfield code="d">1945-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls002587675</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>EGAXA|vtls002587675</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LC|n  82001305</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000116891</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000116891</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000080080856</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>RERO|vtls009422115</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>a</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Mona Saudi</ns2:subfield>
+                        <ns2:subfield code="c">Jordanian sculptor</ns2:subfield>
+                        <ns2:normalized>mona saudi jordanian sculptor</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q24091456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Mona Saudi</ns2:subfield>
+                        <ns2:subfield code="c">beeldhouwster uit Jordanië</ns2:subfield>
+                        <ns2:normalized>mona saudi beeldhouwster uit jordanie</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q24091456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Saudi, Mona</ns2:subfield>
+                        <ns2:normalized>saudi mona</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000116891</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Saudi, Mouna,</ns2:subfield>
+                        <ns2:subfield code="d">1945-</ns2:subfield>
+                        <ns2:normalized>saudi mouna 1945</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls009422115</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Saudi, Muna</ns2:subfield>
+                        <ns2:normalized>saudi muna</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Saʿūdī, Munā</ns2:subfield>
+                        <ns2:normalized>saudi muna</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Soudi, Mouna</ns2:subfield>
+                        <ns2:normalized>soudi mouna</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000116891</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">سعودي، منى</ns2:subfield>
+                        <ns2:normalized>سعودي منى</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">سعودي، منى</ns2:subfield>
+                        <ns2:normalized>سعودي منى</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">سعودي، منى،</ns2:subfield>
+                        <ns2:subfield code="d">1945-</ns2:subfield>
+                        <ns2:normalized>سعودي منى 1945</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls009422115</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">منى السعودي،</ns2:subfield>
+                        <ns2:subfield code="d">1945-</ns2:subfield>
+                        <ns2:normalized>منى السعودي 1945</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls002587675</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:coauthors>
+                  <ns2:data count="2" tag="951">
+                     <ns2:text>Jabhah al-Shaʻbīyah li-Taḥrīr Filasṭīn</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000116891</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>جبرا، جبرا إبراهيم، 1920-1994،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>جبرا، جبرا إبراهيم، 1920-1994،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls002587675</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="4">
+                     <ns2:text>دار المدى،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls002587675</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>مواقف</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls009422115</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>م. سعودي،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Qism al-Funūn al-Tashkīlīyah, al-Iʻlām al-Muwaḥḥad, Munaẓẓamat al-Taḥrīr al-Filasṭīnīyah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Mawāqif</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls009422115</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Mawakif En Cooperation Avec Le Front Populaire de Liberation de la Palestine</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000116891</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>M. Saʻūdī</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Dār al-Madá</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000080080856</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1945-10-01</ns2:birthDate>
+               <ns2:deathDate>0</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="199" min="197">
+                  <ns2:date count="7" scaled="2.81">197</ns2:date>
+                  <ns2:date count="2" scaled="1.00">198</ns2:date>
+                  <ns2:date count="4" scaled="2.00">199</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="6">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000116891</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls002587675</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls009422115</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:countries>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>LB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls009422115</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>JO</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls002587675</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>JO</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://ca.wikipedia.org/wiki/Mona_Saudi<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q24091456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://en.wikipedia.org/wiki/Mona_Saudi<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q24091456</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Muḥīṭ al-ḥulm : shiʻr wa-rusūm</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Naḥḥāt Muḥammad Hajras, 1980:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>An ocean of dreams, 1999:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ruʼyā ūlá.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls009422115</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Šahāda al-aṭfāl fī zaman al-ḥarb : rusūm aṭfāl al-filasṭīniyyīn / iʿdād Munā Saʿūdī ; al-iẖrāǧ al-fannī Vlādīmīr Tamārī</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls009422115</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Shahādat al-aṭfāl.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000116891</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls009422115</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Temps de la guerre : témoignages d'enfants : dessins d'enfants palestiniens</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls009422115</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>شهادة الأطفال في زمن الحرب ؛ روسوم أطفال الفلسطينيين</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls002587675</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  82001305</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>محيط الحلم : شعر ورسوم</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="RERO|vtls009422115"
+                          time="2010-07-26T05:00:12+00:00"
+                          type="add"/>
+                  <ns2:ht recid="LC|n  82001305" time="2010-07-26T05:00:12+00:00" type="add"/>
+                  <ns2:ht recid="NLIlat|000116891"
+                          time="2013-04-17T17:27:37+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NLI|000116891" time="2013-04-17T17:27:37+00:00" type="add"/>
+                  <ns2:ht recid="EGAXA|vtls002587675"
+                          time="2013-05-13T19:14:22+00:00"
+                          type="add"/>
+                  <ns2:ht recid="DNB|156681374"
+                          time="2014-02-14T18:24:06+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="ISNI|0000000080080856"
+                          time="2014-05-14T22:19:01+00:00"
+                          type="add"/>
+                  <ns2:ht recid="WKP|Q24091456"
+                          time="2016-06-19T11:32:45.244899+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T18:35:26.257145+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "98181820"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">98181820</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

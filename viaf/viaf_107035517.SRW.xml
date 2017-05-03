@@ -1,0 +1,1169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>107035517</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/107035517/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/107035517"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source differentiated="false" nsid="http://d-nb.info/gnd/103246738">DNB|103246738</ns2:source>
+                  <ns2:source nsid="000000011938652X">ISNI|000000011938652X</ns2:source>
+                  <ns2:source nsid="240426282">NTA|240426282</ns2:source>
+                  <ns2:source nsid="n84227525">LC|n  84227525</ns2:source>
+                  <ns2:source nsid="vtls013525316">RERO|vtls013525316</ns2:source>
+                  <ns2:source nsid="vtls003458422">EGAXA|vtls003458422</ns2:source>
+                  <ns2:source nsid="000465445">NLI|000465445</ns2:source>
+               </ns2:sources>
+               <ns2:length>612</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>ʿAbd al-Dāʾim, ʿAbd Allāh</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013525316</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000465445</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>عبد الدائم، عبد الله، 1942-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>ʿAbd-ad-Dāʾim, ʿAbdallāh</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|103246738</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">ʻAbd al-Dāʼim, ʻAbd Allāh</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|n  84227525</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="title"/>DNB|103246738</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>RERO|vtls013525316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|240426282</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>EGAXA|vtls003458422</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NLI|000465445</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">ʻAbd al-Dāʾim, ʻAbd Allāh</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|000000011938652X</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>DNB|103246738</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>NTA|240426282</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  84227525</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>RERO|vtls013525316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>EGAXA|vtls003458422</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|000465445</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">ʻAbd al-Dāʾim, ʻAbd Allāh</ns2:subfield>
+                        <ns2:subfield code="9">lat</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000465445</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000465445</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LC|n  84227525</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls003458422</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>RERO|vtls013525316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|240426282</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">ʿAbd al-Dāʾim, ʿAbd Allāh</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|240426282</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  84227525</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>EGAXA|vtls003458422</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000465445</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">ʿAbd al-Dāʾim, ʿAbd Allāh</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013525316</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>RERO|vtls013525316</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LC|n  84227525</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NLI|000465445</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">ʿAbd-ad-Dāʾim, ʿAbdallāh</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|103246738</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|103246738</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="title"/>LC|n  84227525</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011938652X</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">عبد الدائم، عبد الله،</ns2:subfield>
+                        <ns2:subfield code="d">1942-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>EGAXA|vtls003458422</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|240426282</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LC|n  84227525</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011938652X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000465445</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Abdel-Daem, Abdallah</ns2:subfield>
+                        <ns2:normalized>abdel daem abdallah</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000465445</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Abdel-Daïm, A.</ns2:subfield>
+                        <ns2:normalized>abdel daim a</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Abdel-Daïm, A.</ns2:subfield>
+                        <ns2:normalized>abdel daim a</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000465445</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Daem, Abdallah Abdel-</ns2:subfield>
+                        <ns2:normalized>daem abdallah abdel</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000465445</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Daïm, A. Abdel-</ns2:subfield>
+                        <ns2:normalized>daim a abdel</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Daïm, A. Abdel-</ns2:subfield>
+                        <ns2:normalized>daim a abdel</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000465445</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">ʿAbd al-Dāyim, ʿAbd Allāh</ns2:subfield>
+                        <ns2:normalized>abd al dayim abd allah</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">ʿAbd al-Dāyim, ʿAbd Allāh</ns2:subfield>
+                        <ns2:normalized>abd al dayim abd allah</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">ʿAbd-al-Dāʾim, ʿAbd-Allāh</ns2:subfield>
+                        <ns2:normalized>abd al daim abd allah</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013525316</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">عبئ الدائم، عبد الله</ns2:subfield>
+                        <ns2:normalized>عبي الدايم عبد الله</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">عبئ الدائم، عبد الله</ns2:subfield>
+                        <ns2:normalized>عبي الدايم عبد الله</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">عبد الدائم، عبد الله</ns2:subfield>
+                        <ns2:normalized>عبد الدايم عبد الله</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">عبد الدائم، عبد الله</ns2:subfield>
+                        <ns2:normalized>عبد الدايم عبد الله</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013525316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">عبد الدايم، عبد الله،</ns2:subfield>
+                        <ns2:subfield code="d">1942-</ns2:subfield>
+                        <ns2:normalized>عبد الدايم عبد الله 1942</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">عبد الدايم، عبد الله،</ns2:subfield>
+                        <ns2:subfield code="d">1942-</ns2:subfield>
+                        <ns2:normalized>عبد الدايم عبد الله 1942</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">عبد الله عبد الدائم</ns2:subfield>
+                        <ns2:normalized>عبد الله عبد الدايم</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">عبد الله عبد الدائم</ns2:subfield>
+                        <ns2:normalized>عبد الله عبد الدايم</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">عبدالدائم، عبدالله</ns2:subfield>
+                        <ns2:normalized>عبدالدايم عبدالله</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">عبدالدائم، عبدالله</ns2:subfield>
+                        <ns2:normalized>عبدالدايم عبدالله</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:coauthors>
+                  <ns2:data count="6" tag="950">
+                     <ns2:text>برجسون، هنري، 1859-1941</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6" tag="950">
+                     <ns2:text>الدروبي، سامي، 1921-1976.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" tag="951">
+                     <ns2:text>اتحاد الكتاب العرب.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" tag="951">
+                     <ns2:text>Ittiḥād al-Kuttāb al-ʻArab</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" tag="951">
+                     <ns2:text>Arab League Educational, Cultural, and Scientific Organization. Idārat al-Tarbiyah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="951">
+                     <ns2:text>ندوة تنمية الموارد البشرية فى الوطن العربى (28-29 نوفمبر 1987 : الكويت)</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>متولي، هشام.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>دوفرجيه، موريس، 1917-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>رزوق، أسعد، 1935-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Durūbī, Sāmī al-, 1921-1976.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Bergson, Henri (Henri Louis), 1859-1941.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="7">
+                     <ns2:text>مركز دراسات الوحدة العربية،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>دار الطليعة،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>دار العلم للملايين،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>منشورات دار الآداب،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>الهيئة المصرية العامة للكتاب،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>Markaz Dirāsāt al-Waḥdah al-ʻArabīyah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>جامعة الدول العربية، المنظمة العربية للتربية والثقافة والعلوم، إدارة التربية،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Jāmiʻat al-Duwal al-ʻArabīyah, al-Munaẓẓamah al-ʻArabīyah lil-Tarbiyah wa-al-Thaqāfah wa-al-ʻUlūm, Idārat al-Tarbiyah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Dār al-Ṭalīʻah lil-Ṭibāʻah wa-al-Nashr</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Dār al-ʻIlm lil-Malāyīn</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011938652X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>دار طلاس</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013525316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>al-Hayʾa al-Miṣriyya al-ʿĀmma li-al-Kitāb</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1942</ns2:birthDate>
+               <ns2:deathDate>0</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="200" min="194">
+                  <ns2:date count="3" scaled="1.58">194</ns2:date>
+                  <ns2:date count="5" scaled="2.32">195</ns2:date>
+                  <ns2:date count="5" scaled="2.32">196</ns2:date>
+                  <ns2:date count="3" scaled="1.58">197</ns2:date>
+                  <ns2:date count="16" scaled="4.00">198</ns2:date>
+                  <ns2:date count="14" scaled="3.81">199</ns2:date>
+                  <ns2:date count="16" scaled="4.00">200</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="33">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013525316</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="13">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:ISBNs unique="4">
+                  <ns2:data count="2">
+                     <ns2:text>9789770157657</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789953450650</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789770173565</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789770150153</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:countries>
+                  <ns2:data count="26" scaled="5">
+                     <ns2:text>LB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="8" scaled="3">
+                     <ns2:text>EG</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5" scaled="3">
+                     <ns2:text>SY</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013525316</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>TN</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>KW</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Abʻād al-tarbawīyah lil-ṣirāʻ al-ʻArabī al-Isrāʼīlī : waqāʼiʻ al-Muʼtamar al-ʻIlmī alladhī naẓẓamatʹhu Kullīyat al-Tarbiyah bi-Jāmiʻat al-Kuwayt</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000465445</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Aʻmāl al-qawmīyah, 1957-1965, 2002:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013525316</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000465445</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-ʻArab wa-al-ʻālam wa-ḥiwār al-ḥaḍārāt, 2002:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Arabs, the world and the dialogue among civilizations</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|103246738</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>at- Tarbiya wa-tanmiyat al-insan fi 'l-waṭan al-ʿarabī. -</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Baḥth muqāran lil-ittijāhāt al-sāʼidah fī al-wāqiʻ al-tarbawī fī al-bilād al-ʻArabīyah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Ḍaḥk</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Duktūr ʻAbd Allāh ʻAbd al-Dāʼim : dirāsāt, shahādāt</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000465445</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Fī sabīl thaqāfah ʻArabīyah dhātīyah, 1983:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Ǧīl al-ʿArabī al-ǧadīd</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>L'oniromancie arabe d'après Ibn Sîrîn</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>L'orientation scolaire dans l'enseignement secondaire</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Murājaʻat istratījīyat taṭwīr al-tarbiyah al-ʻArabīyah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|103246738</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Naḥwa falsafah tarbawīyah ʻArabīyah : al-falsafah al- tarbawīyah wa-mustagbal al-waṭan al-ʻArabī</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Nakbat Filasṭīn ʻām 1948 : uṣūluhā wa-asbābuhā wa-āthāruhā al-siyāsīyah wa-al-fikrīyah wa-al-adabīyah fī al-ḥayāh al-ʻArabīyah : al-taḥaddī al-ʻArabī lil-miḥnah bayna al-ams wa-al-yawm</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|103246738</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al- Qaumīya al-ʿarabīya wa-'n-niẓām al-ʿālamī al-ǧad*. -</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|240426282</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Qawmiyya wa-al-insāniyya</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Rire.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ṣirāʻ al-Yahūdīyah maʻa al-qawmīyah al-Ṣihyūnīyah : al-Ṣihyūnīyah wa-mustaqbal Isrāʼīl</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|103246738</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Tanmiyat al-mawārid al-bašarīya. -</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Tarbiyah wa-al-ʻamal al-ʻArabī al-mushtarak fī sabīl tarbiyah ʻArabīyah aṣīlah mutakāmilah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>اسرائيل و هويتها الممزقة</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الابعاد التربوية للصراع العربى الاسرائيلي : وقائع المؤتمر العلمي الذى نظمته كلية التربية بجامعة الكويت</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الاشتراكية و الديموقراطية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الأعمال القومية، ١٩٥٧-١٩٦٥</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>التربية التجريبية و البحث التربوى</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>التربية عبر التاريخ : من العصور القديمة حتى اوائل القرن العشرين</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏التربية والتنوير في تنمية المجتمع العربي /‏</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الثروة التكنولوجية فى التربية العربية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الدكتور عبد الله عبد الدائم : دراسات، شهادات</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الضحك : البحث فى دلالة المضحك</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013525316</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>العرب والعالم وحوار الحضارات</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>القومية العربية و النظام العالمى الجديد</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>القومية و الانسانية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>بحث مقارن في الاتجاهات السائدة في الواقع التربوي في البلاد العربية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>تنمية الموارد البشرية : بحوث و مناقشات ندوة تنمية الموارد البشرية فى الوطن العربى : الكويت 28-29/ نوفمبر/1987</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>حوار حول التخطيط التربوى و علاقته بالتنمية الاقتصادية و الاجتماعية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>دور التربية و الثقافة في بناء حضارة إنسانية جديدة : الثقافة العربية الإسلامية بين صدام الثقافات و تفاعلها</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>صراع اليهودية مع القومية الصهيونية : الصهيونية و مستقبل اسرائيل</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>فى الدكتاتورية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>فى سبيل ثقافة عربية ذاتية : الثقافة العربية و التراث</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>مراجعة استراتيجية تطوير التربية العربية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>منبعا الاخلاق و الدين</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>موسوعة علم النفس</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>نحو فلسفة تربوية عربية : الفلسفة التربوية و مستقبل الوطن العربى</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  84227525</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls003458422</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>نكبة فلسظين عام ١٩٤٨ : أصولها وأسبابها وآثارها السياسية والفكرية والأدبية في الحياة العربية : التحدي العربي للمنحة بين الأمس واليوم</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="LC|n  84227525" time="2010-03-15T04:41:14+00:00" type="add"/>
+                  <ns2:ht recid="DNB|103246738" time="2011-06-28T10:09:28+00:00" type="add"/>
+                  <ns2:ht recid="NLIara|000308027"
+                          time="2012-12-19T19:11:18+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="EGAXA|vtls000767310"
+                          time="2013-01-14T22:09:03+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NLI|000465445" time="2013-04-17T17:27:37+00:00" type="add"/>
+                  <ns2:ht recid="NLIlat|000465445"
+                          time="2013-05-13T19:14:22+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="SUDOC|066993288"
+                          time="2014-08-28T14:36:24+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="BNF|12876143" time="2014-08-28T14:36:24+00:00" type="delete"/>
+                  <ns2:ht recid="EGAXA|vtls003458422"
+                          time="2014-08-28T14:36:24+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NTA|240426282" time="2014-09-14T20:29:45+00:00" type="add"/>
+                  <ns2:ht recid="RERO|vtls013525316"
+                          time="2014-10-21T12:48:43+00:00"
+                          type="add"/>
+                  <ns2:ht recid="ISNI|000000011938652X"
+                          time="2014-12-15T16:26:32+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T15:10:27.625167+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "107035517"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">107035517</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

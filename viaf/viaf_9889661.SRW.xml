@@ -1,0 +1,3604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>9889661</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/9889661/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/9889661"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="XX1181666">BNE|XX1181666</ns2:source>
+                  <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb12174054z">BNF|12174054</ns2:source>
+                  <ns2:source nsid="http://d-nb.info/gnd/119541815">DNB|119541815</ns2:source>
+                  <ns2:source nsid="0000000108687300">ISNI|0000000108687300</ns2:source>
+                  <ns2:source nsid="n80090161">LC|n  80090161</ns2:source>
+                  <ns2:source nsid="LNC10-000024230">LNB|LNC10-000024230</ns2:source>
+                  <ns2:source nsid="jn19990008537">NKC|jn19990008537</ns2:source>
+                  <ns2:source nsid="000035549816">NLA|000035549816</ns2:source>
+                  <ns2:source nsid="000131369">NLI|000131369</ns2:source>
+                  <ns2:source nsid="a12014357">NLP|a12014357</ns2:source>
+                  <ns2:source nsid="068359764">NTA|068359764</ns2:source>
+                  <ns2:source nsid="vtls000625088">NUKAT|n  97083985</ns2:source>
+                  <ns2:source nsid="vtls003900750">RERO|vtls003900750</ns2:source>
+                  <ns2:source nsid="030294134">SUDOC|030294134</ns2:source>
+                  <ns2:source nsid="Q66316">WKP|Q66316</ns2:source>
+                  <ns2:source nsid="KAC201300957">KRNLK|KAC201300957</ns2:source>
+                  <ns2:source nsid="vtls005594289">SWNL|vtls005594289</ns2:source>
+                  <ns2:source nsid="BNC10000000000000000162531">BNCHL|10000000000000000162531</ns2:source>
+                  <ns2:source nsid="90149945">BIBSYS|90149945</ns2:source>
+               </ns2:sources>
+               <ns2:length>2594</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Ṭībī, Bassām 1944-....</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12014357</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>BNCHL</ns2:s>
+                        <ns2:sid>BNCHL|10000000000000000162531</ns2:sid>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC201300957</ns2:sid>
+                        <ns2:s>SWNL</ns2:s>
+                        <ns2:sid>SWNL|vtls005594289</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000024230</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Tibi, Bassam</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLA</ns2:s>
+                        <ns2:sid>NLA|000035549816</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000131369</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>بسام طيبي</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi,  Bassam</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC201300957</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>KRNLK|KAC201300957</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNE|XX1181666</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BIBSYS|90149945</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNE|XX1181666</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>RERO|vtls003900750</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LNB|LNC10-000024230</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNE|XX1181666</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|n  80090161</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNE|XX1181666</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam</ns2:subfield>
+                        <ns2:subfield code="9">lat</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000131369</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000131369</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLA</ns2:s>
+                        <ns2:sid>NLA|000035549816</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLA|000035549816</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam</ns2:subfield>
+                        <ns2:subfield code="d">(1944- )</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12014357</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLP|a12014357</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNE|XX1181666</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam</ns2:subfield>
+                        <ns2:subfield code="d">(1944- ).</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NUKAT|n  97083985</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNE|XX1181666</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|119541815</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNE|XX1181666</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SWNL</ns2:s>
+                        <ns2:sid>SWNL|vtls005594289</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SWNL|vtls005594289</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam</ns2:subfield>
+                        <ns2:subfield code="d">1944-...</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000108687300</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>LNB|LNC10-000024230</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>BNE|XX1181666</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam,</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNCHL</ns2:s>
+                        <ns2:sid>BNCHL|10000000000000000162531</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNCHL|10000000000000000162531</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam,</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|068359764</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNE|XX1181666</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam,</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:subfield code="7">jn19990008537</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NKC|jn19990008537</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BNE|XX1181666</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam,</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000024230</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LNB|LNC10-000024230</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BNE|XX1181666</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Tibi, Bassam,</ns2:subfield>
+                        <ns2:subfield code="d">1944-....</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SUDOC|030294134</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNE|XX1181666</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="200">
+                        <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                        <ns2:subfield code="8">freara</ns2:subfield>
+                        <ns2:subfield code="9">0</ns2:subfield>
+                        <ns2:subfield code="a">Ṭībī</ns2:subfield>
+                        <ns2:subfield code="b">Bassām</ns2:subfield>
+                        <ns2:subfield code="f">1944-....</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNF|12174054</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q66316</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90149945</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>RERO|vtls003900750</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BNE|XX1181666</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">بسام طيبي</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q66316</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>NTA|068359764</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>SUDOC|030294134</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>DNB|119541815</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SWNL|vtls005594289</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12014357</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>LC|n  80090161</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NKC|jn19990008537</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>BNF|12174054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLA|000035549816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  97083985</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000131369</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000108687300</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000162531</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>KRNLK|KAC201300957</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000024230</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bassam Tibi</ns2:subfield>
+                        <ns2:normalized>bassam tibi</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bassam Tibi</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>bassam tibi 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>SWNL</ns2:s>
+                        <ns2:sid>SWNL|vtls005594289</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns2:subfield code="a">Bassam Tibi</ns2:subfield>
+                        <ns2:subfield code="f">1944-....</ns2:subfield>
+                        <ns2:normalized>bassam tibi 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bassam Tibi</ns2:subfield>
+                        <ns2:subfield code="c">Duits hoogleraar</ns2:subfield>
+                        <ns2:normalized>bassam tibi duits hoogleraar</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bassam Tibi</ns2:subfield>
+                        <ns2:subfield code="c">German political scientist</ns2:subfield>
+                        <ns2:normalized>bassam tibi german political scientist</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bassam Tibi</ns2:subfield>
+                        <ns2:subfield code="c">syrisch-deutscher Politikwissenschaftler</ns2:subfield>
+                        <ns2:normalized>bassam tibi syrisch deutscher politikwissenschaftler</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bassām aṭ-Ṭībī</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>bassam at tibi 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>SWNL</ns2:s>
+                        <ns2:sid>SWNL|vtls005594289</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bassām aṭ-Ṭībī,</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>bassam at tibi 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Bassām aṭ-Ṭībī</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>bassam at tibi 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns2:subfield code="a">Tibi</ns2:subfield>
+                        <ns2:subfield code="b">Bassam</ns2:subfield>
+                        <ns2:subfield code="f">1944-....</ns2:subfield>
+                        <ns2:normalized>tibi bassam 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ṭaybī, Bassām,</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>taybi bassam 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ṭayyibī, Bassām,</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>tayyibi bassam 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ṭībī, Bassām aṭ</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>tibi bassam at 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SWNL</ns2:s>
+                        <ns2:sid>SWNL|vtls005594289</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ṭībī, Bassām &#x98;aṭ&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>tibi bassam 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ṭībī, Bassām,</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>tibi bassam 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ṭībī, Bassām</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>tibi bassam 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>SWNL</ns2:s>
+                        <ns2:sid>SWNL|vtls005594289</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">بسام طيبي</ns2:subfield>
+                        <ns2:normalized>بسام طيبي</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="700">
+                        <ns2:subfield code="a">طيبي</ns2:subfield>
+                        <ns2:subfield code="b">بسّام</ns2:subfield>
+                        <ns2:subfield code="f">1944-....</ns2:subfield>
+                        <ns2:normalized>طيبي بسام 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ṭaybī, Bassām</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>taybi bassam 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ṭayyibī, Bassām</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>tayyibi bassam 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ṭībī, Bassām aṭ,</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>tibi bassam at 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ṭībī, Bassām aṭ</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>tibi bassam at 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ṭībī, Bassām</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>tibi bassam 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">티비, 바삼</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>티비 바삼 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC201300957</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:coauthors>
+                  <ns2:data count="16" tag="950">
+                     <ns2:text>Sluglett, Peter 1943-....</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="15" tag="950">
+                     <ns2:text>Farouk-Sluglett, Marion 1936-1996</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="10" tag="950">
+                     <ns2:text>Krojzl, Clare</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="9" tag="950">
+                     <ns2:text>Houben, Anke</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6" tag="950">
+                     <ns2:text>Dierke, Kai W.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6" tag="950">
+                     <ns2:text>Danecki, Janusz 1946- )</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12014357</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5" tag="951">
+                     <ns2:text>Weatherhead Center for International Affairs</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" tag="950">
+                     <ns2:text>Tschirgi, Dan</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000131369</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Thielmann, Axel 1964-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="951">
+                     <ns2:text>Państwowy Instytut Wydawniczy.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Ben Barka, Mehdi 1920-1965</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>유지훈</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC201300957</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="40">
+                     <ns2:text>Suhrkamp</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="38">
+                     <ns2:text>Routledge</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="36">
+                     <ns2:text>Beck</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000131369</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000024230</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="29">
+                     <ns2:text>Europäische Verlagsanstalt</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="22">
+                     <ns2:text>Primus-Verl.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="21">
+                     <ns2:text>Piper</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="21">
+                     <ns2:text>Macmillan [etc.]</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000024230</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="20">
+                     <ns2:text>St. Martin's Press</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="10">
+                     <ns2:text>Wissenschaftliche Buchgesellschaft</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="9">
+                     <ns2:text>Wiss. Buchges.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000108687300</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Państwowy Instytut Wydawniczy</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12014357</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>知와 사랑</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC201300957</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1944-04-04</ns2:birthDate>
+               <ns2:deathDate>0</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="200" min="196">
+                  <ns2:date count="11" scaled="3.46">196</ns2:date>
+                  <ns2:date count="37" scaled="5.21">197</ns2:date>
+                  <ns2:date count="40" scaled="5.32">198</ns2:date>
+                  <ns2:date count="155" scaled="7.28">199</ns2:date>
+                  <ns2:date count="117" scaled="6.87">200</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="19">
+                     <ns2:text>aa</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="343">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12014357</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000131369</ns2:sid>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC201300957</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000024230</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="10">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>im</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>mm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:RelatorCodes>
+                  <ns2:data count="14">
+                     <ns2:text>070</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>340</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>auteur</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>author</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>ctb</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>ed</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>edt</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>hrsg</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>preface</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>red</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RelatorCodes>
+               <ns2:ISBNs unique="109">
+                  <ns2:data count="10">
+                     <ns2:text>9780415437806</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="8">
+                     <ns2:text>9783406340765</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>9783406060281</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>9780813309170</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>9780520236905</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>9780520088689</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>9780333751206</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>9783518284896</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>9783434400257</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>9780415437813</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9788306026146</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12014357</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9783896781635</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9783518285909</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789774242601</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000131369</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9788989007708</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC201300957</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9788833910253</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9783828450127</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000024230</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9783518282502</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9783492037778</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9783455110609</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:covers>
+                  <ns2:data count="10">
+                     <ns2:text>0415437806</ns2:text>
+                     <ns2:xtext>+-+1532890695</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>0520236904</ns2:text>
+                     <ns2:xtext>+-+9541875705</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>0520088689</ns2:text>
+                     <ns2:xtext>+-+4313355705</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>0333751205</ns2:text>
+                     <ns2:xtext>+-+0576028885</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>0415686253</ns2:text>
+                     <ns2:xtext>+-+8071310695</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>0415686245</ns2:text>
+                     <ns2:xtext>+-+0971310695</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>0415484715</ns2:text>
+                     <ns2:xtext>+-+0629390695</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>0415437814</ns2:text>
+                     <ns2:xtext>+-+9632890695</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>0333751213</ns2:text>
+                     <ns2:xtext>+-+8676028885</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>0300159986</ns2:text>
+                     <ns2:xtext>+-+1344065585</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>1403949905</ns2:text>
+                     <ns2:xtext>+-+0544948596</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000024230</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>1403949891</ns2:text>
+                     <ns2:xtext>+-+6434948596</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:covers>
+               <ns2:countries>
+                  <ns2:data count="207" scaled="7">
+                     <ns2:text>DE</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000131369</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="42" scaled="5">
+                     <ns2:text>US</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="42" scaled="5">
+                     <ns2:text>GB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000024230</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6" scaled="3">
+                     <ns2:text>KI</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5" scaled="3">
+                     <ns2:text>PL</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12014357</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>IT</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>ID</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>EG</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000131369</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>CH</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>BE</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>NL</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>HU</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>ES</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>AT</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:languageOfEntity>
+                  <ns2:data>
+                     <ns2:text>ger</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:languageOfEntity>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>DE</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:s>SWNL</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>SY</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:s>SWNL</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://ar.wikipedia.org/wiki/بسام_طيبي<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://de.wikipedia.org/wiki/Bassam_Tibi<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://en.wikipedia.org/wiki/Bassam_Tibi<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://eo.wikipedia.org/wiki/Bassam_Tibi<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://nl.wikipedia.org/wiki/Bassam_Tibi<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://no.wikipedia.org/wiki/Bassam_Tibi<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://pl.wikipedia.org/wiki/Bassam_Tibi<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://pt.wikipedia.org/wiki/Bassam_Tibi<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://tr.wikipedia.org/wiki/Bassam_Tibi<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://vi.wikipedia.org/wiki/Bassam_Tibi<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q66316</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Afro-arabische Beziehungen seit der Dekolonisation unter besonderer Berucksichtigung der "Erdol-dimension"</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ancaman fundamentalisme : rajutan Islam politik dan kekacauan dunia baru</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Arab nationalism a critical enquiry</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NLA</ns2:s>
+                        <ns2:sid>NLA|000035549816</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>arabische Linke</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>arabische Staatensystem ein regionales Subsystem der Weltpolitik</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|316341547">
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000024230</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK243889469</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Aufbruch am Bosporus : die Türkei zwischen Europa und dem Islamismus</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>The challenge of fundamentalism  : political Islam and the new world disorder</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000024230</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Conflict and war in the Middle East, 1967-91 regional dynamic and the superpowers</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>conspiración al-mu'amarah ; el trauma de la política árabe</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>crisis of modern Islam a preindustrial culture in the scientific-technological age</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ethnicity of fear ? : Islamic migration and the ethnicization of Islam in Europe</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Euro-Islam die Lösung eines Zivilisationskonfliktes</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Euroislam, ein mit Europa versöhnter Islam?</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Europa ohne Identität? die Krise der multikulturellen Gesellschaft</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Europa ohne Identität? Europäisierung oder Islamisierung</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Europa und der Islam eine philosophische und religiöse Herausforderung ; Referat am 8. Oktober 1997 in Erfurt</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Europa zonder identiteit? [de crisis van de multiculturele samenleving]</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Il fondamentalismo religioso alle soglie del Duemila</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Fundamentalismus im Islam eine Gefahr für den Weltfrieden?</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000024230</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>fundamentalistische Herausforderung der Islam und die Weltpolitik</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Die gegenwärtige politische Revitalisierung des Islam : eine religionssoziologische Deutung</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Die Golfregion zwischen Krieg und Frieden  : vom Golf-Krieg zu einer Neuordnung des Nahen Ostens</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Harenberg, Staatenlexikon die Geschichte aller Staaten im 20. Jahrhundert</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Al- i_htiyār al-_tawrī fī al-maġrib</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Im Schatten Allahs der Islam und die Menschenrechte</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Im Zeichen der Religion Gewalt und Friedfertigkeit in Christentum und Islam</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Islam and the cultural accommodation of social change</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000024230</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Islam between culture and politics</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Islam in global politics conflict and cross-civilizational bridging</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|308010634">
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK15196818</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Islam und das problem der kulturellen bewältigung sozialen wandels</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Der Islam und der EU-Beitritt der Türkei</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Islam und Deutschland Muslime in Deutschland</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Islamic law/Shariʾa, human rights, universal morality and international relations</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Islamische Zuwanderung die gescheiterte Integration</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Islamischer Fundamentalismus, moderne Wissenschaft und Technologie</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|308668425">
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC201300957</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK711045657</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Islamism and Islam</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Islam's predicament with modernity religious reform and cultural change</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Kapitalismus und Linke im Libanon</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000131369</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Konfliktregion Naher Osten regionale Eigendynamik und Grossmachtinteressen</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Kreuzzug und Djihad der Islam und die christliche Welt</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Krieg der Zivilisationen  : Politik und Religion zwischen Vernunft und Fundamentalismus</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Krise des modernen Islams eine vorindustrielle Kultur im wissenschaftlich-technischen Zeitalter</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mit dem Kopftuch nach Europa? die Türkei auf dem Weg in die Europäische Union</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mittelmeer als Grenze oder als Brücke Europas zur Welt des Islams?</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mu'āmara</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|308101862">
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK263617440</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Nationalismus in der Dritten Welt am arabischen Beispiel</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>neue Totalitarismus "heiliger Krieg" und westliche Sicherheit</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>neue Weltunordnung westliche Dominanz und islamischer Fundamentalismus</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Options révolutionnaire au Maroc</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLA</ns2:s>
+                        <ns2:sid>NLA|000035549816</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000131369</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Perspectives on the Gulf crisis, c1991:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1181666</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Political Islam, world politics and Europe democratic peace and Euro-Islam versus global jihad</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Political Reform in the Gulf : Society and State in a Changing World</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Pulverfaß Nahost eine arabische Perspektive</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Religiöse Entwicklungen im Islam beobachtet in Marokko und Indonesien</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|312402917">
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12014357</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK243813015</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Religiöse fundamentalismus im übergang zum 21. jahrhundert</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Revolutionäre Alternative</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Sammlung</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Der Schock : die Silvesternacht in Köln</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>The Sharia state : Arab Spring and democratization</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>The simultaneity of the unsimultaneous : old tribes and imposed nation-states in the modern Middle East</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Unterentwicklung</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|312417310">
+                     <ns2:sources>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK28393157</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Verschwörung</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|315892650">
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000131369</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK233969193</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Verschwörung : das trauma arabischer politik</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12174054</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Vom Gottesreich zum Nationalstaat Islam und panarabischer Nationalismus</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|030294134</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|119541815</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990008537</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls003900750</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>wahre Imam der Islam von Mohammed bis zur Gegenwart</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>War and Peace in Islam</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Zur gesellschaftlichen realität des "Islamischen sozialismus" in Algerien unter dem Militärregime</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068359764</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  97083985</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90149945</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Zur Soziologie der Dekolonisation in Afrika</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  80090161</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Zwischen Konfrontation und Dialog : der Islam als politische Grösse</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC201300957</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>이슬람주의와 이슬람교</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="BNF|12174054" time="2009-03-03T12:03:19+00:00" type="add"/>
+                  <ns2:ht recid="DNB|119541815" time="2009-03-03T12:03:25+00:00" type="add"/>
+                  <ns2:ht recid="LC|n  80090161" time="2009-03-03T12:03:31+00:00" type="add"/>
+                  <ns2:ht recid="NKC|jn19990008537"
+                          time="2009-05-07T09:10:52+00:00"
+                          type="add"/>
+                  <ns2:ht recid="BNE|XX1181666" time="2009-08-21T09:42:38+00:00" type="add"/>
+                  <ns2:ht recid="J9Ulat|000131369"
+                          time="2009-09-21T11:33:10+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="RERO|vtls003900750"
+                          time="2010-07-26T05:00:11+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NII|DA01442332"
+                          time="2010-11-16T05:07:53+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="BIBSYS|x90149945"
+                          time="2012-11-27T04:00:16+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="SUDOC|030294134" time="2012-11-27T04:00:16+00:00" type="add"/>
+                  <ns2:ht recid="NTA|068359764" time="2012-12-19T19:11:18+00:00" type="add"/>
+                  <ns2:ht recid="NLI|000131369" time="2013-05-13T19:14:22+00:00" type="add"/>
+                  <ns2:ht recid="NLIlat|000131369"
+                          time="2013-05-13T19:14:22+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NLP|a12014357" time="2013-06-14T19:03:38+00:00" type="add"/>
+                  <ns2:ht recid="LNB|LNC10-000024230"
+                          time="2013-08-19T18:59:48+00:00"
+                          type="add"/>
+                  <ns2:ht recid="DNB|174041462"
+                          time="2013-08-19T18:59:48+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="ISNI|0000000108687300"
+                          time="2013-09-16T16:15:07+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NLA|000035549816"
+                          time="2014-02-14T18:24:06+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NUKAT|n  97083985"
+                          time="2014-10-27T16:17:29+00:00"
+                          type="add"/>
+                  <ns2:ht recid="WKP|Q66316" time="2015-04-14T18:56:54+00:00" type="add"/>
+                  <ns2:ht recid="WKP|Bassam_Tibi"
+                          time="2015-04-14T18:56:54+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="KRNLK|KAC201300957"
+                          time="2015-12-04T18:19:57.188911+00:00"
+                          type="add"/>
+                  <ns2:ht recid="SWNL|vtls005594289"
+                          time="2016-03-21T07:49:00.320314+00:00"
+                          type="add"/>
+                  <ns2:ht recid="BNCHL|10000000000000000162531"
+                          time="2016-03-21T07:49:00.331432+00:00"
+                          type="add"/>
+                  <ns2:ht recid="BIBSYS|90149945"
+                          time="2017-03-19T16:17:36.294384+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T18:37:01.618723+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "9889661"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">9889661</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

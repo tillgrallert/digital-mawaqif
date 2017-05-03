@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>97050145</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/97050145/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/97050145"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="000249533">NLI|000249533</ns2:source>
+                  <ns2:source nsid="Q6835156">WKP|Q6835156</ns2:source>
+                  <ns2:source nsid="http://d-nb.info/gnd/1060499592">DNB|1060499592</ns2:source>
+                  <ns2:source nsid="44394">LNL|44394</ns2:source>
+                  <ns2:source nsid="nr93038038">LC|nr 93038038</ns2:source>
+                  <ns2:source nsid="237294745">NTA|237294745</ns2:source>
+                  <ns2:source nsid="vtls000019509">EGAXA|vtls000019509</ns2:source>
+                  <ns2:source nsid="0000000123080988">ISNI|0000000123080988</ns2:source>
+               </ns2:sources>
+               <ns2:length>634</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Murquṣ, Ilyās</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|237294745</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>مرقص، الياس، 1929-1991</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|44394</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Murquṣ, Ilyās ca. 1929-1991</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Murquṣ, Ilyās 1929-1991</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1060499592</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>إلياس مرقص</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q6835156</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Murquṣ, Ilyās</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|237294745</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|237294745</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|nr 93038038</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000123080988</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Murquṣ, Ilyās</ns2:subfield>
+                        <ns2:subfield code="9">lat</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000249533</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNL|44394</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|1060499592</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q6835156</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|nr 93038038</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|237294745</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>EGAXA|vtls000019509</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Murquṣ, Ilyās</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|nr 93038038</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|1060499592</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>EGAXA|vtls000019509</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|237294745</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Murquṣ, Ilyās</ns2:subfield>
+                        <ns2:subfield code="d">1929-1991</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1060499592</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|1060499592</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q6835156</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNL|44394</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|nr 93038038</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>EGAXA|vtls000019509</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Murquṣ, Ilyās</ns2:subfield>
+                        <ns2:subfield code="d">ca. 1929-1991</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000123080988</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>LNL|44394</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>DNB|1060499592</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q6835156</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>LC|nr 93038038</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>NTA|237294745</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>EGAXA|vtls000019509</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">إلياس مرقص</ns2:subfield>
+                        <ns2:subfield code="9">ar</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q6835156</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q6835156</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|1060499592</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls000019509</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000123080988</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">مرقص، إلياس،</ns2:subfield>
+                        <ns2:subfield code="d">1929-1991</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>EGAXA|vtls000019509</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNL|44394</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|1060499592</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q6835156</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|nr 93038038</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">مرقص، إلياس،</ns2:subfield>
+                        <ns2:subfield code="d">1929-1991</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|44394</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LNL|44394</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000249533</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|1060499592</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>EGAXA|vtls000019509</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">مرقص، الياس،</ns2:subfield>
+                        <ns2:subfield code="d">1929-1991</ns2:subfield>
+                        <ns2:subfield code="9">ara</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000249533</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNL|44394</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|1060499592</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q6835156</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|nr 93038038</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|237294745</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>EGAXA|vtls000019509</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000123080988</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Elias Murqus</ns2:subfield>
+                        <ns2:subfield code="d">1929-1991</ns2:subfield>
+                        <ns2:normalized>elias murqus 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1060499592</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Elias Murqus</ns2:subfield>
+                        <ns2:subfield code="d">ca. 1929-1991</ns2:subfield>
+                        <ns2:normalized>elias murqus ca 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Iliyās Murquṣ</ns2:subfield>
+                        <ns2:subfield code="d">1929-1991</ns2:subfield>
+                        <ns2:normalized>iliyas murqus 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1060499592</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Iliyās Murquṣ</ns2:subfield>
+                        <ns2:subfield code="d">ca. 1929-1991</ns2:subfield>
+                        <ns2:normalized>iliyas murqus ca 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ilyās Murquṣ</ns2:subfield>
+                        <ns2:normalized>ilyas murqus</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|237294745</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ilyās Murquṣ</ns2:subfield>
+                        <ns2:subfield code="d">1929-1991</ns2:subfield>
+                        <ns2:normalized>ilyas murqus 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1060499592</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ilyās Murquṣ</ns2:subfield>
+                        <ns2:normalized>ilyas murqus</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ilyās Murquṣ</ns2:subfield>
+                        <ns2:subfield code="d">ca. 1929-1991</ns2:subfield>
+                        <ns2:normalized>ilyas murqus ca 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Murqus, Elias</ns2:subfield>
+                        <ns2:normalized>murqus elias</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Murqus, Elias</ns2:subfield>
+                        <ns2:subfield code="d">1929-1991</ns2:subfield>
+                        <ns2:normalized>murqus elias 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1060499592</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Murqus, Elias</ns2:subfield>
+                        <ns2:subfield code="d">ca. 1929-1991</ns2:subfield>
+                        <ns2:normalized>murqus elias ca 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Murqus, Elyas</ns2:subfield>
+                        <ns2:subfield code="d">1929-1991</ns2:subfield>
+                        <ns2:normalized>murqus elyas 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1060499592</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Murqus, Elyas</ns2:subfield>
+                        <ns2:subfield code="d">ca. 1929-1991</ns2:subfield>
+                        <ns2:normalized>murqus elyas ca 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Murquṣ, Iliyās</ns2:subfield>
+                        <ns2:subfield code="d">1929-1991</ns2:subfield>
+                        <ns2:normalized>murqus iliyas 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1060499592</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Murquṣ, Iliyās</ns2:subfield>
+                        <ns2:subfield code="d">ca. 1929-1991</ns2:subfield>
+                        <ns2:normalized>murqus iliyas ca 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">إلياس مرقص،</ns2:subfield>
+                        <ns2:subfield code="d">1929-1991</ns2:subfield>
+                        <ns2:normalized>الياس مرقص 1929 1991</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|44394</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">الياس مرقص</ns2:subfield>
+                        <ns2:normalized>الياس مرقص</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">مرقص، الياس</ns2:subfield>
+                        <ns2:normalized>مرقص الياس</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">مرقص، الياس</ns2:subfield>
+                        <ns2:normalized>مرقص الياس</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:coauthors>
+                  <ns2:data count="3" tag="950">
+                     <ns2:text>Niʻmah, Ṭalāl</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>نعمة، طلال.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>نعمة، طلال</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>لينين، فلاديمير، 1870-1924.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>لوكاش، جورج، 1885-1971.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>شيبولا, كارلو</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>شوفالييه، جان جاك، 1900-1983.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>رودنسون، مكسيم، 1915-2004.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>لينين، فلاديمير، 1870-1924</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>الجباعي، جاد الكريم</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="17">
+                     <ns2:text>دار الحقيقة،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>دار الطليعة،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5">
+                     <ns2:text>دار الحصاد للنشر والتوزيع،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>المركز العربي للبحاث ودراسة السياسات،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>دار التنوير،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Manshūrāt Dār al-Ṭalīʻah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Dār al-Ḥaqīqa</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|237294745</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>دار حوران للطباعة والنشر والتوزيع،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>دار الوحدة،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>المجلس القومى للثقافة العربية،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000123080988</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1929-09-25</ns2:birthDate>
+               <ns2:deathDate>1991-01-26</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="201" min="196">
+                  <ns2:date count="12" scaled="3.58">196</ns2:date>
+                  <ns2:date count="13" scaled="3.70">197</ns2:date>
+                  <ns2:date count="7" scaled="2.81">198</ns2:date>
+                  <ns2:date count="8" scaled="3.00">199</ns2:date>
+                  <ns2:date count="2" scaled="1.00">200</ns2:date>
+                  <ns2:date count="3" scaled="1.58">201</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="39">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|237294745</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:RelatorCodes>
+                  <ns2:data count="1">
+                     <ns2:text>مترجم و مقدم</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RelatorCodes>
+               <ns2:ISBNs unique="1">
+                  <ns2:data count="2">
+                     <ns2:text>9789953028651</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:countries>
+                  <ns2:data count="27" scaled="5">
+                     <ns2:text>LB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|237294745</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5" scaled="3">
+                     <ns2:text>SY</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|237294745</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>QA</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>MA</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>EG</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:languageOfEntity>
+                  <ns2:data>
+                     <ns2:text>ara</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:s>LC</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:languageOfEntity>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>SY</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:s>ISNI</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Syria</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Belgium</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://ar.wikipedia.org/wiki/إلياس_مرقص<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q6835156</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|237294745</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>ʿAfwiyyat al-naẓariyya fī al-ʿamal al-fidāʾī</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Esclavage.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Grandes oeuvres politiques de mackiavel a nos jours.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|237294745</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ḥawla al-ḍarūra al-tārīḵiyya li-nušūʾ Ḥizb al-brūlītāryā al-ʿArabī</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|1060499592</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>ḥiwārāt ġair manšūra. -</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ideology of power and the power of ideology.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ilyās Murquṣ, 2013:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ilyās Murquṣ : ḥiwārāt ghayr manshūrah = Elias Murqus : unpublished interviews</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Mārksīyah fī aṣrinā.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Mārksīyah wa-al-Sharq.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Materialisme historique et histoire des civilisations.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|237294745</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mawḍūʿāt ilā muʾtamar ištirākī ʿArabī</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|237294745</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Muqāwama al-Filasṭīniyya wa-al-mawqif al-rāhin</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Naqd al-ʻaqlānīyah al-ʻArabīyah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Naqd al-fikr al-qawmī</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|237294745</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Naẓarīyat al-ḥizb ʻinda Līnīn wa-al-mawqif al-ʻArabī al-rāhin, 1970:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Pensée de Hegel.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Tārīkh al-aḥzāb al-shuyūʻīyah fī al-waṭan al-ʻArabī.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>التاريخ الاقتصادى لسكان العالم</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الدفاتر الفلسفية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الشعب الفلسطيني : اللاسامية، الصهيونية اليهودية، العنصرية المضادة للعرب و..محاكمة الغرب</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>العبودية : مع مقدمة و شروح من المترجم</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>المادية التاريخية و تاريخ الحضارات</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الماركسية اللينينية والتطور العالمي والعربي : في برنامج الحزب الشيوعي اللبناني وفي نقدنا لهذا البرنامج</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الماركسية في عصرنا</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الماركسيه و المسألة القوميه</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>المقاومة الفلسطينية والموقف الراهن</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>المؤلفات السياسية الكبرى من ماكيافل إلى أيامنا</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الياس مرقص حوارات غير منشورة</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>ايديولوجية السلطة و سلطة الايديولوجيا</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>تاريخ الاحزاب الشيوعية فى الوطن العربى</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>تحطيم العقل</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>جاذبية الاسلام</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>حوار العمر : أحاديث مع ألياس مرقص</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>خيانات الحزب الشيوعى السورى</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>ديالكتيك</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>فكر هيغل</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>نظرية الحزب عند لينين والموفق العربى الراهن</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|nr 93038038</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>نقد العقلانية العربية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000249533</ns2:sid>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000019509</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>نقد الفكر القومى</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="LC|nr 93038038" time="2011-08-17T04:30:31+00:00" type="add"/>
+                  <ns2:ht recid="EGAXA|vtls000019509"
+                          time="2011-08-17T04:30:31+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NTA|237294745" time="2012-12-19T19:11:18+00:00" type="add"/>
+                  <ns2:ht recid="NLIara|000249533"
+                          time="2013-05-13T19:14:22+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="DNB|152259333"
+                          time="2014-02-14T18:24:06+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="ISNI|0000000123080988"
+                          time="2014-05-14T22:19:01+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NLI|000249533" time="2014-05-14T22:19:01+00:00" type="add"/>
+                  <ns2:ht recid="DNB|1060499592" time="2014-11-13T21:28:10+00:00" type="add"/>
+                  <ns2:ht recid="LNL|44394" time="2015-01-14T22:49:29+00:00" type="add"/>
+                  <ns2:ht recid="WKP|Q6835156"
+                          time="2017-01-29T15:12:22.321929+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T14:54:59.625417+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "97050145"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">97050145</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

@@ -1,0 +1,916 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>43892561</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/43892561/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/43892561"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="vtls001071030">EGAXA|vtls001071030</ns2:source>
+                  <ns2:source nsid="074515853">NTA|074515853</ns2:source>
+                  <ns2:source nsid="no96030791">LC|no 96030791</ns2:source>
+                  <ns2:source nsid="Q20047022">WKP|Q20047022</ns2:source>
+                  <ns2:source nsid="000194973">NLI|000194973</ns2:source>
+                  <ns2:source nsid="0000000066914527">ISNI|0000000066914527</ns2:source>
+               </ns2:sources>
+               <ns2:length>316</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Abū Ḥamdān, Jamāl</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Abū Ḥamdān, Ǧamāl 1944-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074515853</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>أبو حمدان، جمال، 1944-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001071030</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>جمال أبو حمدان</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q20047022</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Abū Ḥamdān, Ǧamāl,</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074515853</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|074515853</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|no 96030791</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000194973</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000194973</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q20047022</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000066914527</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Abū Ḥamdān, Jamāl</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|no 96030791</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls001071030</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000194973</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000194973</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|074515853</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q20047022</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Abū Ḥamdān, Jamāl</ns2:subfield>
+                        <ns2:subfield code="9">lat</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000194973</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls001071030</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|no 96030791</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|074515853</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q20047022</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Abū Ḥamdān, Ǧamāl</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000066914527</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls001071030</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>LC|no 96030791</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000194973</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000194973</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q20047022</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>NTA|074515853</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">أبو حمدان، جمال،</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:subfield code="9">ara</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000194973</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls001071030</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|no 96030791</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|074515853</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q20047022</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">أبو حمدان، جمال،</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001071030</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>EGAXA|vtls001071030</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|no 96030791</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000194973</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000194973</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q20047022</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000066914527</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">جمال أبو حمدان</ns2:subfield>
+                        <ns2:subfield code="9">ar</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q20047022</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q20047022</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>EGAXA|vtls001071030</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>LC|no 96030791</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|000194973</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|000194973</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NTA|074515853</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000066914527</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000066914527</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Abū Ḥimdān, Ǧamāl,</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>abu himdan gamal 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074515853</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Abū Ḥimdān, Ǧamāl</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>abu himdan gamal 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Jamal Abu Hamdan</ns2:subfield>
+                        <ns2:normalized>jamal abu hamdan</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q20047022</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Jamal Abu Hamdan</ns2:subfield>
+                        <ns2:subfield code="c">Jordanian writer</ns2:subfield>
+                        <ns2:normalized>jamal abu hamdan jordanian writer</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q20047022</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Jamal Abu Hamdan</ns2:subfield>
+                        <ns2:subfield code="c">schrijver uit Jordanië (-2015)</ns2:subfield>
+                        <ns2:normalized>jamal abu hamdan schrijver uit jordanie 2015</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q20047022</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">أبو الحمدان، جمال،</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>ابو الحمدان جمال 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">أبو الحمدان، جمال،</ns2:subfield>
+                        <ns2:subfield code="d">١٩٤٤-</ns2:subfield>
+                        <ns2:normalized>ابو الحمدان جمال 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">أبو حمدان، جمال</ns2:subfield>
+                        <ns2:normalized>ابو حمدان جمال</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">أبو حمدان، جمال</ns2:subfield>
+                        <ns2:normalized>ابو حمدان جمال</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">أبو حمدان، جمال،</ns2:subfield>
+                        <ns2:subfield code="d">١٩٤٤-</ns2:subfield>
+                        <ns2:normalized>ابو حمدان جمال 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">جمال أبو حمدان</ns2:subfield>
+                        <ns2:normalized>جمال ابو حمدان</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">جمال أبو حمدان</ns2:subfield>
+                        <ns2:normalized>جمال ابو حمدان</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">جمال أبو حمدان،</ns2:subfield>
+                        <ns2:subfield code="d">1944-</ns2:subfield>
+                        <ns2:normalized>جمال ابو حمدان 1944</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001071030</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:publishers>
+                  <ns2:data count="7">
+                     <ns2:text>وزارة الثقافة،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>ازمنة،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5">
+                     <ns2:text>أزمنة للنشر والتوزيع،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5">
+                     <ns2:text>Wizārat al-Thaqāfah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>‏أمانة عمان الكبرى،‏</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Azminah lil-Nashr wa-al-Tawzīʻ</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Amānat ʻAmmān al-Kubrá</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>مكتبة برهومة للنشر والتوزيع،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>دار ورد الأردنية للنشر والتوزيع،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000066914527</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Azmina ; al-Muʾassasa al-ʿArabiyya li-al-Dirāsāt wa-al-Našr</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074515853</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>الهيئة العامة لقصور الثقافة،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001071030</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1944</ns2:birthDate>
+               <ns2:deathDate>2015-04-05</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="200" min="197">
+                  <ns2:date count="2" scaled="1.00">197</ns2:date>
+                  <ns2:date count="2" scaled="1.00">198</ns2:date>
+                  <ns2:date count="13" scaled="3.70">199</ns2:date>
+                  <ns2:date count="13" scaled="3.70">200</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="22">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001071030</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074515853</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:ISBNs unique="3">
+                  <ns2:data count="2">
+                     <ns2:text>9789957091965</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789957455651</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789957090975</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:countries>
+                  <ns2:data count="22" scaled="5">
+                     <ns2:text>JO</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074515853</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>LB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074515853</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>EG</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001071030</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:languageOfEntity>
+                  <ns2:data>
+                     <ns2:text>ara</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:languageOfEntity>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>JO</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:s>ISNI</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Jordan</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://ar.wikipedia.org/wiki/جمال_أبو_حمدان<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q20047022</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://en.wikipedia.org/wiki/Jamal_Abu_Hamdan<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q20047022</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Aḥzān kathīrah wa-thalāthat ghizlān.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ams al-ghad-- : ḥikāyāt al-fatá al-gharīb, al-gharībah : qiṣaṣ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Baḥth ʻan Zīzyāʼ : qiṣaṣ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074515853</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ḥikāyat Šahrazād al-aḵīra (fī al-layla al-ṯāniyya baʿd al-alf) : masraḥiyya</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Khayṭ al-Dam : riwāyah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Kingdom of ants</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074515853</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Makān amāma al-baḥr : qiṣaṣ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mamlakat al-naml : qiṣaṣ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mawt al-jamīl, 1998:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mawt al-rajul al-mayyit : qiṣaṣ akhīrah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Najmat al-rāʻī, 2009:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074515853</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Nuṣūṣ al-Batrāʾ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Qaṭf al-zahrah al-barrīyah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Quḍbān, 1995:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ṣundūq al-dunyā : arbaʻ masraḥīyāt</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Zamān ākhar : khams masraḥīyāt</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>أحزان كثيرة وثلاثة غزلان : قصص</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>البحث عن زيزياء : قصص</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الموت الجميل : رواية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏أمس الغد-- : حكايات الفتى الغريب، الغريبة :‏ ‏قصص /‏</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>حكاية شهرزاد الأخيرة : في الليلة الثانية بعد الألف، مسرحية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏خيط الدم :‏ ‏رواية /‏</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>زمان آخر : خمس مسرحيات</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>زمن البراءة : "حكايا الصغار للكبار "</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>صندوق الدنيا : أربع مسرحيات</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>قطف الزهرة البرية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001071030</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>كتاب الايام و الانام : مختارات قصصية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>مملكة النمل : قصص</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 96030791</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>‏موت الرجل الميت :‏ ‏قصص أخيرة /‏</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>نجمة الراعي</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000194973</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>نصوص البتراء</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="LC|no 96030791" time="2009-03-03T12:03:38+00:00" type="add"/>
+                  <ns2:ht recid="J9Uara|000194973"
+                          time="2009-09-21T11:33:26+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NTA|074515853" time="2012-12-19T19:11:18+00:00" type="add"/>
+                  <ns2:ht recid="NLI|000194973" time="2013-04-17T17:27:37+00:00" type="add"/>
+                  <ns2:ht recid="NLIara|000194973"
+                          time="2013-05-13T19:14:22+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="ISNI|0000000066914527"
+                          time="2013-09-16T16:15:07+00:00"
+                          type="add"/>
+                  <ns2:ht recid="WKP|Q20047022" time="2015-07-12T18:51:56+00:00" type="add"/>
+                  <ns2:ht recid="EGAXA|vtls001071030"
+                          time="2016-10-23T14:54:10.493660+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T14:29:23.342616+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "43892561"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">43892561</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

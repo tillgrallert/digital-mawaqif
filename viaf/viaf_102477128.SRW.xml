@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>102477128</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/102477128/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/102477128"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="vtls001045846">EGAXA|vtls001045846</ns2:source>
+                  <ns2:source nsid="19820">LNL|19820</ns2:source>
+                  <ns2:source nsid="000496196">NLI|000496196</ns2:source>
+                  <ns2:source nsid="http://d-nb.info/gnd/13308230X">DNB|13308230X</ns2:source>
+                  <ns2:source nsid="000000011079886X">ISNI|000000011079886X</ns2:source>
+                  <ns2:source nsid="Q446826">WKP|Q446826</ns2:source>
+                  <ns2:source nsid="129914924">NTA|129914924</ns2:source>
+                  <ns2:source nsid="n88294137">LC|n  88294137</ns2:source>
+               </ns2:sources>
+               <ns2:length>506</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Ḥūt, Shafīq</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000496196</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>شفيق الحوت</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q446826</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Ḥūt, Šafīq &#x98;al-&#x9c; 1932-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>حوت، شفيق، 1932-2009</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|19820</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>&lt;&lt;ال&gt;&gt;حوت، شفيق، 1932-2009</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000496196</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>الحوت، شفيق</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001045846</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Hout, Shafik al-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|129914924</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">&lt;&lt;ال&gt;&gt;حوت، شفيق،</ns2:subfield>
+                        <ns2:subfield code="d">1932-2009</ns2:subfield>
+                        <ns2:subfield code="9">ara</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000496196</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000496196</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>EGAXA|vtls001045846</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNL|19820</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|13308230X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q446826</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|129914924</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LC|n  88294137</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Hout, Shafik al-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|129914924</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|129914924</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>EGAXA|vtls001045846</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>DNB|13308230X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  88294137</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥūt, Shafīq</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|n  88294137</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>EGAXA|vtls001045846</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNL|19820</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>DNB|13308230X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q446826</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|129914924</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥūt, Šafīq &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|13308230X</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="title"/>NTA|129914924</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q446826</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>LC|n  88294137</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">الحوت، شفيق</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001045846</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>EGAXA|vtls001045846</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|129914924</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  88294137</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">حوت، شفيق،</ns2:subfield>
+                        <ns2:subfield code="d">1932-2009</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|19820</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LNL|19820</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q446826</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  88294137</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">شفيق الحوت</ns2:subfield>
+                        <ns2:subfield code="9">ar</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q446826</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q446826</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNL|19820</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>DNB|13308230X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>LC|n  88294137</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">شفيق الحوت</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|000000011079886X</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>EGAXA|vtls001045846</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>LNL|19820</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|000496196</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>DNB|13308230X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q446826</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>NTA|129914924</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>LC|n  88294137</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥūt, Shafīq</ns2:subfield>
+                        <ns2:subfield code="9">lat</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000496196</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000496196</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>EGAXA|vtls001045846</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNL|19820</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|13308230X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000011079886X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q446826</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|129914924</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LC|n  88294137</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Al-Hout, Shafiq</ns2:subfield>
+                        <ns2:normalized>al hout shafiq</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Al-Hout, Shafiq</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>al hout shafiq 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hout, Shafik</ns2:subfield>
+                        <ns2:normalized>hout shafik</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000496196</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hout, Shafik Al-</ns2:subfield>
+                        <ns2:normalized>hout shafik al</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hout, Shafik al-</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>hout shafik al 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hout, Shafik &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>hout shafik 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hout, Shafik</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>hout shafik 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hout, Shafiq al-</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>hout shafiq al 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hout, Shafiq &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>hout shafiq 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Shafik Hout</ns2:subfield>
+                        <ns2:subfield code="c">Mitbegründer der PLO</ns2:subfield>
+                        <ns2:normalized>shafik hout mitbegrunder der plo</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q446826</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Shafiq al-Hout</ns2:subfield>
+                        <ns2:normalized>shafiq al hout</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q446826</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Shafiq al-Hout</ns2:subfield>
+                        <ns2:subfield code="c">Palestinian politician</ns2:subfield>
+                        <ns2:normalized>shafiq al hout palestinian politician</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q446826</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Shafiq al-Hout</ns2:subfield>
+                        <ns2:subfield code="c">político palestino</ns2:subfield>
+                        <ns2:normalized>shafiq al hout politico palestino</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q446826</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Šafīq al-Ḥūt</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>safiq al hut 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">al-Hout, Shafiq &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>al hout shafiq 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">al-Ḥūt, Shafīq &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>al hut shafiq 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">al-Ḥūt, Šafīq &#x98;al-&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>al hut safiq 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Šafīq al-Ḥūt</ns2:subfield>
+                        <ns2:subfield code="d">1932-</ns2:subfield>
+                        <ns2:normalized>safiq al hut 1932</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">الحوت، شفيق،</ns2:subfield>
+                        <ns2:subfield code="d">1932-2009</ns2:subfield>
+                        <ns2:normalized>الحوت شفيق 1932 2009</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">الحوت، شفيق،</ns2:subfield>
+                        <ns2:subfield code="d">1932-2009</ns2:subfield>
+                        <ns2:normalized>الحوت شفيق 1932 2009</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|19820</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">حوت، شفيق</ns2:subfield>
+                        <ns2:normalized>حوت شفيق</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">حوت، شفيق.</ns2:subfield>
+                        <ns2:normalized>حوت شفيق</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">شفيق الحوت</ns2:subfield>
+                        <ns2:normalized>شفيق الحوت</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001045846</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">شفيق الحوت،</ns2:subfield>
+                        <ns2:subfield code="d">1932-2009</ns2:subfield>
+                        <ns2:normalized>شفيق الحوت 1932 2009</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|19820</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḥūt, Shafīq</ns2:subfield>
+                        <ns2:normalized>hut shafiq</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">‏حوت، شفيق</ns2:subfield>
+                        <ns2:normalized>حوت شفيق</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">‏حوت، شفيق.</ns2:subfield>
+                        <ns2:normalized>حوت شفيق</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:x500s>
+                  <ns2:x500>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2=" " tag="551">
+                        <ns2:subfield code="a">Jaffa (Palästina)</ns2:subfield>
+                        <ns2:normalized>jaffa palastina</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+               </ns2:x500s>
+               <ns2:coauthors>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>ʻAbd Allāh, Ḥusayn</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="951">
+                     <ns2:text>Palästina-Komitee Hamburg</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|129914924</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="951">
+                     <ns2:text>LC Purchase Collection (Library of Congress)</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Darwīsh, Maḥmūd</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>نويهض، عجاج، 1897-1982</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|19820</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>نويهض، عجاج، 1897-1982</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>لوثر، مارتن، 1483-1546</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|19820</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>لوثر، مارتن، 1483-1546</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Makdisi, Jean Said</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Asser, Martin</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="4">
+                     <ns2:text>Dār al-Istiqlāl</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Palästina-Komitee</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>‏رياض الريس للكتب والنشر،‏</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>دار الفكر،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|19820</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>دار الاستقلال،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>بيسان للنشر و التوزيع،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001045846</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Riyāḍ al-Rayyis lil-Kutub wa-al-Nashr</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Pluto Press ; distributed in the United States of America exclusively by Palgrave Macmillan</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000011079886X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>مركز الابحاث، منظمة التحرير الفلسطينية،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Markaz al-Abḥāth, Munaẓẓamat al-Tarḥrīr al-Filasṭīnīyah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1932-01-13</ns2:birthDate>
+               <ns2:deathDate>2009-08-02</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="200" min="197">
+                  <ns2:date count="9" scaled="3.17">197</ns2:date>
+                  <ns2:date count="6" scaled="2.58">198</ns2:date>
+                  <ns2:date count="4" scaled="2.00">199</ns2:date>
+                  <ns2:date count="6" scaled="2.58">200</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="10">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001045846</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|19820</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|129914924</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>gm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:RelatorCodes>
+                  <ns2:data count="1">
+                     <ns2:text>ctb</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>guest</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>mitarb</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RelatorCodes>
+               <ns2:ISBNs unique="2">
+                  <ns2:data count="2">
+                     <ns2:text>9789953212821</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9780745328843</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:covers>
+                  <ns2:data count="1">
+                     <ns2:text>0745328849</ns2:text>
+                     <ns2:xtext>+-+4933780925</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:covers>
+               <ns2:countries>
+                  <ns2:data count="7" scaled="3">
+                     <ns2:text>LB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|19820</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" scaled="2">
+                     <ns2:text>DE</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|129914924</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>LY</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001045846</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>GB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:languageOfEntity>
+                  <ns2:data>
+                     <ns2:text>ara</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:languageOfEntity>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>IL</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:s>ISNI</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://ar.wikipedia.org/wiki/شفيق_الحوت<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q446826</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://de.wikipedia.org/wiki/Shafik_Hout<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q446826</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://en.wikipedia.org/wiki/Shafiq_al-Hout<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q446826</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://nl.wikipedia.org/wiki/Shafiq_al-Hout<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q446826</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Bayna al-waṭan wa-al-manfá : min Yāfā badaʼa al-mishwār</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Filasṭīnī bayna al-tīh wa-al-dawlah.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>From homeland to exile</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Ḥarb al-sādisah : al-ijtiyāḥ al-Isrāʼīlī li-Lubnān 1982.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000496196</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>ʻIshrūn ʻāman fī Munaẓẓamat al-Taḥrīr al-Filasṭīnīyah (1964-1984), 1986:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ittifāqīyat Ghazzah-Arīḥā awwalān : al-ḥall al-marfūḍ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Li-kay naḥrutha fī al-arḍ : aḥādīth mustaqbalīyah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>My life in the PLO : the inside story of the Palestinian struggle</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|129914924</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|13308230X</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>palästinensische Revolution nach dem Oktoberkrieg &#x98;1973 &#x9c;[neunzehnhundertdreiundsiebzig] Diskussion</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Sixth war : The Israeli supression of Lebanon 1982.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000496196</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Telephone call to Palestine Affairs Center, (Washington, D.C.), 01-19-90</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Yawmīyāt ibn al-balad</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>اتفاقية غزة - أريحا أولا:ٍ الحل المرفوض</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  88294137</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>بين الوطن والمنفى : من يافا بدأ المشوار</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls001045846</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>مذكرات وديعة قدورة خرطبيل : بحثا عن الأمل و الوطن : ستون عاما من كفاح إمرأة فى سبيل فلسطين، 1936-1990</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LNL</ns2:s>
+                        <ns2:sid>LNL|19820</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>نفاق اليهود = The jews and their lies</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="LC|n  88294137" time="2010-07-26T05:00:12+00:00" type="add"/>
+                  <ns2:ht recid="DNB|13308230X" time="2011-10-24T04:09:01+00:00" type="add"/>
+                  <ns2:ht recid="DNB|10338149X"
+                          time="2011-10-24T04:09:48+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NTA|129914924" time="2012-12-19T19:11:18+00:00" type="add"/>
+                  <ns2:ht recid="NLIara|000211679"
+                          time="2013-05-13T19:14:22+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NLIlat|000496196"
+                          time="2013-05-13T19:14:22+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="EGAXA|vtls001045846"
+                          time="2013-05-13T19:14:22+00:00"
+                          type="add"/>
+                  <ns2:ht recid="LNL|19820" time="2013-09-16T16:15:07+00:00" type="add"/>
+                  <ns2:ht recid="ISNI|000000011079886X"
+                          time="2013-09-16T16:15:07+00:00"
+                          type="add"/>
+                  <ns2:ht recid="WKP|Q446826" time="2015-04-14T18:56:54+00:00" type="add"/>
+                  <ns2:ht recid="WKP|Shafiq_al-Hout"
+                          time="2015-04-14T18:56:54+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NLI|000496196"
+                          time="2017-02-05T09:39:30.430330+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T13:26:20.408788+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "102477128"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">102477128</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

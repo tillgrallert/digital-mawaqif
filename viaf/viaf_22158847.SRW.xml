@@ -1,0 +1,3368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>22158847</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/22158847/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/22158847"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid=".a11402143">BNC|a11402143</ns2:source>
+                  <ns2:source nsid="XX1020254">BNE|XX1020254</ns2:source>
+                  <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb120378348">BNF|12037834</ns2:source>
+                  <ns2:source nsid="http://d-nb.info/gnd/118787330">DNB|118787330</ns2:source>
+                  <ns2:source nsid="0000000110224268">ISNI|0000000110224268</ns2:source>
+                  <ns2:source nsid="n79004114">LC|n  79004114</ns2:source>
+                  <ns2:source nsid="LNC10-000163428">LNB|LNC10-000163428</ns2:source>
+                  <ns2:source nsid="jn20000604297">NKC|jn20000604297</ns2:source>
+                  <ns2:source nsid="000417125">NLI|000417125</ns2:source>
+                  <ns2:source nsid="a12567991">NLP|a12567991</ns2:source>
+                  <ns2:source nsid="000214453">NSK|000214453</ns2:source>
+                  <ns2:source nsid="070857814">NTA|070857814</ns2:source>
+                  <ns2:source nsid="vtls006916943">NUKAT|n 2010136002</ns2:source>
+                  <ns2:source nsid="628779">PTBNP|628779</ns2:source>
+                  <ns2:source nsid="028568613">SUDOC|028568613</ns2:source>
+                  <ns2:source nsid="Q881756">WKP|Q881756</ns2:source>
+                  <ns2:source nsid="BNC10000000000000000014314">BNCHL|10000000000000000014314</ns2:source>
+                  <ns2:source nsid="90063869">BIBSYS|90063869</ns2:source>
+               </ns2:sources>
+               <ns2:length>2836</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Otero, Blas &#x98;de&#x9c; 1916-1979</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>BNCHL</ns2:s>
+                        <ns2:sid>BNCHL|10000000000000000014314</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|118787330</ns2:sid>
+                        <ns2:s>PTBNP</ns2:s>
+                        <ns2:sid>PTBNP|628779</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Otero, Blas de</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000214453</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000417125</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Blas de Otero</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">Blas de Otero</ns2:subfield>
+                        <ns2:subfield code="9">eo</ns2:subfield>
+                        <ns2:subfield code="9">af</ns2:subfield>
+                        <ns2:subfield code="9">is</ns2:subfield>
+                        <ns2:subfield code="9">an</ns2:subfield>
+                        <ns2:subfield code="9">ga</ns2:subfield>
+                        <ns2:subfield code="9">cs</ns2:subfield>
+                        <ns2:subfield code="9">et</ns2:subfield>
+                        <ns2:subfield code="9">gl</ns2:subfield>
+                        <ns2:subfield code="9">es</ns2:subfield>
+                        <ns2:subfield code="9">lb</ns2:subfield>
+                        <ns2:subfield code="9">pt</ns2:subfield>
+                        <ns2:subfield code="9">pms</ns2:subfield>
+                        <ns2:subfield code="9">tr</ns2:subfield>
+                        <ns2:subfield code="9">lt</ns2:subfield>
+                        <ns2:subfield code="9">nds-nl</ns2:subfield>
+                        <ns2:subfield code="9">ro</ns2:subfield>
+                        <ns2:subfield code="9">ca</ns2:subfield>
+                        <ns2:subfield code="9">pl</ns2:subfield>
+                        <ns2:subfield code="9">fr</ns2:subfield>
+                        <ns2:subfield code="9">wa</ns2:subfield>
+                        <ns2:subfield code="9">hr</ns2:subfield>
+                        <ns2:subfield code="9">hu</ns2:subfield>
+                        <ns2:subfield code="9">br</ns2:subfield>
+                        <ns2:subfield code="9">lmo</ns2:subfield>
+                        <ns2:subfield code="9">fi</ns2:subfield>
+                        <ns2:subfield code="9">gsw</ns2:subfield>
+                        <ns2:subfield code="9">sq</ns2:subfield>
+                        <ns2:subfield code="9">sk</ns2:subfield>
+                        <ns2:subfield code="9">sl</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q881756</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="200">
+                        <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                        <ns2:subfield code="8">fre</ns2:subfield>
+                        <ns2:subfield code="9">0</ns2:subfield>
+                        <ns2:subfield code="a">Otero</ns2:subfield>
+                        <ns2:subfield code="b">Blas de</ns2:subfield>
+                        <ns2:subfield code="f">1916-1979</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNF|12037834</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>NSK|000214453</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de</ns2:subfield>
+                        <ns2:subfield code="9">lat</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000417125</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000417125</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000214453</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NSK|000214453</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>LC|n  79004114</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BIBSYS|90063869</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>NSK|000214453</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000110224268</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>NSK|000214453</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|n  79004114</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>NSK|000214453</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de</ns2:subfield>
+                        <ns2:subfield code="d">(1916-1979)</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLP|a12567991</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>NSK|000214453</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de</ns2:subfield>
+                        <ns2:subfield code="d">(1916-1979).</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NUKAT|n 2010136002</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79004114</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="100">
+                        <ns2:subfield code="a">Otero, Blas de</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNE|XX1020254</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>NSK|000214453</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de,</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNC|a11402143</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>NSK|000214453</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de,</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNCHL</ns2:s>
+                        <ns2:sid>BNCHL|10000000000000000014314</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNCHL|10000000000000000014314</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de,</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|070857814</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>NSK|000214453</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de,</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SUDOC|028568613</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>NSK|000214453</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de,</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:subfield code="7">jn20000604297</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NKC|jn20000604297</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas de,</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LNB|LNC10-000163428</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Otero, Blas &#x98;de&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|118787330</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|118787330</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|628779</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="UNIMARC" ind1=" " ind2="1" tag="200">
+                        <ns2:subfield code="a">Otero,</ns2:subfield>
+                        <ns2:subfield code="b">Blas de,</ns2:subfield>
+                        <ns2:subfield code="f">1916-1979</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>PTBNP</ns2:s>
+                        <ns2:sid>PTBNP|628779</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>PTBNP|628779</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNC|a11402143</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000417125</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20000604297</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|070857814</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000014314</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a12567991</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000110224268</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|028568613</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1020254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118787330</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90063869</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000163428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q881756</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|12037834</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79004114</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n 2010136002</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">"Otero, Blas de "</ns2:subfield>
+                        <ns2:normalized>otero blas de</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Blas Otero</ns2:subfield>
+                        <ns2:normalized>blas otero</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Blas de Otero</ns2:subfield>
+                        <ns2:subfield code="c">Spaans dichter (1916-1979)</ns2:subfield>
+                        <ns2:normalized>blas de otero spaans dichter 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Blas de Otero</ns2:subfield>
+                        <ns2:subfield code="c">Spanish poet and writer</ns2:subfield>
+                        <ns2:normalized>blas de otero spanish poet and writer</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Blas de Otero</ns2:subfield>
+                        <ns2:subfield code="c">poeta spagnolo</ns2:subfield>
+                        <ns2:normalized>blas de otero poeta spagnolo</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Blas de Otero</ns2:subfield>
+                        <ns2:subfield code="c">spanischer Lyriker</ns2:subfield>
+                        <ns2:normalized>blas de otero spanischer lyriker</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Blas de Otero</ns2:subfield>
+                        <ns2:subfield code="c">spansk poet</ns2:subfield>
+                        <ns2:normalized>blas de otero spansk poet</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">De Otero Muñoz, Blas</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>de otero munoz blas 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|118787330</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">De Otero Muñoz, Blas.</ns2:subfield>
+                        <ns2:normalized>de otero munoz blas</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">De Otero, Blas</ns2:subfield>
+                        <ns2:normalized>de otero blas</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000417125</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">De Otero, Blas,</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>de otero blas 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">De Otero, Blas.</ns2:subfield>
+                        <ns2:normalized>de otero blas</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">De Otero, Blas</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>de otero blas 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|118787330</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns2:subfield code="a">De Otero</ns2:subfield>
+                        <ns2:subfield code="b">Blas</ns2:subfield>
+                        <ns2:subfield code="f">1916-1979</ns2:subfield>
+                        <ns2:normalized>de otero blas 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Munoz, Blas de Otero.</ns2:subfield>
+                        <ns2:normalized>munoz blas de otero</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muñoz, Blas de O.</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>munoz blas de o 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|118787330</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muñoz, Blas de Otero</ns2:subfield>
+                        <ns2:normalized>munoz blas de otero</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muñoz, Blas de Otero</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>munoz blas de otero 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|118787330</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muñoz, Blas de O.</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>munoz blas de o 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muñoz, Blas de Otero</ns2:subfield>
+                        <ns2:normalized>munoz blas de otero</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000417125</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muñoz, Blas de Otero.</ns2:subfield>
+                        <ns2:normalized>munoz blas de otero</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Muñoz, Blas de Otero</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>munoz blas de otero 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Otero Munoz, Blas de.</ns2:subfield>
+                        <ns2:normalized>otero munoz blas de</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Otero Muñoz, Blas de</ns2:subfield>
+                        <ns2:normalized>otero munoz blas de</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Otero Muñoz, Blas &#x98;de&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>otero munoz blas 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|118787330</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Otero Muñoz, Blas de</ns2:subfield>
+                        <ns2:normalized>otero munoz blas de</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000417125</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Otero Muñoz, Blas de,</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>otero munoz blas de 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                        <ns2:s>BNCHL</ns2:s>
+                        <ns2:sid>BNCHL|10000000000000000014314</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Otero Muñoz, Blas de.</ns2:subfield>
+                        <ns2:normalized>otero munoz blas de</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Otero Muñoz, Blas de</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>otero munoz blas de 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="400">
+                        <ns2:subfield code="a">Otero Muñoz, Blas de</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>otero munoz blas de 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Otero, Blas de</ns2:subfield>
+                        <ns2:normalized>otero blas de</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="1" tag="400">
+                        <ns2:subfield code="a">Otero,</ns2:subfield>
+                        <ns2:subfield code="b">Blas de</ns2:subfield>
+                        <ns2:normalized>otero blas de</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>PTBNP</ns2:s>
+                        <ns2:sid>PTBNP|628779</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Otero-Muñoz, Blas &#x98;de&#x9c;</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>otero munoz blas 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|118787330</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Otero-Muñoz, Blas de</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>otero munoz blas de 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Otero</ns2:subfield>
+                        <ns2:subfield code="c">Blas de</ns2:subfield>
+                        <ns2:normalized>otero blas de</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Де Отеро, Блас,</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>де отеро блас 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Де Отеро, Блас</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>де отеро блас 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Отеро, Блас де</ns2:subfield>
+                        <ns2:normalized>отеро блас де</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Отеро, Блас де,</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>отеро блас де 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Отеро, Блас де</ns2:subfield>
+                        <ns2:subfield code="d">1916-1979</ns2:subfield>
+                        <ns2:normalized>отеро блас де 1916 1979</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Բլաս դե Օթերո</ns2:subfield>
+                        <ns2:normalized>բլաս դե օթերո</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">بلاس دي أوتيرو</ns2:subfield>
+                        <ns2:normalized>بلاس دي اوتيرو</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:coauthors>
+                  <ns2:data count="45" tag="950">
+                     <ns2:text>Cruz, Sabina de la</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="19" tag="950">
+                     <ns2:text>Celaya, Gabriel, 1911-1991</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="18" tag="950">
+                     <ns2:text>Cano, José Luis, 1912-1999</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="17" tag="950">
+                     <ns2:text>Hierro, José, 1922-2002</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="14" tag="950">
+                     <ns2:text>Hernández, Mario, 1945-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="14" tag="950">
+                     <ns2:text>Alonso, Dámaso 1898-1990</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="11" tag="950">
+                     <ns2:text>Ifach, María de Gracia 1905-1983</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="11" tag="950">
+                     <ns2:text>Hidalgo, José Luis 1919-1947</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6" tag="950">
+                     <ns2:text>Quevedo, Francisco de 1580-1645</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000214453</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6" tag="950">
+                     <ns2:text>Couffon, Claude 1926-....</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Unamuno, Miguel de</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000214453</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Рождественский, Геннадий (Геннадий Николаевич), 1931-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Čivrný, Lumír, 1915-2001</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Wright, James (1927-1980).</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>St.Martin, Hardie</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="43">
+                     <ns2:text>Lumen</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>PTBNP</ns2:s>
+                        <ns2:sid>PTBNP|628779</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="38">
+                     <ns2:text>Cátedra</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="33">
+                     <ns2:text>Losada</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="33">
+                     <ns2:text>Alianza Editorial</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="28">
+                     <ns2:text>Visor</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="25">
+                     <ns2:text>Plaza &amp; Janés</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="22">
+                     <ns2:text>Alfaguara</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="14">
+                     <ns2:text>Taurus</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="10">
+                     <ns2:text>Visor libros</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="9">
+                     <ns2:text>Vicens-Vives</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000110224268</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Školska knjiga</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000214453</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1916-03-15</ns2:birthDate>
+               <ns2:deathDate>1979-06-29</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="201" min="194">
+                  <ns2:date count="4" scaled="2.00">194</ns2:date>
+                  <ns2:date count="25" scaled="4.64">195</ns2:date>
+                  <ns2:date count="75" scaled="6.23">196</ns2:date>
+                  <ns2:date count="121" scaled="6.92">197</ns2:date>
+                  <ns2:date count="74" scaled="6.21">198</ns2:date>
+                  <ns2:date count="32" scaled="5.00">199</ns2:date>
+                  <ns2:date count="31" scaled="4.95">200</ns2:date>
+                  <ns2:date count="3" scaled="1.58">201</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="1">
+                     <ns2:text>aa</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="351">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000214453</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>PTBNP</ns2:s>
+                        <ns2:sid>PTBNP|628779</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>cm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>im</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="14">
+                     <ns2:text>jm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>td</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>tm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:RelatorCodes>
+                  <ns2:data count="31">
+                     <ns2:text>070</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>aut lit</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>auteur</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>editeur scientifique</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>letrista</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>lyr</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>orador</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>recitador</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>teksta aut</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RelatorCodes>
+               <ns2:ISBNs unique="51">
+                  <ns2:data count="20">
+                     <ns2:text>9788420710006</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="12">
+                     <ns2:text>9788426427250</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>PTBNP</ns2:s>
+                        <ns2:sid>PTBNP|628779</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="11">
+                     <ns2:text>9788470530043</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="11">
+                     <ns2:text>9788420616377</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="10">
+                     <ns2:text>9788437600000</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="9">
+                     <ns2:text>9788424627010</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>PTBNP</ns2:s>
+                        <ns2:sid>PTBNP|628779</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="8">
+                     <ns2:text>9788401441103</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>9788485137589</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>9788475220123</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7">
+                     <ns2:text>9788420618111</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789539721501</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000214453</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9788497402262</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9788497402255</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:covers>
+                  <ns2:data count="10">
+                     <ns2:text>8437600006</ns2:text>
+                     <ns2:xtext>+-+1555512893</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:covers>
+               <ns2:countries>
+                  <ns2:data count="237" scaled="8">
+                     <ns2:text>ES</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>PTBNP</ns2:s>
+                        <ns2:sid>PTBNP|628779</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="18" scaled="4">
+                     <ns2:text>AR</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="17" scaled="4">
+                     <ns2:text>SV</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="14" scaled="4">
+                     <ns2:text>FR</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="7" scaled="3">
+                     <ns2:text>US</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5" scaled="3">
+                     <ns2:text>MX</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4" scaled="2">
+                     <ns2:text>CU</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" scaled="2">
+                     <ns2:text>PR</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>RU</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>HR</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000214453</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>VE</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>SK</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>NL</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>IT</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>CZ</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:languageOfEntity>
+                  <ns2:data>
+                     <ns2:text>spa</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:s>NKC</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:languageOfEntity>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>ES</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:s>PTBNP</ns2:s>
+                        <ns2:s>WKP</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Španělsko</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://ar.wikipedia.org/wiki/بلاس_دي_أوتيرو<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://br.wikipedia.org/wiki/Blas_de_Otero<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://ca.wikipedia.org/wiki/Blas_de_Otero<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://de.wikipedia.org/wiki/Blas_de_Otero<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://eo.wikipedia.org/wiki/Blas_de_Otero<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://es.wikipedia.org/wiki/Blas_de_Otero<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://eu.wikipedia.org/wiki/Blas_Otero<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://fr.wikipedia.org/wiki/Blas_de_Otero<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://gl.wikipedia.org/wiki/Blas_de_Otero<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://hy.wikipedia.org/wiki/Բլաս_դե_Օթերո<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://it.wikipedia.org/wiki/Blas_de_Otero<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://pl.wikipedia.org/wiki/Blas_de_Otero<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://pt.wikipedia.org/wiki/Blas_de_Otero<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://ru.wikipedia.org/wiki/Отеро,_Блас_де<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Álbum sobre la historia de la revista "Cuadernos de Ágora"</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ancia</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Andaluces de Jaén (2 min 29 s)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000417125</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Angel fieramente humano ; Redoble de conciencia</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Antología poética</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000214453</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Antologija španjolskog pjesništva</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Archivo de la palabra</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Balada del que nunca fue a Granada (3 min 08 s)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Blas de Otero para niños</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Campo de amor Las cosas van cambiando</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Cántico espiritual</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Carta, 1962 jun. 22, Bilbao, de Blas de Otero a Guillermo de Torre</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>PTBNP</ns2:s>
+                        <ns2:sid>PTBNP|628779</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>En castellano</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Cosas de Bilbao = (Bilboko Gauzak) ; [Hablando = (Hitz egiten)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Cuatro poetas de hoy José Luis Hidalgo, Gabriel Celaya, Blas de Otero, José Hierro</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Dejame en paz, amor tirano (1 min 55 s)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Déjame guardar la ilusión</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Don Dinero (2 min 20 s)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Dzeja.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>En el nombre de España, paz</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Es amarga la verdad (2 min 14 s)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>España en marcha (2 min 11 s)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Esperanza ; El monte y el río</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Esto no es un libro</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Expresion y reunión : a modo de antología</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>gran perdida de Alhama (2 min 41 s)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Guinovart : obras de 1948 a 2002</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Hacia la inmensa mayoría</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000417125</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Historias fingidas y verdaderas</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|296473590">
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|16665798</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Hojas de Madrid con La galerna</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Imagen y palabra</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q881756</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Istorioak, alegiazkoak nahiz egiazkoak</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NSK</ns2:s>
+                        <ns2:sid>NSK|000214453</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Izabrani prepjevi</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Je demande la paix et la parole.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Libertad real : para coro de 4 voces mixtas</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Me llamaran (2 min)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Me queda la palabra (2 min 33 s)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mediobiografía : selección de poemas biográficos</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mientras</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Miguel Hernández and Blas de Otero: selected poems.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Música coral</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Neplašte slávika</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Obra completa : (1935-1977)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Obra selecta</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Obres</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Paco Ibanez</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>País : antología 1955-1970</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|188298580">
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12088142</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>PTBNP</ns2:s>
+                        <ns2:sid>PTBNP|628779</ns2:sid>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Pido la paz y la palabra</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Poemas de amor</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Poèmes</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|178790106">
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n 2008006644</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a12567991</ns2:sid>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Poems. Selections</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Poesía con nombres</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>poesia es un arma cargada de futuro (2 min 52 s)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Poesía escogida</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Poesía española contemporánea : Antología 1939-1964. Poesía religiosa</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Poetas del 40</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20000604297</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Que trata de España</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ramón Andrés canta a Blas de Otero</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Redoble de conciencia, con dibujos de Stephane</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Romance satirico (2 min 58 s)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Stichi</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|312468075">
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK883954998</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Todos mis sonetos</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Twenty poems</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Utvalg</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Verdad, mentira (2 min 05 s)</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|204620715">
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12037834</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90063869</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|028568613</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|972654623</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|070857814</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2010136002</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Verso y prosa</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|309531647">
+                     <ns2:sources>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORKLCno 98107846</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79004114</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Works. Selections.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a11402143</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX1020254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Yo pisaré las calles nuevamente Campo de amor</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000163428</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ленин в сердце народном</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="BNF|12037834" time="2009-03-03T12:03:17+00:00" type="add"/>
+                  <ns2:ht recid="DNB|118787330" time="2009-03-03T12:03:24+00:00" type="add"/>
+                  <ns2:ht recid="LC|n  79004114" time="2009-03-03T12:03:29+00:00" type="add"/>
+                  <ns2:ht recid="NKC|jn20000604297"
+                          time="2009-05-07T09:10:51+00:00"
+                          type="add"/>
+                  <ns2:ht recid="BNE|XX1020254" time="2009-06-15T11:42:43+00:00" type="add"/>
+                  <ns2:ht recid="BNF|13898136" time="2010-02-22T06:44:10+00:00" type="delete"/>
+                  <ns2:ht recid="NII|DA04852341"
+                          time="2010-11-16T05:07:56+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="SUDOC|028568613" time="2011-12-15T07:58:55+00:00" type="add"/>
+                  <ns2:ht recid="BIBSYS|x90063869"
+                          time="2012-11-27T04:00:16+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NTA|070857814" time="2012-12-19T19:11:18+00:00" type="add"/>
+                  <ns2:ht recid="NLI|000417125" time="2013-04-17T17:27:37+00:00" type="add"/>
+                  <ns2:ht recid="NLIlat|000417125"
+                          time="2013-05-13T19:14:22+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NLP|a12567991" time="2013-06-14T19:03:38+00:00" type="add"/>
+                  <ns2:ht recid="LNB|LNC10-000163428"
+                          time="2013-08-19T18:59:48+00:00"
+                          type="add"/>
+                  <ns2:ht recid="ISNI|0000000110224268"
+                          time="2013-09-16T16:15:07+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NSK|000214453" time="2013-12-12T18:02:00+00:00" type="add"/>
+                  <ns2:ht recid="BNC|a11402143" time="2014-01-15T05:38:27+00:00" type="add"/>
+                  <ns2:ht recid="NLA|000035403025"
+                          time="2014-10-21T12:48:43+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NUKAT|n 2010136002"
+                          time="2014-10-27T16:17:29+00:00"
+                          type="add"/>
+                  <ns2:ht recid="WKP|Q881756" time="2015-04-14T18:56:54+00:00" type="add"/>
+                  <ns2:ht recid="PTBNP|628779" time="2015-05-12T00:14:00+00:00" type="add"/>
+                  <ns2:ht recid="BNCHL|10000000000000000014314"
+                          time="2016-03-21T07:57:21.348707+00:00"
+                          type="add"/>
+                  <ns2:ht recid="BIBSYS|90063869"
+                          time="2017-03-27T20:17:30.458260+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T18:24:22.443796+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "22158847"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">22158847</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

@@ -54,10 +54,6 @@
                   <tei:death when="1993-09-08">1993-09-08</tei:death>
                </person>
                <person>
-                        <persName xml:lang="ar">غيلان</persName>
-                        <persName xml:lang="ar" type="flattened">غيلان</persName>
-                    </person>
-               <person>
                         <persName xml:lang="ar">
                      <forename>سنتشو</forename>
                      <surname>غوتييريث</surname>
@@ -67,13 +63,6 @@
                   <tei:birth when="1809-05-06">1809-05-06</tei:birth>
                   <tei:death when="1878-02-26">1878-02-26</tei:death>
                </person>
-               <person>
-                        <persName xml:lang="ar">
-                     <forename>قسطنطين</forename>
-                     <surname>زريق</surname>
-                  </persName>
-                        <persName xml:lang="ar" type="flattened">قسطنطينزريق</persName>
-                    </person>
                <person>
                         <persName xml:lang="ar">
                      <forename>ديزيره</forename>
@@ -96,13 +85,6 @@
                </person>
                <person>
                         <persName xml:lang="ar">
-                     <forename>بول</forename>
-                     <surname>غيراغوسيان</surname>
-                  </persName>
-                        <persName xml:lang="ar" type="flattened">بولغيراغوسيان</persName>
-                    </person>
-               <person>
-                        <persName xml:lang="ar">
                      <forename>تزفيتان</forename>
                      <surname>تودوروف</surname>
                   </persName>
@@ -112,26 +94,12 @@
                   <tei:death when="2017-02-07">2017-02-07</tei:death>
                </person>
                <person>
-                        <persName xml:lang="ar">
-                     <forename>زهيدة</forename>
-                     <surname>درويش</surname>
-                  </persName>
-                        <persName xml:lang="ar" type="flattened">زهيدةدرويش</persName>
-                    </person>
-               <person>
                         <persName xml:lang="ar">سيوران</persName>
                   <persName xml:lang="ar" type="flattened">سيوران</persName>
                     <tei:idno type="viaf">56607493</tei:idno>
                   <tei:birth when="1911-04-08">1911-04-08</tei:birth>
                   <tei:death when="1995-06-20">1995-06-20</tei:death>
                </person>
-               <person>
-                        <persName xml:lang="ar">
-                     <forename>جليل</forename>
-                     <surname>القيسي</surname>
-                  </persName>
-                        <persName xml:lang="ar" type="flattened">جليلالقيسي</persName>
-                    </person>
                <person>
                         <persName xml:lang="sp-Arab-AR">
                      <forename>أوكتافيو</forename>
@@ -480,6 +448,10 @@
                         <persName xml:lang="ar">علي جهاد سلام الراسي</persName>
                   <persName xml:lang="ar" type="flattened">عليجهادسلامالراسي</persName>
                </person>
+               <person>
+                        <persName xml:lang="ar">غيلان</persName>
+                        <persName xml:lang="ar" type="flattened">غيلان</persName>
+                    </person>
                <person>
                         <persName xml:lang="ar">غيلليفيك</persName>
                   <persName xml:lang="ar" type="flattened">غيلليفيك</persName>
@@ -1100,6 +1072,13 @@
                </person>
                <person>
                         <persName xml:lang="ar">
+                     <forename>جليل</forename>
+                     <surname>القيسي</surname>
+                  </persName>
+                        <persName xml:lang="ar" type="flattened">جليلالقيسي</persName>
+                    </person>
+               <person>
+                        <persName xml:lang="ar">
                      <forename>محمد</forename>
                      <surname>القيسي</surname>
                   </persName>
@@ -1675,6 +1654,13 @@
                </person>
                <person>
                         <persName xml:lang="ar">
+                     <forename>زهيدة</forename>
+                     <surname>درويش</surname>
+                  </persName>
+                        <persName xml:lang="ar" type="flattened">زهيدةدرويش</persName>
+                    </person>
+               <person>
+                        <persName xml:lang="ar">
                      <forename>محمود</forename>
                      <surname>درويش</surname>
                   </persName>
@@ -1778,6 +1764,13 @@
                   </persName>
                   <persName xml:lang="ar" type="flattened">عبداللهزخيا</persName>
                </person>
+               <person>
+                        <persName xml:lang="ar">
+                     <forename>قسطنطين</forename>
+                     <surname>زريق</surname>
+                  </persName>
+                        <persName xml:lang="ar" type="flattened">قسطنطينزريق</persName>
+                    </person>
                <person>
                         <persName xml:lang="ar">
                      <forename>سليمان</forename>
@@ -2268,6 +2261,13 @@
                   </persName>
                   <persName xml:lang="ar" type="flattened">لوسيانغولدمان</persName>
                </person>
+               <person>
+                        <persName xml:lang="ar">
+                     <forename>بول</forename>
+                     <surname>غيراغوسيان</surname>
+                  </persName>
+                        <persName xml:lang="ar" type="flattened">بولغيراغوسيان</persName>
+                    </person>
                <person>
                         <persName xml:lang="ar">
                      <forename>عادل</forename>
@@ -2879,11 +2879,19 @@
             </listPerson>
             <tei:listPerson corresp="../../digital-mawaqif/tei/entities_OpenRefine.TEIP5.xml">
                <tei:person>
-                  <tei:persName ref="viaf:29521788">الجنيد (أبو القاسم بن محمد)</tei:persName>
-               </tei:person>
-               <tei:person>
                   <tei:persName ref="viaf:95223177">
                      <forename>محيي الدين</forename>بن عربي</tei:persName>
+                  <tei:persName ref="viaf:95223177" type="flattened">محييالدينبنعربي</tei:persName>
+                  <tei:idno type="viaf">95223177</tei:idno>
+                  <tei:birth when="1165-08-07">1165-08-07</tei:birth>
+                  <tei:death when="1240-11-16">1240-11-16</tei:death>
+               </tei:person>
+               <tei:person>
+                  <tei:persName ref="viaf:29521788">الجنيد (أبو القاسم بن محمد)</tei:persName>
+                  <tei:persName ref="viaf:29521788" type="flattened">الجنيدأبوالقاسمبنمحمد</tei:persName>
+                  <tei:idno type="viaf">29521788</tei:idno>
+                  <tei:birth when="0830-01-01">830-01-01</tei:birth>
+                  <tei:death when="0910-01-01">910-01-01</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:2634661">
@@ -2891,60 +2899,100 @@
                      <forename>حامد</forename>
                      <surname>أبو زيد</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:2634661" type="flattened">نصرحامدأبوزيد</tei:persName>
+                  <tei:idno type="viaf">2634661</tei:idno>
+                  <tei:birth when="1943-07-10">1943-07-10</tei:birth>
+                  <tei:death when="2010-07-05">2010-07-05</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:312733614">
                      <forename>بوجمعة</forename>
                      <surname>أشفري</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:312733614" type="flattened">بوجمعةأشفري</tei:persName>
+                  <tei:idno type="viaf">312733614</tei:idno>
+                  <tei:birth>0</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:9031176">
                      <forename>فاطمة</forename>
                      <surname>إسماعيل</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:9031176" type="flattened">فاطمةإسماعيل</tei:persName>
+                  <tei:idno type="viaf">9031176</tei:idno>
+                  <tei:birth when="1956">1956</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:6970692">
                      <forename>عبد النبي</forename>
                      <surname>اصطيف</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:6970692" type="flattened">عبدالنبياصطيف</tei:persName>
+                  <tei:idno type="viaf">6970692</tei:idno>
+                  <tei:birth when="1952-01-01">1952-01-01</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:73490771">
                      <forename>مصطفى</forename>
                      <surname>الحسناوي</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:73490771" type="flattened">مصطفىالحسناوي</tei:persName>
+                  <tei:idno type="viaf">73490771</tei:idno>
+                  <tei:birth when="1950">1950</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:23272700">
                      <forename>الحبيب</forename>
                      <surname>السالمي</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:23272700" type="flattened">الحبيبالسالمي</tei:persName>
+                  <tei:idno type="viaf">23272700</tei:idno>
+                  <tei:birth when="1951-01-01">1951-01-01</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:108783545">
                      <forename>عبد الله</forename>
                      <surname>العروي</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:108783545" type="flattened">عبداللهالعروي</tei:persName>
+                  <tei:idno type="viaf">108783545</tei:idno>
+                  <tei:birth when="1933-11-07">1933-11-07</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:12178855">
                      <forename>وفاء</forename>
                      <surname>العمراني</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:12178855" type="flattened">وفاءالعمراني</tei:persName>
+                  <tei:idno type="viaf">12178855</tei:idno>
+                  <tei:birth>0</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:56764797">
                      <forename>منصف</forename>
                      <surname>الوهايبي</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:56764797" type="flattened">منصفالوهايبي</tei:persName>
+                  <tei:idno type="viaf">56764797</tei:idno>
+                  <tei:birth when="1949-12-20">1949-12-20</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:44295060">
                      <forename>رولان</forename>
                      <surname>بارت</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:44295060" type="flattened">رولانبارت</tei:persName>
+                  <tei:idno type="viaf">44295060</tei:idno>
+                  <tei:birth when="1915-11-12">1915-11-12</tei:birth>
+                  <tei:death when="1980-03-26">1980-03-26</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:54152375" xml:lang="it-Arab-AR">
@@ -2952,36 +3000,60 @@
                      <forename>باولو</forename>
                      <surname>بازوليني</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:54152375" xml:lang="it-Arab-AR" type="flattened">بييرباولوبازوليني</tei:persName>
+                  <tei:idno type="viaf">54152375</tei:idno>
+                  <tei:birth when="1922-03-05">1922-03-05</tei:birth>
+                  <tei:death when="1975-11-02">1975-11-02</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:39364872">
                      <forename>هدى</forename>
                      <surname>بركات</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:39364872" type="flattened">هدىبركات</tei:persName>
+                  <tei:idno type="viaf">39364872</tei:idno>
+                  <tei:birth when="1952-01-01">1952-01-01</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:24764282">
                      <forename>شوقي</forename>
                      <surname>بزيع</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:24764282" type="flattened">شوقيبزيع</tei:persName>
+                  <tei:idno type="viaf">24764282</tei:idno>
+                  <tei:birth when="1949">1949</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:272292988">
                      <forename>عيسى</forename>
                      <surname>بلاطة</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:272292988" type="flattened">عيسىبلاطة</tei:persName>
+                  <tei:idno type="viaf">272292988</tei:idno>
+                  <tei:birth when="1929-02-25">1929-02-25</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:88348524">
                      <forename>عمار</forename>
                      <surname>بلحسن</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:88348524" type="flattened">عماربلحسن</tei:persName>
+                  <tei:idno type="viaf">88348524</tei:idno>
+                  <tei:birth>0</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:309100">
                      <forename>نهى</forename>
                      <surname>بيومي</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:309100" type="flattened">نهىبيومي</tei:persName>
+                  <tei:idno type="viaf">309100</tei:idno>
+                  <tei:birth when="1950">1950</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:11165901">
@@ -2989,96 +3061,160 @@
                      <forename>طه</forename>
                      <surname>حافظ</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:11165901" type="flattened">ياسينطهحافظ</tei:persName>
+                  <tei:idno type="viaf">11165901</tei:idno>
+                  <tei:birth when="1936">1936</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:95114417">
                      <forename>بسام</forename>
                      <surname>حجار</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:95114417" type="flattened">بسامحجار</tei:persName>
+                  <tei:idno type="viaf">95114417</tei:idno>
+                  <tei:birth when="1955-08-13">1955-08-13</tei:birth>
+                  <tei:death when="2009-02-17">2009-02-17</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:19893165">
                      <forename>مصطفى</forename>
                      <surname>حجازي</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:19893165" type="flattened">مصطفىحجازي</tei:persName>
+                  <tei:idno type="viaf">19893165</tei:idno>
+                  <tei:birth when="1935">1935</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:20480563">
                      <forename>راشد</forename>
                      <surname>حسين</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:20480563" type="flattened">راشدحسين</tei:persName>
+                  <tei:idno type="viaf">20480563</tei:idno>
+                  <tei:birth when="1936-01-01">1936-01-01</tei:birth>
+                  <tei:death when="1977">1977</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:41841460">
                      <forename>سالم</forename>
                      <surname>حميش</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:41841460" type="flattened">سالمحميش</tei:persName>
+                  <tei:idno type="viaf">41841460</tei:idno>
+                  <tei:birth when="1947-08-13">1947-08-13</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:14801041">
                      <forename>سحر</forename>
                      <surname>خليفة</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:14801041" type="flattened">سحرخليفة</tei:persName>
+                  <tei:idno type="viaf">14801041</tei:idno>
+                  <tei:birth when="1941">1941</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:39398656">
                      <forename>ستيفن</forename>
                      <surname>سبندر</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:39398656" type="flattened">ستيفنسبندر</tei:persName>
+                  <tei:idno type="viaf">39398656</tei:idno>
+                  <tei:birth when="1909-02-28">1909-02-28</tei:birth>
+                  <tei:death when="1995-07-16">1995-07-16</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:54157122">
                      <forename>فرنسوا</forename>
                      <surname>شاتليه</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:54157122" type="flattened">فرنسواشاتليه</tei:persName>
+                  <tei:idno type="viaf">54157122</tei:idno>
+                  <tei:birth when="1925-04-27">1925-04-27</tei:birth>
+                  <tei:death when="1985-12-26">1985-12-26</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:94774">
                      <forename>فهمية</forename>
                      <surname>شرف الدين</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:94774" type="flattened">فهميةشرفالدين</tei:persName>
+                  <tei:idno type="viaf">94774</tei:idno>
+                  <tei:birth when="1943">1943</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:22174177">
                      <forename>بثينة</forename>
                      <surname>شعبان</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:22174177" type="flattened">بثينةشعبان</tei:persName>
+                  <tei:idno type="viaf">22174177</tei:idno>
+                  <tei:birth when="1935">1935</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:46874921">
                      <forename>قسطندي</forename>
                      <surname>شوملي</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:46874921" type="flattened">قسطنديشوملي</tei:persName>
+                  <tei:idno type="viaf">46874921</tei:idno>
+                  <tei:birth when="1946-07-08">1946-07-08</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:44470670">
                      <forename>فخري</forename>
                      <surname>صالح</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:44470670" type="flattened">فخريصالح</tei:persName>
+                  <tei:idno type="viaf">44470670</tei:idno>
+                  <tei:birth when="1957-01-01">1957-01-01</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:79034965">
                      <forename>مصطفى</forename>
                      <surname>صفوان</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:79034965" type="flattened">مصطفىصفوان</tei:persName>
+                  <tei:idno type="viaf">79034965</tei:idno>
+                  <tei:birth when="1921-05-17">1921-05-17</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:43144688">
                      <forename>أحمد</forename>
                      <surname>صيداوي</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:43144688" type="flattened">أحمدصيداوي</tei:persName>
+                  <tei:idno type="viaf">43144688</tei:idno>
+                  <tei:birth>0</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:211335096">
                      <forename>ميشال</forename>
                      <surname>طراد</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:211335096" type="flattened">ميشالطراد</tei:persName>
+                  <tei:idno type="viaf">211335096</tei:idno>
+                  <tei:birth when="1912">1912</tei:birth>
+                  <tei:death when="1998">1998</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:33564485">
                      <forename>رياض</forename>
                      <surname>فاخوري</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:33564485" type="flattened">رياضفاخوري</tei:persName>
+                  <tei:idno type="viaf">33564485</tei:idno>
+                  <tei:birth>0</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:109951334" xml:lang="fr-Arab-AR">
@@ -3086,83 +3222,136 @@
                      <forename>بيير</forename>
                      <surname>فاي</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:109951334" xml:lang="fr-Arab-AR" type="flattened">جانبييرفاي</tei:persName>
+                  <tei:idno type="viaf">109951334</tei:idno>
+                  <tei:birth when="1925-07-19">1925-07-19</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:116044321">
                      <forename>بيتر</forename>
                      <surname>فايس</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:116044321" type="flattened">بيترفايس</tei:persName>
+                  <tei:idno type="viaf">116044321</tei:idno>
+                  <tei:birth when="1916-11-08">1916-11-08</tei:birth>
+                  <tei:death when="1982-05-10">1982-05-10</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:62486474">
                      <forename>سعيد</forename>
                      <surname>فرحان</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:62486474" type="flattened">سعيدفرحان</tei:persName>
+                  <tei:idno type="viaf">62486474</tei:idno>
+                  <tei:birth when="1955">1955</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:60368531">
                      <forename>وجيه</forename>
                      <surname>كوثراني</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:60368531" type="flattened">وجيهكوثراني</tei:persName>
+                  <tei:idno type="viaf">60368531</tei:idno>
+                  <tei:birth when="1941">1941</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:17550991">
                      <forename>سامية</forename>
                      <surname>محرز</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:17550991" type="flattened">ساميةمحرز</tei:persName>
+                  <tei:idno type="viaf">17550991</tei:idno>
+                  <tei:birth when="1950">1950</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:56400886">
                      <forename>نور الدين</forename>
                      <surname>محقق</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:56400886" type="flattened">نورالدينمحقق</tei:persName>
+                  <tei:idno type="viaf">56400886</tei:idno>
+                  <tei:birth when="1960">1960</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:41495921">
                      <forename>مي</forename>
                      <surname>مظفر</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:41495921" type="flattened">ميمظفر</tei:persName>
+                  <tei:idno type="viaf">41495921</tei:idno>
+                  <tei:birth when="1940">1940</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:2761446">
                      <forename>عباس</forename>
                      <surname>مكي</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:2761446" type="flattened">عباسمكي</tei:persName>
+                  <tei:idno type="viaf">2761446</tei:idno>
+                  <tei:birth>0</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:51768345">
                      <forename>إميلي</forename>
                      <surname>نصر الله</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:51768345" type="flattened">إميلينصرالله</tei:persName>
+                  <tei:idno type="viaf">51768345</tei:idno>
+                  <tei:birth when="1931-07-06">1931-07-06</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:17351941">
                      <forename>فادي</forename>
                      <surname>نون</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:17351941" type="flattened">فادينون</tei:persName>
+                  <tei:idno type="viaf">17351941</tei:idno>
+                  <tei:birth when="1946">1946</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:39508887">
                      <forename>السيد</forename>
                      <surname>ياسين</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:39508887" type="flattened">السيدياسين</tei:persName>
+                  <tei:idno type="viaf">39508887</tei:idno>
+                  <tei:birth when="1950">1950</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:4834403">
                      <forename>نبيل</forename>
                      <surname>ياسين</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:4834403" type="flattened">نبيلياسين</tei:persName>
+                  <tei:idno type="viaf">4834403</tei:idno>
+                  <tei:birth>0</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
                <tei:person>
                   <tei:persName ref="viaf:37087766">
                      <forename>سعيد</forename>
                      <surname>يقطين</surname>
                   </tei:persName>
+                  <tei:persName ref="viaf:37087766" type="flattened">سعيديقطين</tei:persName>
+                  <tei:idno type="viaf">37087766</tei:idno>
+                  <tei:birth when="1955-05-08">1955-05-08</tei:birth>
+                  <tei:death>0</tei:death>
                </tei:person>
             </tei:listPerson>
          </particDesc>
         </profileDesc>
       <revisionDesc>
+         <tei:change when="2017-05-03" who="pers_TG">Improved <tei:gi>person</tei:gi> nodes that had references to VIAF, by querying VIAF and adding  <tei:gi>birth</tei:gi>, <tei:gi>death</tei:gi>, and <tei:gi>idno</tei:gi>.</tei:change>
          <tei:change when="2017-05-03" who="pers_TG">Added <tei:gi>listPerson</tei:gi> with <tei:gi>person</tei:gi>s mentioned in <tei:ref target="../../digital-mawaqif/tei/entities_OpenRefine.TEIP5.xml">../../digital-mawaqif/tei/entities_OpenRefine.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
          <tei:change when="2017-04-07" who="pers_TG">Improved <tei:gi>person</tei:gi> nodes that had references to VIAF, by querying VIAF and adding  <tei:gi>birth</tei:gi>, <tei:gi>death</tei:gi>, and <tei:gi>idno</tei:gi>.</tei:change>
          <tei:change when="2017-04-07" who="pers_TG">Improved <tei:gi>person</tei:gi> nodes that had references to VIAF, by querying VIAF and adding  <tei:gi>birth</tei:gi>, <tei:gi>death</tei:gi>, and <tei:gi>idno</tei:gi>.</tei:change>

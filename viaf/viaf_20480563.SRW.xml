@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>20480563</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/20480563/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/20480563"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="http://d-nb.info/gnd/11898375X">DNB|11898375X</ns2:source>
+                  <ns2:source nsid="0000000082050802">ISNI|0000000082050802</ns2:source>
+                  <ns2:source nsid="n79114077">LC|n  79114077</ns2:source>
+                  <ns2:source nsid="000035089293">NLA|000035089293</ns2:source>
+                  <ns2:source nsid="000423467">NLI|000423467</ns2:source>
+                  <ns2:source nsid="071575936">NTA|071575936</ns2:source>
+                  <ns2:source nsid="117582492">SUDOC|117582492</ns2:source>
+                  <ns2:source nsid="Q7221725">WKP|Q7221725</ns2:source>
+               </ns2:sources>
+               <ns2:length>690</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Ḥusayn, Rāshid, 1936-1977</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLA</ns2:s>
+                        <ns2:sid>NLA|000035089293</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>حسين، راشد، ١٩٣٦-١٩٧٧</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Ḥusayn, Rāšid, 1936-1977</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Husain, Rašīd 1936-1977</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|11898375X</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>ראשד חוסיין</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q7221725</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Husain, Rašīd</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|11898375X</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|11898375X</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|071575936</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|117582492</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035089293</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q7221725</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79114077</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000423467</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000423467</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥusayn, Rāshid,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|n  79114077</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|071575936</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|117582492</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035089293</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|11898375X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q7221725</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000423467</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000423467</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥusayn, Rāshid,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLA</ns2:s>
+                        <ns2:sid>NLA|000035089293</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLA|000035089293</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|071575936</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|117582492</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|11898375X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q7221725</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79114077</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000423467</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000423467</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥusayn, Rāshid,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|071575936</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|117582492</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035089293</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|11898375X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q7221725</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79114077</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000423467</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000423467</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥusayn, Rāšid,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SUDOC|117582492</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|071575936</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035089293</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|11898375X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q7221725</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79114077</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000423467</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000423467</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">ראשד חוסיין</ns2:subfield>
+                        <ns2:subfield code="9">he</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q7221725</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q7221725</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|071575936</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|117582492</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035089293</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|11898375X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79114077</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000423467</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000423467</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">حسين، راشد،</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:subfield code="9">ara</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000423467</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|071575936</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|117582492</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035089293</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|11898375X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q7221725</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79114077</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">حسين، راشد،</ns2:subfield>
+                        <ns2:subfield code="d">١٩٣٦-١٩٧٧</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000082050802</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>NTA|071575936</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|117582492</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLA|000035089293</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>DNB|11898375X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q7221725</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  79114077</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|000423467</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLI|000423467</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥusayn, Rāshid,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:subfield code="9">lat</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLI|000423467</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|071575936</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000082050802</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|117582492</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035089293</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|11898375X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q7221725</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79114077</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Husain, Rashid,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>husain rashid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Husain, Rashid</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>husain rashid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Husayn, Rashid</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>husayn rashid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|11898375X</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hussain, Rashid,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>hussain rashid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hussain, Rashid</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>hussain rashid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hussein, Rachid,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>hussein rachid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hussein, Rachid</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>hussein rachid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hussein, Rashid,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>hussein rashid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLA</ns2:s>
+                        <ns2:sid>NLA|000035089293</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hussein, Rashid</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>hussein rashid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|11898375X</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḥusain, Rashed,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>husain rashed 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḥusayn Maḥmūd, Rāšid,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>husayn mahmud rasid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḥusayn, Rāšid,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>husayn rasid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ighbārīyah, Rāshid Ḥusayn Maḥmūd,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>ighbariyah rashid husayn mahmud 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ighbārīyah, Rāshid Ḥusayn Maḥmūd,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>ighbariyah rashid husayn mahmud 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ighbārīyah, Rāshid Ḥusayn Maḥmūd</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>ighbariyah rashid husayn mahmud 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Maḥmūd, Rāshid Ḥusayn,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>mahmud rashid husayn 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLA</ns2:s>
+                        <ns2:sid>NLA|000035089293</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Maḥmūd, Rāšid Ḥusayn,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>mahmud rasid husayn 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Maḥmūd, Rāshid Ḥusayn,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>mahmud rashid husayn 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Maḥmūd, Rāshid Ḥusayn</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>mahmud rashid husayn 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Maḥmūd, Rāšid Ḥusayn</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>mahmud rasid husayn 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Rashid Hussein</ns2:subfield>
+                        <ns2:subfield code="c">journalist uit Israël (1936-1977)</ns2:subfield>
+                        <ns2:normalized>rashid hussein journalist uit israel 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q7221725</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Rāshid Ḥusayn Maḥmūd</ns2:subfield>
+                        <ns2:normalized>rashid husayn mahmud</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Rāshid Ḥusayn Maḥmūd,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>rashid husayn mahmud 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLA</ns2:s>
+                        <ns2:sid>NLA|000035089293</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Rāshid, Ḥusayn Maḥmūd,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>rashid husayn mahmud 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Rāshid Ḥusayn Maḥmūd</ns2:subfield>
+                        <ns2:normalized>rashid husayn mahmud</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Rāshid Ḥusayn Maḥmūd</ns2:subfield>
+                        <ns2:normalized>rashid husayn mahmud</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Rāshid Ḥusayn Maḥmūd</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>rashid husayn mahmud 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Rāshid, Ḥusayn Maḥmūd</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>rashid husayn mahmud 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">حسين, راشد</ns2:subfield>
+                        <ns2:normalized>حسين راشد</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">حسين, راشد</ns2:subfield>
+                        <ns2:normalized>حسين راشد</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">حسين, راشد,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>حسين راشد 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">حسين، راشد</ns2:subfield>
+                        <ns2:normalized>حسين راشد</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">حسين، راشد</ns2:subfield>
+                        <ns2:normalized>حسين راشد</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">حسين، راشد،</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>حسين راشد 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">حسين، راشد،</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>حسين راشد 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">حسين، راشد،</ns2:subfield>
+                        <ns2:subfield code="d">1977-1936</ns2:subfield>
+                        <ns2:normalized>حسين راشد 1977 1936</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">حسين، راشد،</ns2:subfield>
+                        <ns2:subfield code="d">1977-1936</ns2:subfield>
+                        <ns2:normalized>حسين راشد 1977 1936</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">راشد حسين</ns2:subfield>
+                        <ns2:normalized>راشد حسين</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q7221725</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">راشد حسين</ns2:subfield>
+                        <ns2:normalized>راشد حسين</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḥusain, Rashed,</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>husain rashed 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḥusain, Rashed</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>husain rashed 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḥusayn Maḥmūd, Rāšid</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>husayn mahmud rasid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ḥusayn, Rāshid</ns2:subfield>
+                        <ns2:subfield code="d">1936-1977</ns2:subfield>
+                        <ns2:normalized>husayn rashid 1936 1977</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:coauthors>
+                  <ns2:data count="2" tag="951">
+                     <ns2:text>Laǧnat Iḥyāʾ Turāṯ Rāšid Ḥusayn, al-Laǧna al-Adabiyya</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="951">
+                     <ns2:text>Lajnat Jamʻ Turāth Rāshid Ḥusayn</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="951">
+                     <ns2:text>لجنة احياء تراث راشد حسين. اللجنة الادبية</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>بياليك، حاييم نحمن، ١٨٧٣-١٩٣٤</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>بياليك، حاييم نحمن، 1873-1934</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>القاسم، سميح، ١٩٣٩-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Rāfiʿ, ʿAlī.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Qaʿwār, Ǧamāl, 1930-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="6">
+                     <ns2:text>دار العودة،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5">
+                     <ns2:text>Dār al-ʻAwdah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>مركز إحياء التراث العربي،1990.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>مطبعة الحكيم،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Lajnat Iḥyāʾ Turāth Rāshid Ḥusayn, al-Lajnah al-Adabīyah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>منشورات البيادر،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>مكتبة ومكتب كل شيئ،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>مكتبة كل شيء</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>مطبعة دار المشرق للترجمة والطباعة والنشر</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000082050802</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Maṭbaʿat al-Ḥakīm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1936-01-01</ns2:birthDate>
+               <ns2:deathDate>1977</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="200" min="195">
+                  <ns2:date count="7" scaled="2.81">195</ns2:date>
+                  <ns2:date count="4" scaled="2.00">196</ns2:date>
+                  <ns2:date count="7" scaled="2.81">197</ns2:date>
+                  <ns2:date count="17" scaled="4.09">198</ns2:date>
+                  <ns2:date count="5" scaled="2.32">199</ns2:date>
+                  <ns2:date count="3" scaled="1.58">200</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="27">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:countries>
+                  <ns2:data count="19" scaled="4">
+                     <ns2:text>IL</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="10" scaled="3">
+                     <ns2:text>LB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>XW</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>West Bank</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://ar.wikipedia.org/wiki/راشد_حسين<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q7221725</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://en.wikipedia.org/wiki/Rashid_Hussein<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q7221725</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://he.wikipedia.org/wiki/ראשד_חוסיין<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q7221725</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Aʿmāl al-šiʿriyya</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Anā al-arḍ lā taḥrimīnī al-maṭar</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Chaim Nachman Bialik : selection from his poetry and prose</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Dekalim u-temarim, 1967:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ḥamādah, M.ʻU. Aʻlām Filasṭīn, 1985:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Kalām mawzūn</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Maʿa al-faǧr</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|174299417">
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  97907286</ns2:sid>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Poems</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Qaṣāʼid Filasṭīnīyah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Rainbow quest [VR] c1985:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Rāšid Ḥusayn</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ṣawārīḵ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Šiʿr al-ṯānī</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>The World of Rashid Hussein, a Palestinian poet in exile, 1979 (subj.)</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79114077</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الأعمال الشعرية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>أنا الارض لا تحرميني المطر : [شعر]</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>حييم نحمان بياليك : نخبة من شعره ونثره</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>رماد الوردة دخان الأغنية : كلمات عن راشد حسين، كلمات منه، كلمات اليه</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>صواريخ : شعر</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|071575936</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>قصائد فلسطينية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>قصائد لم تنشر</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>كلام موزون</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|117582492</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000423467</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>مع الفجر</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="DNB|11898375X" time="2009-03-03T12:03:24+00:00" type="add"/>
+                  <ns2:ht recid="LC|n  79114077" time="2009-03-03T12:03:29+00:00" type="add"/>
+                  <ns2:ht recid="NLA|000035089293"
+                          time="2009-08-21T09:42:44+00:00"
+                          type="add"/>
+                  <ns2:ht recid="J9Uara|000271709"
+                          time="2009-09-21T11:33:23+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NII|DA15293718"
+                          time="2010-11-16T05:07:54+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="SUDOC|117582492" time="2011-12-15T07:58:56+00:00" type="add"/>
+                  <ns2:ht recid="NTA|071575936" time="2012-12-19T19:11:18+00:00" type="add"/>
+                  <ns2:ht recid="NLI|000423467" time="2013-04-17T17:27:37+00:00" type="add"/>
+                  <ns2:ht recid="NLIara|000271709"
+                          time="2013-05-13T19:14:22+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="NLIlat|000423467"
+                          time="2013-05-13T19:14:22+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="ISNI|0000000082050802"
+                          time="2014-05-14T22:19:01+00:00"
+                          type="add"/>
+                  <ns2:ht recid="WKP|Q7221725"
+                          time="2016-05-30T07:11:42.389435+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T18:18:32.655516+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "20480563"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">20480563</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>11165901</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/11165901/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/11165901"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="vtls000958469">EGAXA|vtls000958469</ns2:source>
+                  <ns2:source nsid="0000000083568523">ISNI|0000000083568523</ns2:source>
+                  <ns2:source nsid="n81053428">LC|n  81053428</ns2:source>
+                  <ns2:source nsid="a30618915">NLP|a30618915</ns2:source>
+                  <ns2:source nsid="074965778">NTA|074965778</ns2:source>
+                  <ns2:source nsid="vtls011485562">NUKAT|n 2015169000</ns2:source>
+                  <ns2:source nsid="vtls013515984">RERO|vtls013515984</ns2:source>
+                  <ns2:source nsid="106472">SELIBR|106472</ns2:source>
+                  <ns2:source nsid="182322254">SUDOC|182322254</ns2:source>
+                  <ns2:source nsid="90784500">BIBSYS|90784500</ns2:source>
+               </ns2:sources>
+               <ns2:length>660</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Ḥāfiẓ, Yāsīn Ṭāhā, 1936-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|106472</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|182322254</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Ḥāfiẓ, Yāsīn Ṭāhā</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013515984</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90784500</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>حافظ، ياسين طه</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Hafiz, Jasin Taha</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a30618915</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Hafiz, Jasin Taha</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a30618915</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLP|a30618915</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="title"/>NUKAT|n 2015169000</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>LC|n  81053428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BIBSYS|90784500</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>EGAXA|vtls000958469</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>RERO|vtls013515984</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>SELIBR|106472</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>SUDOC|182322254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NTA|074965778</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥāfiẓ, Yāsīn Ṭāhā</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|n  81053428</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>EGAXA|vtls000958469</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BIBSYS|90784500</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2015169000</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>RERO|vtls013515984</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SELIBR|106472</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|182322254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|074965778</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a30618915</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥāfiẓ, Yāsīn Ṭāhā,</ns2:subfield>
+                        <ns2:subfield code="d">1936-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|074965778</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>EGAXA|vtls000958469</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  81053428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2015169000</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>RERO|vtls013515984</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SELIBR|106472</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|182322254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a30618915</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥāfiẓ, Yāsīn Ṭāhā,</ns2:subfield>
+                        <ns2:subfield code="d">1936-....</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|182322254</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SUDOC|182322254</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2015169000</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  81053428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SELIBR|106472</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NTA|074965778</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a30618915</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">حافظ، ياسين طه</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>EGAXA|vtls000958469</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a30618915</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  81053428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NTA|074965778</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥāfiz, Yasīn Ṭaha</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013515984</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>RERO|vtls013515984</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a30618915</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LC|n  81053428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NTA|074965778</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥāfiẓ, Yāsīn Ṭāhā</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90784500</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BIBSYS|90784500</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a30618915</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LC|n  81053428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥāfiẓ, Yāsīn Ṭāhā</ns2:subfield>
+                        <ns2:subfield code="d">(1936- ).</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NUKAT|n 2015169000</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  81053428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SELIBR|106472</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|182322254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NTA|074965778</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>NLP|a30618915</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥāfiẓ, Yāsīn Ṭāhā</ns2:subfield>
+                        <ns2:subfield code="d">1936-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000083568523</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>EGAXA|vtls000958469</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>LC|n  81053428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BIBSYS|90784500</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NUKAT|n 2015169000</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>RERO|vtls013515984</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SELIBR|106472</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>SUDOC|182322254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>NTA|074965778</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a30618915</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ḥāfiẓ, Yāsīn Ṭāhā,</ns2:subfield>
+                        <ns2:subfield code="d">1936-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|106472</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SELIBR|106472</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2015169000</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  81053428</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000083568523</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|182322254</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NTA|074965778</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a30618915</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>u</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hafidh, Yaseen T.</ns2:subfield>
+                        <ns2:normalized>hafidh yaseen t</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hafidh, Yaseen T.,</ns2:subfield>
+                        <ns2:subfield code="d">1936-</ns2:subfield>
+                        <ns2:normalized>hafidh yaseen t 1936</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|106472</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hafidh, Yaseen T.</ns2:subfield>
+                        <ns2:subfield code="d">1936-</ns2:subfield>
+                        <ns2:normalized>hafidh yaseen t 1936</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="|" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hafidh, Yasseen Taha</ns2:subfield>
+                        <ns2:normalized>hafidh yasseen taha</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|182322254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hafidh, Yassen Taha</ns2:subfield>
+                        <ns2:normalized>hafidh yassen taha</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90784500</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="|" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hafidh, Yassen Taha</ns2:subfield>
+                        <ns2:normalized>hafidh yassen taha</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|182322254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hafidh, Yassen Taha.</ns2:subfield>
+                        <ns2:normalized>hafidh yassen taha</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hafiz, Jasin Taha</ns2:subfield>
+                        <ns2:normalized>hafiz jasin taha</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hafiz, Jasin Taha.</ns2:subfield>
+                        <ns2:normalized>hafiz jasin taha</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hafiz, Yaseen Taha</ns2:subfield>
+                        <ns2:normalized>hafiz yaseen taha</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013515984</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hafiz, Yaseen Taha,</ns2:subfield>
+                        <ns2:subfield code="d">1936-</ns2:subfield>
+                        <ns2:normalized>hafiz yaseen taha 1936</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Hafiz, Yaseen Taha</ns2:subfield>
+                        <ns2:subfield code="d">1936-</ns2:subfield>
+                        <ns2:normalized>hafiz yaseen taha 1936</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Jasin Taha Hafiz</ns2:subfield>
+                        <ns2:normalized>jasin taha hafiz</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Jasin Taha Hafiz.</ns2:subfield>
+                        <ns2:normalized>jasin taha hafiz</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Yaseen T. Hafidh</ns2:subfield>
+                        <ns2:normalized>yaseen t hafidh</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Yaseen T. Hafidh.</ns2:subfield>
+                        <ns2:normalized>yaseen t hafidh</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Yassen Taha Hafidh</ns2:subfield>
+                        <ns2:normalized>yassen taha hafidh</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Yassen Taha Hafidh.</ns2:subfield>
+                        <ns2:normalized>yassen taha hafidh</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Yāsīn Ṭāhā Ḥāfiẓ</ns2:subfield>
+                        <ns2:normalized>yasin taha hafiz</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Yāsīn Ṭāhā Ḥāfiẓ.</ns2:subfield>
+                        <ns2:normalized>yasin taha hafiz</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">حافظ, ياسين طه</ns2:subfield>
+                        <ns2:normalized>حافظ ياسين طه</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|182322254</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">حافظ, ياسين طه</ns2:subfield>
+                        <ns2:normalized>حافظ ياسين طه</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">حافظ، ياسين طه</ns2:subfield>
+                        <ns2:normalized>حافظ ياسين طه</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">حافظ، ياسين طه</ns2:subfield>
+                        <ns2:normalized>حافظ ياسين طه</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">ياسين طه حافظ</ns2:subfield>
+                        <ns2:normalized>ياسين طه حافظ</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:coauthors>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>ييتس، و. ب.، 1865-1948.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>بول، هاينريش، 1917-1985.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Żuliński, Leszek 1949- )</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Tawfīq, Amǧad.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Luʼluʼah, ʻAbd al-Wāḥid</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013515984</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Dulaymī, Luṭfīyah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Darweesh, Mohammed</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Böll, Heinrich (Heinrich Theodor), 1917-1985.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>ييتس، و. ب.، 1865-1948</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>al-Dulaymī, Luṭfīyah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90784500</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Waśkiewicz, Andrzej Krzysztof (1941-2012).</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="8">
+                     <ns2:text>Dar al-Maʼmun</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013515984</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90784500</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5">
+                     <ns2:text>Dār al-Shuʼūn al-Thaqāfīyah al-ʻĀmmah "Āfāq ʻArabīyah"</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>دار الشؤون الثقافية العامة "آفاق عربية"،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>الدار المصرية اللبنانية،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Wizārat al-Ṯaqāfa wa-al-Funūn</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Wizārat al-Iʻlām fī al-Jumhūrīyah al-ʻIrāqīyah</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>المركز القومى للترجمة،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>المجلس الاعلى للثقافة،</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000083568523</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>Wizārat al-aʿlām</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>al-Madā</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Katedra Arabistyki i Islamistyki Uniwersytet Warszawski</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1936</ns2:birthDate>
+               <ns2:deathDate>0</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="201" min="197">
+                  <ns2:date count="9" scaled="3.17">197</ns2:date>
+                  <ns2:date count="13" scaled="3.70">198</ns2:date>
+                  <ns2:date count="6" scaled="2.58">199</ns2:date>
+                  <ns2:date count="6" scaled="2.58">200</ns2:date>
+                  <ns2:date count="2" scaled="1.00">201</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="23">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90784500</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013515984</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5">
+                     <ns2:text>dm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:RelatorCodes>
+                  <ns2:data count="2">
+                     <ns2:text>trl</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RelatorCodes>
+               <ns2:ISBNs unique="6">
+                  <ns2:data count="3">
+                     <ns2:text>9789772703609</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789774793813</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789773051853</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9788390318899</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9782843061363</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9782843061301</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:countries>
+                  <ns2:data count="16" scaled="4">
+                     <ns2:text>IQ</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013515984</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="5" scaled="3">
+                     <ns2:text>EG</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>SY</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>PL</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>JO</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>IR</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>IQ</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:s>SELIBR</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>ʿAbd Allāh wa-al-Darwīš : šiʿr</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>ʻĀlam ākhar : shiʻr</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Aʻmāl al-shiʻrīyah</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a30618915</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Andrzej K. Waśkiewicz / [Andrzej K. Waśkiewicz, Adonis, Mahmud Junis Ammar, Abd al-Wahhab al-Bajati, Ewa Borkowska, Selim Chazbijewicz, Janusz Danecki, Mahmud Darwisz, Marek M. Dziekan, Abdallah Hosejni Dżawadi, Ali al-Fazzani, Unsi al-Hadż, Jasin Taha Hafiz, Behruz Haszempur, Muhammad Ibn Muhammad al-Ilmi, Hatif Janabi (Hatif al-Dżanabi), Salihu Jan-Kidi, Hanna Jankowska, Faruk Jusuf, Hasan Abd Allah al-Kuraszi, Jolanta Kozłowska, Eugeniusz Kurzawa, Lubomira, Ewa Machut-Mendecka, Sami Mahdi, Nadżib Mahfuz, Dżalal Mohammad, Stanisław Piłaszewicz, Hamid Sa'id, Adnan as-Sa'igh, Alhaji Shehu Aliju Shagari, Mirosława Szott, Małgorzata Szyburska, Barbara Wrona, Leszek Żuliński]. - Warszawa, 2015.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Burǧ : šiʿr</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Fī al-kharāʼib ḥilyah dhahab</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90784500</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Iraqi short stories, c1988:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Jannat al-zāgh : shiʻr</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Kitāb al-Šiʿr</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Layla min zuǧāǧ</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2015169000</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Miejsca odwiedzane</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>RERO</ns2:s>
+                        <ns2:sid>RERO|vtls013515984</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Modern Iraqi poetry</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mudun lā marʾiyya</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90784500</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>al-Našīd</ns2:title>
+                  </ns2:work>
+                  <ns2:work id="VIAF|177557031">
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n 2004056365</ns2:sid>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Poems</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Qaṣāʼid al-aʻrāf, 1974.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Und sagte kein einziges Wort.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|074965778</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Wa-lam yaqul kalima</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>الأعمال الشعرية</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>العنف و النبوءة : دراسات و قصائد مختارة</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>جنة الزاغ : شعر</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81053428</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>عالم آخر : شعر</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>EGAXA</ns2:s>
+                        <ns2:sid>EGAXA|vtls000958469</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>و لم يقل كلمة = And never said a word</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="LC|n  81053428" time="2009-03-03T12:03:30+00:00" type="add"/>
+                  <ns2:ht recid="EGAXA|vtls000958469"
+                          time="2010-11-16T05:07:56+00:00"
+                          type="add"/>
+                  <ns2:ht recid="BIBSYS|x90784500"
+                          time="2012-11-27T04:00:16+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="SELIBR|106472" time="2012-12-19T19:11:18+00:00" type="add"/>
+                  <ns2:ht recid="NTA|074965778" time="2012-12-19T19:11:18+00:00" type="add"/>
+                  <ns2:ht recid="ISNI|0000000083568523"
+                          time="2013-09-16T16:15:07+00:00"
+                          type="add"/>
+                  <ns2:ht recid="RERO|vtls013515984"
+                          time="2014-01-15T05:38:27+00:00"
+                          type="add"/>
+                  <ns2:ht recid="DNB|103260579"
+                          time="2014-10-21T12:48:43+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="SUDOC|182322254" time="2015-01-14T22:49:29+00:00" type="add"/>
+                  <ns2:ht recid="NUKAT|n 2015169000"
+                          time="2015-06-15T20:42:24+00:00"
+                          type="add"/>
+                  <ns2:ht recid="NLP|a30618915" time="2015-06-15T20:42:24+00:00" type="add"/>
+                  <ns2:ht recid="BIBSYS|90784500"
+                          time="2017-04-11T20:45:06.806002+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T18:08:45.731121+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "11165901"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">11165901</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

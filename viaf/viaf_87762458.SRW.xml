@@ -37,8 +37,9 @@
                   <ns2:source nsid="027992179">SUDOC|027992179</ns2:source>
                   <ns2:source nsid="Q3067804">WKP|Q3067804</ns2:source>
                   <ns2:source nsid="BNC10000000000000000039899">BNCHL|10000000000000000039899</ns2:source>
+                  <ns2:source nsid="1013360">BIBSYS|1013360</ns2:source>
                </ns2:sources>
-               <ns2:length>1219</ns2:length>
+               <ns2:length>1354</ns2:length>
                <ns2:mainHeadings>
                   <ns2:data>
                      <ns2:text>Gutiérrez, Juan María, 1809-1878</ns2:text>
@@ -68,17 +69,19 @@
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data>
+                     <ns2:text>Gutiérrez, Juan María</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|132188082</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|1013360</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
                      <ns2:text>Juan María Gutiérrez escritor, historiador argentino</ns2:text>
                      <ns2:sources>
                         <ns2:s>WKP</ns2:s>
                         <ns2:sid>WKP|Q3067804</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data>
-                     <ns2:text>Gutiérrez, Juan María</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|132188082</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:mainHeadingEl>
@@ -188,55 +191,18 @@
                      </ns2:links>
                   </ns2:mainHeadingEl>
                   <ns2:mainHeadingEl>
-                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="100">
                         <ns2:subfield code="a">Gutiérrez, Juan María,</ns2:subfield>
                         <ns2:subfield code="d">1809-1878</ns2:subfield>
                      </ns2:datafield>
                      <ns2:sources>
-                        <ns2:s>BAV</ns2:s>
-                        <ns2:sid>BAV|ADV11923444</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  81147427</ns2:sid>
                      </ns2:sources>
-                     <ns2:id>BAV|ADV11923444</ns2:id>
+                     <ns2:id>LC|n  81147427</ns2:id>
                      <ns2:links>
                         <ns2:link>
-                           <ns2:match type="double date"/>BNE|XX1299054</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NLI|000441389</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>SUDOC|027992179</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>DNB|134145569</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>WKP|Q3067804</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NKC|jn20040426003</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NLA|000035271093</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>ISNI|0000000088338671</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>ISNI|0000000088338671</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>ISNI|0000000088338671</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>LC|n  81147427</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>BNF|11991748</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>BNCHL|10000000000000000039899</ns2:link>
-                     </ns2:links>
-                  </ns2:mainHeadingEl>
-                  <ns2:mainHeadingEl>
-                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
-                        <ns2:subfield code="a">Gutiérrez, Juan María,</ns2:subfield>
-                        <ns2:subfield code="d">1809-1878</ns2:subfield>
-                     </ns2:datafield>
-                     <ns2:sources>
-                        <ns2:s>NLA</ns2:s>
-                        <ns2:sid>NLA|000035271093</ns2:sid>
-                     </ns2:sources>
-                     <ns2:id>NLA|000035271093</ns2:id>
-                     <ns2:links>
+                           <ns2:match type="lccn"/>NTA|132188082</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BNE|XX1299054</ns2:link>
                         <ns2:link>
@@ -252,17 +218,19 @@
                         <ns2:link>
                            <ns2:match type="double date"/>NKC|jn20040426003</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|0000000088338671</ns2:link>
+                           <ns2:match type="double date"/>NLA|000035271093</ns2:link>
                         <ns2:link>
                            <ns2:match type="viafid"/>ISNI|0000000088338671</ns2:link>
                         <ns2:link>
                            <ns2:match type="viafid"/>ISNI|0000000088338671</ns2:link>
                         <ns2:link>
-                           <ns2:match type="double date"/>LC|n  81147427</ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000088338671</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BIBSYS|1013360</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BNF|11991748</ns2:link>
                         <ns2:link>
-                           <ns2:match type="double date"/>WKP|Q3067804</ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q3067804</ns2:link>
                      </ns2:links>
                   </ns2:mainHeadingEl>
                   <ns2:mainHeadingEl>
@@ -299,26 +267,26 @@
                         <ns2:link>
                            <ns2:match type="suggested"/>ISNI|0000000088338671</ns2:link>
                         <ns2:link>
-                           <ns2:match type="double date"/>LC|n  81147427</ns2:link>
+                           <ns2:match type="exact title"/>BIBSYS|1013360</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BNF|11991748</ns2:link>
                         <ns2:link>
                            <ns2:match type="suggested"/>WKP|Q3067804</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  81147427</ns2:link>
                      </ns2:links>
                   </ns2:mainHeadingEl>
                   <ns2:mainHeadingEl>
-                     <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="100">
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
                         <ns2:subfield code="a">Gutiérrez, Juan María,</ns2:subfield>
                         <ns2:subfield code="d">1809-1878</ns2:subfield>
                      </ns2:datafield>
                      <ns2:sources>
-                        <ns2:s>LC</ns2:s>
-                        <ns2:sid>LC|n  81147427</ns2:sid>
+                        <ns2:s>NLA</ns2:s>
+                        <ns2:sid>NLA|000035271093</ns2:sid>
                      </ns2:sources>
-                     <ns2:id>LC|n  81147427</ns2:id>
+                     <ns2:id>NLA|000035271093</ns2:id>
                      <ns2:links>
-                        <ns2:link>
-                           <ns2:match type="lccn"/>NTA|132188082</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BNE|XX1299054</ns2:link>
                         <ns2:link>
@@ -334,17 +302,78 @@
                         <ns2:link>
                            <ns2:match type="double date"/>NKC|jn20040426003</ns2:link>
                         <ns2:link>
-                           <ns2:match type="double date"/>NLA|000035271093</ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000088338671</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|0000000088338671</ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000088338671</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|0000000088338671</ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000088338671</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|0000000088338671</ns2:link>
+                           <ns2:match type="double date"/>LC|n  81147427</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BNF|11991748</ns2:link>
                         <ns2:link>
-                           <ns2:match type="suggested"/>WKP|Q3067804</ns2:link>
+                           <ns2:match type="double date"/>WKP|Q3067804</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Gutiérrez, Juan María,</ns2:subfield>
+                        <ns2:subfield code="d">1809-1878</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BAV</ns2:s>
+                        <ns2:sid>BAV|ADV11923444</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BAV|ADV11923444</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1299054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000441389</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|027992179</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|134145569</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNCHL|10000000000000000039899</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20040426003</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035271093</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000088338671</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000088338671</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000088338671</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  81147427</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|11991748</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q3067804</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Gutiérrez, Juan María</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|1013360</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BIBSYS|1013360</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000088338671</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000088338671</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000088338671</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LC|n  81147427</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>SUDOC|027992179</ns2:link>
                      </ns2:links>
                   </ns2:mainHeadingEl>
                   <ns2:mainHeadingEl>
@@ -400,7 +429,7 @@
                         <ns2:link>
                            <ns2:match type="suggested"/>NTA|132188082</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>BNE|XX1299054</ns2:link>
+                           <ns2:match type="forced single date"/>BNE|XX1299054</ns2:link>
                         <ns2:link>
                            <ns2:match type="forced single date"/>NLI|000441389</ns2:link>
                         <ns2:link>
@@ -410,35 +439,37 @@
                         <ns2:link>
                            <ns2:match type="viafid"/>BAV|ADV11923444</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>WKP|Q3067804</ns2:link>
+                           <ns2:match type="viafid"/>BNCHL|10000000000000000039899</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>NKC|jn20040426003</ns2:link>
+                           <ns2:match type="viafid"/>NKC|jn20040426003</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>NLA|000035271093</ns2:link>
+                           <ns2:match type="viafid"/>NLA|000035271093</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>LC|n  81147427</ns2:link>
+                           <ns2:match type="viafid"/>BIBSYS|1013360</ns2:link>
                         <ns2:link>
                            <ns2:match type="viafid"/>BNF|11991748</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>BNCHL|10000000000000000039899</ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q3067804</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  81147427</ns2:link>
                      </ns2:links>
                   </ns2:mainHeadingEl>
                   <ns2:mainHeadingEl>
                      <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
                         <ns2:subfield code="a">Gutiérrez, Juan María,</ns2:subfield>
                         <ns2:subfield code="d">1809-1878</ns2:subfield>
-                        <ns2:subfield code="7">jn20040426003</ns2:subfield>
+                        <ns2:subfield code="9">lat</ns2:subfield>
                      </ns2:datafield>
                      <ns2:sources>
-                        <ns2:s>NKC</ns2:s>
-                        <ns2:sid>NKC|jn20040426003</ns2:sid>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000441389</ns2:sid>
                      </ns2:sources>
-                     <ns2:id>NKC|jn20040426003</ns2:id>
+                     <ns2:id>NLI|000441389</ns2:id>
                      <ns2:links>
                         <ns2:link>
-                           <ns2:match type="double date"/>BNE|XX1299054</ns2:link>
+                           <ns2:match type="lccn"/>NTA|132188082</ns2:link>
                         <ns2:link>
-                           <ns2:match type="double date"/>NLI|000441389</ns2:link>
+                           <ns2:match type="double date"/>BNE|XX1299054</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>SUDOC|027992179</ns2:link>
                         <ns2:link>
@@ -447,6 +478,8 @@
                            <ns2:match type="double date"/>BAV|ADV11923444</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BNCHL|10000000000000000039899</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn20040426003</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>NLA|000035271093</ns2:link>
                         <ns2:link>
@@ -506,18 +539,18 @@
                      <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
                         <ns2:subfield code="a">Gutiérrez, Juan María,</ns2:subfield>
                         <ns2:subfield code="d">1809-1878</ns2:subfield>
-                        <ns2:subfield code="9">lat</ns2:subfield>
+                        <ns2:subfield code="7">jn20040426003</ns2:subfield>
                      </ns2:datafield>
                      <ns2:sources>
-                        <ns2:s>NLI</ns2:s>
-                        <ns2:sid>NLI|000441389</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn20040426003</ns2:sid>
                      </ns2:sources>
-                     <ns2:id>NLI|000441389</ns2:id>
+                     <ns2:id>NKC|jn20040426003</ns2:id>
                      <ns2:links>
                         <ns2:link>
-                           <ns2:match type="lccn"/>NTA|132188082</ns2:link>
-                        <ns2:link>
                            <ns2:match type="double date"/>BNE|XX1299054</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000441389</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>SUDOC|027992179</ns2:link>
                         <ns2:link>
@@ -526,8 +559,6 @@
                            <ns2:match type="double date"/>BAV|ADV11923444</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BNCHL|10000000000000000039899</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NKC|jn20040426003</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>NLA|000035271093</ns2:link>
                         <ns2:link>
@@ -752,6 +783,15 @@
                      <ns2:sources>
                         <ns2:s>ISNI</ns2:s>
                         <ns2:sid>ISNI|0000000088338671</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">خوان ماريا غوتييريث</ns2:subfield>
+                        <ns2:subfield code="c">سياسي أرجنتيني</ns2:subfield>
+                        <ns2:normalized>خوان ماريا غوتييريث سياسي ارجنتيني</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
                         <ns2:s>WKP</ns2:s>
                         <ns2:sid>WKP|Q3067804</ns2:sid>
                      </ns2:sources>
@@ -856,7 +896,7 @@
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="2" tag="950">
-                     <ns2:text>Barros Borgoño, Luis</ns2:text>
+                     <ns2:text>Barros Borgoño, Luis (1858-1943)</ns2:text>
                      <ns2:sources>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|027992179</ns2:sid>
@@ -1009,7 +1049,7 @@
                   <ns2:date count="9" scaled="3.17">191</ns2:date>
                   <ns2:date count="6" scaled="2.58">192</ns2:date>
                   <ns2:date count="5" scaled="2.32">193</ns2:date>
-                  <ns2:date count="14" scaled="3.81">194</ns2:date>
+                  <ns2:date count="15" scaled="3.91">194</ns2:date>
                   <ns2:date count="6" scaled="2.58">195</ns2:date>
                   <ns2:date count="5" scaled="2.32">196</ns2:date>
                   <ns2:date count="6" scaled="2.58">197</ns2:date>
@@ -1018,7 +1058,7 @@
                   <ns2:date count="3" scaled="1.58">200</ns2:date>
                </ns2:dates>
                <ns2:RecFormats>
-                  <ns2:data count="60">
+                  <ns2:data count="61">
                      <ns2:text>am</ns2:text>
                      <ns2:sources>
                         <ns2:s>NTA</ns2:s>
@@ -1029,6 +1069,8 @@
                         <ns2:sid>SUDOC|027992179</ns2:sid>
                         <ns2:s>BAV</ns2:s>
                         <ns2:sid>BAV|ADV11923444</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|1013360</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  81147427</ns2:sid>
                         <ns2:s>BNF</ns2:s>
@@ -1143,24 +1185,19 @@
                   </ns2:data>
                </ns2:ISBNs>
                <ns2:countries>
-                  <ns2:data count="39" scaled="5">
+                  <ns2:data count="51" scaled="6">
                      <ns2:text>AR</ns2:text>
                      <ns2:sources>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  81147427</ns2:sid>
-                        <ns2:s>BNF</ns2:s>
-                        <ns2:sid>BNF|11991748</ns2:sid>
-                        <ns2:s>SUDOC</ns2:s>
-                        <ns2:sid>SUDOC|027992179</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|132188082</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="12" scaled="4">
-                     <ns2:text>AG</ns2:text>
-                     <ns2:sources>
                         <ns2:s>BNE</ns2:s>
                         <ns2:sid>BNE|XX1299054</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|027992179</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|11991748</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|132188082</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="2" scaled="1">
@@ -1408,6 +1445,13 @@
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q3067804</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Elojio del profesor de filosofia Dr. Luis José de la Peña</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  81147427</ns2:sid>
                         <ns2:s>BNE</ns2:s>
@@ -1551,6 +1595,8 @@
                      <ns2:sources>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  81147427</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|1013360</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|027992179</ns2:sid>
                      </ns2:sources>
@@ -1594,6 +1640,13 @@
                         <ns2:sid>SUDOC|027992179</ns2:sid>
                      </ns2:sources>
                      <ns2:title>A través de una correspondencia : don Juan María Gutiérrez</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q3067804</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Las tres sombras</ns2:title>
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
@@ -1641,8 +1694,11 @@
                   <ns2:ht recid="DNB|157649989"
                           time="2016-07-31T11:06:58.941534+00:00"
                           type="delete"/>
+                  <ns2:ht recid="BIBSYS|1013360"
+                          time="2017-04-11T21:27:13.450133+00:00"
+                          type="add"/>
                </ns2:history>
-               <ns2:creationtime>2017-04-01T15:35:44.491541+00:00</ns2:creationtime>
+               <ns2:creationtime>2017-05-01T18:42:19.066597+00:00</ns2:creationtime>
             </ns2:VIAFCluster>
          </recordData>
          <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
@@ -1651,20 +1707,18 @@
    <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
                                 xsi:type="ns3:echoedSearchRetrieveRequestType">
       <version xsi:type="xsd:string">1.1</version>
-      <query xsi:type="xsd:string">local.personalNames any "سنتشو غوتييريث"</query>
+      <query xsi:type="xsd:string">local.viafID any "87762458"</query>
       <xQuery>
          <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
                            xsi:type="ns4:searchClauseType">
-            <ns4:index xsi:type="xsd:string">local.personalNames</ns4:index>
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
             <ns4:relation xsi:type="ns4:relationType">
                <ns4:value xsi:type="xsd:string">any</ns4:value>
             </ns4:relation>
-            <ns4:term xsi:type="xsd:string">سنتشو غوتييريث</ns4:term>
+            <ns4:term xsi:type="xsd:string">87762458</ns4:term>
          </ns4:searchClause>
       </xQuery>
-      <maximumRecords xsi:type="xsd:nonNegativeInteger">5</maximumRecords>
       <recordSchema xsi:type="xsd:string">default</recordSchema>
-      <sortKeys xsi:type="xsd:string">name</sortKeys>
    </echoedSearchRetrieveRequest>
    <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
       <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">

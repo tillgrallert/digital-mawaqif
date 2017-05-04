@@ -54,8 +54,9 @@
                   <ns2:source nsid="Q7546">WKP|Q7546</ns2:source>
                   <ns2:source nsid="23310">PTBNP|23310</ns2:source>
                   <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb118914257">BNF|11891425</ns2:source>
+                  <ns2:source nsid="XX4579283">BNE|XX4579283</ns2:source>
                </ns2:sources>
-               <ns2:length>8440</ns2:length>
+               <ns2:length>8814</ns2:length>
                <ns2:mainHeadings>
                   <ns2:data>
                      <ns2:text>Bergman, Ingmar, 1918-2007.</ns2:text>
@@ -88,6 +89,8 @@
                         <ns2:sid>NDL|00433021</ns2:sid>
                         <ns2:s>LNB</ns2:s>
                         <ns2:sid>LNB|LNC10-000020315</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>NKC</ns2:s>
                         <ns2:sid>NKC|jn19990000712</ns2:sid>
                         <ns2:s>PTBNP</ns2:s>
@@ -98,6 +101,13 @@
                         <ns2:sid>SWNL|vtls005563631</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Bergman, Ingmar (Ernst Ingmar), 1918-2007</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data>
@@ -118,14 +128,7 @@
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data>
-                     <ns2:text>Bergman, Ingmar (Ernst Ingmar), 1918-2007</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data>
-                     <ns2:text>Ingmar Bergman</ns2:text>
+                     <ns2:text>Ingmar Bergman svensk film- och teaterregissör</ns2:text>
                      <ns2:sources>
                         <ns2:s>WKP</ns2:s>
                         <ns2:sid>WKP|Q7546</ns2:sid>
@@ -175,7 +178,7 @@
                         <ns2:link>
                            <ns2:match type="exact title"/>BIBSYS|90059956</ns2:link>
                         <ns2:link>
-                           <ns2:match type="exact title"/>EGAXA|vtls001512105</ns2:link>
+                           <ns2:match type="exact name"/>N6I|vtls001096035</ns2:link>
                         <ns2:link>
                            <ns2:match type="title"/>NLI|000419495</ns2:link>
                         <ns2:link>
@@ -186,26 +189,28 @@
                            <ns2:match type="suggested"/>ISNI|000000012147545X</ns2:link>
                         <ns2:link>
                            <ns2:match type="suggested"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="title"/>W2Z|90059956</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="exact title"/>SELIBR|177819</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="exact title"/>NTA|068677626</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="exact title"/>LC|n  79054388</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="exact title"/>NSK|000053940</ns2:link>
                         <ns2:link>
                            <ns2:match type="exact title"/>NUKAT|n  93080240</ns2:link>
                         <ns2:link>
-                           <ns2:match type="title"/>SUDOC|026720884</ns2:link>
+                           <ns2:match type="title"/>W2Z|90059956</ns2:link>
                         <ns2:link>
-                           <ns2:match type="title"/>LNB|LNC10-000020315</ns2:link>
+                           <ns2:match type="exact title"/>LC|n  79054388</ns2:link>
                         <ns2:link>
                            <ns2:match type="title"/>NKC|jn19990000712</ns2:link>
                         <ns2:link>
+                           <ns2:match type="exact title"/>NSK|000053940</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>SELIBR|177819</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>SUDOC|026720884</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NTA|068677626</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>LNB|LNC10-000020315</ns2:link>
+                        <ns2:link>
                            <ns2:match type="title"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BNE|XX4579283</ns2:link>
                         <ns2:link>
                            <ns2:match type="exact title"/>BNC|a10049332</ns2:link>
                         <ns2:link>
@@ -213,7 +218,7 @@
                         <ns2:link>
                            <ns2:match type="title"/>BNF|11891425</ns2:link>
                         <ns2:link>
-                           <ns2:match type="exact name"/>N6I|vtls001096035</ns2:link>
+                           <ns2:match type="exact title"/>EGAXA|vtls001512105</ns2:link>
                      </ns2:links>
                   </ns2:mainHeadingEl>
                   <ns2:mainHeadingEl>
@@ -306,7 +311,11 @@
                         <ns2:link>
                            <ns2:match type="exact name"/>N6I|vtls001096035</ns2:link>
                         <ns2:link>
-                           <ns2:match type="exact title"/>SELIBR|177819</ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
                         <ns2:link>
                            <ns2:match type="title"/>W2Z|90059956</ns2:link>
                         <ns2:link>
@@ -320,11 +329,7 @@
                         <ns2:link>
                            <ns2:match type="exact title"/>BIBSYS|90059956</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                           <ns2:match type="exact title"/>SELIBR|177819</ns2:link>
                         <ns2:link>
                            <ns2:match type="exact title"/>NTA|068677626</ns2:link>
                         <ns2:link>
@@ -333,6 +338,8 @@
                            <ns2:match type="title"/>LNB|LNC10-000020315</ns2:link>
                         <ns2:link>
                            <ns2:match type="exact title"/>SUDOC|026720884</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BNE|XX4579283</ns2:link>
                         <ns2:link>
                            <ns2:match type="exact title"/>NKC|jn19990000712</ns2:link>
                         <ns2:link>
@@ -392,7 +399,7 @@
                         <ns2:link>
                            <ns2:match type="exact title"/>LC|n  79054388</ns2:link>
                         <ns2:link>
-                           <ns2:match type="exact title"/>NUKAT|n  93080240</ns2:link>
+                           <ns2:match type="exact title"/>W2Z|90059956</ns2:link>
                         <ns2:link>
                            <ns2:match type="standard number"/>SELIBR|177819</ns2:link>
                         <ns2:link>
@@ -402,7 +409,7 @@
                         <ns2:link>
                            <ns2:match type="standard number"/>BIBSYS|90059956</ns2:link>
                         <ns2:link>
-                           <ns2:match type="exact title"/>W2Z|90059956</ns2:link>
+                           <ns2:match type="exact title"/>NUKAT|n  93080240</ns2:link>
                         <ns2:link>
                            <ns2:match type="title"/>LAC|0006F3147</ns2:link>
                         <ns2:link>
@@ -414,11 +421,13 @@
                         <ns2:link>
                            <ns2:match type="exact title"/>LNB|LNC10-000020315</ns2:link>
                         <ns2:link>
+                           <ns2:match type="exact title"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
                            <ns2:match type="exact title"/>NKC|jn19990000712</ns2:link>
                         <ns2:link>
                            <ns2:match type="exact title"/>BNF|11891425</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
+                           <ns2:match type="exact title"/>BNC|a10049332</ns2:link>
                      </ns2:links>
                   </ns2:mainHeadingEl>
                   <ns2:mainHeadingEl>
@@ -465,6 +474,8 @@
                            <ns2:match type="title"/>LNB|LNC10-000020315</ns2:link>
                         <ns2:link>
                            <ns2:match type="title"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>BNE|XX4579283</ns2:link>
                         <ns2:link>
                            <ns2:match type="exact title"/>BNC|a10049332</ns2:link>
                         <ns2:link>
@@ -524,7 +535,7 @@
                         <ns2:link>
                            <ns2:match type="viafid"/>NKC|jn19990000712</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>LNB|LNC10-000020315</ns2:link>
+                           <ns2:match type="viafid"/>LNB|LNC10-000020315</ns2:link>
                         <ns2:link>
                            <ns2:match type="viafid"/>DNB|118509519</ns2:link>
                         <ns2:link>
@@ -539,6 +550,8 @@
                            <ns2:match type="viafid"/>NTA|068677626</ns2:link>
                         <ns2:link>
                            <ns2:match type="forced single date"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNE|XX4579283</ns2:link>
                         <ns2:link>
                            <ns2:match type="forced single date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
@@ -613,214 +626,7 @@
                         <ns2:link>
                            <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
                         <ns2:link>
-                           <ns2:match type="double date"/>PTBNP|23310</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>BNF|11891425</ns2:link>
-                     </ns2:links>
-                  </ns2:mainHeadingEl>
-                  <ns2:mainHeadingEl>
-                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
-                        <ns2:subfield code="a">Bergman, Ingmar</ns2:subfield>
-                        <ns2:subfield code="d">1918-2007</ns2:subfield>
-                     </ns2:datafield>
-                     <ns2:sources>
-                        <ns2:s>KRNLK</ns2:s>
-                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
-                     </ns2:sources>
-                     <ns2:id>KRNLK|KAC199602296</ns2:id>
-                     <ns2:links>
-                        <ns2:link>
-                           <ns2:match type="double date"/>EGAXA|vtls001512105</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>W2Z|90059956</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>BIBSYS|90059956</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>SELIBR|177819</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>B2Q|0000096416</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NDL|00433021</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>SWNL|vtls005563631</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="exact title"/>NII|DA02961029</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>JPG|500069382</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NLA|000035017717</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>LC|n  79054388</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="exact title"/>DBC|87097968118557</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NKC|jn19990000712</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>LNB|LNC10-000020315</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>DNB|118509519</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>N6I|vtls000885067</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>WKP|Q7546</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>PTBNP|23310</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>BNF|11891425</ns2:link>
-                     </ns2:links>
-                  </ns2:mainHeadingEl>
-                  <ns2:mainHeadingEl>
-                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
-                        <ns2:subfield code="a">Bergman, Ingmar</ns2:subfield>
-                        <ns2:subfield code="d">1918-2007</ns2:subfield>
-                     </ns2:datafield>
-                     <ns2:sources>
-                        <ns2:s>W2Z</ns2:s>
-                        <ns2:sid>W2Z|90059956</ns2:sid>
-                     </ns2:sources>
-                     <ns2:id>W2Z|90059956</ns2:id>
-                     <ns2:links>
-                        <ns2:link>
-                           <ns2:match type="double date"/>EGAXA|vtls001512105</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="title"/>ICCU|CFIV072947</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>BIBSYS|90059956</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>SELIBR|177819</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>B2Q|0000096416</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>KRNLK|KAC199602296</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NDL|00433021</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>SWNL|vtls005563631</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="title"/>NII|DA02961029</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>JPG|500069382</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NLA|000035017717</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>LC|n  79054388</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="exact title"/>DBC|87097968118557</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NKC|jn19990000712</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>LNB|LNC10-000020315</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>DNB|118509519</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>N6I|vtls000885067</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="title"/>NSK|000053940</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="suggested"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="suggested"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="suggested"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>WKP|Q7546</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>PTBNP|23310</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>BNF|11891425</ns2:link>
-                     </ns2:links>
-                  </ns2:mainHeadingEl>
-                  <ns2:mainHeadingEl>
-                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
-                        <ns2:subfield code="a">Bergman, Ingmar</ns2:subfield>
-                        <ns2:subfield code="d">1918-2007</ns2:subfield>
-                     </ns2:datafield>
-                     <ns2:sources>
-                        <ns2:s>SWNL</ns2:s>
-                        <ns2:sid>SWNL|vtls005563631</ns2:sid>
-                     </ns2:sources>
-                     <ns2:id>SWNL|vtls005563631</ns2:id>
-                     <ns2:links>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>EGAXA|vtls001512105</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>W2Z|90059956</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>BIBSYS|90059956</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>SELIBR|177819</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>B2Q|0000096416</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>KRNLK|KAC199602296</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NDL|00433021</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>JPG|500069382</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NLA|000035017717</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>LC|n  79054388</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NKC|jn19990000712</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>LNB|LNC10-000020315</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="suggested"/>DNB|118509519</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="lccn"/>NLI|000419495</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="lccn"/>NLI|000419495</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="lccn"/>N6I|vtls000885067</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NTA|068677626</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>WKP|Q7546</ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
@@ -895,6 +701,223 @@
                         <ns2:link>
                            <ns2:match type="double date"/>WKP|Q7546</ns2:link>
                         <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|23310</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|11891425</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Bergman, Ingmar</ns2:subfield>
+                        <ns2:subfield code="d">1918-2007</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>KRNLK|KAC199602296</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>EGAXA|vtls001512105</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>W2Z|90059956</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BIBSYS|90059956</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SELIBR|177819</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>B2Q|0000096416</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NDL|00433021</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SWNL|vtls005563631</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NII|DA02961029</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>JPG|500069382</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035017717</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79054388</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>DBC|87097968118557</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn19990000712</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000020315</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118509519</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>N6I|vtls000885067</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|23310</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|11891425</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Bergman, Ingmar</ns2:subfield>
+                        <ns2:subfield code="d">1918-2007</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>W2Z</ns2:s>
+                        <ns2:sid>W2Z|90059956</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>W2Z|90059956</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>EGAXA|vtls001512105</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>ICCU|CFIV072947</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BIBSYS|90059956</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SELIBR|177819</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>B2Q|0000096416</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>KRNLK|KAC199602296</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NDL|00433021</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SWNL|vtls005563631</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>NII|DA02961029</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>JPG|500069382</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035017717</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79054388</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>DBC|87097968118557</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn19990000712</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000020315</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118509519</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>N6I|vtls000885067</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>NSK|000053940</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|23310</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|11891425</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Bergman, Ingmar</ns2:subfield>
+                        <ns2:subfield code="d">1918-2007</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SWNL</ns2:s>
+                        <ns2:sid>SWNL|vtls005563631</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SWNL|vtls005563631</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>EGAXA|vtls001512105</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>W2Z|90059956</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BIBSYS|90059956</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SELIBR|177819</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>B2Q|0000096416</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>KRNLK|KAC199602296</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NDL|00433021</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>JPG|500069382</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035017717</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|n  79054388</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn19990000712</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000020315</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>DNB|118509519</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000419495</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>NLI|000419495</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>N6I|vtls000885067</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NTA|068677626</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
                            <ns2:match type="double date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BNF|11891425</ns2:link>
@@ -968,9 +991,76 @@
                         <ns2:link>
                            <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
                         <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
                            <ns2:match type="double date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BNF|11891425</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="100">
+                        <ns2:subfield code="a">Bergman, Ingmar</ns2:subfield>
+                        <ns2:subfield code="d">1918-2007</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNE|XX4579283</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>EGAXA|vtls001512105</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>W2Z|90059956</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>ICCU|CFIV072947</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BIBSYS|90059956</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SELIBR|177819</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>KRNLK|KAC199602296</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>LAC|0006F3147</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NDL|00433021</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SWNL|vtls005563631</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NII|DA02961029</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>JPG|500069382</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035017717</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>DBC|87097968118557</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn19990000712</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000020315</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118509519</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>NSK|000053940</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|23310</ns2:link>
                      </ns2:links>
                   </ns2:mainHeadingEl>
                   <ns2:mainHeadingEl>
@@ -1034,6 +1124,8 @@
                            <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
                         <ns2:link>
                            <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNE|XX4579283</ns2:link>
                         <ns2:link>
                            <ns2:match type="forced single date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
@@ -1100,7 +1192,7 @@
                         <ns2:link>
                            <ns2:match type="forced single date"/>EGAXA|vtls001512105</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>W2Z|90059956</ns2:link>
+                           <ns2:match type="exact title"/>NUKAT|n  93080240</ns2:link>
                         <ns2:link>
                            <ns2:match type="exact title"/>BIBSYS|90059956</ns2:link>
                         <ns2:link>
@@ -1112,7 +1204,7 @@
                         <ns2:link>
                            <ns2:match type="forced single date"/>KRNLK|KAC199602296</ns2:link>
                         <ns2:link>
-                           <ns2:match type="exact title"/>NUKAT|n  93080240</ns2:link>
+                           <ns2:match type="forced single date"/>W2Z|90059956</ns2:link>
                         <ns2:link>
                            <ns2:match type="exact title"/>SUDOC|026720884</ns2:link>
                         <ns2:link>
@@ -1149,6 +1241,8 @@
                            <ns2:match type="exact title"/>NTA|068677626</ns2:link>
                         <ns2:link>
                            <ns2:match type="forced single date"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BNE|XX4579283</ns2:link>
                         <ns2:link>
                            <ns2:match type="forced single date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
@@ -1223,72 +1317,7 @@
                         <ns2:link>
                            <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
                         <ns2:link>
-                           <ns2:match type="double date"/>PTBNP|23310</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>BNF|11891425</ns2:link>
-                     </ns2:links>
-                  </ns2:mainHeadingEl>
-                  <ns2:mainHeadingEl>
-                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
-                        <ns2:subfield code="a">Bergman, Ingmar,</ns2:subfield>
-                        <ns2:subfield code="d">1918-2007</ns2:subfield>
-                     </ns2:datafield>
-                     <ns2:sources>
-                        <ns2:s>NDL</ns2:s>
-                        <ns2:sid>NDL|00433021</ns2:sid>
-                     </ns2:sources>
-                     <ns2:id>NDL|00433021</ns2:id>
-                     <ns2:links>
-                        <ns2:link>
-                           <ns2:match type="double date"/>EGAXA|vtls001512105</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>W2Z|90059956</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>BIBSYS|90059956</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>SELIBR|177819</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>B2Q|0000096416</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>KRNLK|KAC199602296</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>SWNL|vtls005563631</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="exact title"/>NII|DA02961029</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="forced single date"/>JPG|500069382</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NLA|000035017717</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>LC|n  79054388</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NKC|jn19990000712</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>LNB|LNC10-000020315</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>DNB|118509519</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="double date"/>N6I|vtls000885067</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
@@ -1309,7 +1338,7 @@
                         <ns2:link>
                            <ns2:match type="viafid"/>EGAXA|vtls001512105</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>NUKAT|n  93080240</ns2:link>
+                           <ns2:match type="forced single date"/>W2Z|90059956</ns2:link>
                         <ns2:link>
                            <ns2:match type="exact title"/>ICCU|CFIV072947</ns2:link>
                         <ns2:link>
@@ -1319,15 +1348,15 @@
                         <ns2:link>
                            <ns2:match type="forced single date"/>B2Q|0000096416</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
+                           <ns2:match type="forced single date"/>SUDOC|026720884</ns2:link>
                         <ns2:link>
                            <ns2:match type="forced single date"/>KRNLK|KAC199602296</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>W2Z|90059956</ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n  93080240</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>SUDOC|026720884</ns2:link>
+                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>NDL|00433021</ns2:link>
+                           <ns2:match type="forced single date"/>NDL|00433021</ns2:link>
                         <ns2:link>
                            <ns2:match type="viafid"/>SWNL|vtls005563631</ns2:link>
                         <ns2:link>
@@ -1335,13 +1364,13 @@
                         <ns2:link>
                            <ns2:match type="viafid"/>N6I|vtls001096035</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>JPG|500069382</ns2:link>
+                           <ns2:match type="forced single date"/>JPG|500069382</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>NLA|000035017717</ns2:link>
+                           <ns2:match type="forced single date"/>NLA|000035017717</ns2:link>
                         <ns2:link>
                            <ns2:match type="forced single date"/>LC|n  79054388</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>DBC|87097968118557</ns2:link>
+                           <ns2:match type="exact title"/>DBC|87097968118557</ns2:link>
                         <ns2:link>
                            <ns2:match type="viafid"/>NKC|jn19990000712</ns2:link>
                         <ns2:link>
@@ -1367,6 +1396,8 @@
                         <ns2:link>
                            <ns2:match type="viafid"/>WKP|Q7546</ns2:link>
                         <ns2:link>
+                           <ns2:match type="forced single date"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
                            <ns2:match type="forced single date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
                            <ns2:match type="viafid"/>BNF|11891425</ns2:link>
@@ -1386,7 +1417,7 @@
                         <ns2:link>
                            <ns2:match type="double date"/>EGAXA|vtls001512105</ns2:link>
                         <ns2:link>
-                           <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
+                           <ns2:match type="double date"/>W2Z|90059956</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BIBSYS|90059956</ns2:link>
                         <ns2:link>
@@ -1394,13 +1425,13 @@
                         <ns2:link>
                            <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
                         <ns2:link>
-                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
+                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>KRNLK|KAC199602296</ns2:link>
                         <ns2:link>
-                           <ns2:match type="double date"/>W2Z|90059956</ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
+                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>NDL|00433021</ns2:link>
                         <ns2:link>
@@ -1518,6 +1549,75 @@
                         <ns2:subfield code="d">1918-2007</ns2:subfield>
                      </ns2:datafield>
                      <ns2:sources>
+                        <ns2:s>NDL</ns2:s>
+                        <ns2:sid>NDL|00433021</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NDL|00433021</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>EGAXA|vtls001512105</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>W2Z|90059956</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BIBSYS|90059956</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SELIBR|177819</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>B2Q|0000096416</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>KRNLK|KAC199602296</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SWNL|vtls005563631</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NII|DA02961029</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>JPG|500069382</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLA|000035017717</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LC|n  79054388</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NKC|jn19990000712</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>LNB|LNC10-000020315</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>DNB|118509519</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>NLI|000419495</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>N6I|vtls000885067</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>PTBNP|23310</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|11891425</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Bergman, Ingmar,</ns2:subfield>
+                        <ns2:subfield code="d">1918-2007</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
                         <ns2:s>NLA</ns2:s>
                         <ns2:sid>NLA|000035017717</ns2:sid>
                      </ns2:sources>
@@ -1532,7 +1632,7 @@
                         <ns2:link>
                            <ns2:match type="double date"/>SELIBR|177819</ns2:link>
                         <ns2:link>
-                           <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
+                           <ns2:match type="forced single date"/>BNC|a10049332</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>B2Q|0000096416</ns2:link>
                         <ns2:link>
@@ -1574,6 +1674,8 @@
                         <ns2:link>
                            <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
                         <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
                            <ns2:match type="double date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BNF|11891425</ns2:link>
@@ -1601,7 +1703,7 @@
                         <ns2:link>
                            <ns2:match type="double date"/>SELIBR|177819</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>BNC|a10049332</ns2:link>
+                           <ns2:match type="viafid"/>BNC|a10049332</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>B2Q|0000096416</ns2:link>
                         <ns2:link>
@@ -1615,7 +1717,7 @@
                         <ns2:link>
                            <ns2:match type="double date"/>NDL|00433021</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>SWNL|vtls005563631</ns2:link>
+                           <ns2:match type="lccn"/>SWNL|vtls005563631</ns2:link>
                         <ns2:link>
                            <ns2:match type="exact title"/>NII|DA02961029</ns2:link>
                         <ns2:link>
@@ -1631,9 +1733,9 @@
                         <ns2:link>
                            <ns2:match type="forced single date"/>DNB|118509519</ns2:link>
                         <ns2:link>
-                           <ns2:match type="lccn"/>NLI|000419495</ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000419495</ns2:link>
                         <ns2:link>
-                           <ns2:match type="lccn"/>NLI|000419495</ns2:link>
+                           <ns2:match type="forced single date"/>NLI|000419495</ns2:link>
                         <ns2:link>
                            <ns2:match type="lccn"/>N6I|vtls000885067</ns2:link>
                         <ns2:link>
@@ -1723,6 +1825,8 @@
                         <ns2:link>
                            <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
                         <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
                            <ns2:match type="double date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BNF|11891425</ns2:link>
@@ -1796,6 +1900,8 @@
                         <ns2:link>
                            <ns2:match type="double date"/>WKP|Q7546</ns2:link>
                         <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
                            <ns2:match type="double date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>BNF|11891425</ns2:link>
@@ -1828,13 +1934,13 @@
                         <ns2:link>
                            <ns2:match type="double date"/>B2Q|0000096416</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
+                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>KRNLK|KAC199602296</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
                         <ns2:link>
-                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
+                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>NDL|00433021</ns2:link>
                         <ns2:link>
@@ -1865,6 +1971,8 @@
                            <ns2:match type="double date"/>NTA|068677626</ns2:link>
                         <ns2:link>
                            <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
@@ -1921,9 +2029,9 @@
                         <ns2:link>
                            <ns2:match type="forced single date"/>DNB|118509519</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>NLI|000419495</ns2:link>
+                           <ns2:match type="lccn"/>NLI|000419495</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>NLI|000419495</ns2:link>
+                           <ns2:match type="lccn"/>NLI|000419495</ns2:link>
                         <ns2:link>
                            <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
                         <ns2:link>
@@ -2005,90 +2113,16 @@
                         <ns2:link>
                            <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
                         <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
                            <ns2:match type="double date"/>BNF|11891425</ns2:link>
                      </ns2:links>
                   </ns2:mainHeadingEl>
                   <ns2:mainHeadingEl>
                      <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
                         <ns2:subfield code="a">Ingmar Bergman</ns2:subfield>
-                        <ns2:subfield code="9">sco</ns2:subfield>
-                        <ns2:subfield code="9">scn</ns2:subfield>
-                        <ns2:subfield code="9">sr-el</ns2:subfield>
-                        <ns2:subfield code="9">gd</ns2:subfield>
-                        <ns2:subfield code="9">pt-br</ns2:subfield>
-                        <ns2:subfield code="9">ga</ns2:subfield>
-                        <ns2:subfield code="9">lb</ns2:subfield>
-                        <ns2:subfield code="9">la</ns2:subfield>
-                        <ns2:subfield code="9">tt</ns2:subfield>
-                        <ns2:subfield code="9">tr</ns2:subfield>
-                        <ns2:subfield code="9">li</ns2:subfield>
-                        <ns2:subfield code="9">tl</ns2:subfield>
-                        <ns2:subfield code="9">vec</ns2:subfield>
-                        <ns2:subfield code="9">ksh</ns2:subfield>
-                        <ns2:subfield code="9">pcd</ns2:subfield>
-                        <ns2:subfield code="9">da</ns2:subfield>
-                        <ns2:subfield code="9">hif</ns2:subfield>
-                        <ns2:subfield code="9">vls</ns2:subfield>
-                        <ns2:subfield code="9">qu</ns2:subfield>
-                        <ns2:subfield code="9">de-ch</ns2:subfield>
-                        <ns2:subfield code="9">eo</ns2:subfield>
-                        <ns2:subfield code="9">pms</ns2:subfield>
-                        <ns2:subfield code="9">eu</ns2:subfield>
-                        <ns2:subfield code="9">zu</ns2:subfield>
-                        <ns2:subfield code="9">en-gb</ns2:subfield>
-                        <ns2:subfield code="9">rm</ns2:subfield>
-                        <ns2:subfield code="9">ro</ns2:subfield>
-                        <ns2:subfield code="9">wa</ns2:subfield>
-                        <ns2:subfield code="9">wo</ns2:subfield>
-                        <ns2:subfield code="9">br</ns2:subfield>
-                        <ns2:subfield code="9">bs</ns2:subfield>
-                        <ns2:subfield code="9">ace</ns2:subfield>
-                        <ns2:subfield code="9">oc</ns2:subfield>
-                        <ns2:subfield code="9">de-at</ns2:subfield>
-                        <ns2:subfield code="9">nds</ns2:subfield>
-                        <ns2:subfield code="9">co</ns2:subfield>
-                        <ns2:subfield code="9">ca</ns2:subfield>
-                        <ns2:subfield code="9">cy</ns2:subfield>
-                        <ns2:subfield code="9">cs</ns2:subfield>
-                        <ns2:subfield code="9">pt</ns2:subfield>
-                        <ns2:subfield code="9">lt</ns2:subfield>
-                        <ns2:subfield code="9">frp</ns2:subfield>
-                        <ns2:subfield code="9">en-ca</ns2:subfield>
-                        <ns2:subfield code="9">war</ns2:subfield>
-                        <ns2:subfield code="9">nrm</ns2:subfield>
-                        <ns2:subfield code="9">hr</ns2:subfield>
-                        <ns2:subfield code="9">vo</ns2:subfield>
-                        <ns2:subfield code="9">mg</ns2:subfield>
-                        <ns2:subfield code="9">fur</ns2:subfield>
-                        <ns2:subfield code="9">ms</ns2:subfield>
-                        <ns2:subfield code="9">af</ns2:subfield>
-                        <ns2:subfield code="9">vi</ns2:subfield>
-                        <ns2:subfield code="9">is</ns2:subfield>
-                        <ns2:subfield code="9">an</ns2:subfield>
-                        <ns2:subfield code="9">io</ns2:subfield>
-                        <ns2:subfield code="9">et</ns2:subfield>
-                        <ns2:subfield code="9">ia</ns2:subfield>
-                        <ns2:subfield code="9">ie</ns2:subfield>
-                        <ns2:subfield code="9">id</ns2:subfield>
-                        <ns2:subfield code="9">nds-nl</ns2:subfield>
-                        <ns2:subfield code="9">nn</ns2:subfield>
-                        <ns2:subfield code="9">min</ns2:subfield>
-                        <ns2:subfield code="9">nah</ns2:subfield>
-                        <ns2:subfield code="9">nan</ns2:subfield>
-                        <ns2:subfield code="9">lij</ns2:subfield>
-                        <ns2:subfield code="9">nap</ns2:subfield>
-                        <ns2:subfield code="9">fy</ns2:subfield>
-                        <ns2:subfield code="9">fo</ns2:subfield>
-                        <ns2:subfield code="9">kg</ns2:subfield>
-                        <ns2:subfield code="9">gsw</ns2:subfield>
-                        <ns2:subfield code="9">sw</ns2:subfield>
+                        <ns2:subfield code="c">svensk film- och teaterregissör</ns2:subfield>
                         <ns2:subfield code="9">sv</ns2:subfield>
-                        <ns2:subfield code="9">sk</ns2:subfield>
-                        <ns2:subfield code="9">sh</ns2:subfield>
-                        <ns2:subfield code="9">ku</ns2:subfield>
-                        <ns2:subfield code="9">sl</ns2:subfield>
-                        <ns2:subfield code="9">sc</ns2:subfield>
-                        <ns2:subfield code="9">nb</ns2:subfield>
                      </ns2:datafield>
                      <ns2:sources>
                         <ns2:s>WKP</ns2:s>
@@ -2151,6 +2185,8 @@
                         <ns2:link>
                            <ns2:match type="suggested"/>NTA|068677626</ns2:link>
                         <ns2:link>
+                           <ns2:match type="suggested"/>BNE|XX4579283</ns2:link>
+                        <ns2:link>
                            <ns2:match type="suggested"/>PTBNP|23310</ns2:link>
                         <ns2:link>
                            <ns2:match type="suggested"/>BNF|11891425</ns2:link>
@@ -2183,13 +2219,13 @@
                         <ns2:link>
                            <ns2:match type="double date"/>B2Q|0000096416</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
+                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>KRNLK|KAC199602296</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>NUKAT|n  93080240</ns2:link>
                         <ns2:link>
-                           <ns2:match type="double date"/>SUDOC|026720884</ns2:link>
+                           <ns2:match type="forced single date"/>LAC|0006F3147</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>NDL|00433021</ns2:link>
                         <ns2:link>
@@ -2220,6 +2256,8 @@
                            <ns2:match type="double date"/>NTA|068677626</ns2:link>
                         <ns2:link>
                            <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
@@ -2260,7 +2298,7 @@
                         <ns2:link>
                            <ns2:match type="double date"/>NDL|00433021</ns2:link>
                         <ns2:link>
-                           <ns2:match type="forced single date"/>SWNL|vtls005563631</ns2:link>
+                           <ns2:match type="lccn"/>SWNL|vtls005563631</ns2:link>
                         <ns2:link>
                            <ns2:match type="forced single date"/>JPG|500069382</ns2:link>
                         <ns2:link>
@@ -2278,7 +2316,7 @@
                         <ns2:link>
                            <ns2:match type="lccn"/>NLI|000419495</ns2:link>
                         <ns2:link>
-                           <ns2:match type="lccn"/>N6I|vtls000885067</ns2:link>
+                           <ns2:match type="forced single date"/>N6I|vtls000885067</ns2:link>
                         <ns2:link>
                            <ns2:match type="exact title"/>NSK|000053940</ns2:link>
                         <ns2:link>
@@ -2289,6 +2327,8 @@
                            <ns2:match type="viafid"/>ISNI|000000012147545X</ns2:link>
                         <ns2:link>
                            <ns2:match type="suggested"/>WKP|Q7546</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNE|XX4579283</ns2:link>
                         <ns2:link>
                            <ns2:match type="double date"/>PTBNP|23310</ns2:link>
                         <ns2:link>
@@ -2521,6 +2561,17 @@
                         <ns2:sid>NLI|000419495</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="400">
+                        <ns2:subfield code="a">Eriksson, Buntel</ns2:subfield>
+                        <ns2:subfield code="d">1918-2007</ns2:subfield>
+                        <ns2:normalized>eriksson buntel 1918 2007</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                      </ns2:sources>
                   </ns2:x400>
                   <ns2:x400>
@@ -3951,7 +4002,22 @@
                   </ns2:x500>
                </ns2:x500s>
                <ns2:coauthors>
-                  <ns2:data count="96" tag="950">
+                  <ns2:data count="147" tag="950">
+                     <ns2:text>Nykvist, Sven (1922-2006).</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>DBC</ns2:s>
+                        <ns2:sid>DBC|87097968118557</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="110" tag="950">
                      <ns2:text>Thulin, Ingrid (1926-2004).</ns2:text>
                      <ns2:sources>
                         <ns2:s>NUKAT</ns2:s>
@@ -3962,8 +4028,8 @@
                         <ns2:sid>KRNLK|KAC199602296</ns2:sid>
                         <ns2:s>BIBSYS</ns2:s>
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
                         <ns2:s>BNC</ns2:s>
@@ -3971,86 +4037,68 @@
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="96" tag="950">
-                     <ns2:text>Nykvist, Sven (1922-2006).</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>NUKAT</ns2:s>
-                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>DBC</ns2:s>
-                        <ns2:sid>DBC|87097968118557</ns2:sid>
-                        <ns2:s>BNC</ns2:s>
-                        <ns2:sid>BNC|a10049332</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="89" tag="950">
-                     <ns2:text>Andersson, Harriet.</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                        <ns2:s>KRNLK</ns2:s>
-                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
-                        <ns2:s>BNF</ns2:s>
-                        <ns2:sid>BNF|11891425</ns2:sid>
-                        <ns2:s>BNC</ns2:s>
-                        <ns2:sid>BNC|a10049332</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="72" tag="950">
-                     <ns2:text>Josephson, Erland.</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>KRNLK</ns2:s>
-                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
-                        <ns2:s>BNF</ns2:s>
-                        <ns2:sid>BNF|11891425</ns2:sid>
-                        <ns2:s>DBC</ns2:s>
-                        <ns2:sid>DBC|87097968118557</ns2:sid>
-                        <ns2:s>BNC</ns2:s>
-                        <ns2:sid>BNC|a10049332</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="64" tag="950">
-                     <ns2:text>Björnstrand, Gunnar (1909-1986).</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>NUKAT</ns2:s>
-                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>BNF</ns2:s>
-                        <ns2:sid>BNF|11891425</ns2:sid>
-                        <ns2:s>KRNLK</ns2:s>
-                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="61" tag="950">
-                     <ns2:text>Andersson, Bibi (1935- ).</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>NUKAT</ns2:s>
-                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>BNF</ns2:s>
-                        <ns2:sid>BNF|11891425</ns2:sid>
-                        <ns2:s>KRNLK</ns2:s>
-                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="55" tag="950">
                      <ns2:text>Sydow, Max von.</ns2:text>
                      <ns2:sources>
                         <ns2:s>BIBSYS</ns2:s>
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>KRNLK</ns2:s>
                         <ns2:sid>KRNLK|KAC199602296</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="54" tag="950">
+                  <ns2:data count="90" tag="950">
+                     <ns2:text>Josephson, Erland.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DBC</ns2:s>
+                        <ns2:sid>DBC|87097968118557</ns2:sid>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|11891425</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="88" tag="950">
+                     <ns2:text>Andersson, Bibi (1935- ).</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|11891425</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="83" tag="950">
+                     <ns2:text>Andersson, Harriet.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|11891425</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="82" tag="950">
                      <ns2:text>Ullmann, Liv (1938- ).</ns2:text>
                      <ns2:sources>
                         <ns2:s>NUKAT</ns2:s>
@@ -4063,32 +4111,60 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>LNB</ns2:s>
                         <ns2:sid>LNB|LNC10-000020315</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="51" tag="951">
-                     <ns2:text>Fil à film.</ns2:text>
+                  <ns2:data count="79" tag="950">
+                     <ns2:text>Björnstrand, Gunnar (1909-1986).</ns2:text>
                      <ns2:sources>
-                        <ns2:s>ISNI</ns2:s>
-                        <ns2:sid>ISNI|000000012147545X</ns2:sid>
-                        <ns2:s>SUDOC</ns2:s>
-                        <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="38" tag="950">
+                  <ns2:data count="62" tag="950">
+                     <ns2:text>Nordgren, Erik (1913-1992).</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="61" tag="950">
                      <ns2:text>Fischer, Gunnar (1910- ).</ns2:text>
                      <ns2:sources>
                         <ns2:s>NUKAT</ns2:s>
                         <ns2:sid>NUKAT|n  93080240</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>DBC</ns2:s>
                         <ns2:sid>DBC|87097968118557</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="38" tag="951">
+                     <ns2:text>Fil à film</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|11891425</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="15" tag="950">
@@ -4221,6 +4297,23 @@
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="73">
+                     <ns2:text>Tartan Video</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000020315</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|000000012147545X</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="73">
                      <ns2:text>Svensk Filmindustri</ns2:text>
                      <ns2:sources>
                         <ns2:s>BIBSYS</ns2:s>
@@ -4256,28 +4349,13 @@
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="57">
-                     <ns2:text>Tartan Video</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>SELIBR</ns2:s>
-                        <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                        <ns2:s>LNB</ns2:s>
-                        <ns2:sid>LNB|LNC10-000020315</ns2:sid>
-                        <ns2:s>ISNI</ns2:s>
-                        <ns2:sid>ISNI|000000012147545X</ns2:sid>
-                        <ns2:s>BNC</ns2:s>
-                        <ns2:sid>BNC|a10049332</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="48">
+                  <ns2:data count="68">
                      <ns2:text>Manga Films</ns2:text>
                      <ns2:sources>
                         <ns2:s>ISNI</ns2:s>
                         <ns2:sid>ISNI|000000012147545X</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
@@ -4289,6 +4367,13 @@
                         <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="31">
+                     <ns2:text>Moskwood Media</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="25">
@@ -4303,13 +4388,6 @@
                      <ns2:sources>
                         <ns2:s>DBC</ns2:s>
                         <ns2:sid>DBC|87097968118557</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="21">
-                     <ns2:text>Filmax</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>BNC</ns2:s>
-                        <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="9">
@@ -4381,12 +4459,12 @@
                <ns2:dateType>lived</ns2:dateType>
                <ns2:dates max="201" min="194">
                   <ns2:date count="22" scaled="4.46">194</ns2:date>
-                  <ns2:date count="53" scaled="5.73">195</ns2:date>
-                  <ns2:date count="153" scaled="7.26">196</ns2:date>
-                  <ns2:date count="301" scaled="8.23">197</ns2:date>
-                  <ns2:date count="274" scaled="8.10">198</ns2:date>
-                  <ns2:date count="436" scaled="8.77">199</ns2:date>
-                  <ns2:date count="543" scaled="9.08">200</ns2:date>
+                  <ns2:date count="54" scaled="5.75">195</ns2:date>
+                  <ns2:date count="158" scaled="7.30">196</ns2:date>
+                  <ns2:date count="312" scaled="8.29">197</ns2:date>
+                  <ns2:date count="291" scaled="8.18">198</ns2:date>
+                  <ns2:date count="456" scaled="8.83">199</ns2:date>
+                  <ns2:date count="666" scaled="9.38">200</ns2:date>
                   <ns2:date count="4" scaled="2.00">201</ns2:date>
                </ns2:dates>
                <ns2:RecFormats>
@@ -4419,7 +4497,7 @@
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="1145">
+                  <ns2:data count="1178">
                      <ns2:text>am</ns2:text>
                      <ns2:sources>
                         <ns2:s>DNB</ns2:s>
@@ -4458,8 +4536,17 @@
                         <ns2:sid>PTBNP|23310</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>cm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="69">
@@ -4476,9 +4563,11 @@
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="794">
+                  <ns2:data count="965">
                      <ns2:text>gm</ns2:text>
                      <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>NUKAT</ns2:s>
                         <ns2:sid>NUKAT|n  93080240</ns2:sid>
                         <ns2:s>LC</ns2:s>
@@ -4503,7 +4592,7 @@
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="29">
+                  <ns2:data count="43">
                      <ns2:text>im</ns2:text>
                      <ns2:sources>
                         <ns2:s>BIBSYS</ns2:s>
@@ -4514,6 +4603,8 @@
                         <ns2:sid>W2Z|90059956</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="10">
@@ -4536,9 +4627,11 @@
                         <ns2:sid>BNF|11891425</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="1">
+                  <ns2:data count="2">
                      <ns2:text>tm</ns2:text>
                      <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
@@ -4617,11 +4710,13 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="1">
+                  <ns2:data count="2">
                      <ns2:text>ant</ns2:text>
                      <ns2:sources>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="4">
@@ -4631,13 +4726,17 @@
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="49">
+                  <ns2:data count="51">
                      <ns2:text>aus</ns2:text>
                      <ns2:sources>
                         <ns2:s>BIBSYS</ns2:s>
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="14">
@@ -4709,7 +4808,14 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="134">
+                  <ns2:data count="1">
+                     <ns2:text>director de cine</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="137">
                      <ns2:text>drt</ns2:text>
                      <ns2:sources>
                         <ns2:s>BIBSYS</ns2:s>
@@ -4718,6 +4824,8 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>W2Z</ns2:s>
                         <ns2:sid>W2Z|90059956</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>NKC</ns2:s>
                         <ns2:sid>NKC|jn19990000712</ns2:sid>
                      </ns2:sources>
@@ -4734,6 +4842,22 @@
                      <ns2:sources>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>fmd</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>guionista</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="6">
@@ -4801,6 +4925,13 @@
                      <ns2:sources>
                         <ns2:s>BIBSYS</ns2:s>
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>rcp</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="60">
@@ -4878,7 +5009,7 @@
                      </ns2:sources>
                   </ns2:data>
                </ns2:RelatorCodes>
-               <ns2:ISBNs unique="406">
+               <ns2:ISBNs unique="440">
                   <ns2:data count="6">
                      <ns2:text>9789119423924</ns2:text>
                      <ns2:sources>
@@ -4948,6 +5079,51 @@
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="6">
+                     <ns2:text>9789117313524</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79054388</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|026720884</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>9788472238954</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
+                     <ns2:text>9782866420925</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79054388</ns2:sid>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|11891425</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6">
                      <ns2:text>9781559701860</ns2:text>
                      <ns2:sources>
                         <ns2:s>NTA</ns2:s>
@@ -4960,36 +5136,6 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
-                        <ns2:s>LNB</ns2:s>
-                        <ns2:sid>LNB|LNC10-000020315</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="5">
-                     <ns2:text>9789119127921</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>NUKAT</ns2:s>
-                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>SUDOC</ns2:s>
-                        <ns2:sid>SUDOC|026720884</ns2:sid>
-                        <ns2:s>LC</ns2:s>
-                        <ns2:sid>LC|n  79054388</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="5">
-                     <ns2:text>9789118015014</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>SELIBR</ns2:s>
-                        <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                        <ns2:s>LC</ns2:s>
-                        <ns2:sid>LC|n  79054388</ns2:sid>
                         <ns2:s>LNB</ns2:s>
                         <ns2:sid>LNB|LNC10-000020315</ns2:sid>
                      </ns2:sources>
@@ -5024,26 +5170,11 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="5">
-                     <ns2:text>9780436042010</ns2:text>
+                  <ns2:data count="3">
+                     <ns2:text>9789029052399</ns2:text>
                      <ns2:sources>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>SELIBR</ns2:s>
-                        <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
-                        <ns2:s>LC</ns2:s>
-                        <ns2:sid>LC|n  79054388</ns2:sid>
-                        <ns2:s>N6I</ns2:s>
-                        <ns2:sid>N6I|vtls000885067</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="3">
-                     <ns2:text>9788472238954</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>BNC</ns2:s>
-                        <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="2">
@@ -5072,13 +5203,6 @@
                      <ns2:sources>
                         <ns2:s>DNB</ns2:s>
                         <ns2:sid>DNB|118509519</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="2">
-                     <ns2:text>9780900855238</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="2">
@@ -5198,6 +5322,18 @@
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="3">
+                     <ns2:text>8483103753</ns2:text>
+                     <ns2:xtext>+-+8028568393</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
                      <ns2:text>1559702079</ns2:text>
                      <ns2:xtext>+-+4257524006</ns2:xtext>
                      <ns2:sources>
@@ -5209,14 +5345,16 @@
                         <ns2:sid>LC|n  79054388</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="2">
-                     <ns2:text>8483103753</ns2:text>
-                     <ns2:xtext>+-+8028568393</ns2:xtext>
+                  <ns2:data count="3">
+                     <ns2:text>0226043827</ns2:text>
+                     <ns2:xtext>+-+2738951775</ns2:xtext>
                      <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>BNC</ns2:s>
-                        <ns2:sid>BNC|a10049332</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|n  79054388</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="2">
@@ -5230,11 +5368,11 @@
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="2">
-                     <ns2:text>0226043827</ns2:text>
-                     <ns2:xtext>+-+2738951775</ns2:xtext>
+                     <ns2:text>1559703644</ns2:text>
+                     <ns2:xtext>+-+9918524006</ns2:xtext>
                      <ns2:sources>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
                      </ns2:sources>
@@ -5248,19 +5386,19 @@
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="1">
-                     <ns2:text>1559703644</ns2:text>
-                     <ns2:xtext>+-+9918524006</ns2:xtext>
+                     <ns2:text>155783069X</ns2:text>
+                     <ns2:xtext>+-+K415832006</ns2:xtext>
                      <ns2:sources>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="1">
-                     <ns2:text>1559702931</ns2:text>
-                     <ns2:xtext>+-+6847524006</ns2:xtext>
+                     <ns2:text>1423486285</ns2:text>
+                     <ns2:xtext>+-+0371398796</ns2:xtext>
                      <ns2:sources>
-                        <ns2:s>SUDOC</ns2:s>
-                        <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                </ns2:covers>
@@ -5286,7 +5424,7 @@
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="323" scaled="8">
+                  <ns2:data count="325" scaled="8">
                      <ns2:text>SE</ns2:text>
                      <ns2:sources>
                         <ns2:s>NUKAT</ns2:s>
@@ -5305,7 +5443,18 @@
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="131" scaled="7">
+                  <ns2:data count="178" scaled="7">
+                     <ns2:text>ES</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="138" scaled="7">
                      <ns2:text>US</ns2:text>
                      <ns2:sources>
                         <ns2:s>NUKAT</ns2:s>
@@ -5326,7 +5475,7 @@
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="112" scaled="7">
+                  <ns2:data count="115" scaled="7">
                      <ns2:text>DE</ns2:text>
                      <ns2:sources>
                         <ns2:s>DNB</ns2:s>
@@ -5349,7 +5498,7 @@
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="85" scaled="6">
+                  <ns2:data count="101" scaled="6">
                      <ns2:text>GB</ns2:text>
                      <ns2:sources>
                         <ns2:s>NUKAT</ns2:s>
@@ -5374,7 +5523,16 @@
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
-                  <ns2:data count="81" scaled="6">
+                  <ns2:data count="86" scaled="6">
+                     <ns2:text>NL</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="82" scaled="6">
                      <ns2:text>DK</ns2:text>
                      <ns2:sources>
                         <ns2:s>NUKAT</ns2:s>
@@ -5396,24 +5554,6 @@
                         <ns2:sid>NUKAT|n  93080240</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="57" scaled="6">
-                     <ns2:text>NL</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>SELIBR</ns2:s>
-                        <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="53" scaled="6">
-                     <ns2:text>ES</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>SELIBR</ns2:s>
-                        <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>BNC</ns2:s>
-                        <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="35" scaled="5">
@@ -5570,6 +5710,13 @@
                      <ns2:sources>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="6" scaled="3">
+                     <ns2:text>BE</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="5" scaled="3">
@@ -5745,13 +5892,6 @@
                      </ns2:sources>
                   </ns2:data>
                   <ns2:data count="1" scaled="1">
-                     <ns2:text>BE</ns2:text>
-                     <ns2:sources>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                     </ns2:sources>
-                  </ns2:data>
-                  <ns2:data count="1" scaled="1">
                      <ns2:text>AU</ns2:text>
                      <ns2:sources>
                         <ns2:s>BNC</ns2:s>
@@ -5880,6 +6020,11 @@
                      </ns2:sources>
                   </ns2:xLink>
                   <ns2:xLink type="Wikipedia">https://bg.wikipedia.org/wiki/Ингмар_Бергман<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q7546</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+                  <ns2:xLink type="Wikipedia">https://bi.wikipedia.org/wiki/Ingmar_Bergman<ns2:sources>
                         <ns2:s>WKP</ns2:s>
                         <ns2:sid>WKP|Q7546</ns2:sid>
                      </ns2:sources>
@@ -6420,6 +6565,8 @@
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Ansiktet.</ns2:title>
                   </ns2:work>
@@ -6437,6 +6584,8 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
@@ -6444,6 +6593,10 @@
                   </ns2:work>
                   <ns2:work id="VIAF|57145663020405070761">
                      <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK3619653</ns2:sid>
                         <ns2:s>DNB</ns2:s>
                         <ns2:s>NUKAT</ns2:s>
                         <ns2:sid>NUKAT|n  93080240</ns2:sid>
@@ -6451,20 +6604,6 @@
                         <ns2:sid>N6I|vtls000885067</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>SELIBR</ns2:s>
-                        <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>XR</ns2:s>
-                        <ns2:sid>XR|VIAFWORK3619653</ns2:sid>
-                        <ns2:s>SUDOC</ns2:s>
-                        <ns2:sid>SUDOC|026720884</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                        <ns2:s>BNF</ns2:s>
-                        <ns2:sid>BNF|11891425</ns2:sid>
-                        <ns2:s>BNC</ns2:s>
-                        <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Bergman om Bergman</ns2:title>
                   </ns2:work>
@@ -6488,10 +6627,28 @@
                         <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>LNB</ns2:s>
                         <ns2:sid>LNB|LNC10-000020315</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Bilder</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Cara a cara</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Como en un espejo</ns2:title>
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
@@ -6510,6 +6667,8 @@
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>KRNLK</ns2:s>
                         <ns2:sid>KRNLK|KAC199602296</ns2:sid>
                      </ns2:sources>
@@ -6524,12 +6683,42 @@
                      </ns2:sources>
                      <ns2:title>Cris et chuchotements</ns2:title>
                   </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Djävulens öga Oko diabła</ns2:title>
+                  </ns2:work>
                   <ns2:work id="VIAF|241144783007161327630">
                      <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>NLP</ns2:s>
                         <ns2:sid>NLP|a32654273</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|026720884</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Efter repetitionen</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Encuentros privados</ns2:title>
                   </ns2:work>
                   <ns2:work id="VIAF|308578229">
                      <ns2:sources>
@@ -6544,12 +6733,12 @@
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>LNB</ns2:s>
                         <ns2:sid>LNB|LNC10-000020315</ns2:sid>
                         <ns2:s>XR</ns2:s>
                         <ns2:sid>XR|VIAFWORK36425739</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Enskilda samtal</ns2:title>
                   </ns2:work>
@@ -6557,26 +6746,24 @@
                      <ns2:sources>
                         <ns2:s>NUKAT</ns2:s>
                         <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>SELIBR</ns2:s>
-                        <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
                         <ns2:s>KRNLK</ns2:s>
                         <ns2:sid>KRNLK|KAC199602296</ns2:sid>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Face to face</ns2:title>
                   </ns2:work>
                   <ns2:work id="VIAF|316751648">
                      <ns2:sources>
-                        <ns2:s>BNF</ns2:s>
-                        <ns2:sid>BNF|11891425</ns2:sid>
                         <ns2:s>DNB</ns2:s>
                         <ns2:s>NUKAT</ns2:s>
                         <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>W2Z</ns2:s>
-                        <ns2:sid>W2Z|90059956</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
                         <ns2:s>DBC</ns2:s>
@@ -6587,15 +6774,21 @@
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>SUDOC</ns2:s>
-                        <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>LNB</ns2:s>
                         <ns2:sid>LNB|LNC10-000020315</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|052506444</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>W2Z</ns2:s>
+                        <ns2:sid>W2Z|90059956</ns2:sid>
+                        <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|11891425</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Fanny och Alexander.</ns2:title>
                   </ns2:work>
@@ -6621,17 +6814,6 @@
                         <ns2:s>DNB</ns2:s>
                      </ns2:sources>
                      <ns2:title>Filmberättelser</ns2:title>
-                  </ns2:work>
-                  <ns2:work>
-                     <ns2:sources>
-                        <ns2:s>DNB</ns2:s>
-                        <ns2:sid>DNB|118509519</ns2:sid>
-                        <ns2:s>SELIBR</ns2:s>
-                        <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>LNB</ns2:s>
-                        <ns2:sid>LNB|LNC10-000020315</ns2:sid>
-                     </ns2:sources>
-                     <ns2:title>Filmerzählungen</ns2:title>
                   </ns2:work>
                   <ns2:work id="VIAF|312497851">
                      <ns2:sources>
@@ -6677,6 +6859,8 @@
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
@@ -6686,25 +6870,32 @@
                      <ns2:sources>
                         <ns2:s>NUKAT</ns2:s>
                         <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>ICCU</ns2:s>
                         <ns2:sid>ICCU|CFIV072947</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                      </ns2:sources>
                      <ns2:title>From the life of the marionettes</ns2:title>
                   </ns2:work>
                   <ns2:work id="VIAF|241281879">
                      <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
                         <ns2:s>NUKAT</ns2:s>
                         <ns2:sid>NUKAT|n  93080240</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK27106045</ns2:sid>
                         <ns2:s>W2Z</ns2:s>
                         <ns2:sid>W2Z|90059956</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|11891425</ns2:sid>
                         <ns2:s>BIBSYS</ns2:s>
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
@@ -6713,17 +6904,14 @@
                         <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>LNB</ns2:s>
                         <ns2:sid>LNB|LNC10-000020315</ns2:sid>
-                        <ns2:s>DNB</ns2:s>
-                        <ns2:sid>DNB|1021404365</ns2:sid>
-                        <ns2:s>XR</ns2:s>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
-                        <ns2:s>BNF</ns2:s>
-                        <ns2:sid>BNF|11891425</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
-                     <ns2:title>goda viljan</ns2:title>
+                     <ns2:title>Goda viljan</ns2:title>
                   </ns2:work>
                   <ns2:work id="VIAF|309559668">
                      <ns2:sources>
@@ -6731,10 +6919,14 @@
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>XR</ns2:s>
-                        <ns2:sid>XR|VIAFWORKNLPa19759022</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORKNLPa19759022</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
                      </ns2:sources>
@@ -6759,6 +6951,10 @@
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>W2Z</ns2:s>
                         <ns2:sid>W2Z|90059956</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>DBC</ns2:s>
                         <ns2:sid>DBC|87097968118557</ns2:sid>
                      </ns2:sources>
@@ -6786,6 +6982,10 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>XR</ns2:s>
                         <ns2:sid>XR|VIAFWORK4944737</ns2:sid>
                         <ns2:s>BNC</ns2:s>
@@ -6800,6 +7000,15 @@
                         <ns2:s>DNB</ns2:s>
                      </ns2:sources>
                      <ns2:title>Höstsonaten.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>El Huevo de la serpiente</ns2:title>
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
@@ -6827,19 +7036,33 @@
                   </ns2:work>
                   <ns2:work id="VIAF|21146708138700840053">
                      <ns2:sources>
-                        <ns2:s>XR</ns2:s>
-                        <ns2:sid>XR|VIAFWORK84151246</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                        <ns2:s>SUDOC</ns2:s>
-                        <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000885067</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>XR</ns2:s>
+                        <ns2:sid>XR|VIAFWORK84151246</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|11891425</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Ingmar Bergman : interviews</ns2:title>
                   </ns2:work>
                   <ns2:work id="VIAF|186066073">
                      <ns2:sources>
+                        <ns2:s>NII</ns2:s>
+                        <ns2:sid>NII|DA02961029</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|180127543</ns2:sid>
                         <ns2:s>NUKAT</ns2:s>
@@ -6853,6 +7076,8 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
                         <ns2:s>BNC</ns2:s>
@@ -6869,6 +7094,8 @@
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>BNF</ns2:s>
@@ -6888,6 +7115,8 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Kvinnors väntan</ns2:title>
                   </ns2:work>
@@ -6899,6 +7128,10 @@
                         <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                      <ns2:title>De la vie des marionnettes</ns2:title>
                   </ns2:work>
@@ -6946,6 +7179,8 @@
                         <ns2:sid>XR|VIAFWORK17977107</ns2:sid>
                         <ns2:s>WKP</ns2:s>
                         <ns2:sid>WKP|Q7546</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>PTBNP</ns2:s>
                         <ns2:sid>PTBNP|23310</ns2:sid>
                         <ns2:s>BNF</ns2:s>
@@ -6959,6 +7194,8 @@
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>W2Z</ns2:s>
                         <ns2:sid>W2Z|90059956</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
                      </ns2:sources>
@@ -6966,23 +7203,12 @@
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
-                        <ns2:s>NUKAT</ns2:s>
-                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                        <ns2:s>KRNLK</ns2:s>
-                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
-                     </ns2:sources>
-                     <ns2:title>Magician</ns2:title>
-                  </ns2:work>
-                  <ns2:work>
-                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
-                     <ns2:title>El manantial de la doncella</ns2:title>
+                     <ns2:title>El Manantial de la doncella</ns2:title>
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
@@ -7001,8 +7227,6 @@
                         <ns2:sid>DNB|118509519</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Mein Leben</ns2:title>
                   </ns2:work>
@@ -7010,6 +7234,8 @@
                      <ns2:sources>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
@@ -7036,6 +7262,8 @@
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:sid>SUDOC|097984248</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
                      </ns2:sources>
@@ -7043,16 +7271,8 @@
                   </ns2:work>
                   <ns2:work id="VIAF|511145858267423022875">
                      <ns2:sources>
-                        <ns2:s>NUKAT</ns2:s>
-                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>SELIBR</ns2:s>
-                        <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>DNB</ns2:s>
                         <ns2:sid>DNB|1088057519</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                        <ns2:s>LC</ns2:s>
-                        <ns2:sid>LC|n  79054388</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Ormens ägg</ns2:title>
                   </ns2:work>
@@ -7080,44 +7300,37 @@
                   </ns2:work>
                   <ns2:work id="VIAF|316751750">
                      <ns2:sources>
-                        <ns2:s>NLI</ns2:s>
-                        <ns2:sid>NLI|000419495</ns2:sid>
                         <ns2:s>DNB</ns2:s>
                         <ns2:s>NUKAT</ns2:s>
                         <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>N6I</ns2:s>
-                        <ns2:sid>N6I|vtls000885067</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|066926203</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
                         <ns2:s>DBC</ns2:s>
                         <ns2:sid>DBC|87097968118557</ns2:sid>
-                        <ns2:s>KRNLK</ns2:s>
-                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
                         <ns2:s>BIBSYS</ns2:s>
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>XR</ns2:s>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                        <ns2:s>BNF</ns2:s>
-                        <ns2:sid>BNF|11891425</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
-                     </ns2:sources>
-                     <ns2:title>Persona.</ns2:title>
-                  </ns2:work>
-                  <ns2:work>
-                     <ns2:sources>
-                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:s>NLI</ns2:s>
+                        <ns2:sid>NLI|000419495</ns2:sid>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000885067</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
                      </ns2:sources>
-                     <ns2:title>Rêves de femmes</ns2:title>
+                     <ns2:title>Persona.</ns2:title>
                   </ns2:work>
                   <ns2:work id="VIAF|6146095293200371980">
                      <ns2:sources>
@@ -7125,13 +7338,6 @@
                         <ns2:sid>NLP|a3364715x</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Riten</ns2:title>
-                  </ns2:work>
-                  <ns2:work>
-                     <ns2:sources>
-                        <ns2:s>DNB</ns2:s>
-                        <ns2:sid>DNB|118509519</ns2:sid>
-                     </ns2:sources>
-                     <ns2:title>Sammlung</ns2:title>
                   </ns2:work>
                   <ns2:work id="VIAF|308579028">
                      <ns2:sources>
@@ -7148,6 +7354,10 @@
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
                         <ns2:s>BNC</ns2:s>
@@ -7171,6 +7381,8 @@
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:sid>SUDOC|097984442</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
                      </ns2:sources>
@@ -7199,31 +7411,33 @@
                         <ns2:s>DNB</ns2:s>
                         <ns2:s>NUKAT</ns2:s>
                         <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>SUDOC</ns2:s>
-                        <ns2:sid>SUDOC|159064627</ns2:sid>
-                        <ns2:s>SELIBR</ns2:s>
-                        <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
                         <ns2:s>DBC</ns2:s>
                         <ns2:sid>DBC|87097968118557</ns2:sid>
-                        <ns2:s>KRNLK</ns2:s>
-                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
+                        <ns2:s>NKC</ns2:s>
+                        <ns2:sid>NKC|jn19990000712</ns2:sid>
                         <ns2:s>BIBSYS</ns2:s>
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>LNB</ns2:s>
+                        <ns2:sid>LNB|LNC10-000020315</ns2:sid>
+                        <ns2:s>BNC</ns2:s>
+                        <ns2:sid>BNC|a10049332</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|159064627</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>KRNLK</ns2:s>
+                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
                         <ns2:s>W2Z</ns2:s>
                         <ns2:sid>W2Z|90059956</ns2:sid>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
-                        <ns2:s>LNB</ns2:s>
-                        <ns2:sid>LNB|LNC10-000020315</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
-                        <ns2:s>NKC</ns2:s>
-                        <ns2:sid>NKC|jn19990000712</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
-                        <ns2:s>BNC</ns2:s>
-                        <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Scener ur ett äktenskap.</ns2:title>
                   </ns2:work>
@@ -7237,12 +7451,10 @@
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
-                        <ns2:s>SUDOC</ns2:s>
-                        <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>LNB</ns2:s>
                         <ns2:sid>LNB|LNC10-000020315</ns2:sid>
                         <ns2:s>BNF</ns2:s>
@@ -7278,15 +7490,6 @@
                      </ns2:sources>
                      <ns2:title>Scènes uit een huwelijk</ns2:title>
                   </ns2:work>
-                  <ns2:work>
-                     <ns2:sources>
-                        <ns2:s>NUKAT</ns2:s>
-                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>SELIBR</ns2:s>
-                        <ns2:sid>SELIBR|177819</ns2:sid>
-                     </ns2:sources>
-                     <ns2:title>Sceny z życia małżeńskiego</ns2:title>
-                  </ns2:work>
                   <ns2:work id="VIAF|309494226">
                      <ns2:sources>
                         <ns2:s>XR</ns2:s>
@@ -7305,6 +7508,8 @@
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
@@ -7324,6 +7529,8 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>LAC</ns2:s>
                         <ns2:sid>LAC|0006F3147</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                      </ns2:sources>
                      <ns2:title>The serpent's egg Jajo węża</ns2:title>
                   </ns2:work>
@@ -7368,7 +7575,7 @@
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
-                     <ns2:title>The Silence</ns2:title>
+                     <ns2:title>The silence</ns2:title>
                   </ns2:work>
                   <ns2:work id="VIAF|309559149">
                      <ns2:sources>
@@ -7404,6 +7611,8 @@
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>NLI</ns2:s>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
                         <ns2:sid>SUDOC|03201192X</ns2:sid>
@@ -7418,6 +7627,8 @@
                         <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|180922939</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Skammen.</ns2:title>
@@ -7440,6 +7651,8 @@
                   <ns2:work id="VIAF|212906762">
                      <ns2:sources>
                         <ns2:s>NLP</ns2:s>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|11891425</ns2:sid>
                         <ns2:s>DNB</ns2:s>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79054388</ns2:sid>
@@ -7452,12 +7665,12 @@
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:sid>SUDOC|108981908</ns2:sid>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>NKC</ns2:s>
                         <ns2:sid>NKC|jn19990000712</ns2:sid>
-                        <ns2:s>BNF</ns2:s>
-                        <ns2:sid>BNF|11891425</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
@@ -7485,6 +7698,8 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>KRNLK</ns2:s>
                         <ns2:sid>KRNLK|KAC199602296</ns2:sid>
                         <ns2:s>BNF</ns2:s>
@@ -7498,10 +7713,14 @@
                      <ns2:sources>
                         <ns2:s>NUKAT</ns2:s>
                         <ns2:sid>NUKAT|n  93080240</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>BIBSYS</ns2:s>
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
                      </ns2:sources>
@@ -7521,6 +7740,8 @@
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
                         <ns2:s>BNC</ns2:s>
@@ -7554,6 +7775,8 @@
                         <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>XR</ns2:s>
                         <ns2:sid>XR|VIAFWORK28889891</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
                      </ns2:sources>
@@ -7567,6 +7790,15 @@
                         <ns2:sid>BNF|11891425</ns2:sid>
                      </ns2:sources>
                      <ns2:title>La source</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|11891425</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Sourires d'une nuit d'été</ns2:title>
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
@@ -7596,8 +7828,12 @@
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Till glädje</ns2:title>
                   </ns2:work>
@@ -7605,8 +7841,12 @@
                      <ns2:sources>
                         <ns2:s>BIBSYS</ns2:s>
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>DBC</ns2:s>
                         <ns2:sid>DBC|87097968118557</ns2:sid>
                      </ns2:sources>
@@ -7627,12 +7867,16 @@
                   </ns2:work>
                   <ns2:work id="VIAF|197035103">
                      <ns2:sources>
+                        <ns2:s>SUDOC</ns2:s>
+                        <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>BIBSYS</ns2:s>
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
                         <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>SUDOC</ns2:s>
-                        <ns2:sid>SUDOC|026720884</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
                         <ns2:sid>SUDOC|184104742</ns2:sid>
@@ -7666,6 +7910,8 @@
                         <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>NKC</ns2:s>
                         <ns2:sid>NKC|jn19990000712</ns2:sid>
                         <ns2:s>BNF</ns2:s>
@@ -7717,24 +7963,17 @@
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>SUDOC</ns2:s>
                         <ns2:sid>SUDOC|068941323</ns2:sid>
-                        <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
+                        <ns2:sid>SUDOC|026720884</ns2:sid>
                         <ns2:s>KRNLK</ns2:s>
                         <ns2:sid>KRNLK|KAC199602296</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Vargtimmen.</ns2:title>
-                  </ns2:work>
-                  <ns2:work>
-                     <ns2:sources>
-                        <ns2:s>SUDOC</ns2:s>
-                        <ns2:sid>SUDOC|026720884</ns2:sid>
-                        <ns2:s>BNF</ns2:s>
-                        <ns2:sid>BNF|11891425</ns2:sid>
-                     </ns2:sources>
-                     <ns2:title>Vers la joie</ns2:title>
                   </ns2:work>
                   <ns2:work id="VIAF|177034547">
                      <ns2:sources>
@@ -7752,29 +7991,12 @@
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:sid>SUDOC|178475580</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX4579283</ns2:sid>
                         <ns2:s>BNF</ns2:s>
                         <ns2:sid>BNF|11891425</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Viskningar och rop.</ns2:title>
-                  </ns2:work>
-                  <ns2:work>
-                     <ns2:sources>
-                        <ns2:s>DNB</ns2:s>
-                        <ns2:sid>DNB|118509519</ns2:sid>
-                        <ns2:s>NUKAT</ns2:s>
-                        <ns2:sid>NUKAT|n  93080240</ns2:sid>
-                        <ns2:s>LC</ns2:s>
-                        <ns2:sid>LC|n  79054388</ns2:sid>
-                        <ns2:s>NKC</ns2:s>
-                        <ns2:sid>NKC|jn19990000712</ns2:sid>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
-                        <ns2:s>SELIBR</ns2:s>
-                        <ns2:sid>SELIBR|177819</ns2:sid>
-                        <ns2:s>BNC</ns2:s>
-                        <ns2:sid>BNC|a10049332</ns2:sid>
-                     </ns2:sources>
-                     <ns2:title>Wie in einem Spiegel : Drehbuch</ns2:title>
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
@@ -7791,21 +8013,23 @@
                         <ns2:s>BNC</ns2:s>
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
-                     <ns2:title>Wild strawberries : a film</ns2:title>
+                     <ns2:title>Wild strawberries</ns2:title>
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
-                        <ns2:s>BIBSYS</ns2:s>
-                        <ns2:sid>BIBSYS|90059956</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|118509519</ns2:sid>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
                         <ns2:s>NTA</ns2:s>
                         <ns2:sid>NTA|068677626</ns2:sid>
-                        <ns2:s>KRNLK</ns2:s>
-                        <ns2:sid>KRNLK|KAC199602296</ns2:sid>
                      </ns2:sources>
-                     <ns2:title>Winter light</ns2:title>
+                     <ns2:title>Wilde Erdbeeren und andere Filmerzählungen</ns2:title>
                   </ns2:work>
                   <ns2:work>
                      <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
                         <ns2:s>BIBSYS</ns2:s>
                         <ns2:sid>BIBSYS|90059956</ns2:sid>
                         <ns2:s>SELIBR</ns2:s>
@@ -7818,6 +8042,15 @@
                         <ns2:sid>BNC|a10049332</ns2:sid>
                      </ns2:sources>
                      <ns2:title>Die Zauberflöte</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|177819</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|068677626</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Zondagskinderen : roman</ns2:title>
                   </ns2:work>
                </ns2:titles>
                <ns2:history>
@@ -7901,10 +8134,10 @@
                           time="2017-03-13T14:45:10.767482+00:00"
                           type="add"/>
                   <ns2:ht recid="BNE|XX4579283"
-                          time="2017-03-27T21:24:34.129386+00:00"
-                          type="delete"/>
+                          time="2017-04-11T20:43:45.094638+00:00"
+                          type="add"/>
                </ns2:history>
-               <ns2:creationtime>2017-04-01T14:59:30.045691+00:00</ns2:creationtime>
+               <ns2:creationtime>2017-05-01T18:06:33.386186+00:00</ns2:creationtime>
             </ns2:VIAFCluster>
          </recordData>
          <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
@@ -7913,20 +8146,18 @@
    <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
                                 xsi:type="ns3:echoedSearchRetrieveRequestType">
       <version xsi:type="xsd:string">1.1</version>
-      <query xsi:type="xsd:string">local.personalNames any "إنجمار ليكبوس"</query>
+      <query xsi:type="xsd:string">local.viafID any "110097018"</query>
       <xQuery>
          <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
                            xsi:type="ns4:searchClauseType">
-            <ns4:index xsi:type="xsd:string">local.personalNames</ns4:index>
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
             <ns4:relation xsi:type="ns4:relationType">
                <ns4:value xsi:type="xsd:string">any</ns4:value>
             </ns4:relation>
-            <ns4:term xsi:type="xsd:string">إنجمار ليكبوس</ns4:term>
+            <ns4:term xsi:type="xsd:string">110097018</ns4:term>
          </ns4:searchClause>
       </xQuery>
-      <maximumRecords xsi:type="xsd:nonNegativeInteger">5</maximumRecords>
       <recordSchema xsi:type="xsd:string">default</recordSchema>
-      <sortKeys xsi:type="xsd:string">name</sortKeys>
    </echoedSearchRetrieveRequest>
    <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
       <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">

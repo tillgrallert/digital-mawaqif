@@ -54,6 +54,24 @@
                         <ns2:subfield code="a">Aldridge, Sarah</ns2:subfield>
                      </ns2:datafield>
                      <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|073271942</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|073271942</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="lccn"/>LC|n  79020976</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000021785063</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>ISNI|0000000021785063</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Aldridge, Sarah</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
                         <ns2:s>LC</ns2:s>
                         <ns2:sid>LC|n  79020976</ns2:sid>
                      </ns2:sources>
@@ -67,24 +85,6 @@
                            <ns2:match type="viafid"/>ISNI|0000000021785063</ns2:link>
                         <ns2:link>
                            <ns2:match type="suggested"/>WKP|Q7422046</ns2:link>
-                     </ns2:links>
-                  </ns2:mainHeadingEl>
-                  <ns2:mainHeadingEl>
-                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
-                        <ns2:subfield code="a">Aldridge, Sarah</ns2:subfield>
-                     </ns2:datafield>
-                     <ns2:sources>
-                        <ns2:s>NTA</ns2:s>
-                        <ns2:sid>NTA|073271942</ns2:sid>
-                     </ns2:sources>
-                     <ns2:id>NTA|073271942</ns2:id>
-                     <ns2:links>
-                        <ns2:link>
-                           <ns2:match type="lccn"/>LC|n  79020976</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="suggested"/>ISNI|0000000021785063</ns2:link>
-                        <ns2:link>
-                           <ns2:match type="suggested"/>ISNI|0000000021785063</ns2:link>
                      </ns2:links>
                   </ns2:mainHeadingEl>
                   <ns2:mainHeadingEl>
@@ -436,7 +436,7 @@
                           type="delete"/>
                   <ns2:ht recid="WKP|Q7422046" time="2015-04-14T18:56:54+00:00" type="add"/>
                </ns2:history>
-               <ns2:creationtime>2017-04-01T15:30:49.180753+00:00</ns2:creationtime>
+               <ns2:creationtime>2017-05-01T18:34:04.726280+00:00</ns2:creationtime>
             </ns2:VIAFCluster>
          </recordData>
          <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
@@ -445,20 +445,18 @@
    <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
                                 xsi:type="ns3:echoedSearchRetrieveRequestType">
       <version xsi:type="xsd:string">1.1</version>
-      <query xsi:type="xsd:string">local.personalNames any "الدريدج كليفر"</query>
+      <query xsi:type="xsd:string">local.viafID any "67734172"</query>
       <xQuery>
          <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
                            xsi:type="ns4:searchClauseType">
-            <ns4:index xsi:type="xsd:string">local.personalNames</ns4:index>
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
             <ns4:relation xsi:type="ns4:relationType">
                <ns4:value xsi:type="xsd:string">any</ns4:value>
             </ns4:relation>
-            <ns4:term xsi:type="xsd:string">الدريدج كليفر</ns4:term>
+            <ns4:term xsi:type="xsd:string">67734172</ns4:term>
          </ns4:searchClause>
       </xQuery>
-      <maximumRecords xsi:type="xsd:nonNegativeInteger">5</maximumRecords>
       <recordSchema xsi:type="xsd:string">default</recordSchema>
-      <sortKeys xsi:type="xsd:string">name</sortKeys>
    </echoedSearchRetrieveRequest>
    <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
       <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">

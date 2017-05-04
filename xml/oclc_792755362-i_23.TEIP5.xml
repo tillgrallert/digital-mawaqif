@@ -4,7 +4,7 @@
          <titleStmt xml:lang="en">
             <title xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
 <editor ref="https://viaf.org/viaf/27059798">
-                                <persName xml:lang="ar">أدونيس</persName>
+                                <persName xml:lang="ar" ref="viaf:27059798">أدونيس</persName>
                                 <persName xml:lang="ar-Latn-x-ijmes">Adūnīs</persName>
                             </editor>
             <respStmt xml:lang="en">
@@ -35,7 +35,7 @@
                   <title level="j" xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
                   <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">li-l-ḥurriyya, wa-l-ibdāʿ wa-l-taghayyur</title>
                   <editor ref="https://viaf.org/viaf/27059798" xml:lang="en">
-                     <persName xml:lang="ar">أدونيس</persName>
+                     <persName xml:lang="ar" ref="viaf:27059798">أدونيس</persName>
                      <persName xml:lang="ar-Latn-x-ijmes">Adūnīs</persName>
                   </editor>
                   <imprint xml:lang="en">
@@ -79,7 +79,7 @@
                                 practices</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc><tei:change when="2017-02-21" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change><change when="2016-05-18" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change when="2017-05-04" who="pers_TG">Added references to VIAF IDs to <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema">persName</tei:gi>s without such references based on  <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema">person</tei:gi>s mentioned in <tei:ref xmlns:xs="http://www.w3.org/2001/XMLSchema" target="/Volumes/Dessau HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/digital-mawaqif/tei/entities_master.TEIP5.xml">/Volumes/Dessau HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/digital-mawaqif/tei/entities_master.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><tei:change when="2017-02-21" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change><change when="2016-05-18" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-05-18" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion of the table of content from 
                             HTML available at archive.sakhrit.co and adding a computed sequence of facsimiles linking to the same website.</change>
       </revisionDesc>
@@ -1305,7 +1305,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880505&#34;ISSUEID=15738&#34;AID=350955" xml:lang="ar" xml:id="div_3.d1e2358">
             <head xml:lang="ar" xml:id="head_1.d1e2360">هل تشتعل الغابة مرة أخرى</head>
             <byline xml:lang="ar" xml:id="byline_1.d1e2363">
-               <persName xml:lang="ar" xml:id="persName_5.d1e2365">حليم بركات</persName>
+               <persName xml:lang="ar" xml:id="persName_5.d1e2365" ref="viaf:36939376">حليم بركات</persName>
             </byline>
             <pb ed="print" n="4" facs="#facs_4" xml:id="pb_4.d1e2369"/>
             
@@ -1314,7 +1314,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880507&#34;ISSUEID=15738&#34;AID=350956" xml:lang="ar" xml:id="div_4.d1e2376">
             <head xml:lang="ar" xml:id="head_2.d1e2378">شهادات حول العنف والثقافة: قد يكون العنف أدنى إلى قلب الله أحيانا</head>
             <byline xml:lang="ar" xml:id="byline_2.d1e2381">
-               <persName xml:lang="ar" xml:id="persName_6.d1e2383">جورج خضر</persName>
+               <persName xml:lang="ar" xml:id="persName_6.d1e2383" ref="viaf:79139840">جورج خضر</persName>
             </byline>
             <pb ed="print" n="6" facs="#facs_6" xml:id="pb_7.d1e2387"/>
             <pb ed="print" n="7" facs="#facs_7" xml:id="pb_8.d1e2389"/>
@@ -1324,7 +1324,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880510&#34;ISSUEID=15738&#34;AID=350957" xml:lang="ar" xml:id="div_5.d1e2397">
             <head xml:lang="ar" xml:id="head_3.d1e2399">كيف نزحزح قروننا الوسطى؟</head>
             <byline xml:lang="ar" xml:id="byline_3.d1e2402">
-               <persName xml:lang="ar" xml:id="persName_7.d1e2404">نجيب المانع</persName>
+               <persName xml:lang="ar" xml:id="persName_7.d1e2404" ref="viaf:3795281">نجيب المانع</persName>
             </byline>
             <pb ed="print" n="9" facs="#facs_9" xml:id="pb_11.d1e2408"/>
             <pb ed="print" n="10" facs="#facs_10" xml:id="pb_12.d1e2410"/>
@@ -1340,7 +1340,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880515&#34;ISSUEID=15738&#34;AID=350958" xml:lang="ar" xml:id="div_6.d1e2430">
             <head xml:lang="ar" xml:id="head_4.d1e2432">ضوء في الظلام الكبير</head>
             <byline xml:lang="ar" xml:id="byline_4.d1e2435">
-               <persName xml:lang="ar" xml:id="persName_8.d1e2437">حليم جرداق</persName>
+               <persName xml:lang="ar" xml:id="persName_8.d1e2437" ref="viaf:29405383">حليم جرداق</persName>
             </byline>
             <pb ed="print" n="18" facs="#facs_18" xml:id="pb_21.d1e2441"/>
             <pb ed="print" n="19" facs="#facs_19" xml:id="pb_22.d1e2443"/>
@@ -1412,7 +1412,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880540&#34;ISSUEID=15738&#34;AID=350961" xml:lang="ar" xml:id="div_9.d1e2583">
             <head xml:lang="ar" xml:id="head_7.d1e2585">سقوط قرية</head>
             <byline xml:lang="ar" xml:id="byline_7.d1e2588">
-               <persName xml:lang="ar" xml:id="persName_11.d1e2590">إلياس شوفاني</persName>
+               <persName xml:lang="ar" xml:id="persName_11.d1e2590" ref="viaf:21001277">إلياس شوفاني</persName>
             </byline>
             <pb ed="print" n="69" facs="#facs_69" xml:id="pb_75.d1e2594"/>
             <pb ed="print" n="70" facs="#facs_70" xml:id="pb_76.d1e2596"/>
@@ -1451,7 +1451,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880565&#34;ISSUEID=15738&#34;AID=350963" xml:lang="ar" xml:id="div_11.d1e2666">
             <head xml:lang="ar" xml:id="head_9.d1e2668">العنف كبنية اجتماعية: وضع المرأة اللبنانية، في منطقة الهرمل</head>
             <byline xml:lang="ar" xml:id="byline_9.d1e2671">
-               <persName xml:lang="ar" xml:id="persName_13.d1e2673">إلهام كلاب</persName>
+               <persName xml:lang="ar" xml:id="persName_13.d1e2673" ref="viaf:27477723">إلهام كلاب</persName>
             </byline>
             <pb ed="print" n="94" facs="#facs_94" xml:id="pb_102.d1e2677"/>
             <pb ed="print" n="95" facs="#facs_95" xml:id="pb_103.d1e2679"/>

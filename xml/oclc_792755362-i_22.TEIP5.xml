@@ -4,7 +4,7 @@
          <titleStmt xml:lang="en">
             <title xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
 <editor ref="https://viaf.org/viaf/27059798">
-                                <persName xml:lang="ar">أدونيس</persName>
+                                <persName xml:lang="ar" ref="viaf:27059798">أدونيس</persName>
                                 <persName xml:lang="ar-Latn-x-ijmes">Adūnīs</persName>
                             </editor>
             <respStmt xml:lang="en">
@@ -35,7 +35,7 @@
                   <title level="j" xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
                   <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">li-l-ḥurriyya, wa-l-ibdāʿ wa-l-taghayyur</title>
                   <editor ref="https://viaf.org/viaf/27059798" xml:lang="en">
-                     <persName xml:lang="ar">أدونيس</persName>
+                     <persName xml:lang="ar" ref="viaf:27059798">أدونيس</persName>
                      <persName xml:lang="ar-Latn-x-ijmes">Adūnīs</persName>
                   </editor>
                   <imprint xml:lang="en">
@@ -79,7 +79,7 @@
                                 practices</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc><tei:change when="2017-02-21" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change><change when="2016-05-18" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change when="2017-05-04" who="pers_TG">Added references to VIAF IDs to <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema">persName</tei:gi>s without such references based on  <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema">person</tei:gi>s mentioned in <tei:ref xmlns:xs="http://www.w3.org/2001/XMLSchema" target="/Volumes/Dessau HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/digital-mawaqif/tei/entities_master.TEIP5.xml">/Volumes/Dessau HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/digital-mawaqif/tei/entities_master.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><tei:change when="2017-02-21" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change><change when="2016-05-18" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-05-18" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion of the table of content from 
                             HTML available at archive.sakhrit.co and adding a computed sequence of facsimiles linking to the same website.</change>
       </revisionDesc>
@@ -1305,7 +1305,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880385&#34;ISSUEID=15737&#34;AID=350946" xml:lang="ar" xml:id="div_3.d1e2358">
             <head xml:lang="ar" xml:id="head_1.d1e2360">عنف التحرر</head>
             <byline xml:lang="ar" xml:id="byline_1.d1e2363">
-               <persName xml:lang="ar" xml:id="persName_5.d1e2365">علي أحمد سعيد إسبر (أدونيس)</persName>
+               <persName xml:lang="ar" xml:id="persName_5.d1e2365" ref="viaf:27059798">علي أحمد سعيد إسبر (أدونيس)</persName>
             </byline>
             <pb ed="print" n="4" facs="#facs_4" xml:id="pb_4.d1e2369"/>
             <pb ed="print" n="5" facs="#facs_5" xml:id="pb_5.d1e2371"/>
@@ -1316,7 +1316,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880389&#34;ISSUEID=15737&#34;AID=350947" xml:lang="ar" xml:id="div_4.d1e2381">
             <head xml:lang="ar" xml:id="head_2.d1e2383">ملاحظات حول الحركة المسرحية في لبنان</head>
             <byline xml:lang="ar" xml:id="byline_2.d1e2386">
-               <persName xml:lang="ar" xml:id="persName_6.d1e2388">سمير الصايغ</persName>
+               <persName xml:lang="ar" xml:id="persName_6.d1e2388" ref="viaf:117195392">سمير الصايغ</persName>
             </byline>
             <pb ed="print" n="8" facs="#facs_8" xml:id="pb_9.d1e2392"/>
             <pb ed="print" n="9" facs="#facs_9" xml:id="pb_10.d1e2394"/>
@@ -1333,7 +1333,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880399&#34;ISSUEID=15737&#34;AID=350948" xml:lang="ar" xml:id="div_5.d1e2418">
             <head xml:lang="ar" xml:id="head_3.d1e2420">في إيقاع الشعر العربي: نحو بديل جذري لعروض الخليل</head>
             <byline xml:lang="ar" xml:id="byline_3.d1e2423">
-               <persName xml:lang="ar" xml:id="persName_7.d1e2425">كمال أبو ديب</persName>
+               <persName xml:lang="ar" xml:id="persName_7.d1e2425" ref="viaf:22277262">كمال أبو ديب</persName>
             </byline>
             <pb ed="print" n="18" facs="#facs_18" xml:id="pb_20.d1e2429"/>
             <pb ed="print" n="19" facs="#facs_19" xml:id="pb_21.d1e2431"/>
@@ -1463,7 +1463,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880495&#34;ISSUEID=15737&#34;AID=350952" xml:lang="ar" xml:id="div_9.d1e2695">
             <head xml:lang="ar" xml:id="head_7.d1e2697">حول كمال الحاج والفلسفة اللبنانية</head>
             <byline xml:lang="ar" xml:id="byline_7.d1e2700">
-               <persName xml:lang="ar" xml:id="persName_11.d1e2702">روز غريب</persName>
+               <persName xml:lang="ar" xml:id="persName_11.d1e2702" ref="viaf:32112386">روز غريب</persName>
             </byline>
             
          </div>

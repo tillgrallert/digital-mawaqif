@@ -4,7 +4,7 @@
          <titleStmt xml:lang="en">
             <title xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
 <editor ref="https://viaf.org/viaf/27059798">
-                                <persName xml:lang="ar">أدونيس</persName>
+                                <persName xml:lang="ar" ref="viaf:27059798">أدونيس</persName>
                                 <persName xml:lang="ar-Latn-x-ijmes">Adūnīs</persName>
                             </editor>
             <respStmt xml:lang="en">
@@ -35,7 +35,7 @@
                   <title level="j" xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
                   <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">li-l-ḥurriyya, wa-l-ibdāʿ wa-l-taghayyur</title>
                   <editor ref="https://viaf.org/viaf/27059798" xml:lang="en">
-                     <persName xml:lang="ar">أدونيس</persName>
+                     <persName xml:lang="ar" ref="viaf:27059798">أدونيس</persName>
                      <persName xml:lang="ar-Latn-x-ijmes">Adūnīs</persName>
                   </editor>
                   <imprint xml:lang="en">
@@ -79,7 +79,7 @@
                                 practices</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc><tei:change when="2017-02-21" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change><change when="2016-05-18" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+      <revisionDesc><tei:change when="2017-05-04" who="pers_TG">Added references to VIAF IDs to <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema">persName</tei:gi>s without such references based on  <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema">person</tei:gi>s mentioned in <tei:ref xmlns:xs="http://www.w3.org/2001/XMLSchema" target="/Volumes/Dessau HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/digital-mawaqif/tei/entities_master.TEIP5.xml">/Volumes/Dessau HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/digital-mawaqif/tei/entities_master.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><tei:change when="2017-02-21" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change><change when="2016-05-18" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
          <change when="2016-05-18" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion of the table of content from 
                             HTML available at archive.sakhrit.co and adding a computed sequence of facsimiles linking to the same website.</change>
       </revisionDesc>
@@ -1310,7 +1310,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1885941&#34;ISSUEID=15770&#34;AID=351478" xml:lang="ar" xml:id="div_3.d1e2369">
             <head xml:lang="ar" xml:id="head_1.d1e2371">أوراين</head>
             <byline xml:lang="ar" xml:id="byline_1.d1e2374">
-               <persName xml:lang="ar" xml:id="persName_5.d1e2376">حليم جرداق</persName>
+               <persName xml:lang="ar" xml:id="persName_5.d1e2376" ref="viaf:29405383">حليم جرداق</persName>
             </byline>
             <pb ed="print" n="9" facs="#facs_9" xml:id="pb_9.d1e2380"/>
             <pb ed="print" n="10" facs="#facs_10" xml:id="pb_10.d1e2382"/>
@@ -1322,7 +1322,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1885946&#34;ISSUEID=15770&#34;AID=351479" xml:lang="ar" xml:id="div_4.d1e2394">
             <head xml:lang="ar" xml:id="head_2.d1e2396">حول هذا العدد الخاص</head>
             <byline xml:lang="ar" xml:id="byline_2.d1e2399">
-               <persName xml:lang="ar" xml:id="persName_6.d1e2401">حليم بركات</persName>
+               <persName xml:lang="ar" xml:id="persName_6.d1e2401" ref="viaf:36939376">حليم بركات</persName>
             </byline>
             <pb ed="print" n="14" facs="#facs_14" xml:id="pb_15.d1e2405"/>
             <pb ed="print" n="15" facs="#facs_15" xml:id="pb_16.d1e2407"/>
@@ -1333,7 +1333,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1885949&#34;ISSUEID=15770&#34;AID=351480" xml:lang="ar" xml:id="div_5.d1e2418">
             <head xml:lang="ar" xml:id="head_3.d1e2420">كيف أكتب</head>
             <byline xml:lang="ar" xml:id="byline_3.d1e2423">
-               <persName xml:lang="ar" xml:id="persName_7.d1e2425">صنع الله إبراهيم</persName>
+               <persName xml:lang="ar" xml:id="persName_7.d1e2425" ref="viaf:22217459">صنع الله إبراهيم</persName>
             </byline>
             <pb ed="print" n="18" facs="#facs_18" xml:id="pb_20.d1e2429"/>
             <pb ed="print" n="19" facs="#facs_19" xml:id="pb_21.d1e2431"/>
@@ -1349,7 +1349,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1885958&#34;ISSUEID=15770&#34;AID=351481" xml:lang="ar" xml:id="div_6.d1e2451">
             <head xml:lang="ar" xml:id="head_4.d1e2453">عصر الغضب</head>
             <byline xml:lang="ar" xml:id="byline_4.d1e2456">
-               <persName xml:lang="ar" xml:id="persName_8.d1e2458">محمد عز الدين التازي</persName>
+               <persName xml:lang="ar" xml:id="persName_8.d1e2458" ref="viaf:243481336">محمد عز الدين التازي</persName>
             </byline>
             <pb ed="print" n="27" facs="#facs_27" xml:id="pb_30.d1e2462"/>
             <pb ed="print" n="28" facs="#facs_28" xml:id="pb_31.d1e2464"/>
@@ -1366,7 +1366,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1885968&#34;ISSUEID=15770&#34;AID=351482" xml:lang="ar" xml:id="div_7.d1e2487">
             <head xml:lang="ar" xml:id="head_5.d1e2489">السؤال والمعرفة: حوار</head>
             <byline xml:lang="ar" xml:id="byline_5.d1e2492">
-               <persName xml:lang="ar" xml:id="persName_9.d1e2494">إدوار الخراط</persName>
+               <persName xml:lang="ar" xml:id="persName_9.d1e2494" ref="viaf:96958326">إدوار الخراط</persName>
             </byline>
             <pb ed="print" n="37" facs="#facs_37" xml:id="pb_41.d1e2498"/>
             <pb ed="print" n="38" facs="#facs_38" xml:id="pb_42.d1e2500"/>
@@ -1388,7 +1388,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1885983&#34;ISSUEID=15770&#34;AID=351483" xml:lang="ar" xml:id="div_8.d1e2534">
             <head xml:lang="ar" xml:id="head_6.d1e2536">في ليل بهيم</head>
             <byline xml:lang="ar" xml:id="byline_6.d1e2539">
-               <persName xml:lang="ar" xml:id="persName_10.d1e2541">حنان الشيخ</persName>
+               <persName xml:lang="ar" xml:id="persName_10.d1e2541" ref="viaf:24636311">حنان الشيخ</persName>
             </byline>
             <pb ed="print" n="52" facs="#facs_52" xml:id="pb_57.d1e2545"/>
             <pb ed="print" n="53" facs="#facs_53" xml:id="pb_58.d1e2547"/>
@@ -1399,7 +1399,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1885987&#34;ISSUEID=15770&#34;AID=351484" xml:lang="ar" xml:id="div_9.d1e2557">
             <head xml:lang="ar" xml:id="head_7.d1e2559">رقابة المجتمع</head>
             <byline xml:lang="ar" xml:id="byline_7.d1e2562">
-               <persName xml:lang="ar" xml:id="persName_11.d1e2564">عبد الرحمن منيف</persName>
+               <persName xml:lang="ar" xml:id="persName_11.d1e2564" ref="viaf:95290221">عبد الرحمن منيف</persName>
             </byline>
             <pb ed="print" n="56" facs="#facs_56" xml:id="pb_62.d1e2568"/>
             <pb ed="print" n="57" facs="#facs_57" xml:id="pb_63.d1e2570"/>
@@ -1425,7 +1425,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886006&#34;ISSUEID=15770&#34;AID=351485" xml:lang="ar" xml:id="div_10.d1e2612">
             <head xml:lang="ar" xml:id="head_8.d1e2614">السيرورة والحقيقة</head>
             <byline xml:lang="ar" xml:id="byline_8.d1e2617">
-               <persName xml:lang="ar" xml:id="persName_12.d1e2619">حنا مينه</persName>
+               <persName xml:lang="ar" xml:id="persName_12.d1e2619" ref="viaf:76343348">حنا مينه</persName>
             </byline>
             <pb ed="print" n="75" facs="#facs_75" xml:id="pb_82.d1e2623"/>
             <pb ed="print" n="76" facs="#facs_76" xml:id="pb_83.d1e2625"/>
@@ -1461,7 +1461,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886028&#34;ISSUEID=15770&#34;AID=351487" xml:lang="ar" xml:id="div_12.d1e2689">
             <head xml:lang="ar" xml:id="head_10.d1e2691">القلق.. التجريب.. الإبداع</head>
             <byline xml:lang="ar" xml:id="byline_10.d1e2694">
-               <persName xml:lang="ar" xml:id="persName_14.d1e2696">جمال الغيطاني</persName>
+               <persName xml:lang="ar" xml:id="persName_14.d1e2696" ref="viaf:61555872">جمال الغيطاني</persName>
             </byline>
             <pb ed="print" n="97" facs="#facs_97" xml:id="pb_106.d1e2700"/>
             <pb ed="print" n="98" facs="#facs_98" xml:id="pb_107.d1e2702"/>
@@ -1484,7 +1484,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886044&#34;ISSUEID=15770&#34;AID=351488" xml:lang="ar" xml:id="div_13.d1e2738">
             <head xml:lang="ar" xml:id="head_11.d1e2740">تجربة جيل</head>
             <byline xml:lang="ar" xml:id="byline_11.d1e2743">
-               <persName xml:lang="ar" xml:id="persName_15.d1e2745">يوسف القعيد</persName>
+               <persName xml:lang="ar" xml:id="persName_15.d1e2745" ref="viaf:17270171">يوسف القعيد</persName>
             </byline>
             <pb ed="print" n="113" facs="#facs_113" xml:id="pb_123.d1e2749"/>
             <pb ed="print" n="114" facs="#facs_114" xml:id="pb_124.d1e2751"/>
@@ -1512,7 +1512,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886065&#34;ISSUEID=15770&#34;AID=351489" xml:lang="ar" xml:id="div_14.d1e2798">
             <head xml:lang="ar" xml:id="head_12.d1e2800">النص والحقيقة : حوار الأسئلة، أسئلة الحوار</head>
             <byline xml:lang="ar" xml:id="byline_12.d1e2803">
-               <persName xml:lang="ar" xml:id="persName_16.d1e2805">كمال أبو ديب</persName>
+               <persName xml:lang="ar" xml:id="persName_16.d1e2805" ref="viaf:22277262">كمال أبو ديب</persName>
             </byline>
             <pb ed="print" n="134" facs="#facs_134" xml:id="pb_145.d1e2809"/>
             <pb ed="print" n="135" facs="#facs_135" xml:id="pb_146.d1e2811"/>
@@ -1548,7 +1548,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886094&#34;ISSUEID=15770&#34;AID=351490" xml:lang="ar" xml:id="div_15.d1e2875">
             <head xml:lang="ar" xml:id="head_13.d1e2877">التعدد اللغوي في الرواية العربية: تفتيت تجانس النص، تحويل الشكل وتوسيع المتخيل</head>
             <byline xml:lang="ar" xml:id="byline_13.d1e2880">
-               <persName xml:lang="ar" xml:id="persName_17.d1e2882">محمد برادة</persName>
+               <persName xml:lang="ar" xml:id="persName_17.d1e2882" ref="viaf:98522437">محمد برادة</persName>
             </byline>
             <pb ed="print" n="163" facs="#facs_163" xml:id="pb_175.d1e2886"/>
             <pb ed="print" n="164" facs="#facs_164" xml:id="pb_176.d1e2888"/>
@@ -1572,7 +1572,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886111&#34;ISSUEID=15770&#34;AID=351491" xml:lang="ar" xml:id="div_16.d1e2926">
             <head xml:lang="ar" xml:id="head_14.d1e2928">نحو نظرية علم - اجتماعية للرواية العربية</head>
             <byline xml:lang="ar" xml:id="byline_14.d1e2931">
-               <persName xml:lang="ar" xml:id="persName_18.d1e2933">حليم بركات</persName>
+               <persName xml:lang="ar" xml:id="persName_18.d1e2933" ref="viaf:36939376">حليم بركات</persName>
             </byline>
             <pb ed="print" n="180" facs="#facs_180" xml:id="pb_193.d1e2937"/>
             <pb ed="print" n="181" facs="#facs_181" xml:id="pb_194.d1e2939"/>
@@ -1608,7 +1608,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886140&#34;ISSUEID=15770&#34;AID=351492" xml:lang="ar" xml:id="div_17.d1e3004">
             <head xml:lang="ar" xml:id="head_15.d1e3006">الغواية</head>
             <byline xml:lang="ar" xml:id="byline_15.d1e3009">
-               <persName xml:lang="ar" xml:id="persName_19.d1e3011">عدلي رزق الله</persName>
+               <persName xml:lang="ar" xml:id="persName_19.d1e3011" ref="viaf:40321926">عدلي رزق الله</persName>
             </byline>
             <pb ed="print" n="209" facs="#facs_209" xml:id="pb_223.d1e3015"/>
             <pb ed="print" n="210" facs="#facs_210" xml:id="pb_224.d1e3017"/>
@@ -1619,7 +1619,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886144&#34;ISSUEID=15770&#34;AID=351493" xml:lang="ar" xml:id="div_18.d1e3027">
             <head xml:lang="ar" xml:id="head_16.d1e3029">قنديل للصغار، ومشكاة الكبار</head>
             <byline xml:lang="ar" xml:id="byline_16.d1e3032">
-               <persName xml:lang="ar" xml:id="persName_20.d1e3034">أسعد عرابي</persName>
+               <persName xml:lang="ar" xml:id="persName_20.d1e3034" ref="viaf:317172577">أسعد عرابي</persName>
             </byline>
             <pb ed="print" n="213" facs="#facs_213" xml:id="pb_228.d1e3038"/>
             <pb ed="print" n="214" facs="#facs_214" xml:id="pb_229.d1e3040"/>
@@ -1631,7 +1631,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886149&#34;ISSUEID=15770&#34;AID=351494" xml:lang="ar" xml:id="div_19.d1e3052">
             <head xml:lang="ar" xml:id="head_17.d1e3054">الماء والمرأة</head>
             <byline xml:lang="ar" xml:id="byline_17.d1e3057">
-               <persName xml:lang="ar" xml:id="persName_21.d1e3059">عيسى مخلوف</persName>
+               <persName xml:lang="ar" xml:id="persName_21.d1e3059" ref="viaf:27090564">عيسى مخلوف</persName>
             </byline>
             <pb ed="print" n="218" facs="#facs_218" xml:id="pb_234.d1e3063"/>
             <pb ed="print" n="219" facs="#facs_219" xml:id="pb_235.d1e3065"/>
@@ -1658,7 +1658,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886160&#34;ISSUEID=15770&#34;AID=351496" xml:lang="ar" xml:id="div_21.d1e3109">
             <head xml:lang="ar" xml:id="head_19.d1e3111">مختارات من الشعر الإسباني المعاصر</head>
             <byline xml:lang="ar" xml:id="byline_19.d1e3114">
-               <persName xml:lang="ar" xml:id="persName_23.d1e3116">كلارا خانيس</persName>
+               <persName xml:lang="ar" xml:id="persName_23.d1e3116" ref="viaf:7404678">كلارا خانيس</persName>
             </byline>
             <pb ed="print" n="231" facs="#facs_231" xml:id="pb_249.d1e3120"/>
             <pb ed="print" n="232" facs="#facs_232" xml:id="pb_250.d1e3122"/>
@@ -1670,7 +1670,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886161&#34;ISSUEID=15770&#34;AID=351497" xml:lang="ar" xml:id="div_22.d1e3134">
             <head xml:lang="ar" xml:id="head_20.d1e3136">احتضار</head>
             <byline xml:lang="ar" xml:id="byline_20.d1e3139">
-               <persName xml:lang="ar" xml:id="persName_24.d1e3141">بلاس دي أوتيرو</persName>
+               <persName xml:lang="ar" xml:id="persName_24.d1e3141" ref="viaf:22158847">بلاس دي أوتيرو</persName>
             </byline>
             <pb ed="print" n="236" facs="#facs_236" xml:id="pb_255.d1e3145"/>
             <pb ed="print" n="237" facs="#facs_237" xml:id="pb_256.d1e3147"/>
@@ -1692,7 +1692,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886169&#34;ISSUEID=15770&#34;AID=351499" xml:lang="ar" xml:id="div_24.d1e3181">
             <head xml:lang="ar" xml:id="head_22.d1e3183">شعاع الشك</head>
             <byline xml:lang="ar" xml:id="byline_22.d1e3186">
-               <persName xml:lang="ar" xml:id="persName_26.d1e3188">خوسيه مانويل كاباييرو بونالد</persName>
+               <persName xml:lang="ar" xml:id="persName_26.d1e3188" ref="viaf:76310135">خوسيه مانويل كاباييرو بونالد</persName>
             </byline>
             <pb ed="print" n="244" facs="#facs_244" xml:id="pb_265.d1e3192"/>
             
@@ -1776,7 +1776,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886188&#34;ISSUEID=15770&#34;AID=351508" xml:lang="ar" xml:id="div_33.d1e3353">
             <head xml:lang="ar" xml:id="head_31.d1e3355">الحديقة والبحر</head>
             <byline xml:lang="ar" xml:id="byline_31.d1e3358">
-               <persName xml:lang="ar" xml:id="persName_35.d1e3360">سنتشو غوتييريث</persName>
+               <persName xml:lang="ar" xml:id="persName_35.d1e3360" ref="viaf:87762458">سنتشو غوتييريث</persName>
             </byline>
             <pb ed="print" n="265" facs="#facs_265" xml:id="pb_295.d1e3364"/>
             
@@ -1785,7 +1785,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886190&#34;ISSUEID=15770&#34;AID=351509" xml:lang="ar" xml:id="div_34.d1e3371">
             <head xml:lang="ar" xml:id="head_32.d1e3373">دائرة الظلال</head>
             <byline xml:lang="ar" xml:id="byline_32.d1e3376">
-               <persName xml:lang="ar" xml:id="persName_36.d1e3378">كلارا خانيس</persName>
+               <persName xml:lang="ar" xml:id="persName_36.d1e3378" ref="viaf:7404678">كلارا خانيس</persName>
             </byline>
             <pb ed="print" n="267" facs="#facs_267" xml:id="pb_298.d1e3382"/>
             <pb ed="print" n="268" facs="#facs_268" xml:id="pb_299.d1e3384"/>
@@ -1808,7 +1808,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886199&#34;ISSUEID=15770&#34;AID=351511" xml:lang="ar" xml:id="div_36.d1e3420">
             <head xml:lang="ar" xml:id="head_34.d1e3422">خذ هيكلا عظيما لطائر... قراءة في رسوم آن سلاسيك</head>
             <byline xml:lang="ar" xml:id="byline_34.d1e3425">
-               <persName xml:lang="ar" xml:id="persName_38.d1e3427">شوقي عبد الأمير</persName>
+               <persName xml:lang="ar" xml:id="persName_38.d1e3427" ref="viaf:2465331">شوقي عبد الأمير</persName>
             </byline>
             <pb ed="print" n="276" facs="#facs_276" xml:id="pb_309.d1e3431"/>
             <pb ed="print" n="277" facs="#facs_277" xml:id="pb_310.d1e3433"/>
@@ -1819,7 +1819,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1886203&#34;ISSUEID=15770&#34;AID=351512" xml:lang="ar" xml:id="div_37.d1e3443">
             <head xml:lang="ar" xml:id="head_35.d1e3445">مقابسات: الهوية بين القدسي والصوفي</head>
             <byline xml:lang="ar" xml:id="byline_35.d1e3448">
-               <persName xml:lang="ar" xml:id="persName_39.d1e3450">نور الدين الزاهي</persName>
+               <persName xml:lang="ar" xml:id="persName_39.d1e3450" ref="viaf:29767124">نور الدين الزاهي</persName>
             </byline>
          </div>
       </body>

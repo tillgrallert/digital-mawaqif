@@ -28,8 +28,13 @@
              </author>
          </titleStmt>
           <publicationStmt xml:lang="en" xml:id="publicationStmt_1.d1e31">
-              <authority xml:lang="en" xml:id="authority_1.d1e33"> <persName xml:lang="en" xml:id="persName_3.d1e35"><forename xml:id="forename_2.d1e36">Till</forename>
-                    <surname xml:id="surname_2.d1e39">Grallert</surname></persName> <persName xml:lang="en" type="flattened" xml:id="persName_4.d1e42">TillGrallert</persName> </authority>
+              <authority xml:lang="en" xml:id="authority_1.d1e33"> 
+               <persName xml:lang="en" xml:id="persName_3.d1e35">
+                  <forename xml:id="forename_2.d1e36">Till</forename>
+                    <surname xml:id="surname_2.d1e39">Grallert</surname>
+               </persName> 
+               <persName xml:lang="en" type="flattened" xml:id="persName_4.d1e42">TillGrallert</persName> 
+            </authority>
               <pubPlace xml:lang="en" xml:id="pubPlace_1.d1e46">Berlin</pubPlace>
               <date when="2017" xml:lang="en" xml:id="date_1.d1e49">2017</date>
               <availability status="restricted" xml:lang="en" xml:id="availability_1.d1e52">
@@ -6591,9 +6596,83 @@
                   <tei:death>0</tei:death>
                </tei:person>
             </tei:listPerson> 
+            <tei:listPerson corresp="../../digital-mawaqif/xml/oclc_792755362-i_1920.TEIP5.xml">
+               <tei:person>
+                  <persName xml:lang="ar">عبد الله لحود</persName>
+                  <tei:persName type="flattened">عبداللهلحود</tei:persName>
+               </tei:person>
+               <tei:person>
+                  <persName xml:lang="ar">عمران القيسي</persName>
+                  <tei:persName type="flattened">عمرانالقيسي</tei:persName>
+               </tei:person>
+               <tei:person>
+                  <persName>هشام المانع</persName>
+                  <tei:persName type="flattened">هشامالمانع</tei:persName>
+               </tei:person>
+               <tei:person>
+                  <persName xml:lang="en">
+                     <forename>Virginia</forename>
+                        <surname>Clutterbuck</surname>
+                  </persName>
+                  <tei:persName type="flattened">VirginiaClutterbuck</tei:persName>
+               </tei:person>
+               <tei:person>
+                  <persName xml:lang="en">
+                     <forename>Sarah</forename>
+                        <surname>Maitland</surname>
+                  </persName>
+                  <tei:persName type="flattened">SarahMaitland</tei:persName>
+               </tei:person>
+               <tei:person>
+                  <persName xml:lang="en">
+                     <forename>Sally</forename>
+                        <surname>Purcell</surname>
+                  </persName>
+                  <tei:persName type="flattened">SallyPurcell</tei:persName>
+               </tei:person>
+               <tei:person>
+                  <persName>
+                     <forename>John</forename>
+                        <surname>Wain</surname>
+                  </persName>
+                  <tei:persName type="flattened">JohnWain</tei:persName>
+               </tei:person>
+               <tei:person>
+                  <persName>
+                     <forename>كمال</forename>
+                    <surname>ابو ديب</surname>
+                  </persName>
+                  <tei:persName type="flattened">كمالابوديب</tei:persName>
+               </tei:person>
+               <tei:person>
+                  <persName xml:lang="en-Arab-AR">
+                     <forename>سالي</forename>
+                        <surname>برسل</surname>
+                  </persName>
+                  <tei:persName type="flattened">ساليبرسل</tei:persName>
+               </tei:person>
+               <tei:person>
+                  <persName xml:lang="en-Arab-AR">
+                     <forename>فرجينيا</forename> 
+                     <surname>كلتربك</surname>
+                  </persName>
+                  <tei:persName type="flattened">فرجينياكلتربك</tei:persName>
+               </tei:person>
+               <tei:person>
+                  <persName xml:lang="en-Arab-AR">
+                     <forename>ساره</forename>
+                        <surname>ميتلاند</surname>
+                  </persName>
+                  <tei:persName type="flattened">سارهميتلاند</tei:persName>
+               </tei:person>
+            </tei:listPerson>
          </particDesc>
         </profileDesc>
       <revisionDesc xml:id="revisionDesc_1.d1e9824">
+         <tei:change when="2017-05-05" who="pers_TG">Added <tei:gi
+                    >listPerson</tei:gi> with <tei:gi
+                    >person</tei:gi>s mentioned in <tei:ref 
+                     target="../../digital-mawaqif/xml/oclc_792755362-i_1920.TEIP5.xml">../../digital-mawaqif/xml/oclc_792755362-i_1920.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change>
          <tei:change when="2017-05-05" who="pers_TG">Improved <tei:gi>person</tei:gi> nodes that had references to VIAF, by querying VIAF and adding  <tei:gi>birth</tei:gi>, <tei:gi>death</tei:gi>, and <tei:gi>idno</tei:gi>.</tei:change>
          <tei:change when="2017-05-04" who="pers_TG" xml:id="change_1.d1e9826">Improved <tei:gi xml:id="gi_1.d1e9828">person</tei:gi> nodes that had references to VIAF, by querying VIAF and adding  <tei:gi xml:id="gi_1.d1e9831">birth</tei:gi>, <tei:gi xml:id="gi_1.d1e9834">death</tei:gi>, and <tei:gi xml:id="gi_1.d1e9837">idno</tei:gi>.</tei:change>
          <tei:change when="2017-05-03" who="pers_TG" xml:id="change_1.d1e9841">Improved <tei:gi xml:id="gi_1.d1e9843">person</tei:gi> nodes that had references to VIAF, by querying VIAF and adding  <tei:gi xml:id="gi_1.d1e9846">birth</tei:gi>, <tei:gi xml:id="gi_1.d1e9849">death</tei:gi>, and <tei:gi xml:id="gi_1.d1e9852">idno</tei:gi>.</tei:change>

@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://rawgit.com/OpenArabicPE/OpenArabicPE_ODD/v0.1/schema/tei_periodical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/xsl" href="https://rawgit.com/tillgrallert/tei-boilerplate-arabic-editions/online/xslt-boilerplate/teibp_parameters.xsl"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:till="http://tillgrallert.github.io/xml" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:html="http://www.w3.org/1999/xhtml" xml:id="oclc_792755362-i_1920" xml:lang="en" next="oclc_792755362-i_21" prev="oclc_792755362-i_1718">
-   <teiHeader xml:lang="en">
-      <fileDesc xml:lang="en">
-         <titleStmt xml:lang="en">
-            <title xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
-<editor ref="https://viaf.org/viaf/27059798">
-                                <persName xml:lang="ar" ref="viaf:27059798">أدونيس</persName>
-                                <persName xml:lang="ar-Latn-x-ijmes">Adūnīs</persName>
+   <teiHeader xml:lang="en" xml:id="teiHeader_1.d1e5">
+      <fileDesc xml:lang="en" xml:id="fileDesc_1.d1e7">
+         <titleStmt xml:lang="en" xml:id="titleStmt_1.d1e9">
+            <title xml:lang="ar-Latn-x-ijmes" xml:id="title_1.d1e11">Mawāqif</title>
+<editor ref="https://viaf.org/viaf/27059798" xml:id="editor_1.d1e14">
+                                <persName xml:lang="ar" ref="viaf:27059798" xml:id="persName_1.d1e16">أدونيس</persName>
+                                <persName xml:lang="ar-Latn-x-ijmes" xml:id="persName_2.d1e19">Adūnīs</persName>
                             </editor>
-            <respStmt xml:lang="en">
-               <resp xml:lang="en">TEI edition</resp>
+            <respStmt xml:lang="en" xml:id="respStmt_1.d1e23">
+               <resp xml:lang="en" xml:id="resp_1.d1e25">TEI edition</resp>
                <persName xml:id="pers_TG" xml:lang="ar">
-                  <forename xml:lang="en">Till</forename>
-                  <surname xml:lang="en">Grallert</surname>
+                  <forename xml:lang="en" xml:id="forename_1.d1e30">Till</forename>
+                  <surname xml:lang="en" xml:id="surname_1.d1e33">Grallert</surname>
                </persName>
             </respStmt>
          </titleStmt>
-         <publicationStmt xml:lang="en">
-            <authority xml:lang="en">
-               <persName xml:lang="en">Till Grallert</persName>
+         <publicationStmt xml:lang="en" xml:id="publicationStmt_1.d1e39">
+            <authority xml:lang="en" xml:id="authority_1.d1e41">
+               <persName xml:lang="en" xml:id="persName_4.d1e43">Till Grallert</persName>
             </authority>
-            <pubPlace xml:lang="en">Beirut</pubPlace>
-            <date when="2016" xml:lang="en">2016</date>
-            <availability status="restricted" xml:lang="en">
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="en">The XML file is distributed under
+            <pubPlace xml:lang="en" xml:id="pubPlace_1.d1e47">Beirut</pubPlace>
+            <date when="2016" xml:lang="en" xml:id="date_1.d1e50">2016</date>
+            <availability status="restricted" xml:lang="en" xml:id="availability_1.d1e53">
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/" xml:lang="en" xml:id="licence_1.d1e55">The XML file is distributed under
                                     a Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license</licence>
             </availability>
-            <idno type="url" xml:lang="en">https://github.com/tillgrallert/digital-mawaqif/blob/master/xml/oclc_792755362-i_1920.TEIP5.xml</idno>
+            <idno type="url" xml:lang="en" xml:id="idno_1.d1e59">https://github.com/tillgrallert/digital-mawaqif/blob/master/xml/oclc_792755362-i_1920.TEIP5.xml</idno>
          </publicationStmt>
-         <sourceDesc xml:lang="en">
-            <biblStruct xml:lang="en">
-               <monogr xml:lang="en">
-                  <title level="j" xml:lang="ar">مواقف</title>
-                  <title level="j" type="sub" xml:lang="ar">للحرية، والإبداع، والتغير</title>
-                  <title level="j" xml:lang="ar-Latn-x-ijmes">Mawāqif</title>
-                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes">li-l-ḥurriyya, wa-l-ibdāʿ wa-l-taghayyur</title>
-                  <editor ref="https://viaf.org/viaf/27059798" xml:lang="en">
-                     <persName xml:lang="ar" ref="viaf:27059798">أدونيس</persName>
-                     <persName xml:lang="ar-Latn-x-ijmes">Adūnīs</persName>
+         <sourceDesc xml:lang="en" xml:id="sourceDesc_1.d1e63">
+            <biblStruct xml:lang="en" xml:id="biblStruct_1.d1e65">
+               <monogr xml:lang="en" xml:id="monogr_1.d1e67">
+                  <title level="j" xml:lang="ar" xml:id="title_2.d1e69">مواقف</title>
+                  <title level="j" type="sub" xml:lang="ar" xml:id="title_3.d1e72">للحرية، والإبداع، والتغير</title>
+                  <title level="j" xml:lang="ar-Latn-x-ijmes" xml:id="title_4.d1e75">Mawāqif</title>
+                  <title level="j" type="sub" xml:lang="ar-Latn-x-ijmes" xml:id="title_5.d1e78">li-l-ḥurriyya, wa-l-ibdāʿ wa-l-taghayyur</title>
+                  <editor ref="https://viaf.org/viaf/27059798" xml:lang="en" xml:id="editor_2.d1e81">
+                     <persName xml:lang="ar" ref="viaf:27059798" xml:id="persName_5.d1e83">أدونيس</persName>
+                     <persName xml:lang="ar-Latn-x-ijmes" xml:id="persName_6.d1e86">Adūnīs</persName>
                   </editor>
-                  <imprint xml:lang="en">
-                     <pubPlace xml:lang="en">
-                        <placeName xml:lang="ar">بيروت</placeName>
-                        <placeName xml:lang="ar-Latn-x-ijmes">Bayrūt</placeName>
-                        <placeName xml:lang="en">Beirut</placeName>
+                  <imprint xml:lang="en" xml:id="imprint_1.d1e91">
+                     <pubPlace xml:lang="en" xml:id="pubPlace_2.d1e93">
+                        <placeName xml:lang="ar" xml:id="placeName_1.d1e95">بيروت</placeName>
+                        <placeName xml:lang="ar-Latn-x-ijmes" xml:id="placeName_2.d1e98">Bayrūt</placeName>
+                        <placeName xml:lang="en" xml:id="placeName_3.d1e101">Beirut</placeName>
                      </pubPlace>
-                     <date when="1972" xml:lang="ar">1 يناير 1972</date>
+                     <date when="1972" xml:lang="ar" xml:id="date_2.d1e105">1 يناير 1972</date>
                   </imprint>
-                  <biblScope from="1972" to="1972" unit="volume"/>
-                  <biblScope unit="issue" n="19-20" from="19" to="20"/>
-                  <biblScope unit="page" from="1" to=""/>
+                  <biblScope from="1972" to="1972" unit="volume" xml:id="biblScope_1.d1e109"/>
+                  <biblScope unit="issue" n="19-20" from="19" to="20" xml:id="biblScope_2.d1e111"/>
+                  <biblScope unit="page" from="1" to="" xml:id="biblScope_3.d1e113"/>
                </monogr>
-               <idno type="oclc" xml:lang="en">792755362</idno>
-               <idno type="sakhrit" xml:lang="en">http://archive.sakhrit.co/contents.aspx?CID=15735</idno>
+               <idno type="oclc" xml:lang="en" xml:id="idno_2.d1e116">792755362</idno>
+               <idno type="sakhrit" xml:lang="en" xml:id="idno_3.d1e119">http://archive.sakhrit.co/contents.aspx?CID=15735</idno>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <profileDesc xml:lang="en">
-         <langUsage xml:lang="en">
-            <language ident="ar" xml:lang="en">Arabic</language>
-            <language ident="ar-Latn-x-ijmes" xml:lang="en">Arabic transcribed into Latin script following the IJMES
+      <profileDesc xml:lang="en" xml:id="profileDesc_1.d1e125">
+         <langUsage xml:lang="en" xml:id="langUsage_1.d1e127">
+            <language ident="ar" xml:lang="en" xml:id="language_1.d1e129">Arabic</language>
+            <language ident="ar-Latn-x-ijmes" xml:lang="en" xml:id="language_2.d1e132">Arabic transcribed into Latin script following the IJMES
                                 conventions</language>
-            <language ident="ar-Latn-EN" xml:lang="en">Arabic transcribed into Latin script following common English
+            <language ident="ar-Latn-EN" xml:lang="en" xml:id="language_3.d1e135">Arabic transcribed into Latin script following common English
                                 practices</language>
-            <language ident="ar-Latn-FR" xml:lang="en">Arabic transcribed into Latin script following common French
+            <language ident="ar-Latn-FR" xml:lang="en" xml:id="language_4.d1e138">Arabic transcribed into Latin script following common French
                                 practices</language>
-            <language ident="en" xml:lang="en">English</language>
-            <language ident="fa" xml:lang="en">Farsi</language>
-            <language ident="fa-Latn-x-ijmes" xml:lang="en">Farsi transcribed into Latin script following the IJMES
+            <language ident="en" xml:lang="en" xml:id="language_5.d1e141">English</language>
+            <language ident="fa" xml:lang="en" xml:id="language_6.d1e145">Farsi</language>
+            <language ident="fa-Latn-x-ijmes" xml:lang="en" xml:id="language_7.d1e148">Farsi transcribed into Latin script following the IJMES
                                 conventions</language>
-            <language ident="fr" xml:lang="en">French</language>
-            <language ident="ota" xml:lang="en">Ottoman</language>
-            <language ident="ota-Latn-x-ijmes" xml:lang="en">Ottoman transcribed into Latin script following the IJMES
+            <language ident="fr" xml:lang="en" xml:id="language_8.d1e151">French</language>
+            <language ident="ota" xml:lang="en" xml:id="language_9.d1e154">Ottoman</language>
+            <language ident="ota-Latn-x-ijmes" xml:lang="en" xml:id="language_10.d1e157">Ottoman transcribed into Latin script following the IJMES
                                 conventions</language>
-            <language ident="tr" xml:lang="en">Turkish</language>
-            <language ident="en-Arab-AR" xml:lang="en">English transcribed into Arabic script following common Levantine Arabic
+            <language ident="tr" xml:lang="en" xml:id="language_11.d1e160">Turkish</language>
+            <language ident="en-Arab-AR" xml:lang="en" xml:id="language_12.d1e164">English transcribed into Arabic script following common Levantine Arabic
                                 practices</language>
-            <language ident="fr-Arab-AR" xml:lang="en">French transcribed into Arabic script following common Levantine Arabic
+            <language ident="fr-Arab-AR" xml:lang="en" xml:id="language_13.d1e167">French transcribed into Arabic script following common Levantine Arabic
                                 practices</language>
          </langUsage>
       </profileDesc>
-      <revisionDesc><tei:change when="2017-05-04" who="pers_TG">Added references to VIAF IDs to <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema">persName</tei:gi>s without such references based on  <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema">person</tei:gi>s mentioned in <tei:ref xmlns:xs="http://www.w3.org/2001/XMLSchema" target="/Volumes/Dessau HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/digital-mawaqif/tei/entities_master.TEIP5.xml">/Volumes/Dessau HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/digital-mawaqif/tei/entities_master.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><tei:change when="2017-02-21" who="#pers_TG">Corrected <tei:gi>biblStruct</tei:gi> by moving all <tei:gi>biblScope</tei:gi> from <tei:gi>imprint</tei:gi> to <tei:gi>monogr</tei:gi> and by converting all <tei:att>n</tei:att> to <tei:att>from</tei:att> and <tei:att>to</tei:att>with identical values.</tei:change><change when="2016-05-18" who="#pers_TG">Added automated <att>xml:id</att>s for every element that is a descendant of <gi>tei:text</gi>and had no existing <att>xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18">Added the <tei:att>xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
-         <change when="2016-05-18" who="#pers_TG" xml:lang="en">Created this TEI P5 file by automatic conversion of the table of content from 
+      <revisionDesc xml:id="revisionDesc_1.d1e172"><tei:change when="2017-05-04" who="pers_TG" xml:id="change_1.d1e173">Added references to VIAF IDs to <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="gi_1.d1e175">persName</tei:gi>s without such references based on  <tei:gi xmlns:xs="http://www.w3.org/2001/XMLSchema" xml:id="gi_1.d1e178">person</tei:gi>s mentioned in <tei:ref xmlns:xs="http://www.w3.org/2001/XMLSchema" target="/Volumes/Dessau HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/digital-mawaqif/tei/entities_master.TEIP5.xml" xml:id="ref_1.d1e181">/Volumes/Dessau HD/BachUni/BachBibliothek/GitHub/OpenArabicPE/digital-mawaqif/tei/entities_master.TEIP5.xml</tei:ref> but not previously present in this master file.</tei:change><tei:change when="2017-02-21" who="#pers_TG" xml:id="change_1.d1e184">Corrected <tei:gi xml:id="gi_1.d1e186">biblStruct</tei:gi> by moving all <tei:gi xml:id="gi_1.d1e189">biblScope</tei:gi> from <tei:gi xml:id="gi_1.d1e192">imprint</tei:gi> to <tei:gi xml:id="gi_1.d1e195">monogr</tei:gi> and by converting all <tei:att xml:id="att_1.d1e198">n</tei:att> to <tei:att xml:id="att_1.d1e202">from</tei:att> and <tei:att xml:id="att_1.d1e205">to</tei:att>with identical values.</tei:change><change when="2016-05-18" who="#pers_TG" xml:id="change_1.d1e208">Added automated <att xml:id="att_1.d1e210">xml:id</att>s for every element that is a descendant of <gi xml:id="gi_1.d1e213">tei:text</gi>and had no existing <att xml:id="att_2.d1e216">xml:id</att>following the pattern "name()_generate-id()"</change><tei:change when="2016-05-18" xml:id="change_2.d1e219">Added the <tei:att xml:id="att_3.d1e221">xml:lang</tei:att> attribute to all nodes that lacked this attribute. The value is based on the closest ancestor.</tei:change>
+         <change when="2016-05-18" who="#pers_TG" xml:lang="en" xml:id="change_2.d1e225">Created this TEI P5 file by automatic conversion of the table of content from 
                             HTML available at archive.sakhrit.co and adding a computed sequence of facsimiles linking to the same website.</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile>
+   <facsimile xml:id="facsimile_1.d1e230">
       <tei:surface xml:id="facs_1">
          <tei:graphic xml:id="facs_1-g_1" url="http://archive.sakhrit.co/MagazinePages%5CMagazine_JPG/Mawakif/Mawakif_1972/Issue_19-20/001.JPG" mimeType="image/jpg"/>
          <tei:graphic xml:id="facs_1-g_2" url="../images/y_1972-i_1920-p_001.jpg" mimeType="image/jpeg"/>
@@ -1286,7 +1286,7 @@
          <tei:graphic xml:id="facs_300-g_2" url="../images/y_1972-i_1920-p_300.jpg" mimeType="image/jpeg"/>
       </tei:surface>
    </facsimile>
-   <text xml:lang="ar">
+   <text xml:lang="ar" xml:id="text_1.d1e2383">
       <front xml:lang="ar" xml:id="front_1.d1e2329">
          <div xml:lang="ar" xml:id="div_1.d1e2331">
             <bibl xml:lang="ar" xml:id="bibl_1.d1e2333">
@@ -1333,7 +1333,7 @@
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880190&#34;ISSUEID=15735&#34;AID=350917" xml:lang="ar" xml:id="div_5.d1e2417">
             <head xml:lang="ar" xml:id="head_3.d1e2419">التمنع والتجنب والتعرف</head>
             <byline xml:lang="ar" xml:id="byline_3.d1e2422">
-                <persName xml:lang="ar" xml:id="persName_7.d1e2424" ref="viaf:82539804"><forename>ادوارد</forename> <forename><choice><abbr>و</abbr><expan>وديع</expan></choice></forename> <surname>سعيد</surname></persName>
+                <persName xml:lang="ar" xml:id="persName_7.d1e2424" ref="viaf:82539804"><forename xml:id="forename_2.d1e2477">ادوارد</forename> <forename xml:id="forename_3.d1e2480"><choice xml:id="choice_1.d1e2481"><abbr xml:id="abbr_1.d1e2482">و</abbr><expan xml:id="expan_1.d1e2484">وديع</expan></choice></forename> <surname xml:id="surname_2.d1e2487">سعيد</surname></persName>
             </byline>
             <pb ed="print" n="18" facs="#facs_18" xml:id="pb_20.d1e2428"/>
             <pb ed="print" n="19" facs="#facs_19" xml:id="pb_21.d1e2430"/>
@@ -1385,13 +1385,9 @@
             
          </div>
          <pb ed="print" n="58" facs="#facs_58" xml:id="pb_62.d1e2531"/>
-         <div type="article"
-                facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880231&#34;ISSUEID=15735&#34;AID=350919"
-                xml:lang="ar" xml:id="div_7.d1e2533">
-                <head xml:lang="ar" xml:id="head_5.d1e2535"
-                    >ركود الإبداع العربي في المجالات التشريعية</head>
-                <byline xml:lang="ar" xml:id="byline_5.d1e2538"> <persName xml:lang="ar"
-                    xml:id="persName_9.d1e2540">عبد الله لحود</persName> </byline>
+         <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880231&#34;ISSUEID=15735&#34;AID=350919" xml:lang="ar" xml:id="div_7.d1e2533">
+                <head xml:lang="ar" xml:id="head_5.d1e2535">ركود الإبداع العربي في المجالات التشريعية</head>
+                <byline xml:lang="ar" xml:id="byline_5.d1e2538"> <persName xml:lang="ar" xml:id="persName_9.d1e2540">عبد الله لحود</persName> </byline>
                 <pb ed="print" n="59" facs="#facs_59" xml:id="pb_63.d1e2544"/>
                 <pb ed="print" n="60" facs="#facs_60" xml:id="pb_64.d1e2546"/>
                 <pb ed="print" n="61" facs="#facs_61" xml:id="pb_65.d1e2548"/>
@@ -1405,26 +1401,24 @@
                 <pb ed="print" n="69" facs="#facs_69" xml:id="pb_73.d1e2566"/>
             </div>
             <pb ed="print" n="70" facs="#facs_70" xml:id="pb_74.d1e2568"/>
-            <div type="article"
-                facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880231&#34;ISSUEID=15735&#34;AID=350919"
-                xml:lang="ar">
-                <head>أخبار الغرب</head>
-                <byline><persName>هشام المانع</persName></byline>
-                <div type="article">
-                    <head>١ - أخبار من الغرب</head>
-                    <dateline>شتاء <date when="1968">٦٨</date></dateline>
+            <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880231&#34;ISSUEID=15735&#34;AID=350919" xml:lang="ar" xml:id="div_8.d1e2631">
+                <head xml:id="head_6.d1e2633">أخبار الغرب</head>
+                <byline xml:id="byline_6.d1e2636"><persName xml:id="persName_12.d1e2637">هشام المانع</persName></byline>
+                <div type="article" xml:id="div_8.d1e2640">
+                    <head xml:id="head_7.d1e2642">١ - أخبار من الغرب</head>
+                    <dateline xml:id="dateline_1.d1e2645">شتاء <date when="1968" xml:id="date_4.d1e2647">٦٨</date></dateline>
                     <pb ed="print" n="71" facs="#facs_71" xml:id="pb_75.d1e2570"/>
                     <pb ed="print" n="72" facs="#facs_72" xml:id="pb_76.d1e2572"/>
                 </div>
-                <div type="article">
-                    <head>١ - أخبار من الغرب</head>
-                    <dateline>شتاء <date when="1972">٧٢</date></dateline>
+                <div type="article" xml:id="div_9.d1e2655">
+                    <head xml:id="head_8.d1e2657">١ - أخبار من الغرب</head>
+                    <dateline xml:id="dateline_2.d1e2660">شتاء <date when="1972" xml:id="date_5.d1e2662">٧٢</date></dateline>
                     <pb ed="print" n="73" facs="#facs_73" xml:id="pb_77.d1e2574"/>
                     <pb ed="print" n="74" facs="#facs_74" xml:id="pb_78.d1e2577"/>
                     <pb ed="print" n="75" facs="#facs_75" xml:id="pb_79.d1e2579"/>
                 </div>
-                <byline><persName>هشام المانع</persName>
-                    <lb/><placeName>شتو تكارت</placeName> - <placeName>المانيا الغربية</placeName></byline>
+                <byline xml:id="byline_7.d1e2672"><persName xml:id="persName_13.d1e2673">هشام المانع</persName>
+                    <lb xml:id="lb_1.d1e2676"/><placeName xml:id="placeName_4.d1e2677">شتو تكارت</placeName> - <placeName xml:id="placeName_5.d1e2680">المانيا الغربية</placeName></byline>
             </div>
          <pb ed="print" n="76" facs="#facs_76" xml:id="pb_81.d1e2584"/>
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880243&#34;ISSUEID=15735&#34;AID=350920" xml:lang="ar" xml:id="div_8.d1e2587">
@@ -1521,34 +1515,34 @@
          <pb ed="print" n="119" facs="#facs_119" xml:id="pb_131.d1e2778"/>
          <div type="section" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880275&#34;ISSUEID=15735&#34;AID=350927" xml:lang="ar" xml:id="div_15.d1e2780">
                 <head xml:lang="ar" xml:id="head_13.d1e2782">قصائد من الشعر الإنكليزي المعاصر</head>
-                <div type="article">
-                    <head>من قصائد فنغ</head>
-                    <byline xml:lang="ar" xml:id="byline_13.d1e2785"> ١ - <persName xml:lang="en-Arab-AR" xml:id="persName_17.d1e2787" ref="viaf:108333734"><forename>جون</forename>
-                        <surname>وين</surname></persName> <persName xml:lang="en"><persName><forename>John</forename>
-                        <surname>Wain</surname></persName></persName></byline>
+                <div type="article" xml:id="div_18.d1e2868">
+                    <head xml:id="head_17.d1e2870">من قصائد فنغ</head>
+                    <byline xml:lang="ar" xml:id="byline_13.d1e2785"> ١ - <persName xml:lang="en-Arab-AR" xml:id="persName_17.d1e2787" ref="viaf:108333734"><forename xml:id="forename_4.d1e2876">جون</forename>
+                        <surname xml:id="surname_3.d1e2879">وين</surname></persName> <persName xml:lang="en" xml:id="persName_22.d1e2882"><persName xml:id="persName_22.d1e2883"><forename xml:id="forename_5.d1e2884">John</forename>
+                        <surname xml:id="surname_4.d1e2887">Wain</surname></persName></persName></byline>
                     <pb ed="print" n="120" facs="#facs_120" xml:id="pb_132.d1e2791"/>
                     <pb ed="print" n="121" facs="#facs_121" xml:id="pb_133.d1e2793"/>
                 </div>
-                <div type="article">
-                    <head>قصيدة</head>
-                    <byline>٢ - <persName><persName xml:lang="en-Arab-AR"><forename>سالي</forename>
-                        <surname>برسل</surname></persName> <persName xml:lang="en"><forename>Sally</forename>
-                        <surname>Purcell</surname></persName></persName></byline>
+                <div type="article" xml:id="div_19.d1e2895">
+                    <head xml:id="head_18.d1e2897">قصيدة</head>
+                    <byline xml:id="byline_16.d1e2900">٢ - <persName xml:id="persName_24.d1e2902"><persName xml:lang="en-Arab-AR" xml:id="persName_24.d1e2903"><forename xml:id="forename_6.d1e2904">سالي</forename>
+                        <surname xml:id="surname_5.d1e2907">برسل</surname></persName> <persName xml:lang="en" xml:id="persName_25.d1e2910"><forename xml:id="forename_7.d1e2911">Sally</forename>
+                        <surname xml:id="surname_6.d1e2914">Purcell</surname></persName></persName></byline>
                 </div>
-                <div type="article">
-                    <head>أغنية صيفية</head>
-                    <byline>٣- <persName><persName xml:lang="en-Arab-AR"><forename>فرجينيا</forename> <surname>كلتربك</surname></persName> <persName xml:lang="en"><forename>Virginia</forename>
-                        <surname>Clutterbuck</surname></persName></persName></byline>
+                <div type="article" xml:id="div_20.d1e2918">
+                    <head xml:id="head_19.d1e2920">أغنية صيفية</head>
+                    <byline xml:id="byline_17.d1e2923">٣- <persName xml:id="persName_27.d1e2925"><persName xml:lang="en-Arab-AR" xml:id="persName_27.d1e2926"><forename xml:id="forename_8.d1e2927">فرجينيا</forename> <surname xml:id="surname_7.d1e2930">كلتربك</surname></persName> <persName xml:lang="en" xml:id="persName_28.d1e2933"><forename xml:id="forename_9.d1e2934">Virginia</forename>
+                        <surname xml:id="surname_8.d1e2937">Clutterbuck</surname></persName></persName></byline>
                     <pb ed="print" n="122" facs="#facs_122" xml:id="pb_134.d1e2795"/>
                 </div>
-                <div type="article">
-                    <head>أغنية وحيدي القرن السعداء</head>
-                    <byline>٤ - <persName><persName xml:lang="en-Arab-AR"><forename>ساره</forename>
-                        <surname>ميتلاند</surname></persName> <persName xml:lang="en"><forename>Sarah</forename>
-                        <surname>Maitland</surname></persName></persName></byline>
+                <div type="article" xml:id="div_21.d1e2943">
+                    <head xml:id="head_20.d1e2945">أغنية وحيدي القرن السعداء</head>
+                    <byline xml:id="byline_18.d1e2948">٤ - <persName xml:id="persName_30.d1e2950"><persName xml:lang="en-Arab-AR" xml:id="persName_30.d1e2951"><forename xml:id="forename_10.d1e2952">ساره</forename>
+                        <surname xml:id="surname_9.d1e2955">ميتلاند</surname></persName> <persName xml:lang="en" xml:id="persName_31.d1e2958"><forename xml:id="forename_11.d1e2959">Sarah</forename>
+                        <surname xml:id="surname_10.d1e2962">Maitland</surname></persName></persName></byline>
                 </div>
-                <byline>ترجم القصائد عن الانكليزية <persName><forename>كمال</forename>
-                    <surname>ابو ديب</surname></persName></byline>
+                <byline xml:id="byline_19.d1e2967">ترجم القصائد عن الانكليزية <persName xml:id="persName_33.d1e2969"><forename xml:id="forename_12.d1e2970">كمال</forename>
+                    <surname xml:id="surname_11.d1e2973">ابو ديب</surname></persName></byline>
             </div>
          <pb ed="print" n="123" facs="#facs_123" xml:id="pb_136.d1e2801"/>
          <div type="article" facs="http://archive.sakhrit.co/newPreview.aspx?PID=1880279&#34;ISSUEID=15735&#34;AID=350928" xml:lang="ar" xml:id="div_16.d1e2803">

@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<searchRetrieveResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                        xmlns="http://www.loc.gov/zing/srw/"
+                        xsi:schemaLocation="http://www.loc.gov/zing/srw/ http://www.loc.gov/standards/sru/sru1-1archive/xml-files/srw-types.xsd">
+   <version xsi:type="xsd:string">1.1</version>
+   <numberOfRecords xsi:type="xsd:nonNegativeInteger">1</numberOfRecords>
+   <resultSetIdleTime xsi:type="xsd:positiveInteger">1</resultSetIdleTime>
+   <records xmlns:ns1="http://www.loc.gov/zing/srw/" xsi:type="ns1:recordsType">
+      <record xsi:type="ns1:recordType">
+         <recordSchema xsi:type="xsd:string">http://viaf.org/VIAFCluster</recordSchema>
+         <recordPacking xsi:type="xsd:string">xml</recordPacking>
+         <recordData xsi:type="ns1:stringOrXmlFragment">
+            <ns2:VIAFCluster xmlns="http://viaf.org/viaf/terms#"
+                             xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                             xmlns:owl="http://www.w3.org/2002/07/owl#"
+                             xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                             xmlns:void="http://rdfs.org/ns/void#"
+                             xmlns:ns2="http://viaf.org/viaf/terms#">
+               <ns2:viafID>33075082</ns2:viafID>
+               <ns2:Document about="http://viaf.org/viaf/33075082/">
+                  <ns2:inDataset resource="http://viaf.org/viaf/data"/>
+                  <ns2:primaryTopic resource="http://viaf.org/viaf/33075082"/>
+               </ns2:Document>
+               <ns2:nameType>Personal</ns2:nameType>
+               <ns2:sources>
+                  <ns2:source nsid="XX919320">BNE|XX919320</ns2:source>
+                  <ns2:source nsid="http://d-nb.info/gnd/129374431">DNB|129374431</ns2:source>
+                  <ns2:source differentiated="false"
+                              nsid="http://d-nb.info/gnd/153161019"
+                              sparse="true">DNB|153161019</ns2:source>
+                  <ns2:source nsid="0000000059537508">ISNI|0000000059537508</ns2:source>
+                  <ns2:source nsid="no93023979">LC|no 93023979</ns2:source>
+                  <ns2:source nsid="vtls000063842">N6I|vtls000063842</ns2:source>
+                  <ns2:source nsid="a27871095">NLP|a27871095</ns2:source>
+                  <ns2:source nsid="190959827">NTA|190959827</ns2:source>
+                  <ns2:source nsid="vtls008469872">NUKAT|n 2012101632</ns2:source>
+                  <ns2:source nsid="70503">SELIBR|70503</ns2:source>
+                  <ns2:source nsid="Q5942816">WKP|Q5942816</ns2:source>
+                  <ns2:source nsid="http://catalogue.bnf.fr/ark:/12148/cb12780498z">BNF|12780498</ns2:source>
+                  <ns2:source nsid="90848565">BIBSYS|90848565</ns2:source>
+               </ns2:sources>
+               <ns2:length>894</ns2:length>
+               <ns2:mainHeadings>
+                  <ns2:data>
+                     <ns2:text>Leckius, Ingemar, 1928-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2012101632</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|129374431</ns2:sid>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000063842</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Leckius, Ingemar, 1928-2011</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a27871095</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Leckius, Ingemar</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|190959827</ns2:sid>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX919320</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|153161019</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90848565</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>Ingemar Leckius</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q5942816</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="100">
+                        <ns2:subfield code="a">Ingemar Leckius</ns2:subfield>
+                        <ns2:subfield code="9">fi</ns2:subfield>
+                        <ns2:subfield code="9">fr</ns2:subfield>
+                        <ns2:subfield code="9">sv</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q5942816</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>WKP|Q5942816</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNE|XX919320</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SELIBR|70503</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a27871095</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|129374431</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>LC|no 93023979</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2012101632</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>N6I|vtls000063842</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="UNIMARC" ind1=" " ind2="|" tag="200">
+                        <ns2:subfield code="7">ba0yba0y</ns2:subfield>
+                        <ns2:subfield code="8">fre</ns2:subfield>
+                        <ns2:subfield code="9">0</ns2:subfield>
+                        <ns2:subfield code="a">Leckius</ns2:subfield>
+                        <ns2:subfield code="b">Ingemar</ns2:subfield>
+                        <ns2:subfield code="f">1928-2011</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNF|12780498</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNE|XX919320</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>SELIBR|70503</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90848565</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a27871095</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|129374431</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|no 93023979</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2012101632</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>N6I|vtls000063842</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Leckius, Ingemar</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|190959827</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NTA|190959827</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="exact name"/>DNB|153161019</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>BIBSYS|90848565</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a27871095</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>LC|no 93023979</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>N6I|vtls000063842</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="100">
+                        <ns2:subfield code="a">Leckius, Ingemar</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX919320</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BNE|XX919320</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q5942816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SELIBR|70503</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a27871095</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|129374431</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|no 93023979</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2012101632</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>N6I|vtls000063842</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12780498</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Leckius, Ingemar</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|153161019</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|153161019</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="exact name"/>BIBSYS|90848565</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact name"/>NTA|190959827</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a27871095</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Leckius, Ingemar</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90848565</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>BIBSYS|90848565</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>SELIBR|70503</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact name"/>DNB|153161019</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="exact title"/>NTA|190959827</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NLP|a27871095</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>LC|no 93023979</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>N6I|vtls000063842</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BNF|12780498</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Leckius, Ingemar</ns2:subfield>
+                        <ns2:subfield code="d">(1928- ).</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2012101632</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NUKAT|n 2012101632</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q5942816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNE|XX919320</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SELIBR|70503</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|129374431</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a27871095</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|no 93023979</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>N6I|vtls000063842</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12780498</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Leckius, Ingemar</ns2:subfield>
+                        <ns2:subfield code="d">(1928- 2011)</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>NLP</ns2:s>
+                        <ns2:sid>NLP|a27871095</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>NLP|a27871095</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q5942816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNE|XX919320</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>SELIBR|70503</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>DNB|153161019</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BIBSYS|90848565</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>DNB|129374431</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>LC|no 93023979</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NUKAT|n 2012101632</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>N6I|vtls000063842</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NTA|190959827</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BNF|12780498</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Leckius, Ingemar</ns2:subfield>
+                        <ns2:subfield code="d">1928-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>ISNI|0000000059537508</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>WKP|Q5942816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>BNE|XX919320</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>SELIBR|70503</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>DNB|153161019</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>BIBSYS|90848565</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a27871095</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>DNB|129374431</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>LC|no 93023979</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NUKAT|n 2012101632</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>N6I|vtls000063842</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="viafid"/>NTA|190959827</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>BNF|12780498</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Leckius, Ingemar</ns2:subfield>
+                        <ns2:subfield code="d">1928-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|129374431</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>DNB|129374431</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q5942816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNE|XX919320</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SELIBR|70503</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a27871095</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|no 93023979</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2012101632</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>N6I|vtls000063842</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12780498</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="100">
+                        <ns2:subfield code="a">Leckius, Ingemar,</ns2:subfield>
+                        <ns2:subfield code="d">1928-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000063842</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>N6I|vtls000063842</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>WKP|Q5942816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNE|XX919320</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SELIBR|70503</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>NTA|190959827</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>BIBSYS|90848565</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a27871095</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|129374431</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|no 93023979</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2012101632</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12780498</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="100">
+                        <ns2:subfield code="a">Leckius, Ingemar,</ns2:subfield>
+                        <ns2:subfield code="d">1928-</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>LC|no 93023979</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNE|XX919320</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>SELIBR|70503</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="standard number"/>BIBSYS|90848565</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="title"/>NTA|190959827</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a27871095</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|129374431</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="suggested"/>WKP|Q5942816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2012101632</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="partial date and publisher"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>N6I|vtls000063842</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNF|12780498</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+                  <ns2:mainHeadingEl>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="100">
+                        <ns2:subfield code="a">Leckius, Ingemar,</ns2:subfield>
+                        <ns2:subfield code="d">1928-2011</ns2:subfield>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:id>SELIBR|70503</ns2:id>
+                     <ns2:links>
+                        <ns2:link>
+                           <ns2:match type="double date"/>WKP|Q5942816</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>BNE|XX919320</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="joint author"/>BIBSYS|90848565</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NLP|a27871095</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>DNB|129374431</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>LC|no 93023979</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>NUKAT|n 2012101632</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>ISNI|0000000059537508</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="forced single date"/>N6I|vtls000063842</ns2:link>
+                        <ns2:link>
+                           <ns2:match type="double date"/>BNF|12780498</ns2:link>
+                     </ns2:links>
+                  </ns2:mainHeadingEl>
+               </ns2:mainHeadings>
+               <ns2:fixed>
+                  <ns2:gender>b</ns2:gender>
+               </ns2:fixed>
+               <ns2:x400s>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Gustafson, Ingemar</ns2:subfield>
+                        <ns2:normalized>gustafson ingemar</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Gustafson, Ingemar,</ns2:subfield>
+                        <ns2:subfield code="d">1928-2011</ns2:subfield>
+                        <ns2:normalized>gustafson ingemar 1928 2011</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Gustafson, Ingemar</ns2:subfield>
+                        <ns2:subfield code="d">1928-</ns2:subfield>
+                        <ns2:normalized>gustafson ingemar 1928</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|129374431</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1=" " ind2="|" tag="400">
+                        <ns2:subfield code="a">Gustafson</ns2:subfield>
+                        <ns2:subfield code="b">Ingemar</ns2:subfield>
+                        <ns2:subfield code="f">1928-2011</ns2:subfield>
+                        <ns2:normalized>gustafson ingemar 1928 2011</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ingemar Leckius</ns2:subfield>
+                        <ns2:subfield code="c">Swedish translator and writer</ns2:subfield>
+                        <ns2:normalized>ingemar leckius swedish translator and writer</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q5942816</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="0" ind2=" " tag="400">
+                        <ns2:subfield code="a">Ingemar Leckius</ns2:subfield>
+                        <ns2:subfield code="c">Zweeds vertaler (1928-2011)</ns2:subfield>
+                        <ns2:normalized>ingemar leckius zweeds vertaler 1928 2011</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q5942816</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+                  <ns2:x400>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="400">
+                        <ns2:subfield code="a">Leckius, Ingemar Carl-Axel</ns2:subfield>
+                        <ns2:subfield code="d">1928-</ns2:subfield>
+                        <ns2:normalized>leckius ingemar carl axel 1928</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:sid>DNB|129374431</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x400>
+               </ns2:x400s>
+               <ns2:x500s>
+                  <ns2:x500 viafLink="71503608">
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                        <ns2:subfield code="a">Deane, John F.</ns2:subfield>
+                        <ns2:normalized>deane john f</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+                  <ns2:x500>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                        <ns2:subfield code="a">Gustafson, Ingemar</ns2:subfield>
+                        <ns2:subfield code="d">1928-</ns2:subfield>
+                        <ns2:normalized>gustafson ingemar 1928</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+                  <ns2:x500>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2="0" tag="500">
+                        <ns2:subfield code="a">Gustafson, Ingemar</ns2:subfield>
+                        <ns2:subfield code="d">1928-</ns2:subfield>
+                        <ns2:normalized>gustafson ingemar 1928</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+                  <ns2:x500 viafLink="96582151">
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                        <ns2:subfield code="a">Hultén, C. O.</ns2:subfield>
+                        <ns2:normalized>hulten c o</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+                  <ns2:x500>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                        <ns2:subfield code="a">Laye, Camara</ns2:subfield>
+                        <ns2:normalized>laye camara</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+                  <ns2:x500 viafLink="275899213">
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                        <ns2:subfield code="a">Leckius, Mikaela</ns2:subfield>
+                        <ns2:normalized>leckius mikaela</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+                  <ns2:x500>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                        <ns2:subfield code="a">Senghor, Léopold Sédar</ns2:subfield>
+                        <ns2:normalized>senghor leopold sedar</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+                  <ns2:x500 viafLink="75578289">
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                        <ns2:subfield code="a">Stenström, Johan</ns2:subfield>
+                        <ns2:normalized>stenstrom johan</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+                  <ns2:x500>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                        <ns2:subfield code="a">Thomas, R. S.</ns2:subfield>
+                        <ns2:normalized>thomas r s</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+                  <ns2:x500 viafLink="280850">
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                        <ns2:subfield code="a">Trotzig, Ulf</ns2:subfield>
+                        <ns2:normalized>trotzig ulf</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+                  <ns2:x500>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                        <ns2:subfield code="a">Törnlund, Niklas</ns2:subfield>
+                        <ns2:normalized>tornlund niklas</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+                  <ns2:x500>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                        <ns2:subfield code="a">Vázquez Díaz, René</ns2:subfield>
+                        <ns2:subfield code="d">1952-</ns2:subfield>
+                        <ns2:normalized>vazquez diaz rene 1952</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+                  <ns2:x500>
+                     <ns2:datafield dtype="MARC21" ind1="1" ind2=" " tag="500">
+                        <ns2:subfield code="a">Wessing, Koen</ns2:subfield>
+                        <ns2:normalized>wessing koen</ns2:normalized>
+                     </ns2:datafield>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:x500>
+               </ns2:x500s>
+               <ns2:coauthors>
+                  <ns2:data count="12" tag="950">
+                     <ns2:text>Leckius, Mikaela, 1930-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90848565</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" tag="951">
+                     <ns2:text>Dramaten.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Svensson, Uno</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Senghor, Léopold Sédar, 1906-2001.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90848565</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Schehadé, Georges, 1907-1989.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Marivaux, Pierre Carlet de Chamblain de, 1688-1763.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" tag="950">
+                     <ns2:text>Deane, John F., 1943-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000063842</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Vázquez Díaz, René 1952-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX919320</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Obaldia, René de, 1918-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Lauré, Orvar, 1910-</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Kurowski, Bożysław.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2012101632</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" tag="950">
+                     <ns2:text>Jaguer, Edouard 1924-2006</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:coauthors>
+               <ns2:publishers>
+                  <ns2:data count="6">
+                     <ns2:text>Cavefors</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90848565</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="4">
+                     <ns2:text>Bonnier</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90848565</ns2:sid>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|190959827</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3">
+                     <ns2:text>Kungliga Dramatiska Teatern</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Wahlström &amp; Widstrand</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>TPB</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Tiden</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Svensk musik</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Sv. bokförl.</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                        <ns2:sid>ISNI|0000000059537508</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Stockholms stadsteater</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Stadteatern</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Juan Pastor</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX919320</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Dedalus</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000063842</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>Catholica</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2012101632</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:publishers>
+               <ns2:birthDate>1928-11-05</ns2:birthDate>
+               <ns2:deathDate>2011-06-18</ns2:deathDate>
+               <ns2:dateType>lived</ns2:dateType>
+               <ns2:dates max="200" min="195">
+                  <ns2:date count="1" scaled="0.00">195</ns2:date>
+                  <ns2:date count="10" scaled="3.32">196</ns2:date>
+                  <ns2:date count="8" scaled="3.00">197</ns2:date>
+                  <ns2:date count="7" scaled="2.81">198</ns2:date>
+                  <ns2:date count="6" scaled="2.58">199</ns2:date>
+                  <ns2:date count="5" scaled="2.32">200</ns2:date>
+               </ns2:dates>
+               <ns2:RecFormats>
+                  <ns2:data count="3">
+                     <ns2:text>aa</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="22">
+                     <ns2:text>am</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX919320</ns2:sid>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90848565</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|190959827</ns2:sid>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2012101632</ns2:sid>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000063842</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>cm</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>im</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RecFormats>
+               <ns2:RelatorCodes>
+                  <ns2:data count="2">
+                     <ns2:text>070</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>730</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>edt</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>oth</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="9">
+                     <ns2:text>trl</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>wstep</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2012101632</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:RelatorCodes>
+               <ns2:ISBNs unique="7">
+                  <ns2:data count="3">
+                     <ns2:text>9789150406320</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90848565</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2">
+                     <ns2:text>9781901233445</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000063842</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789187680175</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789186428457</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2012101632</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789178108947</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9789100442422</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90848565</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1">
+                     <ns2:text>9788486419196</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX919320</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:ISBNs>
+               <ns2:covers>
+                  <ns2:data count="2">
+                     <ns2:text>1901233448</ns2:text>
+                     <ns2:xtext>+-+3998876546</ns2:xtext>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000063842</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:covers>
+               <ns2:countries>
+                  <ns2:data count="17" scaled="4">
+                     <ns2:text>SE</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2012101632</ns2:sid>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|190959827</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="3" scaled="2">
+                     <ns2:text>SC</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="2" scaled="1">
+                     <ns2:text>IE</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000063842</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>ES</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX919320</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data count="1" scaled="1">
+                     <ns2:text>DK</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:countries>
+               <ns2:languageOfEntity>
+                  <ns2:data>
+                     <ns2:text>swe</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:languageOfEntity>
+               <ns2:nationalityOfEntity>
+                  <ns2:data>
+                     <ns2:text>SE</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>DNB</ns2:s>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:s>BNF</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+                  <ns2:data>
+                     <ns2:text>se</ns2:text>
+                     <ns2:sources>
+                        <ns2:s>ISNI</ns2:s>
+                     </ns2:sources>
+                  </ns2:data>
+               </ns2:nationalityOfEntity>
+               <ns2:xLinks>
+                  <ns2:xLink type="Wikipedia">https://sv.wikipedia.org/wiki/Ingemar_Leckius<ns2:sources>
+                        <ns2:s>WKP</ns2:s>
+                        <ns2:sid>WKP|Q5942816</ns2:sid>
+                     </ns2:sources>
+                  </ns2:xLink>
+               </ns2:xLinks>
+               <ns2:titles>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Aghani Mihyar ad-Dimashqi</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Andra riter /  Ingemar Gustafson, 1951</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Artur Lundkvist, humanistisk poet i det tjugonde århundradet</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90848565</ns2:sid>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Det branta spåret : dikter i urval 1951-1977</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Den dubbla trolösheten [Pjästext] : komedi</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Genousie : komedi i 2 akter</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNE</ns2:s>
+                        <ns2:sid>BNE|XX919320</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>La huella abrupta</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>O land, mitt vackra folk!</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Lasarus bröder : dikter / Ingemar Leckius, 1964</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>L'île des esclaves.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000063842</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Ljus av ljus = light from light</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>l'Orchestre.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>La masion fermée.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>NUKAT</ns2:s>
+                        <ns2:sid>NUKAT|n 2012101632</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Med Kristus i koncentrationslägret / sammanställda av Bożysław Kurowski. - Vejbystrand, 1990.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mot ett okänt ljus essäer och artiklar i urval 1956-1982</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Mysterium</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Några ord om R.S. Thomas.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>NTA</ns2:s>
+                        <ns2:sid>NTA|190959827</ns2:sid>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000063842</ns2:sid>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90848565</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>I öknen går de vilda fåren, 1968:</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Orkestern : konsertpjäs</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>O pays, mon beau peuple!.</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Poesin var hennes brott</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Resan : skådespel i 8 tablåer</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Sällsamt ögonblick</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Sånger av Mihyar från Damaskus</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Signums julbilaga 2010</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Slavarnas ö</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Det stängda huset</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BIBSYS</ns2:s>
+                        <ns2:sid>BIBSYS|90848565</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>De stora elegierna och andra dikter</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>LC</ns2:s>
+                        <ns2:sid>LC|no 93023979</ns2:sid>
+                        <ns2:s>N6I</ns2:s>
+                        <ns2:sid>N6I|vtls000063842</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Sve. författarlexikon, 1961-65</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>SELIBR</ns2:s>
+                        <ns2:sid>SELIBR|70503</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Trappemanden og andre prosadigte</ns2:title>
+                  </ns2:work>
+                  <ns2:work>
+                     <ns2:sources>
+                        <ns2:s>BNF</ns2:s>
+                        <ns2:sid>BNF|12780498</ns2:sid>
+                     </ns2:sources>
+                     <ns2:title>Uno Svensson</ns2:title>
+                  </ns2:work>
+               </ns2:titles>
+               <ns2:history>
+                  <ns2:ht recid="LC|no 93023979" time="2009-05-07T09:11:06+00:00" type="add"/>
+                  <ns2:ht recid="BIBSYS|x90848565"
+                          time="2012-11-27T04:00:16+00:00"
+                          type="delete"/>
+                  <ns2:ht recid="ISNI|0000000059537508"
+                          time="2013-09-16T16:15:07+00:00"
+                          type="add"/>
+                  <ns2:ht recid="BNE|XX919320" time="2014-10-21T12:48:43+00:00" type="add"/>
+                  <ns2:ht recid="SELIBR|70503" time="2014-10-21T12:48:43+00:00" type="add"/>
+                  <ns2:ht recid="DNB|129374431" time="2014-10-21T12:48:43+00:00" type="add"/>
+                  <ns2:ht recid="NLP|a27871095" time="2014-10-21T12:48:43+00:00" type="add"/>
+                  <ns2:ht recid="NUKAT|n 2012101632"
+                          time="2014-10-27T16:17:29+00:00"
+                          type="add"/>
+                  <ns2:ht recid="DNB|153161019" time="2015-03-11T21:41:54+00:00" type="add"/>
+                  <ns2:ht recid="NTA|190959827" time="2015-03-11T21:41:54+00:00" type="add"/>
+                  <ns2:ht recid="WKP|Q5942816" time="2015-04-14T18:56:54+00:00" type="add"/>
+                  <ns2:ht recid="N6I|vtls000063842"
+                          time="2015-05-12T00:14:00+00:00"
+                          type="add"/>
+                  <ns2:ht recid="BNF|12780498"
+                          time="2017-01-15T09:59:58.356100+00:00"
+                          type="add"/>
+                  <ns2:ht recid="BIBSYS|90848565"
+                          time="2017-03-19T15:54:34.799142+00:00"
+                          type="add"/>
+               </ns2:history>
+               <ns2:creationtime>2017-05-01T18:29:55.900112+00:00</ns2:creationtime>
+            </ns2:VIAFCluster>
+         </recordData>
+         <recordPosition xsi:type="xsd:positiveInteger">1</recordPosition>
+      </record>
+   </records>
+   <echoedSearchRetrieveRequest xmlns:ns3="http://www.loc.gov/zing/srw/"
+                                xsi:type="ns3:echoedSearchRetrieveRequestType">
+      <version xsi:type="xsd:string">1.1</version>
+      <query xsi:type="xsd:string">local.viafID any "33075082"</query>
+      <xQuery>
+         <ns4:searchClause xmlns:ns4="http://www.loc.gov/zing/cql/xcql/"
+                           xsi:type="ns4:searchClauseType">
+            <ns4:index xsi:type="xsd:string">local.viafID</ns4:index>
+            <ns4:relation xsi:type="ns4:relationType">
+               <ns4:value xsi:type="xsd:string">any</ns4:value>
+            </ns4:relation>
+            <ns4:term xsi:type="xsd:string">33075082</ns4:term>
+         </ns4:searchClause>
+      </xQuery>
+      <recordSchema xsi:type="xsd:string">default</recordSchema>
+   </echoedSearchRetrieveRequest>
+   <extraResponseData xmlns:ns5="http://www.loc.gov/zing/srw/" xsi:type="ns5:extraDataType">
+      <ns6:extraData xmlns="http://oclc.org/srw/extraData" xmlns:ns6="http://oclc.org/srw/extraData">
+         <ns6:databaseTitle>VIAF: The Virtual International Authority File</ns6:databaseTitle>
+      </ns6:extraData>
+   </extraResponseData>
+</searchRetrieveResponse>

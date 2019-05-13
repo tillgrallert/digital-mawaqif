@@ -9,7 +9,7 @@
     <xsl:variable name="v_image-start" select="1"/>
     <!-- 400 -->
     <xsl:variable name="v_image-stop" select="400"/>
-    <xsl:variable name="v_url-base" select="'http://archive.sakhrit.co/MagazinePages%5CMagazine_JPG'"/>
+    <xsl:variable name="v_url-base" select="'http://archive.alsharekh.org/MagazinePages%5CMagazine_JPG'"/>
     <xsl:variable name="v_url-local" select="'/BachUni/BachSources/mawaqif/images'"/>
     <xsl:variable name="v_title-journal_en" select="'Mawakif'"/>
     <xsl:variable name="v_url-separator" select="'/'"/>

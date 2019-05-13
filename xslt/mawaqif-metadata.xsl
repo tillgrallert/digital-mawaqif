@@ -9,7 +9,7 @@
     
     <xsl:output method="text" encoding="UTF-16"/>
     
-    <xsl:variable name="v_url-cid" select="'http://archive.sakhrit.co/contents.aspx?CID='"/>
+    <xsl:variable name="v_url-cid" select="'http://archive.alsharekh.org/contents.aspx?CID='"/>
     <xsl:variable name="v_cid-start" select="15719"/>
     <xsl:variable name="v_cid-stop" select="15818"/>
     <xsl:variable name="v_title-journal" select="'Mawakif'"/>
@@ -114,7 +114,7 @@ end tell
     <xsl:variable name="v_image-start" select="1"/>
     <!-\- 400 -\->
     <xsl:variable name="v_image-stop" select="400"/>
-    <xsl:variable name="v_url-base" select="'http://archive.sakhrit.co/MagazinePages%5CMagazine_JPG'"/>
+    <xsl:variable name="v_url-base" select="'http://archive.alsharekh.org/MagazinePages%5CMagazine_JPG'"/>
     <xsl:variable name="v_url-local" select="'/Volumes/Dessau%20HD/BachUni/BachSources/muwaqif'"/>
     <xsl:variable name="v_title-journal" select="'Mawakif'"/>
     <xsl:variable name="v_url-separator" select="'%5C'"/>

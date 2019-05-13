@@ -115,7 +115,7 @@
                                 </monogr>
                                 <idno type="oclc" xml:lang="en"><xsl:value-of select="$p_id-oclc"/></idno>
                                 <idno type="sakhrit" xml:lang="en">
-                                    <xsl:value-of select="replace(base-uri(.),'.*/cid_(\d+)\.html','http://archive.sakhrit.co/contents.aspx?CID=$1')"/>
+                                    <xsl:value-of select="replace(base-uri(.),'.*/cid_(\d+)\.html','http://archive.alsharekh.org/contents.aspx?CID=$1')"/>
                                 </idno>
                             </biblStruct>
                         </sourceDesc>
@@ -204,7 +204,7 @@
         </pb>
         <div type="article">
             <xsl:attribute name="facs">
-                <xsl:value-of select="concat('http://archive.sakhrit.co/', ./html:td[2]/html:a/@href)"/>
+                <xsl:value-of select="concat('http://archive.alsharekh.org/', ./html:td[2]/html:a/@href)"/>
             </xsl:attribute>
             <head>
                 <xsl:value-of select="normalize-space(./html:td[position() = 4])"/>
